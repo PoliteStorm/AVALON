@@ -62,4 +62,83 @@
    - Exhibits frequency-dependent response to electrical signals
    - Maintains signal integrity across network junctions
    - Demonstrates potential for signal modulation based on environmental conditions
-   - Shows evidence
+   - Shows evidence of electrical memory effects in established pathways
+   - Capable of transmitting signals between physically separated mycelial networks
+
+3. RESPONSE TO ELECTRICAL STIMULATION
+   - Rhizomorph growth direction can be influenced by electrical fields
+   - Shows increased branching patterns in response to specific electrical frequencies
+   - Demonstrates preferential mineral accumulation at electrically stimulated sites
+   - Exhibits enhanced melanization in response to electrical stimulation
+   - Shows evidence of electrical "training" where pathways become more conductive with use
+   - Demonstrates increased growth rate under specific electrical conditions
+   - Exhibits bioelectric potential changes in response to environmental stimuli
+   - Shows potential for controlled development of network architecture using electrical fields
+
+4. ENHANCEMENT POTENTIAL
+   - Rhizomorph formation can be stimulated through specific nutrient and environmental conditions
+   - Melanin content can be increased through controlled UV exposure
+   - Conductivity can be enhanced through mineral supplementation, particularly iron and copper
+   - Can be cultivated with conductive nanoparticles for significantly enhanced properties
+   - Responds well to genetic selection for enhanced rhizomorph production
+   - Potential for genetic modification to optimize electrical characteristics
+   - Bioluminescent properties can be enhanced through substrate modification
+   - Rhizomorph architecture can be guided through physical and chemical cues
+
+### PRACTICAL CONSIDERATIONS
+
+1. CULTIVATION PROTOCOLS
+   - Optimal growth temperature: 20-25°C
+   - Humidity requirements: 75-85% during colonization, 65-75% for maintenance
+   - pH preference: 5.5-6.5
+   - Light requirements: Low light conditions with periodic exposure
+   - Air exchange: Moderate CO₂ levels (800-1200 ppm) optimal
+   - Colonization time: 30-60 days on optimized substrate (slower but more structured)
+   - Rhizomorph induction: Create nutrient gradients and physical channels
+   - Growth container: Long, narrow containers promote rhizomorph formation
+
+2. SUBSTRATE FORMULATIONS
+   - Basic formula: Hardwood sawdust (60%), wood chips (20%), wheat bran (15%), gypsum (1%), water to 55-60% moisture
+   - Rhizomorph promotion: Create nutrient-poor zones adjacent to nutrient-rich zones
+   - Conductive enhancement: Add 0.3-0.7% iron peptonate, 0.1-0.3% copper gluconate
+   - Melanin enhancement: Add 2% black tea extract, 1% tyrosine, controlled UV exposure
+   - Directional growth: Implement substrate density gradients and physical channels
+   - Network architecture: Create strategic nutrient deposits at desired node locations
+   - Mineral enrichment: Add 0.5% basalt rock dust, 0.2% diatomaceous earth
+
+3. PROCESSING TECHNIQUES
+   - Selective harvesting: Isolate and preserve rhizomorph structures
+   - Controlled dehydration: 35-45°C with 15% humidity for 36-48 hours
+   - Mineral infusion: Post-growth treatment with conductive mineral solutions
+   - Preservation treatment: Brief exposure to 70°C improves stability while maintaining properties
+   - Encapsulation: Thin biopolymer coating preserves electrical properties
+   - Selective enzyme treatment: Enhance conductivity of specific pathways
+   - Connection formation: Create interfaces between separate rhizomorph networks
+
+4. INTEGRATION METHODS
+   - Direct electrode contact: Gold or carbon electrodes for optimal interface
+   - Liquid interface: Hydrogel bridges between rhizomorphs and electronic components
+   - Embedded growth: Guide rhizomorphs to grow directly through electronic components
+   - Selective metallization: Electroless plating of specific rhizomorph pathways
+   - Junction creation: Form electrical connections at rhizomorph intersection points
+   - Layered construction: Alternate rhizomorph networks with traditional electronic components
+   - Living interface: Maintain partially living systems for self-repair capabilities
+
+5. PRESERVATION OF PROPERTIES
+   - Humidity control: Maintain 40-60% relative humidity for optimal conductivity
+   - Temperature stabilization: Properties most consistent at 18-22°C
+   - Antioxidant treatment: Natural preservatives extend functional lifespan
+   - Periodic rehydration: Controlled moisture exposure maintains flexibility
+   - Storage considerations: Keep away from strong electromagnetic fields
+   - UV protection: Limit exposure to prevent degradation of melanin
+   - Contamination prevention: Maintain sterile conditions for long-term preservation
+
+6. TROUBLESHOOTING COMMON ISSUES
+   - Insufficient rhizomorph formation: Create stronger nutrient gradients, provide physical channels
+   - Poor conductivity: Increase iron and copper content in substrate
+   - Contamination: Use 3% hydrogen peroxide spray for surface sterilization
+   - Rhizomorph degradation: Apply mycelium-compatible biopolymer coating
+   - Network architecture control: Implement physical barriers and guides during growth
+   - Inconsistent electrical properties: Standardize mineral content and growth conditions
+   - Connection failures: Use conductive hydrogels at junction points
+   - Improving signal transmission: Create melanin-rich pathways using UV exposure during growth
