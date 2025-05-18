@@ -1,170 +1,328 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.figure import Figure
-from simulation.substrate import calculate_ph, calculate_conductivity, calculate_contaminant_resistance
+from simulation.substrate import calculate_ph, calculate_conductivity, calculate_contaminant_resistance, calculate_growth_potential, calculate_electrical_properties
 
 def create_ph_bar_chart(params):
-    """Create a bar chart showing pH for different pasteurization methods"""
-    methods = ['LIME', 'ASH', 'SOAP', 'BLEACH', 'HEAT']
+    """Create a bar chart showing pH levels for different pasteurization methods"""
+    methods = ['HEAT', 'LIME', 'HYDROGEN_PEROXIDE', 'STEAM', 'BLEACH', 'NONE']
     ph_values = []
+    
+    # Store original method
+    original_method = params.pasteurization_method
     
     # Calculate pH for each method
     for method in methods:
-        params_copy = params.__class__()
-        for attr, value in vars(params).items():
-            setattr(params_copy, attr, value)
-        params_copy.pasteurization_method = method
-        ph_values.append(calculate_ph(params_copy))
+        params.pasteurization_method = method
+        ph_values.append(calculate_ph(params))
     
-    # Create the plot
-    fig, ax = plt.subplots(figsize=(10, 6))
-    bars = ax.bar(methods, ph_values, color='skyblue')
+    # Restore original method
+    params.pasteurization_method = original_method
     
-    # Highlight current method
-    current_index = methods.index(params.pasteurization_method)
-    bars[current_index].set_color('orange')
+    # Create figure
+    fig, ax = plt.subplots(figsize=(8, 5))
     
-    # Add neutral pH line
-    ax.axhline(y=7, color='r', linestyle='--', alpha=0.5)
+    # Create bars
+    bars = ax.bar(methods, ph_values, color=['#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6', '#95a5a6'])
+    
+    # Add pH value labels on top of bars
+    for bar, ph in zip(bars, ph_values):
+        height = bar.get_height()
+        ax.text(bar.get_x() + bar.get_width()/2., height + 0.1,
+                f'{ph:.1f}', ha='center', va='bottom')
+    
+    # Add horizontal lines for optimal pH ranges
+    ax.axhspan(5.5, 6.5, alpha=0.2, color='green', label='Optimal for most mushrooms')
     
     # Add labels and title
-    ax.set_ylabel('pH Value')
-    ax.set_title('pH by Pasteurization Method')
-    ax.set_ylim(5, 13)
+    ax.set_xlabel('Pasteurization Method')
+    ax.set_ylabel('pH Level')
+    ax.set_title('pH Levels by Pasteurization Method')
+    ax.set_ylim(0, 14)
     
-    # Add value labels on top of bars
-    for bar in bars:
-        height = bar.get_height()
-        ax.annotate(f'{height:.1f}',
-                    xy=(bar.get_x() + bar.get_width() / 2, height),
-                    xytext=(0, 3),  # 3 points vertical offset
-                    textcoords="offset points",
-                    ha='center', va='bottom')
+    # Add a legend
+    ax.legend()
     
+    # Add pH scale reference
+    ax.text(0.02, 0.02, 'Acidic < 7.0 < Basic', transform=ax.transAxes, fontsize=10)
+    
+    # Highlight current method
+    current_method_index = methods.index(original_method) if original_method in methods else -1
+    if current_method_index >= 0:
+        bars[current_method_index].set_edgecolor('black')
+        bars[current_method_index].set_linewidth(2)
+    
+    plt.tight_layout()
     return fig
 
 def create_conductivity_moisture_plot(params):
-    """Create a line plot showing conductivity vs moisture content"""
-    moisture_range = np.linspace(0, 1, 20)
+    """Create a line plot showing how conductivity changes with moisture content"""
+    moisture_values = np.linspace(0.1, 0.9, 20)
     conductivity_values = []
     
-    # Calculate conductivity for different moisture levels
-    for moisture in moisture_range:
-        params_copy = params.__class__()
-        for attr, value in vars(params).items():
-            setattr(params_copy, attr, value)
-        params_copy.moisture_content = moisture
-        conductivity_values.append(calculate_conductivity(params_copy))
+    # Store original moisture
+    original_moisture = params.moisture_content
     
-    # Create the plot
-    fig, ax = plt.subplots(figsize=(10, 6))
-    ax.plot(moisture_range, conductivity_values, 'g-', linewidth=2)
+    # Calculate conductivity for each moisture level
+    for moisture in moisture_values:
+        params.moisture_content = moisture
+        conductivity_values.append(calculate_conductivity(params))
+    
+    # Restore original moisture
+    params.moisture_content = original_moisture
+    
+    # Create figure
+    fig, ax = plt.subplots(figsize=(8, 5))
+    
+    # Plot conductivity vs moisture
+    ax.plot(moisture_values, conductivity_values, 'b-', linewidth=2)
     
     # Mark current moisture level
     current_conductivity = calculate_conductivity(params)
-    ax.plot(params.moisture_content, current_conductivity, 'ro', markersize=8)
+    ax.plot(original_moisture, current_conductivity, 'ro', markersize=8, 
+            label=f'Current: {original_moisture:.2f} moisture, {current_conductivity:.6f} S/m')
+    
+    # Add optimal range for unconventional computing
+    ax.axhspan(0.001, 0.01, alpha=0.2, color='green', label='Optimal for computing')
     
     # Add labels and title
-    ax.set_xlabel('Moisture Content')
+    ax.set_xlabel('Moisture Content (ratio)')
     ax.set_ylabel('Conductivity (S/m)')
-    ax.set_title('Conductivity vs Moisture Content')
+    ax.set_title('Electrical Conductivity vs. Moisture Content')
+    
+    # Add a legend
+    ax.legend()
+    
+    # Add grid
     ax.grid(True, linestyle='--', alpha=0.7)
     
-    # Add annotation for current point
-    ax.annotate(f'Current: ({params.moisture_content:.2f}, {current_conductivity:.4f})',
-                xy=(params.moisture_content, current_conductivity),
-                xytext=(10, -20),
-                textcoords="offset points",
-                arrowprops=dict(arrowstyle="->", connectionstyle="arc3,rad=.2"))
-    
+    plt.tight_layout()
     return fig
 
 def create_resistance_comparison(params):
-    """Create a bar chart showing contaminant resistance for different methods"""
-    methods = ['LIME', 'ASH', 'SOAP', 'BLEACH', 'HEAT']
+    """Create a bar chart comparing contaminant resistance for different substrate types"""
+    substrate_types = ['HARDWOOD', 'STRAW', 'COFFEE_GROUNDS', 'SAWDUST', 'COMPOST', 'MIXED']
     resistance_values = []
     
-    # Calculate resistance for each method
-    for method in methods:
-        params_copy = params.__class__()
-        for attr, value in vars(params).items():
-            setattr(params_copy, attr, value)
-        params_copy.pasteurization_method = method
-        resistance_values.append(calculate_contaminant_resistance(params_copy))
+    # Store original substrate type
+    original_type = params.substrate_type if hasattr(params, 'substrate_type') else "HARDWOOD"
     
-    # Create the plot
-    fig, ax = plt.subplots(figsize=(10, 6))
-    bars = ax.bar(methods, resistance_values, color='lightgreen')
+    # Calculate resistance for each substrate type
+    for substrate_type in substrate_types:
+        params.substrate_type = substrate_type
+        resistance_values.append(calculate_contaminant_resistance(params))
     
-    # Highlight current method
-    current_index = methods.index(params.pasteurization_method)
-    bars[current_index].set_color('orange')
+    # Restore original substrate type
+    params.substrate_type = original_type
+    
+    # Create figure
+    fig, ax = plt.subplots(figsize=(8, 5))
+    
+    # Create bars
+    bars = ax.bar(substrate_types, resistance_values, color=['#8B4513', '#F0E68C', '#6F4E37', '#DEB887', '#556B2F', '#A0522D'])
+    
+    # Add resistance value labels on top of bars
+    for bar, resistance in zip(bars, resistance_values):
+        height = bar.get_height()
+        ax.text(bar.get_x() + bar.get_width()/2., height + 0.02,
+                f'{resistance:.2f}', ha='center', va='bottom')
     
     # Add labels and title
-    ax.set_ylabel('Contaminant Resistance')
-    ax.set_title('Contaminant Resistance by Pasteurization Method')
-    ax.set_ylim(0, 1)
+    ax.set_xlabel('Substrate Type')
+    ax.set_ylabel('Contaminant Resistance (0-1)')
+    ax.set_title('Contaminant Resistance by Substrate Type')
+    ax.set_ylim(0, 1.1)
     
-    # Add value labels on top of bars
-    for bar in bars:
-        height = bar.get_height()
-        ax.annotate(f'{height:.2f}',
-                    xy=(bar.get_x() + bar.get_width() / 2, height),
-                    xytext=(0, 3),  # 3 points vertical offset
-                    textcoords="offset points",
-                    ha='center', va='bottom')
+    # Highlight current substrate type
+    current_type_index = substrate_types.index(original_type) if original_type in substrate_types else -1
+    if current_type_index >= 0:
+        bars[current_type_index].set_edgecolor('black')
+        bars[current_type_index].set_linewidth(2)
     
-    # Add resistance level indicators
-    ax.axhspan(0.8, 1.0, alpha=0.2, color='green', label='Excellent')
-    ax.axhspan(0.6, 0.8, alpha=0.2, color='lightgreen', label='Good')
-    ax.axhspan(0.4, 0.6, alpha=0.2, color='yellow', label='Moderate')
-    ax.axhspan(0, 0.4, alpha=0.2, color='red', label='Poor')
-    ax.legend(loc='lower right')
-    
+    plt.tight_layout()
     return fig
 
 def create_growth_potential_heatmap(params):
-    """Create a heatmap showing mycelium growth potential based on pH and moisture"""
-    # Create a grid of pH and moisture values
-    ph_range = np.linspace(5, 13, 100)
-    moisture_range = np.linspace(0, 1, 100)
-    X, Y = np.meshgrid(ph_range, moisture_range)
+    """Create a heatmap showing growth potential based on temperature and moisture"""
+    # Create a grid of temperature and moisture values
+    temperatures = np.linspace(15, 30, 16)  # 15-30°C
+    moistures = np.linspace(0.4, 0.8, 16)   # 40-80%
     
-    # Growth potential model (conceptual)
-    # Optimal conditions: pH around 7.5, moisture around 0.7
-    Z = -((X - 7.5)**2) / 5 - ((Y - 0.7)**2) / 0.1 + 1
-    Z = np.clip(Z, 0, 1)  # Normalize to 0-1 range
+    # Store original values
+    original_temp = params.incubation_temperature if hasattr(params, 'incubation_temperature') else 24.0
+    original_moisture = params.moisture_content
     
-    # Create the plot
+    # Calculate growth potential for each combination
+    growth_data = np.zeros((len(moistures), len(temperatures)))
+    
+    for i, moisture in enumerate(moistures):
+        for j, temp in enumerate(temperatures):
+            params.moisture_content = moisture
+            params.incubation_temperature = temp
+            growth_data[i, j] = calculate_growth_potential(params)
+    
+    # Restore original values
+    params.incubation_temperature = original_temp
+    params.moisture_content = original_moisture
+    
+    # Create figure
     fig, ax = plt.subplots(figsize=(10, 8))
-    contour = ax.contourf(X, Y, Z, 20, cmap='viridis')
     
-    # Mark current conditions
-    current_ph = calculate_ph(params)
-    ax.plot(current_ph, params.moisture_content, 'ro', markersize=8)
-    
-    # Add labels and title
-    ax.set_xlabel('pH')
-    ax.set_ylabel('Moisture Content')
-    ax.set_title('Mycelium Growth Potential')
+    # Create heatmap
+    im = ax.imshow(growth_data, cmap='viridis', origin='lower', aspect='auto',
+                  extent=[temperatures[0], temperatures[-1], moistures[0], moistures[-1]])
     
     # Add colorbar
-    cbar = fig.colorbar(contour, ax=ax)
-    cbar.set_label('Growth Potential')
+    cbar = fig.colorbar(im, ax=ax)
+    cbar.set_label('Growth Potential (0-1)')
     
-    # Add annotation for current point
-    current_growth = 1 - ((current_ph - 7.5)**2) / 5 - ((params.moisture_content - 0.7)**2) / 0.1
-    current_growth = max(0, min(1, current_growth))  # Clip to 0-1
+    # Mark current point
+    ax.plot(original_temp, original_moisture, 'ro', markersize=10, 
+            label=f'Current: {original_temp:.1f}°C, {original_moisture:.2f} moisture')
     
-    growth_text = 'Excellent' if current_growth > 0.8 else 'Good' if current_growth > 0.6 else 'Moderate' if current_growth > 0.4 else 'Poor'
+    # Add labels and title
+    ax.set_xlabel('Temperature (°C)')
+    ax.set_ylabel('Moisture Content (ratio)')
+    ax.set_title(f'Growth Potential Heatmap for {params.mushroom_species if hasattr(params, "mushroom_species") else "Mushroom"}')
     
-    ax.annotate(f'Current: pH={current_ph:.1f}, MC={params.moisture_content:.2f}\nGrowth Potential: {current_growth:.2f} ({growth_text})',
-                xy=(current_ph, params.moisture_content),
-                xytext=(20, 20),
-                textcoords="offset points",
-                bbox=dict(boxstyle="round,pad=0.5", fc="white", alpha=0.8),
-                arrowprops=dict(arrowstyle="->", connectionstyle="arc3,rad=.2"))
+    # Add a legend
+    ax.legend(loc='upper left')
     
+    # Add grid
+    ax.grid(True, linestyle='--', alpha=0.3)
+    
+    plt.tight_layout()
+    return fig
+
+def create_electrical_properties_plot(params):
+    """Create a plot showing electrical properties for different mycelium densities"""
+    # Create a range of mycelium densities
+    densities = np.linspace(0.1, 0.9, 20)
+    
+    # Store original density
+    original_density = params.mycelium_density
+    
+    # Calculate electrical properties for each density
+    conductivities = []
+    impedances = []
+    
+    for density in densities:
+        params.mycelium_density = density
+        props = calculate_electrical_properties(params)
+        conductivities.append(props['conductivity'])
+        impedances.append(props['impedance'])
+    
+    # Restore original density
+    params.mycelium_density = original_density
+    
+    # Get current properties
+    current_props = calculate_electrical_properties(params)
+    
+    # Create figure with two y-axes
+    fig, ax1 = plt.subplots(figsize=(10, 6))
+    ax2 = ax1.twinx()
+    
+    # Plot conductivity on left axis
+    line1, = ax1.plot(densities, conductivities, 'b-', linewidth=2, label='Conductivity')
+    ax1.set_xlabel('Mycelium Density (ratio)')
+    ax1.set_ylabel('Conductivity (S/m)', color='b')
+    ax1.tick_params(axis='y', labelcolor='b')
+    
+    # Plot impedance on right axis
+    line2, = ax2.plot(densities, impedances, 'r-', linewidth=2, label='Impedance')
+    ax2.set_ylabel('Impedance (Ω·m)', color='r')
+    ax2.tick_params(axis='y', labelcolor='r')
+    
+    # Mark current point on both curves
+    ax1.plot(original_density, current_props['conductivity'], 'bo', markersize=8)
+    ax2.plot(original_density, current_props['impedance'], 'ro', markersize=8)
+    
+    # Add title
+    plt.title('Electrical Properties vs. Mycelium Density')
+    
+    # Add legend
+    lines = [line1, line2]
+    labels = [line.get_label() for line in lines]
+    ax1.legend(lines, labels, loc='upper center')
+    
+    # Add annotation with current values
+    plt.figtext(0.15, 0.02, 
+                f"Current values at {original_density:.2f} density:\n"
+                f"Conductivity: {current_props['conductivity']:.6f} S/m\n"
+                f"Impedance: {current_props['impedance']:.2f} Ω·m\n"
+                f"Dielectric Constant: {current_props['dielectric']:.1f}\n"
+                f"Signal Propagation: {current_props['propagation_speed']:.3f}c",
+                bbox=dict(facecolor='white', alpha=0.8))
+    
+    # Add grid
+    ax1.grid(True, linestyle='--', alpha=0.7)
+    
+    plt.tight_layout()
+    return fig
+
+def create_dielectric_moisture_plot(params):
+    """Create a plot showing how dielectric constant changes with moisture content"""
+    # Create a range of moisture values
+    moistures = np.linspace(0.1, 0.9, 20)
+    
+    # Store original moisture
+    original_moisture = params.moisture_content
+    
+    # Calculate dielectric constant for each moisture level
+    dielectrics = []
+    propagation_speeds = []
+    
+    for moisture in moistures:
+        params.moisture_content = moisture
+        props = calculate_electrical_properties(params)
+        dielectrics.append(props['dielectric'])
+        propagation_speeds.append(props['propagation_speed'])
+    
+    # Restore original moisture
+    params.moisture_content = original_moisture
+    
+    # Get current properties
+    current_props = calculate_electrical_properties(params)
+    
+    # Create figure with two y-axes
+    fig, ax1 = plt.subplots(figsize=(10, 6))
+    ax2 = ax1.twinx()
+    
+    # Plot dielectric constant on left axis
+    line1, = ax1.plot(moistures, dielectrics, 'g-', linewidth=2, label='Dielectric Constant')
+    ax1.set_xlabel('Moisture Content (ratio)')
+    ax1.set_ylabel('Dielectric Constant', color='g')
+    ax1.tick_params(axis='y', labelcolor='g')
+    
+    # Plot propagation speed on right axis
+    line2, = ax2.plot(moistures, propagation_speeds, 'm-', linewidth=2, label='Signal Propagation Speed')
+    ax2.set_ylabel('Propagation Speed (relative to c)', color='m')
+    ax2.tick_params(axis='y', labelcolor='m')
+    
+    # Mark current point on both curves
+    ax1.plot(original_moisture, current_props['dielectric'], 'go', markersize=8)
+    ax2.plot(original_moisture, current_props['propagation_speed'], 'mo', markersize=8)
+    
+    # Add title
+    plt.title('Dielectric Properties vs. Moisture Content')
+    
+    # Add legend
+    lines = [line1, line2]
+    labels = [line.get_label() for line in lines]
+    ax1.legend(lines, labels, loc='center right')
+    
+    # Add annotation with current values
+    plt.figtext(0.15, 0.02, 
+                f"Current values at {original_moisture:.2f} moisture:\n"
+                f"Dielectric Constant: {current_props['dielectric']:.1f}\n"
+                f"Signal Propagation: {current_props['propagation_speed']:.3f}c\n"
+                f"Signal Delay: {(1/current_props['propagation_speed'])*3.33:.2f} ns/cm",
+                bbox=dict(facecolor='white', alpha=0.8))
+    
+    # Add grid
+    ax1.grid(True, linestyle='--', alpha=0.7)
+    
+    plt.tight_layout()
     return fig
 
 def show_all_plots(params):
