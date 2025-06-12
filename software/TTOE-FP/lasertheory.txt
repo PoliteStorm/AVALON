@@ -72,7 +72,7 @@ If signal analysis of biological response is desired (e.g., mitochondrial bio-si
 
 ### Mathematical Model (Conceptual)
 
-W(k, τ) = ∫₀^∞ V(t) · ψ(√t / τ) · e^(–ik√t) 
+W(k, τ) = ∫₀^∞ V(t) · ψ(√t / τ) · e^(–ik√t) dt
 
 
 - **W(k, τ):** Wavelet transform coefficient at frequency k and scale τ  
