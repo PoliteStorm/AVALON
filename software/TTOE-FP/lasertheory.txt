@@ -72,3 +72,76 @@ If signal analysis of biological response is desired (e.g., mitochondrial bio-si
 
 ### Mathematical Model (Conceptual)
 
+W(k, τ) = ∫₀^∞ V(t) · ψ(√t / τ) · e^(–ik√t) 
+
+
+- **W(k, τ):** Wavelet transform coefficient at frequency k and scale τ  
+- **V(t):** Biological signal (e.g., ATP oscillation, O₂ saturation)  
+- **ψ():** Wavelet basis function  
+- **e^(–ik√t):** Complex exponential component capturing oscillation
+
+This can simulate how biological tissues respond in both time and frequency domains to PBM light modulation—particularly useful when modeling pulsed protocols or signal resonance with mitochondrial rhythms.
+
+This model is not used to calculate the delivered energy or dose per se, but to understand how cells might process and react to structured stimulation over time.
+
+---
+
+## Example Component List (660 nm PBM Laser)
+
+| Component                | Example                         | Est. Cost |
+|--------------------------|----------------------------------|-----------|
+| Laser Diode              | Mitsubishi ML101J27              | $10–20    |
+| Constant Current Driver  | Adjustable module (5–100 mA)     | $5–10     |
+| G-2 Collimating Lens     | Glass or acrylic                 | $5–10     |
+| Heatsink                 | Aluminum mini block              | $2–5      |
+| Arduino Nano             | PWM/frequency control            | $3–5      |
+| Power Source             | USB or 12V adapter               | $10       |
+| Safety Goggles           | OD3+ rated for 660 nm            | $25–50    |
+| Enclosure                | Custom 3D printed or aluminum    | $10–15    |
+
+---
+
+## Energy Dose Estimation
+
+Energy Density (J/cm²) = (Power Density mW/cm² × Time seconds) ÷ 1000
+
+ 
+For example:  
+20 mW/cm² × 600 seconds (10 min) = 12 J/cm²
+
+Therapeutic range is often 1–10 J/cm² per session depending on depth and indication.
+
+---
+
+## Scientific Context
+
+### Primary Mechanisms:
+- Cytochrome c oxidase absorption
+- ATP production enhancement
+- Nitric oxide release
+- ROS (Reactive Oxygen Species) modulation
+
+### Secondary Effects:
+- Gene expression modulation
+- Stem cell proliferation
+- Inflammation control
+
+---
+
+## Safety Notes
+
+- Follow IEC 60825-1 laser classification
+- Use laser within Class 3B (<500 mW, with proper eye protection)
+- Never operate device without appropriate goggles and beam safety
+
+---
+
+## Potential Enhancements
+
+- OLED display for real-time parameter feedback
+- Digital dose calculator
+- Pulse modulation profiles
+- Biometric sensors with wavelet signal analysis (using the `W(k, τ)` transform)
+
+
+
