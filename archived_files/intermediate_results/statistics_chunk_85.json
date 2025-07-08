@@ -1,0 +1,23 @@
+{
+  "chunk": 86,
+  "total_chunks": 3600,
+  "tests_performed": 2,
+  "validations_performed": 0,
+  "results": {
+    "tests": [
+      {
+        "name": "normality_test",
+        "statistic": 45.02299318027057,
+        "p_value": 1.6725582488120954e-10,
+        "significant": true
+      },
+      {
+        "name": "stationarity_test",
+        "statistic": 344.9439405863862,
+        "p_value": 1.4686935653207583e-153,
+        "significant": true
+      }
+    ],
+    "validations": []
+  }
+}

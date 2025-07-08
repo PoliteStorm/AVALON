@@ -1,0 +1,87 @@
+{
+  "species": "Pleurotus_djamor",
+  "analysis_timestamp": "2025-07-06T13:00:07.366982",
+  "spatial_patterns": {
+    "patterns_detected": [
+      {
+        "pattern_type": "radial_propagation",
+        "confidence": 0.8980092217493726,
+        "center_location": [
+          0.004827886557424771,
+          0.004432110044036174
+        ],
+        "symmetry_order": "infinite",
+        "biological_significance": "Radial spreading of electrical activity from initiation point"
+      }
+    ],
+    "total_patterns": 1,
+    "spatial_resolution": 0.001,
+    "analysis_method": "Multi-scale spatial pattern detection",
+    "reference": "Schubert, A., et al. (2011). Fungal Genetics and Biology"
+  },
+  "propagation_geometry": {
+    "wave_speed": 2.8e-05,
+    "propagation_direction": "multi_directional",
+    "wave_front_shape": "irregular",
+    "coherence_length": 0.0,
+    "temporal_coherence": 0.0951126564022288
+  },
+  "network_topology": {
+    "node_count": 16,
+    "edge_count": 23,
+    "clustering_coefficient": 0.6,
+    "average_path_length": 3.316666666666667,
+    "degree_centrality": 0.19166666666666668,
+    "is_connected": true,
+    "network_diameter": 8
+  },
+  "spatial_correlation": {
+    "mean_correlation": 0.11379455386382158,
+    "max_correlation": 0.4021479636830739,
+    "correlation_std": 0.09381163195749648,
+    "correlation_matrix_shape": [
+      16,
+      16
+    ],
+    "significant_correlations": 0
+  },
+  "acoustic_localization": {
+    "acoustic_sources_detected": 1,
+    "source_locations": [
+      [
+        0.00456340155965844,
+        0.003496682054632878
+      ]
+    ],
+    "acoustic_propagation_speed": 343,
+    "localization_accuracy": 0.001,
+    "temporal_resolution": 1e-06
+  },
+  "geometric_w_transform": {
+    "geometric_w_transform_available": true,
+    "dominant_frequency": 0.00015915494309189535,
+    "dominant_timescale": 1.0,
+    "dominant_spatial_scale": 1e-05,
+    "power_spectrum_shape": [
+      5,
+      5,
+      5
+    ],
+    "mathematical_framework": "W(k,\u03c4,r) = \u222b\u222b\u222b V(x,y,t) \u00b7 \u03c8(\u221at/\u03c4) \u00b7 \u03c6(\u221a(x\u00b2+y\u00b2)/r) \u00b7 e^(-ik\u221at) dx dy dt",
+    "geometric_enhancement": "Spatial-temporal pattern detection"
+  },
+  "geometric_innovations": {
+    "spatial_pattern_detection": "Multi-scale geometric pattern identification",
+    "geometric_w_transform": "Spatial-temporal W-transform analysis",
+    "network_topology": "Graph-based mycelial network analysis",
+    "propagation_geometry": "Action potential wave propagation analysis",
+    "acoustic_localization": "Spatial localization of acoustic events"
+  },
+  "references": {
+    "spatial_patterns": "Schubert, A., et al. (2011). Fungal Genetics and Biology",
+    "network_topology": "Fricker, M. D., et al. (2017). Fungal Biology Reviews",
+    "propagation_models": "Adamatzky, A. (2018). Nature Scientific Reports",
+    "geometric_w_transform": "Extended from wavelet transform theory",
+    "acoustic_analysis": "Standard acoustic localization methods"
+  }
+}

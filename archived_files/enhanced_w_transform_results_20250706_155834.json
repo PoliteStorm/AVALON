@@ -1,0 +1,39 @@
+{
+  "species": "Pleurotus_djamor",
+  "mathematical_framework": "W(k,\u03c4) = \u222b V(t)\u00b7\u03c8(\u221at/\u03c4)\u00b7e^(-ik\u221at) dt",
+  "w_transform_features": {
+    "dominant_frequency": 0.001,
+    "dominant_timescale": 3600.0,
+    "phase_coherence": 0.39341478395036794,
+    "sqrt_t_scaling_detected": false,
+    "scale_invariant": false
+  },
+  "unique_patterns_detected": 1,
+  "overall_enhancement": 0.27697852465905193,
+  "patterns": [
+    {
+      "pattern_type": "multi_modal_timescales",
+      "confidence": 0.9071959226265754,
+      "biological_significance": "Multiple concurrent biological processes",
+      "detection_method": "W-transform timescale analysis",
+      "description": "Multiple distinct timescales not resolved by standard FFT"
+    }
+  ],
+  "innovations": [
+    {
+      "category": "mathematical_framework",
+      "innovation": "\u221at temporal scaling reveals non-linear time dynamics",
+      "advantage_over_fft": "FFT assumes linear time, misses \u221at patterns"
+    },
+    {
+      "category": "multi_scale_analysis",
+      "innovation": "Simultaneous frequency-timescale decomposition",
+      "advantage_over_fft": "FFT provides only frequency, not timescale relationships"
+    },
+    {
+      "category": "pattern_detection",
+      "innovation": "1 unique patterns detected",
+      "advantage_over_fft": "These patterns invisible to standard methods"
+    }
+  ]
+}

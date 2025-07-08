@@ -1,0 +1,135 @@
+{
+  "simulation_metadata": {
+    "timestamp": "20250706_122904",
+    "version": "1.0_realistic_physics",
+    "based_on": "Joe_Glastonbury_2024_Research + Adamatzky_et_al",
+    "validation_ready": true
+  },
+  "species_results": {
+    "Pleurotus_djamor": {
+      "electrical_data": {
+        "spike_count": 16,
+        "average_interval_min": 95.72358773659971,
+        "voltage_range": "1.16e-01 - 3.40e-01 V"
+      },
+      "acoustic_predictions": {
+        "theoretical_pressure_Pa": 0.001035,
+        "detectable": false,
+        "confidence": 0.0
+      },
+      "experimental_requirements": {
+        "detectable": false,
+        "required_sensitivity": 0.0004547738079150843,
+        "optimal_frequency_range": [
+          9.259259259259259e-05,
+          0.00037037037037037035
+        ],
+        "recommended_equipment": "Standard microphone (e.g., Audio-Technica AT2020)"
+      }
+    },
+    "Schizophyllum_commune": {
+      "electrical_data": {
+        "spike_count": 35,
+        "average_interval_min": 44.14274341550802,
+        "voltage_range": "1.27e-02 - 4.51e-02 V"
+      },
+      "acoustic_predictions": {
+        "theoretical_pressure_Pa": 0.0001863,
+        "detectable": false,
+        "confidence": 0.0
+      },
+      "experimental_requirements": {
+        "detectable": false,
+        "required_sensitivity": 8.214263491705594e-05,
+        "optimal_frequency_range": [
+          0.0002032520325203252,
+          0.0008130081300813008
+        ],
+        "recommended_equipment": "Standard microphone (e.g., Audio-Technica AT2020)"
+      }
+    },
+    "Flammulina_velutipes": {
+      "electrical_data": {
+        "spike_count": 14,
+        "average_interval_min": 96.84569337614984,
+        "voltage_range": "1.30e-01 - 4.52e-01 V"
+      },
+      "acoustic_predictions": {
+        "theoretical_pressure_Pa": 0.0015524999999999998,
+        "detectable": false,
+        "confidence": 0.0
+      },
+      "experimental_requirements": {
+        "detectable": false,
+        "required_sensitivity": 0.0005400924985343992,
+        "optimal_frequency_range": [
+          8.169934640522875e-05,
+          0.000326797385620915
+        ],
+        "recommended_equipment": "Standard microphone (e.g., Audio-Technica AT2020)"
+      }
+    }
+  },
+  "analysis": {
+    "detectability_summary": {
+      "Pleurotus_djamor": {
+        "detectable": false,
+        "confidence": 0.0,
+        "difficulty": "Difficult"
+      },
+      "Schizophyllum_commune": {
+        "detectable": false,
+        "confidence": 0.0,
+        "difficulty": "Difficult"
+      },
+      "Flammulina_velutipes": {
+        "detectable": false,
+        "confidence": 0.0,
+        "difficulty": "Difficult"
+      }
+    },
+    "equipment_requirements": {
+      "Pleurotus_djamor": {
+        "microphone": "Standard microphone (e.g., Audio-Technica AT2020)",
+        "minimum_sensitivity": "4.55e-04 Pa",
+        "frequency_range": "9.26e-05 - 3.70e-04 Hz"
+      },
+      "Schizophyllum_commune": {
+        "microphone": "Standard microphone (e.g., Audio-Technica AT2020)",
+        "minimum_sensitivity": "8.21e-05 Pa",
+        "frequency_range": "2.03e-04 - 8.13e-04 Hz"
+      },
+      "Flammulina_velutipes": {
+        "microphone": "Standard microphone (e.g., Audio-Technica AT2020)",
+        "minimum_sensitivity": "5.40e-04 Pa",
+        "frequency_range": "8.17e-05 - 3.27e-04 Hz"
+      }
+    },
+    "experimental_protocols": {
+      "Pleurotus_djamor": {
+        "culture_time": "90 minutes per event",
+        "monitoring_duration": "24-48 hours minimum",
+        "environmental_controls": "Temperature \u00b11\u00b0C, vibration isolation",
+        "data_collection": "Sample rate \u2265 0 Hz"
+      },
+      "Schizophyllum_commune": {
+        "culture_time": "41 minutes per event",
+        "monitoring_duration": "24-48 hours minimum",
+        "environmental_controls": "Temperature \u00b11\u00b0C, vibration isolation",
+        "data_collection": "Sample rate \u2265 0 Hz"
+      },
+      "Flammulina_velutipes": {
+        "culture_time": "102 minutes per event",
+        "monitoring_duration": "24-48 hours minimum",
+        "environmental_controls": "Temperature \u00b11\u00b0C, vibration isolation",
+        "data_collection": "Sample rate \u2265 0 Hz"
+      }
+    },
+    "validation_predictions": {
+      "most_likely_to_detect": "None",
+      "success_probability": 0.0,
+      "recommended_order": [],
+      "expected_timeline": "2-4 weeks for initial detection, 2-3 months for full characterization"
+    }
+  }
+}

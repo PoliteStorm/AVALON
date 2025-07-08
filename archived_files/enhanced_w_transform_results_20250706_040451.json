@@ -1,0 +1,8 @@
+{
+  "species": "Pleurotus_djamor",
+  "mathematical_framework": "W(k,\u03c4) = \u222b V(t)\u00b7\u03c8(\u221at/\u03c4)\u00b7e^(-ik\u221at) dt",
+  "w_transform_features": {
+    "dominant_frequency": 0.001,
+    "dominant_timescale": 3600.0,
+    "phase_coherence": 0.3888462599591266,
+    "sqrt_t_scaling_detected": 

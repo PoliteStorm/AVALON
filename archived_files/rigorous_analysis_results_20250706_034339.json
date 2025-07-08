@@ -1,0 +1,95 @@
+{
+  "species": "Pleurotus_djamor",
+  "analysis_timestamp": "2025-07-06T03:43:39.425031",
+  "validation_results": {
+    "species": "Pleurotus_djamor",
+    "expected_range_mv": [
+      0.03,
+      2.1
+    ],
+    "measured_range_mv": [
+      0.06856173643290855,
+      1.0297278466359472
+    ],
+    "measured_mean_mv": 0.50188927340212,
+    "measured_std_mv": 0.2184249063039985,
+    "within_published_range": "True",
+    "deviation_from_expected": 0.0,
+    "validation_status": "VALID",
+    "reference": "Adamatzky (2018), Nature Scientific Reports, Table 1"
+  },
+  "spike_detection": {
+    "method": "Adamatzky threshold method (3-sigma)",
+    "threshold_mv": 1.1571639923141155,
+    "baseline_mv": 0.50188927340212,
+    "noise_level_mv": 0.2184249063039985,
+    "spike_count": 0,
+    "spike_characteristics": [],
+    "reference": "Adamatzky (2018), Nature Scientific Reports, Methods"
+  },
+  "frequency_analysis": {
+    "sampling_rate_hz": 0.9997222222222222,
+    "dominant_frequency_hz": 0.0,
+    "total_power": 1137129.857879078,
+    "band_powers": {
+      "ultra_low": 110142.14119621663,
+      "low": 1011.274853462357,
+      "medium": 5122.569562819148,
+      "high": 0.0
+    },
+    "normalized_band_powers": {
+      "ultra_low": 0.09685977413489842,
+      "low": 0.0008893222233637766,
+      "medium": 0.0045048237255624676,
+      "high": 0.0
+    },
+    "frequency_range_hz": [
+      0.0,
+      0.49958341049382715
+    ],
+    "method": "Standard FFT with Hann window",
+    "reference": "Standard signal processing methods"
+  },
+  "complexity_metrics": {
+    "variance": 0.04770943969391052,
+    "standard_deviation": 0.2184249063039985,
+    "coefficient_of_variation": 0.4352053687527084,
+    "signal_to_noise_ratio_db": 21.25282352217595,
+    "autocorrelation_length": "3088",
+    "signal_complexity": 9.24934289800482,
+    "reference": "Dehshibi & Adamatzky (2021), Biosystems"
+  },
+  "statistical_validation": {
+    "sample_size": 3600,
+    "normality_test": {
+      "method": "Shapiro-Wilk",
+      "statistic": 0.9419524308942245,
+      "p_value": 1.9234985688644398e-35,
+      "is_normal": "False"
+    },
+    "confidence_interval_95": [
+      0.49475405979618936,
+      0.5090244870080506
+    ],
+    "outlier_detection": {
+      "method": "3-sigma rule",
+      "outlier_count": 0,
+      "outlier_percentage": 0.0
+    },
+    "descriptive_statistics": {
+      "mean": 0.50188927340212,
+      "median": 0.5052874389845456,
+      "std": 0.2184249063039985,
+      "min": 0.06856173643290855,
+      "max": 1.0297278466359472,
+      "q25": 0.2963548157297306,
+      "q75": 0.7057692027881879
+    },
+    "reference": "Standard statistical methods"
+  },
+  "references": {
+    "primary": "Adamatzky, A. (2018). Nature Scientific Reports, 8, 7873.",
+    "secondary": "Adamatzky, A. (2022). Royal Society Open Science, 9, 211926.",
+    "tertiary": "Dehshibi, M. M., & Adamatzky, A. (2021). Biosystems, 203, 104373."
+  }
+}

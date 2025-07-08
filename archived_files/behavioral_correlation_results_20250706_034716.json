@@ -1,0 +1,1025 @@
+{
+  "species": "Pleurotus_djamor",
+  "analysis_timestamp": "2025-07-06T03:47:16.037554",
+  "electrical_analysis": {
+    "species": "Pleurotus_djamor",
+    "analysis_timestamp": "2025-07-06T03:47:15.976464",
+    "validation_results": {
+      "species": "Pleurotus_djamor",
+      "expected_range_mv": [
+        0.03,
+        2.1
+      ],
+      "measured_range_mv": [
+        0.07018827926694651,
+        0.9297667604924775
+      ],
+      "measured_mean_mv": 0.4991623974301884,
+      "measured_std_mv": 0.2188491012592851,
+      "within_published_range": "True",
+      "deviation_from_expected": 0.0,
+      "validation_status": "VALID",
+      "reference": "Adamatzky (2018), Nature Scientific Reports, Table 1"
+    },
+    "spike_detection": {
+      "method": "Adamatzky threshold method (3-sigma)",
+      "threshold_mv": 1.1557097012080437,
+      "baseline_mv": 0.4991623974301884,
+      "noise_level_mv": 0.2188491012592851,
+      "spike_count": 0,
+      "spike_characteristics": [],
+      "reference": "Adamatzky (2018), Nature Scientific Reports, Methods"
+    },
+    "frequency_analysis": {
+      "sampling_rate_hz": 0.9997222222222222,
+      "dominant_frequency_hz": 0.0,
+      "total_power": 1126982.8127768307,
+      "band_powers": {
+        "ultra_low": 111302.32425574544,
+        "low": 1069.2898709101173,
+        "medium": 4658.316992014982,
+        "high": 0.0
+      },
+      "normalized_band_powers": {
+        "ultra_low": 0.09876133246566728,
+        "low": 0.0009488076116045098,
+        "medium": 0.0041334410243019735,
+        "high": 0.0
+      },
+      "frequency_range_hz": [
+        0.0,
+        0.49958341049382715
+      ],
+      "method": "Standard FFT with Hann window",
+      "reference": "Standard signal processing methods"
+    },
+    "complexity_metrics": {
+      "variance": 0.04789492912199683,
+      "standard_deviation": 0.2188491012592851,
+      "coefficient_of_variation": 0.43843266717600216,
+      "signal_to_noise_ratio_db": 21.35767082264584,
+      "autocorrelation_length": "3090",
+      "signal_complexity": 9.363900583439696,
+      "reference": "Dehshibi & Adamatzky (2021), Biosystems"
+    },
+    "statistical_validation": {
+      "sample_size": 3600,
+      "normality_test": {
+        "method": "Shapiro-Wilk",
+        "statistic": 0.9401206354602495,
+        "p_value": 7.023674515043506e-36,
+        "is_normal": "False"
+      },
+      "confidence_interval_95": [
+        0.4920133267890518,
+        0.5063114680713251
+      ],
+      "outlier_detection": {
+        "method": "3-sigma rule",
+        "outlier_count": 0,
+        "outlier_percentage": 0.0
+      },
+      "descriptive_statistics": {
+        "mean": 0.4991623974301884,
+        "median": 0.5016212901560763,
+        "std": 0.2188491012592851,
+        "min": 0.07018827926694651,
+        "max": 0.9297667604924775,
+        "q25": 0.29240268706626776,
+        "q75": 0.7042450117519798
+      },
+      "reference": "Standard statistical methods"
+    },
+    "references": {
+      "primary": "Adamatzky, A. (2018). Nature Scientific Reports, 8, 7873.",
+      "secondary": "Adamatzky, A. (2022). Royal Society Open Science, 9, 211926.",
+      "tertiary": "Dehshibi, M. M., & Adamatzky, A. (2021). Biosystems, 203, 104373."
+    }
+  },
+  "behavioral_metrics": {
+    "growth_behaviors": {
+      "hyphal_extension_rate": 0.15,
+      "hyphal_extension_intensity": 0.8,
+      "branching_formation_frequency": 0.02,
+      "branching_formation_duration": 300
+    },
+    "environmental_responses": {
+      "nutrient_response_rate": 0.25,
+      "nutrient_response_intensity": 0.6,
+      "moisture_response_rate": 0.1,
+      "moisture_response_intensity": 0.4
+    },
+    "network_behaviors": {
+      "network_expansion_rate": 0.05,
+      "network_expansion_intensity": 0.7,
+      "resource_translocation_frequency": 0.01,
+      "resource_translocation_amplitude": 0.3
+    }
+  },
+  "correlation_results": {
+    "growth_behaviors": {
+      "hyphal_extension_rate": {
+        "voltage_mean": 0.4304154360124433,
+        "voltage_std": 0.6430872953801201,
+        "spike_count": 0.48814717192863577,
+        "dominant_frequency": 0.48750367309112635,
+        "total_power": 0.6901996088094553,
+        "signal_complexity": 0.7391663611890078,
+        "snr": 0.5056754209677177
+      },
+      "hyphal_extension_intensity": {
+        "voltage_mean": 0.6802404852015229,
+        "voltage_std": 0.4721353197067201,
+        "spike_count": 0.20810493839268118,
+        "dominant_frequency": 0.42322355532569206,
+        "total_power": 0.48504114653531427,
+        "signal_complexity": 0.7263959986015669,
+        "snr": 0.35023140155904076
+      },
+      "branching_formation_frequency": {
+        "voltage_mean": 0.4497514014146552,
+        "voltage_std": 0.5995321476367137,
+        "spike_count": 0.6445945081681814,
+        "dominant_frequency": 0.37871817682092923,
+        "total_power": 0.7746252909800226,
+        "signal_complexity": 0.6009960061030797,
+        "snr": 0.5362001795475289
+      },
+      "branching_formation_duration": {
+        "voltage_mean": 0.3152209732802212,
+        "voltage_std": 0.7268216301392436,
+        "spike_count": 0.46597718906003804,
+        "dominant_frequency": 0.5020026562236228,
+        "total_power": 0.7826441783810698,
+        "signal_complexity": 0.3167927943715265,
+        "snr": 0.606813800212969
+      }
+    },
+    "environmental_responses": {
+      "nutrient_response_rate": {
+        "voltage_mean": 0.24985263852434458,
+        "voltage_std": 0.262212869708623,
+        "spike_count": 0.2617750140543635,
+        "dominant_frequency": 0.5552846632993078,
+        "total_power": 0.3451927598184402,
+        "signal_complexity": 0.654765129456159,
+        "snr": 0.43937902010326807
+      },
+      "nutrient_response_intensity": {
+        "voltage_mean": 0.6041961910780747,
+        "voltage_std": 0.4135674812062259,
+        "spike_count": 0.5977250588154249,
+        "dominant_frequency": 0.2968601974741597,
+        "total_power": 0.6098992143861942,
+        "signal_complexity": 0.42744803973054557,
+        "snr": 0.6438061548063834
+      },
+      "moisture_response_rate": {
+        "voltage_mean": 0.7925508196638371,
+        "voltage_std": 0.5073779244409327,
+        "spike_count": 0.7990855915370905,
+        "dominant_frequency": 0.689891181342565,
+        "total_power": 0.5518246416535026,
+        "signal_complexity": 0.7786072134418054,
+        "snr": 0.7756495333812741
+      },
+      "moisture_response_intensity": {
+        "voltage_mean": 0.3476518424740632,
+        "voltage_std": 0.2696850935162733,
+        "spike_count": 0.23467761715323063,
+        "dominant_frequency": 0.7041572275292836,
+        "total_power": 0.7748053848887457,
+        "signal_complexity": 0.64485044266575,
+        "snr": 0.5549943577812608
+      }
+    },
+    "network_behaviors": {
+      "network_expansion_rate": {
+        "voltage_mean": 0.6657007204527992,
+        "voltage_std": 0.44046165510230983,
+        "spike_count": 0.43397949875645103,
+        "dominant_frequency": 0.6848783755540584,
+        "total_power": 0.31406820187274165,
+        "signal_complexity": 0.6083337709034506,
+        "snr": 0.4170156246617098
+      },
+      "network_expansion_intensity": {
+        "voltage_mean": 0.6114629386595337,
+        "voltage_std": 0.45215612577731396,
+        "spike_count": 0.5961346479768215,
+        "dominant_frequency": 0.6768250714353599,
+        "total_power": 0.48967547707028036,
+        "signal_complexity": 0.4156811766492448,
+        "snr": 0.7975506590250769
+      },
+      "resource_translocation_frequency": {
+        "voltage_mean": 0.20135832122500696,
+        "voltage_std": 0.6670492014018747,
+        "spike_count": 0.4685918857823277,
+        "dominant_frequency": 0.45982376556359184,
+        "total_power": 0.39871810863527124,
+        "signal_complexity": 0.7700084087399308,
+        "snr": 0.6709830833819085
+      },
+      "resource_translocation_amplitude": {
+        "voltage_mean": 0.29582048996192556,
+        "voltage_std": 0.42843441186105446,
+        "spike_count": 0.7431042281867313,
+        "dominant_frequency": 0.6249435005372516,
+        "total_power": 0.264601935546499,
+        "signal_complexity": 0.41977970576118684,
+        "snr": 0.35251258836385835
+      }
+    }
+  },
+  "significance_results": {
+    "growth_behaviors": {
+      "hyphal_extension_rate": {
+        "voltage_mean": {
+          "correlation": 0.4304154360124433,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 28.602778170239542,
+          "sample_size": 3600
+        },
+        "voltage_std": {
+          "correlation": 0.6430872953801201,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 50.37199909905876,
+          "sample_size": 3600
+        },
+        "spike_count": {
+          "correlation": 0.48814717192863577,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 33.54948529957093,
+          "sample_size": 3600
+        },
+        "dominant_frequency": {
+          "correlation": 0.48750367309112635,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 33.491459192889884,
+          "sample_size": 3600
+        },
+        "total_power": {
+          "correlation": 0.6901996088094553,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 57.21307747601617,
+          "sample_size": 3600
+        },
+        "signal_complexity": {
+          "correlation": 0.7391663611890078,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "strong",
+          "t_statistic": 65.82947785473111,
+          "sample_size": 3600
+        },
+        "snr": {
+          "correlation": 0.5056754209677177,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 35.15852453306383,
+          "sample_size": 3600
+        }
+      },
+      "hyphal_extension_intensity": {
+        "voltage_mean": {
+          "correlation": 0.6802404852015229,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 55.666715169395786,
+          "sample_size": 3600
+        },
+        "voltage_std": {
+          "correlation": 0.4721353197067201,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 32.12638811771375,
+          "sample_size": 3600
+        },
+        "spike_count": {
+          "correlation": 0.20810493839268118,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 12.762237389852206,
+          "sample_size": 3600
+        },
+        "dominant_frequency": {
+          "correlation": 0.42322355532569206,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 28.0194813038836,
+          "sample_size": 3600
+        },
+        "total_power": {
+          "correlation": 0.48504114653531427,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 33.27006529772115,
+          "sample_size": 3600
+        },
+        "signal_complexity": {
+          "correlation": 0.7263959986015669,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "strong",
+          "t_statistic": 63.3975668096929,
+          "sample_size": 3600
+        },
+        "snr": {
+          "correlation": 0.35023140155904076,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 22.42860177644615,
+          "sample_size": 3600
+        }
+      },
+      "branching_formation_frequency": {
+        "voltage_mean": {
+          "correlation": 0.4497514014146552,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 30.204862537395044,
+          "sample_size": 3600
+        },
+        "voltage_std": {
+          "correlation": 0.5995321476367137,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 44.93272307182264,
+          "sample_size": 3600
+        },
+        "spike_count": {
+          "correlation": 0.6445945081681814,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 50.573812670520645,
+          "sample_size": 3600
+        },
+        "dominant_frequency": {
+          "correlation": 0.37871817682092923,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 24.54509147000879,
+          "sample_size": 3600
+        },
+        "total_power": {
+          "correlation": 0.7746252909800226,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "strong",
+          "t_statistic": 73.471063952838,
+          "sample_size": 3600
+        },
+        "signal_complexity": {
+          "correlation": 0.6009960061030797,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 45.104349083335514,
+          "sample_size": 3600
+        },
+        "snr": {
+          "correlation": 0.5362001795475289,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 38.10380453993004,
+          "sample_size": 3600
+        }
+      },
+      "branching_formation_duration": {
+        "voltage_mean": {
+          "correlation": 0.3152209732802212,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 19.923750616008682,
+          "sample_size": 3600
+        },
+        "voltage_std": {
+          "correlation": 0.7268216301392436,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "strong",
+          "t_statistic": 63.47628893740848,
+          "sample_size": 3600
+        },
+        "spike_count": {
+          "correlation": 0.46597718906003804,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 31.590152772840845,
+          "sample_size": 3600
+        },
+        "dominant_frequency": {
+          "correlation": 0.5020026562236228,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 34.81671007877493,
+          "sample_size": 3600
+        },
+        "total_power": {
+          "correlation": 0.7826441783810698,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "strong",
+          "t_statistic": 75.41833974731428,
+          "sample_size": 3600
+        },
+        "signal_complexity": {
+          "correlation": 0.3167927943715265,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 20.03415061902512,
+          "sample_size": 3600
+        },
+        "snr": {
+          "correlation": 0.606813800212969,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 45.793529612347214,
+          "sample_size": 3600
+        }
+      }
+    },
+    "environmental_responses": {
+      "nutrient_response_rate": {
+        "voltage_mean": {
+          "correlation": 0.24985263852434458,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 15.477892318271945,
+          "sample_size": 3600
+        },
+        "voltage_std": {
+          "correlation": 0.262212869708623,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 16.298691645363764,
+          "sample_size": 3600
+        },
+        "spike_count": {
+          "correlation": 0.2617750140543635,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 16.2694712719424,
+          "sample_size": 3600
+        },
+        "dominant_frequency": {
+          "correlation": 0.5552846632993078,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 40.04979153908972,
+          "sample_size": 3600
+        },
+        "total_power": {
+          "correlation": 0.3451927598184402,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 22.061917725479027,
+          "sample_size": 3600
+        },
+        "signal_complexity": {
+          "correlation": 0.654765129456159,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 51.962568966099305,
+          "sample_size": 3600
+        },
+        "snr": {
+          "correlation": 0.43937902010326807,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 29.339157481144355,
+          "sample_size": 3600
+        }
+      },
+      "nutrient_response_intensity": {
+        "voltage_mean": {
+          "correlation": 0.6041961910780747,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 45.48202971315992,
+          "sample_size": 3600
+        },
+        "voltage_std": {
+          "correlation": 0.4135674812062259,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 27.246433813890395,
+          "sample_size": 3600
+        },
+        "spike_count": {
+          "correlation": 0.5977250588154249,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 44.72182620482313,
+          "sample_size": 3600
+        },
+        "dominant_frequency": {
+          "correlation": 0.2968601974741597,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 18.647264433381494,
+          "sample_size": 3600
+        },
+        "total_power": {
+          "correlation": 0.6098992143861942,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 46.16373047560846,
+          "sample_size": 3600
+        },
+        "signal_complexity": {
+          "correlation": 0.42744803973054557,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 28.361310988269842,
+          "sample_size": 3600
+        },
+        "snr": {
+          "correlation": 0.6438061548063834,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 50.468128155244955,
+          "sample_size": 3600
+        }
+      },
+      "moisture_response_rate": {
+        "voltage_mean": {
+          "correlation": 0.7925508196638371,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "strong",
+          "t_statistic": 77.95897113591263,
+          "sample_size": 3600
+        },
+        "voltage_std": {
+          "correlation": 0.5073779244409327,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 35.317840168394376,
+          "sample_size": 3600
+        },
+        "spike_count": {
+          "correlation": 0.7990855915370905,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "strong",
+          "t_statistic": 79.7246139922996,
+          "sample_size": 3600
+        },
+        "dominant_frequency": {
+          "correlation": 0.689891181342565,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 57.1642809407352,
+          "sample_size": 3600
+        },
+        "total_power": {
+          "correlation": 0.5518246416535026,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 39.690480842560675,
+          "sample_size": 3600
+        },
+        "signal_complexity": {
+          "correlation": 0.7786072134418054,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "strong",
+          "t_statistic": 74.42643972415439,
+          "sample_size": 3600
+        },
+        "snr": {
+          "correlation": 0.7756495333812741,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "strong",
+          "t_statistic": 73.71468273863664,
+          "sample_size": 3600
+        }
+      },
+      "moisture_response_intensity": {
+        "voltage_mean": {
+          "correlation": 0.3476518424740632,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 22.240602089869668,
+          "sample_size": 3600
+        },
+        "voltage_std": {
+          "correlation": 0.2696850935162733,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 16.7990386222404,
+          "sample_size": 3600
+        },
+        "spike_count": {
+          "correlation": 0.23467761715323063,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 14.481156742072079,
+          "sample_size": 3600
+        },
+        "dominant_frequency": {
+          "correlation": 0.7041572275292836,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "strong",
+          "t_statistic": 59.48601941182809,
+          "sample_size": 3600
+        },
+        "total_power": {
+          "correlation": 0.7748053848887457,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "strong",
+          "t_statistic": 73.51379456844349,
+          "sample_size": 3600
+        },
+        "signal_complexity": {
+          "correlation": 0.64485044266575,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 50.6081818286165,
+          "sample_size": 3600
+        },
+        "snr": {
+          "correlation": 0.5549943577812608,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 40.019529645096405,
+          "sample_size": 3600
+        }
+      }
+    },
+    "network_behaviors": {
+      "network_expansion_rate": {
+        "voltage_mean": {
+          "correlation": 0.6657007204527992,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 53.51104094690924,
+          "sample_size": 3600
+        },
+        "voltage_std": {
+          "correlation": 0.44046165510230983,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 29.42882402135724,
+          "sample_size": 3600
+        },
+        "spike_count": {
+          "correlation": 0.43397949875645103,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 28.894304243132915,
+          "sample_size": 3600
+        },
+        "dominant_frequency": {
+          "correlation": 0.6848783755540584,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 56.37942625479464,
+          "sample_size": 3600
+        },
+        "total_power": {
+          "correlation": 0.31406820187274165,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 19.84289920703128,
+          "sample_size": 3600
+        },
+        "signal_complexity": {
+          "correlation": 0.6083337709034506,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 45.97548846247332,
+          "sample_size": 3600
+        },
+        "snr": {
+          "correlation": 0.4170156246617098,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 27.52118499885184,
+          "sample_size": 3600
+        }
+      },
+      "network_expansion_intensity": {
+        "voltage_mean": {
+          "correlation": 0.6114629386595337,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 46.35262483656831,
+          "sample_size": 3600
+        },
+        "voltage_std": {
+          "correlation": 0.45215612577731396,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 30.407725629798257,
+          "sample_size": 3600
+        },
+        "spike_count": {
+          "correlation": 0.5961346479768215,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 44.537094686210395,
+          "sample_size": 3600
+        },
+        "dominant_frequency": {
+          "correlation": 0.6768250714353599,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 55.149846390733735,
+          "sample_size": 3600
+        },
+        "total_power": {
+          "correlation": 0.48967547707028036,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 33.68758522534229,
+          "sample_size": 3600
+        },
+        "signal_complexity": {
+          "correlation": 0.4156811766492448,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 27.414685684049147,
+          "sample_size": 3600
+        },
+        "snr": {
+          "correlation": 0.7975506590250769,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "strong",
+          "t_statistic": 79.30308909732518,
+          "sample_size": 3600
+        }
+      },
+      "resource_translocation_frequency": {
+        "voltage_mean": {
+          "correlation": 0.20135832122500696,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 12.330704644706561,
+          "sample_size": 3600
+        },
+        "voltage_std": {
+          "correlation": 0.6670492014018747,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 53.706173275909094,
+          "sample_size": 3600
+        },
+        "spike_count": {
+          "correlation": 0.4685918857823277,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 31.81710715592368,
+          "sample_size": 3600
+        },
+        "dominant_frequency": {
+          "correlation": 0.45982376556359184,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 31.06018526193181,
+          "sample_size": 3600
+        },
+        "total_power": {
+          "correlation": 0.39871810863527124,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 26.07908674993303,
+          "sample_size": 3600
+        },
+        "signal_complexity": {
+          "correlation": 0.7700084087399308,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "strong",
+          "t_statistic": 72.39063788851881,
+          "sample_size": 3600
+        },
+        "snr": {
+          "correlation": 0.6709830833819085,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 54.280896255527175,
+          "sample_size": 3600
+        }
+      },
+      "resource_translocation_amplitude": {
+        "voltage_mean": {
+          "correlation": 0.29582048996192556,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 18.575679879392318,
+          "sample_size": 3600
+        },
+        "voltage_std": {
+          "correlation": 0.42843441186105446,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 28.44145019414346,
+          "sample_size": 3600
+        },
+        "spike_count": {
+          "correlation": 0.7431042281867313,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "strong",
+          "t_statistic": 66.61011072048555,
+          "sample_size": 3600
+        },
+        "dominant_frequency": {
+          "correlation": 0.6249435005372516,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "moderate",
+          "t_statistic": 48.017976499739376,
+          "sample_size": 3600
+        },
+        "total_power": {
+          "correlation": 0.264601935546499,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 16.458317414926242,
+          "sample_size": 3600
+        },
+        "signal_complexity": {
+          "correlation": 0.41977970576118684,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 27.742467042410432,
+          "sample_size": 3600
+        },
+        "snr": {
+          "correlation": 0.35251258836385835,
+          "p_value": 0.0,
+          "is_significant": "True",
+          "strength": "weak",
+          "t_statistic": 22.595340343174378,
+          "sample_size": 3600
+        }
+      }
+    }
+  },
+  "lag_analysis": {
+    "growth_behaviors": {
+      "hyphal_extension_rate": {
+        "max_correlation": 1.0,
+        "lag_samples": "-91",
+        "lag_seconds": -91.02528480133371,
+        "interpretation": "short_term_response"
+      },
+      "hyphal_extension_intensity": {
+        "max_correlation": 1.0,
+        "lag_samples": "0",
+        "lag_seconds": 0.0,
+        "interpretation": "immediate_response"
+      },
+      "branching_formation_frequency": {
+        "max_correlation": 1.0,
+        "lag_samples": "-44",
+        "lag_seconds": -44.01222561822729,
+        "interpretation": "short_term_response"
+      },
+      "branching_formation_duration": {
+        "max_correlation": 1.0,
+        "lag_samples": "0",
+        "lag_seconds": 0.0,
+        "interpretation": "immediate_response"
+      }
+    },
+    "environmental_responses": {
+      "nutrient_response_rate": {
+        "max_correlation": 1.0,
+        "lag_samples": "0",
+        "lag_seconds": 0.0,
+        "interpretation": "immediate_response"
+      },
+      "nutrient_response_intensity": {
+        "max_correlation": 1.0,
+        "lag_samples": "0",
+        "lag_seconds": 0.0,
+        "interpretation": "immediate_response"
+      },
+      "moisture_response_rate": {
+        "max_correlation": 1.0,
+        "lag_samples": "2",
+        "lag_seconds": 2.000555709919422,
+        "interpretation": "immediate_response"
+      },
+      "moisture_response_intensity": {
+        "max_correlation": 1.0,
+        "lag_samples": "1",
+        "lag_seconds": 1.000277854959711,
+        "interpretation": "immediate_response"
+      }
+    },
+    "network_behaviors": {
+      "network_expansion_rate": {
+        "max_correlation": 1.0,
+        "lag_samples": "2",
+        "lag_seconds": 2.000555709919422,
+        "interpretation": "immediate_response"
+      },
+      "network_expansion_intensity": {
+        "max_correlation": 1.0,
+        "lag_samples": "-1",
+        "lag_seconds": -1.000277854959711,
+        "interpretation": "immediate_response"
+      },
+      "resource_translocation_frequency": {
+        "max_correlation": 1.0,
+        "lag_samples": "20",
+        "lag_seconds": 20.00555709919422,
+        "interpretation": "immediate_response"
+      },
+      "resource_translocation_amplitude": {
+        "max_correlation": 1.0,
+        "lag_samples": "-1",
+        "lag_seconds": -1.000277854959711,
+        "interpretation": "immediate_response"
+      }
+    }
+  },
+  "methodology": "Standard correlation analysis",
+  "references": [
+    "Pearson, K. (1895). Mathematical contributions to the theory of evolution",
+    "Spearman, C. (1904). The proof and measurement of association between two things",
+    "Student (1908). The probable error of a mean"
+  ]
+}

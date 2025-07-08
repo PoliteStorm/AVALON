@@ -1,0 +1,1515 @@
+{
+  "timestamp": "2025-07-04T22:46:18.725777",
+  "species": "Schizophyllum commune",
+  "communication_log": [
+    {
+      "timestamp": 31.0,
+      "message": "Background maintenance communication",
+      "location": "(7.2, 6.8, -0.1) cm",
+      "amplitude": -0.03837627395023468,
+      "frequency": 0.05295322311735637,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 31.5,
+      "message": "Background maintenance communication",
+      "location": "(-5.3, 4.3, -1.9) cm",
+      "amplitude": -0.04053433832905619,
+      "frequency": 0.09290508620158405,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 31.5,
+      "message": "Background maintenance communication",
+      "location": "(-7.2, 2.7, -1.3) cm",
+      "amplitude": -0.029182166471034082,
+      "frequency": 0.023574221793747716,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 31.5,
+      "message": "Background maintenance communication",
+      "location": "(-6.1, -6.8, -1.1) cm",
+      "amplitude": -0.013364450623729096,
+      "frequency": 0.08737633755219273,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 31.5,
+      "message": "Synchronized growth pattern activated",
+      "location": "(3.1, -7.0, 1.3) cm",
+      "amplitude": 0.0022216854289860977,
+      "frequency": 0.118347757566647,
+      "signal_type": "sustained_oscillation"
+    },
+    {
+      "timestamp": 32.0,
+      "message": "Synchronized growth pattern activated",
+      "location": "(-3.6, 4.2, -1.2) cm",
+      "amplitude": 0.015383381447525879,
+      "frequency": 0.10299118920166792,
+      "signal_type": "sustained_oscillation"
+    },
+    {
+      "timestamp": 32.0,
+      "message": "Background maintenance communication",
+      "location": "(-2.1, 2.5, 0.0) cm",
+      "amplitude": 0.052441884842146805,
+      "frequency": 0.09239603639971408,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 32.0,
+      "message": "Synchronized growth pattern activated",
+      "location": "(-7.3, -3.9, -1.6) cm",
+      "amplitude": 0.08815422007798997,
+      "frequency": 0.11648749841712193,
+      "signal_type": "sustained_oscillation"
+    },
+    {
+      "timestamp": 32.0,
+      "message": "Background maintenance communication",
+      "location": "(9.2, -9.2, 0.9) cm",
+      "amplitude": -0.06624939300246932,
+      "frequency": 0.03840502219686826,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 32.5,
+      "message": "Background maintenance communication",
+      "location": "(-4.4, 1.8, 0.6) cm",
+      "amplitude": -0.013615911182756846,
+      "frequency": 0.05810692152137322,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 32.5,
+      "message": "Background maintenance communication",
+      "location": "(7.6, 3.6, -1.1) cm",
+      "amplitude": 0.021818179926933495,
+      "frequency": 0.06482716765740365,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 32.5,
+      "message": "Synchronized growth pattern activated",
+      "location": "(-8.7, 2.9, 1.9) cm",
+      "amplitude": 0.10507824818215238,
+      "frequency": 0.12400566000049945,
+      "signal_type": "sustained_oscillation"
+    },
+    {
+      "timestamp": 33.0,
+      "message": "Background maintenance communication",
+      "location": "(0.8, -4.5, -0.1) cm",
+      "amplitude": 0.08186069223415622,
+      "frequency": 0.030912110778742605,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 33.0,
+      "message": "Growth coordination signal",
+      "location": "(-9.9, -3.0, 0.8) cm",
+      "amplitude": 0.11071352973986588,
+      "frequency": 0.04616639884581998,
+      "signal_type": "low_frequency_burst"
+    },
+    {
+      "timestamp": 33.0,
+      "message": "Synchronized growth pattern activated",
+      "location": "(-6.3, 8.0, 1.7) cm",
+      "amplitude": -0.05281446045508471,
+      "frequency": 0.11018222136835432,
+      "signal_type": "sustained_oscillation"
+    },
+    {
+      "timestamp": 33.0,
+      "message": "Growth coordination signal",
+      "location": "(8.7, 9.8, 1.6) cm",
+      "amplitude": 0.11805502466150126,
+      "frequency": 0.06840127054185297,
+      "signal_type": "low_frequency_burst"
+    },
+    {
+      "timestamp": 33.5,
+      "message": "Background maintenance communication",
+      "location": "(-5.5, 2.6, 1.6) cm",
+      "amplitude": 0.039363964819420894,
+      "frequency": 0.09069748686166319,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 33.5,
+      "message": "Background maintenance communication",
+      "location": "(6.2, -4.0, -1.1) cm",
+      "amplitude": -0.03465273357786973,
+      "frequency": 0.09339453411326991,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 34.0,
+      "message": "Synchronized growth pattern activated",
+      "location": "(1.0, -0.5, -0.9) cm",
+      "amplitude": -0.023950830207820177,
+      "frequency": 0.11948729679032491,
+      "signal_type": "sustained_oscillation"
+    },
+    {
+      "timestamp": 34.0,
+      "message": "Synchronized growth pattern activated",
+      "location": "(2.7, -4.0, 1.2) cm",
+      "amplitude": 0.08303517230067921,
+      "frequency": 0.1001881281449206,
+      "signal_type": "sustained_oscillation"
+    },
+    {
+      "timestamp": 34.0,
+      "message": "Synchronized growth pattern activated",
+      "location": "(-2.1, -4.8, 1.4) cm",
+      "amplitude": 0.029101818898663326,
+      "frequency": 0.10384112343357799,
+      "signal_type": "sustained_oscillation"
+    },
+    {
+      "timestamp": 34.0,
+      "message": "Growth coordination signal",
+      "location": "(5.5, 3.4, -1.6) cm",
+      "amplitude": 0.10750293079790664,
+      "frequency": 0.0824117190011921,
+      "signal_type": "low_frequency_burst"
+    },
+    {
+      "timestamp": 34.5,
+      "message": "Synchronized growth pattern activated",
+      "location": "(-8.3, -0.4, 0.3) cm",
+      "amplitude": 0.07215865135295542,
+      "frequency": 0.10630236581338089,
+      "signal_type": "sustained_oscillation"
+    },
+    {
+      "timestamp": 34.5,
+      "message": "Background maintenance communication",
+      "location": "(4.4, -0.4, -0.3) cm",
+      "amplitude": -0.04789367315827644,
+      "frequency": 0.019320536869239572,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 35.0,
+      "message": "Background maintenance communication",
+      "location": "(9.7, -5.5, 0.0) cm",
+      "amplitude": -0.035295247712414365,
+      "frequency": 0.05492578494954407,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 35.0,
+      "message": "Background maintenance communication",
+      "location": "(-7.2, -4.9, -1.8) cm",
+      "amplitude": 0.07542280296371733,
+      "frequency": 0.08642971892429693,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 35.0,
+      "message": "Synchronized growth pattern activated",
+      "location": "(-0.4, 1.4, -1.1) cm",
+      "amplitude": 0.08392886603021114,
+      "frequency": 0.11431775051943634,
+      "signal_type": "sustained_oscillation"
+    },
+    {
+      "timestamp": 35.0,
+      "message": "Background maintenance communication",
+      "location": "(-5.0, -6.0, 0.5) cm",
+      "amplitude": 0.04519840636708099,
+      "frequency": 0.02805879165959036,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 35.5,
+      "message": "Background maintenance communication",
+      "location": "(6.6, -5.4, -0.9) cm",
+      "amplitude": 0.083525401881218,
+      "frequency": 0.04458939682275176,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 35.5,
+      "message": "Synchronized growth pattern activated",
+      "location": "(-10.0, -4.6, -0.7) cm",
+      "amplitude": -0.06899940930937432,
+      "frequency": 0.1316886242098519,
+      "signal_type": "sustained_oscillation"
+    },
+    {
+      "timestamp": 35.5,
+      "message": "Background maintenance communication",
+      "location": "(3.9, 9.5, -0.2) cm",
+      "amplitude": -0.0707739279253864,
+      "frequency": 0.03692506800184928,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 36.0,
+      "message": "Background maintenance communication",
+      "location": "(6.6, 8.3, 1.0) cm",
+      "amplitude": 0.029447292472183875,
+      "frequency": 0.09343766092931714,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 36.0,
+      "message": "Background maintenance communication",
+      "location": "(-6.3, -3.8, -1.6) cm",
+      "amplitude": 0.03486654010326756,
+      "frequency": 0.05356907283656124,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 36.0,
+      "message": "Growth coordination signal",
+      "location": "(3.8, 2.7, 0.7) cm",
+      "amplitude": 0.11574341585455002,
+      "frequency": 0.0693736998336193,
+      "signal_type": "low_frequency_burst"
+    },
+    {
+      "timestamp": 36.0,
+      "message": "Background maintenance communication",
+      "location": "(9.9, 5.6, -0.4) cm",
+      "amplitude": 0.06519847897456942,
+      "frequency": 0.09799256722484403,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 36.5,
+      "message": "Background maintenance communication",
+      "location": "(-3.4, -6.7, 0.4) cm",
+      "amplitude": 0.01642094934128059,
+      "frequency": 0.030460635284955125,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 36.5,
+      "message": "Synchronized growth pattern activated",
+      "location": "(-7.7, 9.4, 1.0) cm",
+      "amplitude": 0.11859775694724549,
+      "frequency": 0.1246865748697813,
+      "signal_type": "sustained_oscillation"
+    },
+    {
+      "timestamp": 36.5,
+      "message": "Background maintenance communication",
+      "location": "(6.5, -9.7, -0.3) cm",
+      "amplitude": -0.05096667265513572,
+      "frequency": 0.08218326656504082,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 36.5,
+      "message": "Synchronized growth pattern activated",
+      "location": "(-7.2, -5.6, -1.7) cm",
+      "amplitude": 0.016275138504652065,
+      "frequency": 0.12130927704928464,
+      "signal_type": "sustained_oscillation"
+    },
+    {
+      "timestamp": 37.0,
+      "message": "Background maintenance communication",
+      "location": "(3.3, 1.2, -1.1) cm",
+      "amplitude": 0.0920757379518989,
+      "frequency": 0.07519622954138623,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 37.0,
+      "message": "Background maintenance communication",
+      "location": "(6.7, 6.1, 0.9) cm",
+      "amplitude": 0.08423237068316895,
+      "frequency": 0.03349193342736509,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 37.0,
+      "message": "Background maintenance communication",
+      "location": "(8.4, -6.5, 0.5) cm",
+      "amplitude": -0.032820867017539716,
+      "frequency": 0.029910784621634576,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 37.5,
+      "message": "Background maintenance communication",
+      "location": "(1.1, -3.8, 1.3) cm",
+      "amplitude": 0.04238983965268407,
+      "frequency": 0.040988651146882764,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 37.5,
+      "message": "Background maintenance communication",
+      "location": "(8.1, 7.3, -1.7) cm",
+      "amplitude": 0.058865842379412434,
+      "frequency": 0.016181458535078148,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 37.5,
+      "message": "Background maintenance communication",
+      "location": "(-4.7, 8.7, -1.6) cm",
+      "amplitude": 0.08341525783907734,
+      "frequency": 0.052434386582184196,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 37.5,
+      "message": "Synchronized growth pattern activated",
+      "location": "(-9.5, 7.3, 1.9) cm",
+      "amplitude": 0.03347129016776883,
+      "frequency": 0.11353832167166779,
+      "signal_type": "sustained_oscillation"
+    },
+    {
+      "timestamp": 38.0,
+      "message": "Growth coordination signal",
+      "location": "(-5.1, 2.1, 0.2) cm",
+      "amplitude": 0.1162658775423502,
+      "frequency": 0.0713883599138021,
+      "signal_type": "low_frequency_burst"
+    },
+    {
+      "timestamp": 38.0,
+      "message": "Background maintenance communication",
+      "location": "(5.0, 7.6, -0.9) cm",
+      "amplitude": 0.0077371423496146036,
+      "frequency": 0.05417872073334038,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 38.0,
+      "message": "Background maintenance communication",
+      "location": "(7.0, 1.6, -1.6) cm",
+      "amplitude": -0.006227836588855881,
+      "frequency": 0.04702932973749026,
+      "signal_type": "low_amplitude_wave"
+    },
+    {
+      "timestamp": 38.0,
+      "message": "Background maintenance communication",
+      "location": "(-5.0, -8.7, -0.0) cm",
+      "amplitude": -0.07814677408314231,
+      "frequency": 0.05618954329436544,
+      "signal_type": "low_amplitude_wave"
+    }
+  ],
+  "action_potentials": [
+    {
+      "position": [
+        -6.358194868007794,
+        6.559825126208519,
+        -0.11163204952025296
+      ],
+      "amplitude": -0.04353645740237313,
+      "frequency": 0.10123676264041294,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 23.5
+    },
+    {
+      "position": [
+        -1.0529433695774415,
+        9.527822825292766,
+        1.4744254537532742
+      ],
+      "amplitude": -0.015652352135061345,
+      "frequency": 0.05887578237023778,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 23.5
+    },
+    {
+      "position": [
+        6.584589547184276,
+        -3.109917093602914,
+        1.8591448477784778
+      ],
+      "amplitude": 0.06886940799665438,
+      "frequency": 0.0802668912443391,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 24.0
+    },
+    {
+      "position": [
+        -4.261318943892061,
+        9.023732540651256,
+        -1.2603519466869222
+      ],
+      "amplitude": 0.05362037714815433,
+      "frequency": 0.07102776314800532,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 24.0
+    },
+    {
+      "position": [
+        -6.336340688712876,
+        9.098976105587873,
+        1.5498864815891107
+      ],
+      "amplitude": -0.010249502085698914,
+      "frequency": 0.04257896398071725,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 24.0
+    },
+    {
+      "position": [
+        5.796262385748328,
+        9.133111227124143,
+        0.5871115423282318
+      ],
+      "amplitude": 0.01866884213295962,
+      "frequency": 0.06912115649548976,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 24.0
+    },
+    {
+      "position": [
+        5.128168913847171,
+        -4.557169062782675,
+        1.1183117958976716
+      ],
+      "amplitude": 0.01618184288312169,
+      "frequency": 0.04467777357256182,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 24.5
+    },
+    {
+      "position": [
+        5.757363368328587,
+        8.388687377199592,
+        1.5232105656365809
+      ],
+      "amplitude": -0.022333476458743236,
+      "frequency": 0.0493050498127158,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 24.5
+    },
+    {
+      "position": [
+        -1.8930830665348068,
+        3.6780443767903837,
+        0.6269420757412698
+      ],
+      "amplitude": 0.04873595970311477,
+      "frequency": 0.016433709229577802,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 24.5
+    },
+    {
+      "position": [
+        -6.384352502317654,
+        1.6500968747407363,
+        0.49957022877004986
+      ],
+      "amplitude": 0.04115819327739177,
+      "frequency": 0.07058687238864317,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 24.5
+    },
+    {
+      "position": [
+        -4.419226467600272,
+        0.320316704240998,
+        1.7737036262940382
+      ],
+      "amplitude": 0.024714684123792144,
+      "frequency": 0.10010135402931032,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 25.0
+    },
+    {
+      "position": [
+        -3.7895466735005527,
+        9.181008379437433,
+        -1.1682802992522472
+      ],
+      "amplitude": -0.07346286873610748,
+      "frequency": 0.03453150446722294,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 25.0
+    },
+    {
+      "position": [
+        4.999829002266553,
+        -9.40767966493614,
+        -0.7763992000986315
+      ],
+      "amplitude": 0.0455460707548067,
+      "frequency": 0.10348148775008212,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 25.5
+    },
+    {
+      "position": [
+        -7.45857611611167,
+        9.07118753687283,
+        -1.7556506862025767
+      ],
+      "amplitude": 0.08751003420032004,
+      "frequency": 0.08595868906956505,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 25.5
+    },
+    {
+      "position": [
+        7.61904159165254,
+        1.5448945440801758,
+        1.4291279706443323
+      ],
+      "amplitude": 0.039551127534798114,
+      "frequency": 0.09910106565329117,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 25.5
+    },
+    {
+      "position": [
+        7.0922575553656095,
+        0.8912005509928793,
+        0.2958740434749507
+      ],
+      "amplitude": -0.01046737368442896,
+      "frequency": 0.12735107478525312,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 25.5
+    },
+    {
+      "position": [
+        4.631077098020571,
+        -4.944724209853312,
+        -0.5306605305294094
+      ],
+      "amplitude": 0.049819204410670656,
+      "frequency": 0.019583318185500406,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 26.0
+    },
+    {
+      "position": [
+        -6.886933488916814,
+        3.4125619599883237,
+        -1.4794163883859692
+      ],
+      "amplitude": 0.014052133708622114,
+      "frequency": 0.11739416351079315,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 26.0
+    },
+    {
+      "position": [
+        -5.309857594528022,
+        -7.2136393939899595,
+        1.5165589837375433
+      ],
+      "amplitude": 0.048396212307882644,
+      "frequency": 0.13257553735152766,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 26.0
+    },
+    {
+      "position": [
+        2.322507248008476,
+        7.93941364052559,
+        -1.775290325838562
+      ],
+      "amplitude": -0.016069330878913726,
+      "frequency": 0.12069243542994651,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 26.0
+    },
+    {
+      "position": [
+        -4.913280010285408,
+        -0.1971872620200532,
+        -1.4351063819863206
+      ],
+      "amplitude": 0.08571133885044609,
+      "frequency": 0.11897124212292023,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 26.5
+    },
+    {
+      "position": [
+        7.452774502291014,
+        7.563028573143622,
+        0.5681199251150444
+      ],
+      "amplitude": 0.0885534650685073,
+      "frequency": 0.10656354645349699,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 26.5
+    },
+    {
+      "position": [
+        5.131645817726131,
+        1.3744610798677712,
+        0.13756478955064866
+      ],
+      "amplitude": 0.04184479541381286,
+      "frequency": 0.04803612676592086,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 26.5
+    },
+    {
+      "position": [
+        5.495820380909954,
+        6.684489440873506,
+        -1.9234268138839217
+      ],
+      "amplitude": 0.010298214768125147,
+      "frequency": 0.08735716661959499,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 26.5
+    },
+    {
+      "position": [
+        4.193876532641793,
+        0.19462897035132798,
+        -0.23108706451456262
+      ],
+      "amplitude": -0.027797815009797985,
+      "frequency": 0.02952800463624069,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 27.0
+    },
+    {
+      "position": [
+        2.8242533880607645,
+        6.283986752665616,
+        1.4533858556041674
+      ],
+      "amplitude": 0.03404342265822426,
+      "frequency": 0.09382913921731377,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 27.0
+    },
+    {
+      "position": [
+        8.356228659104104,
+        5.457465162515248,
+        -0.3920868533905222
+      ],
+      "amplitude": 0.0893826995507482,
+      "frequency": 0.061681897169365806,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 27.0
+    },
+    {
+      "position": [
+        -4.128898444989215,
+        -4.849291115488099,
+        1.5210832058596342
+      ],
+      "amplitude": 0.0957896187502922,
+      "frequency": 0.10038947605502878,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 27.5
+    },
+    {
+      "position": [
+        -1.5037595649928477,
+        -2.3968233285989644,
+        1.701821827239498
+      ],
+      "amplitude": 0.00811431767970941,
+      "frequency": 0.1191766899785156,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 27.5
+    },
+    {
+      "position": [
+        3.0875701036592034,
+        -9.966968522287855,
+        -1.4270664621948423
+      ],
+      "amplitude": 0.03803566019091571,
+      "frequency": 0.04246951388483574,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 27.5
+    },
+    {
+      "position": [
+        9.24139300203074,
+        -7.382344131143624,
+        1.6721079397854979
+      ],
+      "amplitude": 0.0892115269247863,
+      "frequency": 0.12537230657273685,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 27.5
+    },
+    {
+      "position": [
+        2.0525468678996344,
+        -3.636498053506692,
+        1.0915761506716568
+      ],
+      "amplitude": 0.10661824472963162,
+      "frequency": 0.07678184966747137,
+      "signal_type": "low_frequency_burst",
+      "timestamp": 28.0
+    },
+    {
+      "position": [
+        -2.442373579847783,
+        -3.958029267607815,
+        -1.9579351075566795
+      ],
+      "amplitude": 0.1035032480240728,
+      "frequency": 0.07316412291631678,
+      "signal_type": "low_frequency_burst",
+      "timestamp": 28.0
+    },
+    {
+      "position": [
+        -4.2876429559926805,
+        -0.9982055594607857,
+        1.9966190740486236
+      ],
+      "amplitude": -0.0684628304017804,
+      "frequency": 0.03945867809606231,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 28.5
+    },
+    {
+      "position": [
+        -8.833447356100706,
+        7.63638482789673,
+        -1.3128856358954146
+      ],
+      "amplitude": 0.06600617076414907,
+      "frequency": 0.08746742516530599,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 28.5
+    },
+    {
+      "position": [
+        2.586976915192933,
+        -6.7204738850186585,
+        -1.210138597125518
+      ],
+      "amplitude": 0.04512668335163965,
+      "frequency": 0.10859145497076522,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 28.5
+    },
+    {
+      "position": [
+        9.659234178815609,
+        6.29201948750265,
+        1.5305094045982859
+      ],
+      "amplitude": -0.061772870062966986,
+      "frequency": 0.10618449140249989,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 29.0
+    },
+    {
+      "position": [
+        7.315673649379981,
+        1.7665017675842023,
+        -0.9273717685970793
+      ],
+      "amplitude": -0.02264133296523802,
+      "frequency": 0.036737100871458456,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 29.0
+    },
+    {
+      "position": [
+        -0.15346014700777388,
+        3.258841813396142,
+        -0.5263416394442149
+      ],
+      "amplitude": -0.004012756286987912,
+      "frequency": 0.1093459394983659,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 29.0
+    },
+    {
+      "position": [
+        7.749500220763512,
+        3.0621694672389523,
+        -1.1749912673078953
+      ],
+      "amplitude": 0.03740247613014809,
+      "frequency": 0.06692044304849354,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 29.5
+    },
+    {
+      "position": [
+        -6.337418388539618,
+        2.052091730920214,
+        -0.057201522958159945
+      ],
+      "amplitude": -0.07757588484222433,
+      "frequency": 0.06728186220250626,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 29.5
+    },
+    {
+      "position": [
+        -0.5046711609258097,
+        7.641640133104506,
+        -0.16935833908722886
+      ],
+      "amplitude": 0.017797327537181842,
+      "frequency": 0.07075692252525531,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 29.5
+    },
+    {
+      "position": [
+        -8.469593918109023,
+        -6.183466261879307,
+        0.7558857228201443
+      ],
+      "amplitude": 0.06504229819877823,
+      "frequency": 0.061264492001444903,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 29.5
+    },
+    {
+      "position": [
+        -2.7534465858924495,
+        7.025898454271257,
+        1.1520142220391447
+      ],
+      "amplitude": -0.04125819865424491,
+      "frequency": 0.04836429514435728,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 30.0
+    },
+    {
+      "position": [
+        6.521294996771566,
+        8.771015877171905,
+        -1.2158796228711428
+      ],
+      "amplitude": 0.003806771830527786,
+      "frequency": 0.021015864167508426,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 30.0
+    },
+    {
+      "position": [
+        -2.9434180344925975,
+        5.045000174949223,
+        1.7274510705113726
+      ],
+      "amplitude": -0.016520935922754956,
+      "frequency": 0.09026278180132988,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 30.5
+    },
+    {
+      "position": [
+        -1.6818345782422401,
+        0.1758994335633055,
+        -0.640987128409304
+      ],
+      "amplitude": -0.02682068308086487,
+      "frequency": 0.07540698255533765,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 30.5
+    },
+    {
+      "position": [
+        8.491752122109101,
+        -8.777722918747841,
+        0.23089320913128164
+      ],
+      "amplitude": -0.004920333738403879,
+      "frequency": 0.049961102367651965,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 31.0
+    },
+    {
+      "position": [
+        7.411381514043686,
+        -2.326515941236787,
+        -1.871097632974279
+      ],
+      "amplitude": 0.1062814466582472,
+      "frequency": 0.08515432227008878,
+      "signal_type": "low_frequency_burst",
+      "timestamp": 31.0
+    },
+    {
+      "position": [
+        5.019158709295402,
+        -1.22328352023378,
+        0.6332151514165085
+      ],
+      "amplitude": 0.08107381433642531,
+      "frequency": 0.12413171933725918,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 31.0
+    },
+    {
+      "position": [
+        7.22598665193733,
+        6.76706047812905,
+        -0.10533420873873922
+      ],
+      "amplitude": -0.03837627395023468,
+      "frequency": 0.05295322311735637,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 31.0
+    },
+    {
+      "position": [
+        -5.303845850288161,
+        4.2907698994072,
+        -1.9020623853101357
+      ],
+      "amplitude": -0.04053433832905619,
+      "frequency": 0.09290508620158405,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 31.5
+    },
+    {
+      "position": [
+        -7.1854915921684315,
+        2.724628061514947,
+        -1.3323963829711398
+      ],
+      "amplitude": -0.029182166471034082,
+      "frequency": 0.023574221793747716,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 31.5
+    },
+    {
+      "position": [
+        -6.059562127095351,
+        -6.757336475869451,
+        -1.1342325773650326
+      ],
+      "amplitude": -0.013364450623729096,
+      "frequency": 0.08737633755219273,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 31.5
+    },
+    {
+      "position": [
+        3.1288503656890843,
+        -7.011107037429156,
+        1.32968446778606
+      ],
+      "amplitude": 0.0022216854289860977,
+      "frequency": 0.118347757566647,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 31.5
+    },
+    {
+      "position": [
+        -3.575606460971863,
+        4.188780527695746,
+        -1.1599322776175574
+      ],
+      "amplitude": 0.015383381447525879,
+      "frequency": 0.10299118920166792,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 32.0
+    },
+    {
+      "position": [
+        -2.081157027141874,
+        2.5221817903043657,
+        0.038274798337708305
+      ],
+      "amplitude": 0.052441884842146805,
+      "frequency": 0.09239603639971408,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 32.0
+    },
+    {
+      "position": [
+        -7.30901358138502,
+        -3.8982383241670053,
+        -1.5938310264155375
+      ],
+      "amplitude": 0.08815422007798997,
+      "frequency": 0.11648749841712193,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 32.0
+    },
+    {
+      "position": [
+        9.235122158271945,
+        -9.249665455505037,
+        0.8502532591876721
+      ],
+      "amplitude": -0.06624939300246932,
+      "frequency": 0.03840502219686826,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 32.0
+    },
+    {
+      "position": [
+        -4.378316141348069,
+        1.8301300650515788,
+        0.5792278424700297
+      ],
+      "amplitude": -0.013615911182756846,
+      "frequency": 0.05810692152137322,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 32.5
+    },
+    {
+      "position": [
+        7.629765608949942,
+        3.590695526717065,
+        -1.0929231633962049
+      ],
+      "amplitude": 0.021818179926933495,
+      "frequency": 0.06482716765740365,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 32.5
+    },
+    {
+      "position": [
+        -8.685978933225119,
+        2.88850803730079,
+        1.8652359402600798
+      ],
+      "amplitude": 0.10507824818215238,
+      "frequency": 0.12400566000049945,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 32.5
+    },
+    {
+      "position": [
+        0.7521502248833514,
+        -4.5362072353976535,
+        -0.13123628583338798
+      ],
+      "amplitude": 0.08186069223415622,
+      "frequency": 0.030912110778742605,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 33.0
+    },
+    {
+      "position": [
+        -9.925575370378192,
+        -2.9538167300761753,
+        0.8218564786039808
+      ],
+      "amplitude": 0.11071352973986588,
+      "frequency": 0.04616639884581998,
+      "signal_type": "low_frequency_burst",
+      "timestamp": 33.0
+    },
+    {
+      "position": [
+        -6.323508701676552,
+        8.01373469904782,
+        1.6846424422277715
+      ],
+      "amplitude": -0.05281446045508471,
+      "frequency": 0.11018222136835432,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 33.0
+    },
+    {
+      "position": [
+        8.660778785200183,
+        9.779815295443875,
+        1.6355971437053602
+      ],
+      "amplitude": 0.11805502466150126,
+      "frequency": 0.06840127054185297,
+      "signal_type": "low_frequency_burst",
+      "timestamp": 33.0
+    },
+    {
+      "position": [
+        -5.527332823238915,
+        2.569348517443551,
+        1.5595032373349778
+      ],
+      "amplitude": 0.039363964819420894,
+      "frequency": 0.09069748686166319,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 33.5
+    },
+    {
+      "position": [
+        6.21034250007331,
+        -4.013188285868178,
+        -1.0828211017659037
+      ],
+      "amplitude": -0.03465273357786973,
+      "frequency": 0.09339453411326991,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 33.5
+    },
+    {
+      "position": [
+        0.9690778792998493,
+        -0.544053568678617,
+        -0.868993743490051
+      ],
+      "amplitude": -0.023950830207820177,
+      "frequency": 0.11948729679032491,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 34.0
+    },
+    {
+      "position": [
+        2.7030829283227593,
+        -3.966963642129069,
+        1.172566080130804
+      ],
+      "amplitude": 0.08303517230067921,
+      "frequency": 0.1001881281449206,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 34.0
+    },
+    {
+      "position": [
+        -2.11738194747801,
+        -4.844923505703454,
+        1.3509938224672657
+      ],
+      "amplitude": 0.029101818898663326,
+      "frequency": 0.10384112343357799,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 34.0
+    },
+    {
+      "position": [
+        5.463169436889018,
+        3.400619036798986,
+        -1.6320866283429898
+      ],
+      "amplitude": 0.10750293079790664,
+      "frequency": 0.0824117190011921,
+      "signal_type": "low_frequency_burst",
+      "timestamp": 34.0
+    },
+    {
+      "position": [
+        -8.293102211646676,
+        -0.43991665861081053,
+        0.2967955343159896
+      ],
+      "amplitude": 0.07215865135295542,
+      "frequency": 0.10630236581338089,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 34.5
+    },
+    {
+      "position": [
+        4.355795838030787,
+        -0.4203081391092347,
+        -0.33259976976940253
+      ],
+      "amplitude": -0.04789367315827644,
+      "frequency": 0.019320536869239572,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 34.5
+    },
+    {
+      "position": [
+        9.745814375312769,
+        -5.464108592103618,
+        0.015363847686129972
+      ],
+      "amplitude": -0.035295247712414365,
+      "frequency": 0.05492578494954407,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 35.0
+    },
+    {
+      "position": [
+        -7.2339921389617405,
+        -4.909075838496404,
+        -1.7658055037538194
+      ],
+      "amplitude": 0.07542280296371733,
+      "frequency": 0.08642971892429693,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 35.0
+    },
+    {
+      "position": [
+        -0.4387705620372362,
+        1.416216078089061,
+        -1.1125535481645281
+      ],
+      "amplitude": 0.08392886603021114,
+      "frequency": 0.11431775051943634,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 35.0
+    },
+    {
+      "position": [
+        -5.048924630350575,
+        -5.9941296640331725,
+        0.5481039026601819
+      ],
+      "amplitude": 0.04519840636708099,
+      "frequency": 0.02805879165959036,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 35.0
+    },
+    {
+      "position": [
+        6.558885977008384,
+        -5.439587327916826,
+        -0.936979305616962
+      ],
+      "amplitude": 0.083525401881218,
+      "frequency": 0.04458939682275176,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 35.5
+    },
+    {
+      "position": [
+        -9.95676097196149,
+        -4.584171962066255,
+        -0.6720858563518526
+      ],
+      "amplitude": -0.06899940930937432,
+      "frequency": 0.1316886242098519,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 35.5
+    },
+    {
+      "position": [
+        3.8520417149939856,
+        9.496808695862281,
+        -0.23048126419165715
+      ],
+      "amplitude": -0.0707739279253864,
+      "frequency": 0.03692506800184928,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 35.5
+    },
+    {
+      "position": [
+        6.587366956049152,
+        8.332814237931132,
+        0.9932092620038824
+      ],
+      "amplitude": 0.029447292472183875,
+      "frequency": 0.09343766092931714,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 36.0
+    },
+    {
+      "position": [
+        -6.255701983244794,
+        -3.8382496125775756,
+        -1.5666576807595303
+      ],
+      "amplitude": 0.03486654010326756,
+      "frequency": 0.05356907283656124,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 36.0
+    },
+    {
+      "position": [
+        3.80526499911449,
+        2.7287504853826263,
+        0.6832047721992227
+      ],
+      "amplitude": 0.11574341585455002,
+      "frequency": 0.0693736998336193,
+      "signal_type": "low_frequency_burst",
+      "timestamp": 36.0
+    },
+    {
+      "position": [
+        9.850664969592867,
+        5.561339202748638,
+        -0.42740838028801953
+      ],
+      "amplitude": 0.06519847897456942,
+      "frequency": 0.09799256722484403,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 36.0
+    },
+    {
+      "position": [
+        -3.4133062364766715,
+        -6.659416758360344,
+        0.3683620541455115
+      ],
+      "amplitude": 0.01642094934128059,
+      "frequency": 0.030460635284955125,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 36.5
+    },
+    {
+      "position": [
+        -7.654192976145902,
+        9.388873324269007,
+        0.9754097307716152
+      ],
+      "amplitude": 0.11859775694724549,
+      "frequency": 0.1246865748697813,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 36.5
+    },
+    {
+      "position": [
+        6.510938372897005,
+        -9.721799271689655,
+        -0.3382313459686612
+      ],
+      "amplitude": -0.05096667265513572,
+      "frequency": 0.08218326656504082,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 36.5
+    },
+    {
+      "position": [
+        -7.18650356161487,
+        -5.56070123394224,
+        -1.7097560515084407
+      ],
+      "amplitude": 0.016275138504652065,
+      "frequency": 0.12130927704928464,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 36.5
+    },
+    {
+      "position": [
+        3.287610677202892,
+        1.244357510749337,
+        -1.0790027432617797
+      ],
+      "amplitude": 0.0920757379518989,
+      "frequency": 0.07519622954138623,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 37.0
+    },
+    {
+      "position": [
+        6.737632875759523,
+        6.080719600737741,
+        0.8963400513922584
+      ],
+      "amplitude": 0.08423237068316895,
+      "frequency": 0.03349193342736509,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 37.0
+    },
+    {
+      "position": [
+        8.354596993888869,
+        -6.51162306235806,
+        0.4727113382899484
+      ],
+      "amplitude": -0.032820867017539716,
+      "frequency": 0.029910784621634576,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 37.0
+    },
+    {
+      "position": [
+        1.0887338119625625,
+        -3.772275936190022,
+        1.316470825532377
+      ],
+      "amplitude": 0.04238983965268407,
+      "frequency": 0.040988651146882764,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 37.5
+    },
+    {
+      "position": [
+        8.062333444245528,
+        7.31953103988149,
+        -1.7174061209197173
+      ],
+      "amplitude": 0.058865842379412434,
+      "frequency": 0.016181458535078148,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 37.5
+    },
+    {
+      "position": [
+        -4.7171229799258825,
+        8.70997168868329,
+        -1.5526196294932881
+      ],
+      "amplitude": 0.08341525783907734,
+      "frequency": 0.052434386582184196,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 37.5
+    },
+    {
+      "position": [
+        -9.511500586012902,
+        7.337957963771633,
+        1.910342578521429
+      ],
+      "amplitude": 0.03347129016776883,
+      "frequency": 0.11353832167166779,
+      "signal_type": "sustained_oscillation",
+      "timestamp": 37.5
+    },
+    {
+      "position": [
+        -5.120021693266588,
+        2.0890165421411684,
+        0.18833738893936358
+      ],
+      "amplitude": 0.1162658775423502,
+      "frequency": 0.0713883599138021,
+      "signal_type": "low_frequency_burst",
+      "timestamp": 38.0
+    },
+    {
+      "position": [
+        4.9904235241195245,
+        7.55582550464981,
+        -0.9424468125260304
+      ],
+      "amplitude": 0.0077371423496146036,
+      "frequency": 0.05417872073334038,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 38.0
+    },
+    {
+      "position": [
+        7.009426177234058,
+        1.63150199892989,
+        -1.623917085406028
+      ],
+      "amplitude": -0.006227836588855881,
+      "frequency": 0.04702932973749026,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 38.0
+    },
+    {
+      "position": [
+        -4.961215198195927,
+        -8.713486730916724,
+        -0.017644946557182628
+      ],
+      "amplitude": -0.07814677408314231,
+      "frequency": 0.05618954329436544,
+      "signal_type": "low_amplitude_wave",
+      "timestamp": 38.0
+    }
+  ],
+  "triangulation": {
+    "center_of_mass": "[0.07970439 0.81687234 0.00408158]",
+    "network_span": 12.264248828706261,
+    "topology": "Distributed",
+    "signal_density": 100,
+    "propagation_time": 4.390156603129324
+  }
+}
