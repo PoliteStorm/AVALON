@@ -1,41 +1,64 @@
-# Fungal Communication Research
+# Fungal Language Analysis Project
 
-This repository contains research on fungal communication patterns using the Fungal Rosetta Stone analyzer.
+This project implements an enhanced decoder for analyzing fungal communication patterns based on Adamatzky's research. It analyzes multiple aspects of fungal signaling including temporal patterns, amplitude variations, frequency modulations, and spatial coordination.
 
-## Main Components
+## Features
 
-- `fungal_rosetta_stone.py` - Main analysis script for multi-modal fungal communication analysis
-- `archived_files/` - Comprehensive collection of research data, results, and analysis scripts
+- Multi-modal analysis of fungal communication signals
+- Temporal pattern recognition
+- Amplitude-based vocabulary analysis
+- Frequency modulation analysis
+- Spatial coordination pattern detection
+- Comprehensive reporting and visualization
 
-## Fungal Rosetta Stone Analyzer
+## Installation
 
-The main script implements:
-- Multi-modal W-transform analysis for electrochemical, acoustic, and spatial signals
-- Statistical validation using Fisher confidence intervals and FDR correction
-- Semantic pattern discovery and cross-modal correlation analysis
-- Publication-ready visualizations and reports
+1. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-## Key Findings
-
-- **Electro-Spatial Coordination**: Strong negative correlation (r = -0.747, p = 1.1 × 10⁻⁸) between electrical activity and spatial growth
-- **Resource Allocation Trade-off**: Fungi alternate between communication and growth modes
-- **Statistically Validated**: Peer-review grade statistical methods with proper multiple testing correction
-
-## Research Basis
-
-Based on peer-reviewed research:
-- Adamatzky (2018) - Nature Scientific Reports
-- Adamatzky (2021) - Royal Society Open Science  
-- Dehshibi & Adamatzky (2021) - Biosystems
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
+Run the main analysis script:
 ```bash
-python3 fungal_rosetta_stone.py
+python main.py
 ```
 
-Results are saved to `rosetta_outputs/` directory with:
-- Pattern strength analysis
-- Cross-modal correlation matrices
-- W-transform signatures
-- Statistical validation reports 
+This will:
+1. Generate sample data for testing
+2. Analyze temporal, amplitude, and frequency patterns
+3. Build a fungal communication vocabulary
+4. Generate analysis reports and visualizations
+5. Save results in the `language_analysis_outputs` directory
+
+## Project Structure
+
+- `enhanced_fungal_language_decoder.py`: Core analysis implementation
+- `main.py`: Main script for running analyses
+- `requirements.txt`: Project dependencies
+- `language_analysis_outputs/`: Directory for analysis outputs
+
+## Dependencies
+
+- numpy
+- matplotlib
+- scipy
+- scikit-learn
+- seaborn
+- statsmodels
+- PyYAML
+
+## Contributing
+
+Feel free to open issues or submit pull requests for improvements.
+
+## License
+
+MIT License 
