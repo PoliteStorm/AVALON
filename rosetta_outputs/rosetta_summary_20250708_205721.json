@@ -1,0 +1,72 @@
+{
+  "analysis_metadata": {
+    "timestamp": "2025-07-08T20:57:42",
+    "software_version": "1.0.0",
+    "research_basis": [
+      "Adamatzky (2018) - Nature Scientific Reports",
+      "Adamatzky (2021) - Royal Society Open Science",
+      "Dehshibi & Adamatzky (2021) - Biosystems"
+    ]
+  },
+  "validation_metrics": {
+    "patterns_detected": 1,
+    "dictionary_entries": 4,
+    "statistical_significance": true
+  },
+  "pattern_statistics": {
+    "total_patterns": 1,
+    "significant_patterns": 1,
+    "cross_modal_correlations": {
+      "electro_spatial_coordination": 0.7133207748079339
+    }
+  },
+  "experimental_parameters": {
+    "voltage_ranges": {
+      "Pleurotus_djamor": [
+        0.03,
+        2.1
+      ],
+      "Omphalotus_nidiformis": [
+        0.03,
+        2.1
+      ],
+      "Flammulina_velutipes": [
+        0.03,
+        2.1
+      ],
+      "Schizophyllum_commune": [
+        0.03,
+        2.1
+      ],
+      "Cordyceps_militaris": [
+        0.03,
+        2.1
+      ]
+    },
+    "frequency_bands": {
+      "ultra_low_hz": [
+        0.001,
+        0.01
+      ],
+      "low_hz": [
+        0.01,
+        0.1
+      ],
+      "medium_hz": [
+        0.1,
+        1.0
+      ],
+      "high_hz": [
+        1.0,
+        10.0
+      ]
+    },
+    "statistical_thresholds": {
+      "significance_level": 0.05,
+      "confidence_level": 0.95,
+      "correlation_threshold": 0.7,
+      "min_sample_size": 30,
+      "outlier_threshold": 3.0
+    }
+  }
+}

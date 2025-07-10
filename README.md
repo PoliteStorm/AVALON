@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AVALON: Fungal Electrical Activity Analysis
 
 ## Overview
@@ -31,10 +32,36 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
+=======
+# AVALON - Fungal Language Analysis Project
+
+A groundbreaking research project implementing an enhanced decoder for analyzing fungal communication patterns based on Adamatzky's research. This represents significant life's work in understanding fungal intelligence and communication through analysis of temporal patterns, amplitude variations, frequency modulations, and spatial coordination.
+
+## Features
+
+- Multi-modal analysis of fungal communication signals
+- Temporal pattern recognition
+- Amplitude-based vocabulary analysis
+- Frequency modulation analysis
+- Spatial coordination pattern detection
+- Comprehensive reporting and visualization
+
+## Installation
+
+1. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+2. Install dependencies:
+```bash
+>>>>>>> 2166958aec049150b4e2ec834c0932ffa60b8b22
 pip install -r requirements.txt
 ```
 
 ## Usage
+<<<<<<< HEAD
 1. Data Processing:
 ```python
 python fungal_analysis/src/run_analysis.py
@@ -60,3 +87,42 @@ Detailed results can be found in the visualizations directory.
 
 ## License
 MIT License 
+=======
+
+Run the main analysis script:
+```bash
+python main.py
+```
+
+This will:
+1. Generate sample data for testing
+2. Analyze temporal, amplitude, and frequency patterns
+3. Build a fungal communication vocabulary
+4. Generate analysis reports and visualizations
+5. Save results in the `language_analysis_outputs` directory
+
+## Project Structure
+
+- `enhanced_fungal_language_decoder.py`: Core analysis implementation
+- `main.py`: Main script for running analyses
+- `requirements.txt`: Project dependencies
+- `language_analysis_outputs/`: Directory for analysis outputs
+
+## Dependencies
+
+- numpy
+- matplotlib
+- scipy
+- scikit-learn
+- seaborn
+- statsmodels
+- PyYAML
+
+## Contributing
+
+Feel free to open issues or submit pull requests for improvements.
+
+## License
+
+MIT License
+>>>>>>> 2166958aec049150b4e2ec834c0932ffa60b8b22

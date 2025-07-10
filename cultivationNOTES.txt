@@ -1,0 +1,6 @@
+Notes on Cultivation for Electronic Properties
+Research suggests that applying mild electrical fields during growth may enhance the electronic properties of the resulting mycelium.
+Consider growing the mycelium as thin sheets or in molds for easier processing into electronic components.
+After harvesting, the mycelium can be dried and potentially treated with conductive coatings or dopants to further enhance properties.
+For piezoelectric applications, compression testing of dried mycelium grown on these substrates would be necessary to evaluate performance.
+This is an experimental field, so careful documentation of your methods and results would be valuable for advancing the science of fungal-based electronic materials.
