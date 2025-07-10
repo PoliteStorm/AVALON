@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-07-10T17:56:24.107193",
+  "num_replicates": 3,
+  "results": [
+    {
+      "replicate": "replicate_1",
+      "timestamp": "2025-07-10T17:55:39.104707",
+      "metrics": {
+        "electrical": {
+          "complexity": 11.294905768113509,
+          "pattern_consistency": 0.9465306458638406,
+          "characteristic_frequencies": [
+            24,
+            48
+          ]
+        },
+        "acoustic": {},
+        "spatial": {}
+      }
+    },
+    {
+      "replicate": "replicate_2",
+      "timestamp": "2025-07-10T17:55:55.511512",
+      "metrics": {
+        "electrical": {
+          "complexity": 11.242623313464247,
+          "pattern_consistency": 0.907834221633593,
+          "characteristic_frequencies": [
+            24,
+            48
+          ]
+        },
+        "acoustic": {},
+        "spatial": {}
+      }
+    },
+    {
+      "replicate": "replicate_3",
+      "timestamp": "2025-07-10T17:56:09.174895",
+      "metrics": {
+        "electrical": {
+          "complexity": 11.308835776529168,
+          "pattern_consistency": 0.8914481708102109,
+          "characteristic_frequencies": [
+            24,
+            46
+          ]
+        },
+        "acoustic": {},
+        "spatial": {}
+      }
+    }
+  ]
+}
