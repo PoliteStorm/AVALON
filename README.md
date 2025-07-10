@@ -82,8 +82,7 @@ The analysis reveals several key findings:
 Detailed results can be found in the visualizations directory.
 
 ## Contact
-- Email: knowsj2@gmail.com
-- GitHub: @politestorm
+
 
 ## License
 MIT License 
