@@ -81,8 +81,6 @@ The analysis reveals several key findings:
 
 Detailed results can be found in the visualizations directory.
 
-## Contact
-
 
 ## License
 MIT License 
@@ -123,5 +121,5 @@ Feel free to open issues or submit pull requests for improvements.
 
 ## License
 
-MIT License
->>>>>>> 2166958aec049150b4e2ec834c0932ffa60b8b22
+THIS IS A HYPOTHESIS BY JOE KNOWLES, ALOT CAN BE CONSIDERED AS SCIENTIFIC ART - THE REST YOU CAN DECIDE FOR YOURSELF AS I CONTINUE LEARNING AND EXPLORING. TELL ME WHEN TO STOP
+
