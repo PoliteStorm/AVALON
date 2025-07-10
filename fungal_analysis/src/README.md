@@ -91,6 +91,4 @@ When contributing to this framework:
 3. Update documentation as needed
 4. Ensure all tests pass before submitting changes
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
+ 
