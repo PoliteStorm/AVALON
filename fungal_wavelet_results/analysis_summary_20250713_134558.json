@@ -1,0 +1,149 @@
+{
+  "x_coordinate": {
+    "signal_name": "x_coordinate",
+    "signal_length": 162,
+    "peak_magnitude": 0.6955604741997115,
+    "mean_magnitude": 0.3113033432210252,
+    "sqrt_t_signature": NaN,
+    "tau_scaling": -0.12405584909591719,
+    "k_scaling": 0.11045344295982479,
+    "magnitude_shape": [
+      50,
+      50
+    ],
+    "tau_range": [
+      0.1,
+      10.0
+    ],
+    "k_range": [
+      0.1,
+      10.0
+    ]
+  },
+  "y_coordinate": {
+    "signal_name": "y_coordinate",
+    "signal_length": 162,
+    "peak_magnitude": 0.5871827907886599,
+    "mean_magnitude": 0.2947950804625537,
+    "sqrt_t_signature": 0.18756124374006272,
+    "tau_scaling": 0.30587761525429963,
+    "k_scaling": 0.1150107703176384,
+    "magnitude_shape": [
+      50,
+      50
+    ],
+    "tau_range": [
+      0.1,
+      10.0
+    ],
+    "k_range": [
+      0.1,
+      10.0
+    ]
+  },
+  "distance": {
+    "signal_name": "distance",
+    "signal_length": 162,
+    "peak_magnitude": 210.0996556745377,
+    "mean_magnitude": 25.997842192749857,
+    "sqrt_t_signature": 0.3823157107715303,
+    "tau_scaling": -0.5678434278808097,
+    "k_scaling": -0.2574042342063005,
+    "magnitude_shape": [
+      50,
+      50
+    ],
+    "tau_range": [
+      0.1,
+      10.0
+    ],
+    "k_range": [
+      0.1,
+      10.0
+    ]
+  },
+  "velocity": {
+    "signal_name": "velocity",
+    "signal_length": 162,
+    "peak_magnitude": 1.0778541831781872,
+    "mean_magnitude": 0.38978938437972516,
+    "sqrt_t_signature": NaN,
+    "tau_scaling": 0.940388051000656,
+    "k_scaling": -0.22352099739059503,
+    "magnitude_shape": [
+      50,
+      50
+    ],
+    "tau_range": [
+      0.1,
+      10.0
+    ],
+    "k_range": [
+      0.1,
+      10.0
+    ]
+  },
+  "acceleration": {
+    "signal_name": "acceleration",
+    "signal_length": 162,
+    "peak_magnitude": 0.9355469115196224,
+    "mean_magnitude": 0.3630807889268795,
+    "sqrt_t_signature": NaN,
+    "tau_scaling": 0.8931952857980285,
+    "k_scaling": -0.29532545783173736,
+    "magnitude_shape": [
+      50,
+      50
+    ],
+    "tau_range": [
+      0.1,
+      10.0
+    ],
+    "k_range": [
+      0.1,
+      10.0
+    ]
+  },
+  "shuffled_distance_example": {
+    "signal_name": "shuffled_distance_example",
+    "signal_length": 162,
+    "peak_magnitude": 209.57929630715586,
+    "mean_magnitude": 25.179919424723717,
+    "sqrt_t_signature": 0.3071587817934125,
+    "tau_scaling": -0.38243946447173455,
+    "k_scaling": -0.24669660429300744,
+    "magnitude_shape": [
+      50,
+      50
+    ],
+    "tau_range": [
+      0.1,
+      10.0
+    ],
+    "k_range": [
+      0.1,
+      10.0
+    ]
+  },
+  "synthetic_noise": {
+    "signal_name": "synthetic_noise",
+    "signal_length": 162,
+    "peak_magnitude": 0.1472864685799808,
+    "mean_magnitude": 0.0675978585360042,
+    "sqrt_t_signature": NaN,
+    "tau_scaling": -0.5925126710612729,
+    "k_scaling": 0.27134356685993644,
+    "magnitude_shape": [
+      50,
+      50
+    ],
+    "tau_range": [
+      0.1,
+      10.0
+    ],
+    "k_range": [
+      0.1,
+      10.0
+    ]
+  }
+}
