@@ -1,0 +1,1 @@
+W(k, τ, s) = ∑ₜ ∑ₛ V(t,s) ⋅ ψ_learned*(t, k, τ, s, type)
