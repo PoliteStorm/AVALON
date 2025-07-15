@@ -1,0 +1,99 @@
+=== Fungal Spiking Activity Analysis ===
+
+High-Quality Fungal Recordings (sorted by overall quality):
+
+File: Ch1-2_1second_sampling.csv
+- Quality Score: 18.3
+- Signal-to-Noise Ratio: 870.60
+- Spike Frequency: 1.31%
+- Samples: 187350
+- Data Column: Differential 1 - 2 Ave. (mV)
+- Dominant Frequency: 0.0000 Hz
+
+File: New_Oyster_with spray_as_mV_seconds_SigView.csv
+- Quality Score: 17.8
+- Signal-to-Noise Ratio: 375.76
+- Spike Frequency: 2.03%
+- Samples: 67471
+- Data Column: 0.25304
+- Dominant Frequency: 0.0000 Hz
+
+File: Hericium_20_4_22.csv
+- Quality Score: 9.0
+- Signal-to-Noise Ratio: 0.00
+- Spike Frequency: 0.03%
+- Samples: 1035777
+- Data Column: Unnamed: 0
+- Dominant Frequency: 0.0000 Hz
+
+File: Hericium_20_4_22_part1.csv
+- Quality Score: 8.7
+- Signal-to-Noise Ratio: 0.00
+- Spike Frequency: 0.03%
+- Samples: 500000
+- Data Column: Unnamed: 0
+- Dominant Frequency: 0.0000 Hz
+
+File: Hericium_20_4_22_part2.csv
+- Quality Score: 8.7
+- Signal-to-Noise Ratio: 0.00
+- Spike Frequency: 0.03%
+- Samples: 500000
+- Data Column: Unnamed: 0
+- Dominant Frequency: 0.0000 Hz
+
+File: Hericium_20_4_22_part1_part1.csv
+- Quality Score: 8.7
+- Signal-to-Noise Ratio: 0.00
+- Spike Frequency: 0.03%
+- Samples: 500000
+- Data Column: Unnamed: 0
+- Dominant Frequency: 0.0000 Hz
+
+File: Hericium_20_4_22_part2_part1.csv
+- Quality Score: 8.7
+- Signal-to-Noise Ratio: 0.00
+- Spike Frequency: 0.03%
+- Samples: 500000
+- Data Column: Unnamed: 0
+- Dominant Frequency: 0.0000 Hz
+
+File: Blue_oyster_31_5_22.csv
+- Quality Score: 8.0
+- Signal-to-Noise Ratio: 0.00
+- Spike Frequency: 3.94%
+- Samples: 95521
+- Data Column: Plot Title: Moisture logger
+- Dominant Frequency: 0.0000 Hz
+
+File: New_Oyster_with spray_as_mV.csv
+- Quality Score: 7.8
+- Signal-to-Noise Ratio: 0.00
+- Spike Frequency: 0.03%
+- Samples: 67472
+- Data Column: Unnamed: 0
+- Dominant Frequency: 0.0000 Hz
+
+File: New_Oyster_with spray.csv
+- Quality Score: 7.8
+- Signal-to-Noise Ratio: 0.00
+- Spike Frequency: 0.03%
+- Samples: 67472
+- Data Column: Unnamed: 0
+- Dominant Frequency: 0.0000 Hz
+
+File: Full_vs_tip_electrodes.csv
+- Quality Score: 7.6
+- Signal-to-Noise Ratio: 0.00
+- Spike Frequency: 0.03%
+- Samples: 39980
+- Data Column: Unnamed: 0
+- Dominant Frequency: 0.0000 Hz
+
+File: Hericium_20_4_22_part3.csv
+- Quality Score: 7.6
+- Signal-to-Noise Ratio: 0.00
+- Spike Frequency: 0.03%
+- Samples: 35777
+- Data Column: Unnamed: 0
+- Dominant Frequency: 0.0000 Hz
