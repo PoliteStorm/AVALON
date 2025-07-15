@@ -329,6 +329,7 @@ class RigorousFungalAnalyzer:
             tau_range = np.logspace(-1, 3, 30)  # 0.1 to 1000 seconds (broad range)
             amplitude_threshold = 0.05
             frequency_threshold = 0.01
+            sqrt_scaling_factor = 1.0  # Default √t scaling factor
         
         # Experimental condition adjustments
         if 'I+4R' in experimental_condition:
