@@ -10,7 +10,7 @@ After comprehensive review of `ultra_simple_scaling_analysis.py`, the code demon
 
 #### **1. Wave Transform Implementation**
 ```python
-# Adamatzky's formula: W(k,τ) = ∫₀^∞ V(t) · ψ(√t/τ) · e^(-ik√t) dt
+# Joe's formula: W(k,τ) = ∫₀^∞ V(t) · ψ(√t/τ) · e^(-ik√t) dt
 if scaling_method == 'square_root':
     sqrt_t = np.sqrt(t + 1e-10)  # Avoid sqrt(0) issues
     wave_function = np.sqrt(sqrt_t / np.sqrt(scale + 1e-10))
