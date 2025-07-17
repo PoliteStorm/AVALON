@@ -1,0 +1,2726 @@
+{
+  "rate_0.0001": {
+    "sampling_rate": 0.0001,
+    "signal_statistics": {
+      "original_samples": 7,
+      "original_amplitude_range": [
+        0.253751,
+        2.182242
+      ],
+      "original_mean": 0.9057435714285715,
+      "original_std": 0.6043081238871104,
+      "signal_variance": 0.3651883085959592,
+      "signal_skewness": 1.1607771513960587,
+      "signal_kurtosis": 0.11070464165926808,
+      "sampling_rate": 0.0001,
+      "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "calibration_applied": true,
+      "scale_factor": 0.9646276803487996,
+      "offset": 0.027014341483811766,
+      "data_driven_amplitude_range": [
+        0.27178958000000003,
+        2.13206538
+      ],
+      "robust_amplitude_range": [
+        0.2611720000000002,
+        1.1408379999999998
+      ],
+      "calibrated_mean": 0.900719661781792,
+      "calibrated_std": 0.5829323437611583,
+      "outlier_detection_method": "MAD_based",
+      "processed_samples": 7,
+      "processed_amplitude_range": [
+        -0.7772374859991508,
+        0.6804779187603651
+      ],
+      "final_signal_variance": 0.2541394969870229,
+      "final_signal_skewness": -0.30065075169722644,
+      "final_signal_kurtosis": -1.2513402342057127
+    },
+    "spike_detection": {
+      "spike_times": [],
+      "spike_amplitudes": [],
+      "spike_isi": [],
+      "threshold_used": 0.49377776895165737,
+      "n_spikes": 0,
+      "mean_amplitude": 0.0,
+      "mean_isi": 0.0,
+      "isi_cv": 0.0,
+      "signal_variance": 0.2541394969870229,
+      "signal_skewness": -0.30065075169722644,
+      "signal_kurtosis": -1.2513402342057127,
+      "signal_range": 1.457715404759516,
+      "signal_iqr": 0.7408484437642411,
+      "threshold_percentile": -0.6477610026879657,
+      "data_driven_analysis": true,
+      "biological_constraints_applied": true,
+      "adamatzky_compliance": "species_adaptive_spike_detection",
+      "adaptive_refractory_period_sec": 10.0,
+      "adaptive_spike_rate_range": [
+        0.1,
+        2.0
+      ],
+      "signal_complexity_factor": 0.17434095581332967
+    },
+    "complexity_measures": {
+      "shannon_entropy": 0.9852281360342515,
+      "variance": 0.2541394969870229,
+      "skewness": -0.30065075169722644,
+      "kurtosis": -1.2513402342057127,
+      "zero_crossings": 2,
+      "spectral_centroid": 0.0,
+      "spectral_bandwidth": 0.15749378578840137,
+      "adaptive_bins_used": 2
+    },
+    "wave_transform_results": {
+      "square_root": {
+        "all_features": [
+          {
+            "scale": 4.0,
+            "magnitude": 1.8151072795398142,
+            "phase": -0.655286395085456,
+            "frequency": 0.6366197723675814,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.009457991288769676,
+            "adaptive_threshold_multiplier": 0.04056122627391062,
+            "complexity_score": 2.5970425673613486,
+            "signal_entropy": 0.9852281360342515,
+            "signal_variance": 0.2541394969870229,
+            "signal_skewness": -0.30065075169722644,
+            "signal_kurtosis": -1.2513402342057127
+          }
+        ],
+        "n_features": 1,
+        "detected_scales": [
+          4.0
+        ],
+        "max_magnitude": 1.8151072795398142,
+        "avg_magnitude": 1.8151072795398142,
+        "scaling_method": "square_root",
+        "adaptive_threshold": "data_driven",
+        "threshold_multiplier": 0.04056122627391062,
+        "complexity_score": 2.5970425673613486,
+        "signal_entropy": 0.9852281360342515,
+        "signal_variance": 0.2541394969870229,
+        "signal_skewness": -0.30065075169722644,
+        "signal_kurtosis": -1.2513402342057127,
+        "data_driven_analysis": true,
+        "signal_stats": {
+          "original_samples": 7,
+          "original_amplitude_range": [
+            0.253751,
+            2.182242
+          ],
+          "original_mean": 0.9057435714285715,
+          "original_std": 0.6043081238871104,
+          "signal_variance": 0.3651883085959592,
+          "signal_skewness": 1.1607771513960587,
+          "signal_kurtosis": 0.11070464165926808,
+          "sampling_rate": 0.0001,
+          "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+          "calibration_applied": true,
+          "scale_factor": 0.9646276803487996,
+          "offset": 0.027014341483811766,
+          "data_driven_amplitude_range": [
+            0.27178958000000003,
+            2.13206538
+          ],
+          "robust_amplitude_range": [
+            0.2611720000000002,
+            1.1408379999999998
+          ],
+          "calibrated_mean": 0.900719661781792,
+          "calibrated_std": 0.5829323437611583,
+          "outlier_detection_method": "MAD_based",
+          "processed_samples": 7,
+          "processed_amplitude_range": [
+            -0.7772374859991508,
+            0.6804779187603651
+          ],
+          "final_signal_variance": 0.2541394969870229,
+          "final_signal_skewness": -0.30065075169722644,
+          "final_signal_kurtosis": -1.2513402342057127
+        }
+      },
+      "linear": {
+        "all_features": [
+          {
+            "scale": 4.0,
+            "magnitude": 0.9954270032518776,
+            "phase": -2.096641537683155,
+            "frequency": 0.6366197723675814,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.009457991288769676,
+            "adaptive_threshold_multiplier": 0.04056122627391062,
+            "complexity_score": 2.5970425673613486,
+            "signal_entropy": 0.9852281360342515,
+            "signal_variance": 0.2541394969870229,
+            "signal_skewness": -0.30065075169722644,
+            "signal_kurtosis": -1.2513402342057127
+          }
+        ],
+        "n_features": 1,
+        "detected_scales": [
+          4.0
+        ],
+        "max_magnitude": 0.9954270032518776,
+        "avg_magnitude": 0.9954270032518776,
+        "scaling_method": "linear",
+        "adaptive_threshold": "data_driven",
+        "threshold_multiplier": 0.04056122627391062,
+        "complexity_score": 2.5970425673613486,
+        "signal_entropy": 0.9852281360342515,
+        "signal_variance": 0.2541394969870229,
+        "signal_skewness": -0.30065075169722644,
+        "signal_kurtosis": -1.2513402342057127,
+        "data_driven_analysis": true
+      }
+    },
+    "validation": {
+      "valid": false,
+      "reasons": [
+        "Signal clipped at biological range boundaries - check calibration method",
+        "Signal outside Adamatzky biological range (-0.777-0.680 mV)",
+        "No spikes detected",
+        "Suspiciously uniform feature magnitudes for signal characteristics (CV=0.000, expected>0.006)"
+      ],
+      "validation_metrics": {
+        "calibration_validation": {
+          "calibration_applied": true,
+          "scale_factor": 0.9646276803487996,
+          "offset": 0.027014341483811766,
+          "adamatzky_compliance": "unknown",
+          "calibrated_amplitude_range": [
+            0,
+            0
+          ],
+          "forced_patterns_detected": false,
+          "calibration_artifacts": [
+            "clipping_at_boundaries",
+            "outside_biological_range"
+          ]
+        },
+        "complexity_validation": {
+          "shannon_entropy": 0.9852281360342515,
+          "variance": 0.2541394969870229,
+          "skewness": -0.30065075169722644,
+          "kurtosis": -1.2513402342057127,
+          "zero_crossings": 2,
+          "spectral_centroid": 0.0,
+          "spectral_bandwidth": 0.15749378578840137,
+          "complexity_score": 2.5970425673613486
+        },
+        "feature_validation": {
+          "n_features": 1,
+          "mean_magnitude": 1.8151072795398142,
+          "magnitude_cv": 0.0,
+          "adaptive_threshold_multiplier": 0.04056122627391062,
+          "complexity_score": 2.5970425673613486,
+          "signal_entropy": 0.9852281360342515,
+          "signal_variance": 0.2541394969870229
+        }
+      },
+      "calibration_artifacts": [
+        "clipping_at_boundaries",
+        "outside_biological_range"
+      ],
+      "forced_patterns_detected": false,
+      "data_driven_analysis": true,
+      "validation_score": 2.5970425673613486,
+      "adaptive_thresholds_used": {
+        "expected_isi_cv": 0.18363097532060324,
+        "expected_entropy": 0.33731933228132494,
+        "expected_magnitude_cv": 0.001,
+        "complexity_score": 2.5970425673613486,
+        "adaptive_threshold": 0.08493715131041461,
+        "adaptive_entropy_threshold": 0.16865966614066247,
+        "adaptive_magnitude_threshold": 0.0005,
+        "variance_factor": 0.17434095581332967,
+        "complexity_factor": 0.46254261385979106,
+        "threshold_factor": 0.46254261385979106,
+        "data_driven_validation": true
+      }
+    },
+    "parameter_log": {
+      "timestamp": "20250717_150659",
+      "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "signal_characteristics": {
+        "original_samples": 7,
+        "original_amplitude_range": [
+          0.253751,
+          2.182242
+        ],
+        "original_mean": 0.9057435714285715,
+        "original_std": 0.6043081238871104,
+        "signal_variance": 0.3651883085959592,
+        "signal_skewness": 1.1607771513960587,
+        "signal_kurtosis": 0.11070464165926808
+      },
+      "analysis_parameters": {
+        "sampling_rate": 0.0001,
+        "adaptive_bins_used": 2,
+        "n_scales_detected": 1,
+        "spike_threshold": 0.49377776895165737,
+        "calibration_applied": true,
+        "outlier_detection_method": "MAD_based"
+      },
+      "methodology": {
+        "data_driven_analysis": true,
+        "adaptive_parameters": true,
+        "no_forced_parameters": true,
+        "adamatzky_compliance": true,
+        "calibration_enabled": true
+      }
+    },
+    "comparison_metrics": {
+      "sqrt_features": 1,
+      "linear_features": 1,
+      "sqrt_superiority": false,
+      "feature_count_ratio": 1.0,
+      "max_magnitude_ratio": 1.0,
+      "fair_comparison": true
+    }
+  },
+  "rate_0.0005": {
+    "sampling_rate": 0.0005,
+    "signal_statistics": {
+      "original_samples": 34,
+      "original_amplitude_range": [
+        0.234006,
+        2.39913
+      ],
+      "original_mean": 0.8233907352941178,
+      "original_std": 0.5295577791698582,
+      "signal_variance": 0.2804314414793123,
+      "signal_skewness": 1.4355443226668623,
+      "signal_kurtosis": 1.4603266631461995,
+      "sampling_rate": 0.0005,
+      "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "calibration_applied": true,
+      "scale_factor": 0.9652044455206629,
+      "offset": 0.011906018521491785,
+      "data_driven_amplitude_range": [
+        0.23776965,
+        2.3275569600000003
+      ],
+      "robust_amplitude_range": [
+        0.024126000000000425,
+        1.305678
+      ],
+      "calibrated_mean": 0.8066464166279016,
+      "calibrated_std": 0.5111315226147964,
+      "outlier_detection_method": "MAD_based",
+      "processed_samples": 34,
+      "processed_amplitude_range": [
+        -0.9842520222538145,
+        1.1244630420721895
+      ],
+      "final_signal_variance": 0.1865228422934622,
+      "final_signal_skewness": 0.6161363105231048,
+      "final_signal_kurtosis": 0.3169313673500671
+    },
+    "spike_detection": {
+      "spike_times": [],
+      "spike_amplitudes": [],
+      "spike_isi": [],
+      "threshold_used": 0.6343712844561411,
+      "n_spikes": 0,
+      "mean_amplitude": 0.0,
+      "mean_isi": 0.0,
+      "isi_cv": 0.0,
+      "signal_variance": 0.1865228422934622,
+      "signal_skewness": 0.6161363105231048,
+      "signal_kurtosis": 0.3169313673500671,
+      "signal_range": 2.108715064326004,
+      "signal_iqr": 0.5112561885617722,
+      "threshold_percentile": -0.3507107236954747,
+      "data_driven_analysis": true,
+      "biological_constraints_applied": true,
+      "adamatzky_compliance": "species_adaptive_spike_detection",
+      "adaptive_refractory_period_sec": 10.0,
+      "adaptive_spike_rate_range": [
+        0.05,
+        1.0
+      ],
+      "signal_complexity_factor": 0.0884533171124445
+    },
+    "complexity_measures": {
+      "shannon_entropy": 2.097713298473774,
+      "variance": 0.1865228422934622,
+      "skewness": 0.6161363105231048,
+      "kurtosis": 0.3169313673500671,
+      "zero_crossings": 4,
+      "spectral_centroid": -5.0767760242796325e-05,
+      "spectral_bandwidth": 0.12453453426349588,
+      "adaptive_bins_used": 6
+    },
+    "wave_transform_results": {
+      "square_root": {
+        "all_features": [
+          {
+            "scale": 3.0,
+            "magnitude": 13.58697428511871,
+            "phase": 0.1710292930938916,
+            "frequency": 0.477464829275686,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 4.0,
+            "magnitude": 2.642352523060083,
+            "phase": 2.158449339735774,
+            "frequency": 0.6366197723675814,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 5.0,
+            "magnitude": 3.5813377826294324,
+            "phase": -1.5531440490236712,
+            "frequency": 0.7957747154594768,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 6.0,
+            "magnitude": 4.592286973128882,
+            "phase": 0.9008399271029535,
+            "frequency": 0.954929658551372,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 7.0,
+            "magnitude": 0.7356793152745628,
+            "phase": 2.9584928695599393,
+            "frequency": 1.1140846016432675,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 8.0,
+            "magnitude": 1.4704150646748353,
+            "phase": 0.8951888530396449,
+            "frequency": 1.2732395447351628,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 9.0,
+            "magnitude": 3.052087295060456,
+            "phase": 2.0875351704962313,
+            "frequency": 1.432394487827058,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 10.0,
+            "magnitude": 2.2018766292064846,
+            "phase": -2.5796180844224064,
+            "frequency": 1.5915494309189535,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 11.0,
+            "magnitude": 0.7874011667667692,
+            "phase": -1.6112662023086586,
+            "frequency": 1.7507043740108488,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 13.0,
+            "magnitude": 1.2434463481142741,
+            "phase": -1.479254480377192,
+            "frequency": 2.0690142601946393,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 15.0,
+            "magnitude": 0.9323842845211955,
+            "phase": 0.22745496007540456,
+            "frequency": 2.3873241463784303,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 17.0,
+            "magnitude": 0.21840951035849412,
+            "phase": 2.3096042381569766,
+            "frequency": 2.705634032562221,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          }
+        ],
+        "n_features": 12,
+        "detected_scales": [
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0,
+          8.0,
+          9.0,
+          10.0,
+          11.0,
+          13.0,
+          15.0,
+          17.0
+        ],
+        "max_magnitude": 13.58697428511871,
+        "avg_magnitude": 2.920387598159515,
+        "scaling_method": "square_root",
+        "adaptive_threshold": "data_driven",
+        "threshold_multiplier": 0.013845331711244451,
+        "complexity_score": 0.9070782941860446,
+        "signal_entropy": 2.097713298473774,
+        "signal_variance": 0.1865228422934622,
+        "signal_skewness": 0.6161363105231048,
+        "signal_kurtosis": 0.3169313673500671,
+        "data_driven_analysis": true,
+        "signal_stats": {
+          "original_samples": 34,
+          "original_amplitude_range": [
+            0.234006,
+            2.39913
+          ],
+          "original_mean": 0.8233907352941178,
+          "original_std": 0.5295577791698582,
+          "signal_variance": 0.2804314414793123,
+          "signal_skewness": 1.4355443226668623,
+          "signal_kurtosis": 1.4603266631461995,
+          "sampling_rate": 0.0005,
+          "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+          "calibration_applied": true,
+          "scale_factor": 0.9652044455206629,
+          "offset": 0.011906018521491785,
+          "data_driven_amplitude_range": [
+            0.23776965,
+            2.3275569600000003
+          ],
+          "robust_amplitude_range": [
+            0.024126000000000425,
+            1.305678
+          ],
+          "calibrated_mean": 0.8066464166279016,
+          "calibrated_std": 0.5111315226147964,
+          "outlier_detection_method": "MAD_based",
+          "processed_samples": 34,
+          "processed_amplitude_range": [
+            -0.9842520222538145,
+            1.1244630420721895
+          ],
+          "final_signal_variance": 0.1865228422934622,
+          "final_signal_skewness": 0.6161363105231048,
+          "final_signal_kurtosis": 0.3169313673500671
+        }
+      },
+      "linear": {
+        "all_features": [
+          {
+            "scale": 3.0,
+            "magnitude": 0.760871647468052,
+            "phase": 0.5631686002779451,
+            "frequency": 0.477464829275686,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 4.0,
+            "magnitude": 2.032553940339603,
+            "phase": 2.737919596270573,
+            "frequency": 0.6366197723675814,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 5.0,
+            "magnitude": 3.408643395217647,
+            "phase": 0.6628242610311433,
+            "frequency": 0.7957747154594768,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 6.0,
+            "magnitude": 18.62140800204658,
+            "phase": -1.2121299551186315,
+            "frequency": 0.954929658551372,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 7.0,
+            "magnitude": 3.2315597141459405,
+            "phase": -0.3980359316230311,
+            "frequency": 1.1140846016432675,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 8.0,
+            "magnitude": 0.8168929122580838,
+            "phase": -1.7614639738853692,
+            "frequency": 1.2732395447351628,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 9.0,
+            "magnitude": 0.8911396405295962,
+            "phase": 0.7582306834910865,
+            "frequency": 1.432394487827058,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 10.0,
+            "magnitude": 0.752938107548103,
+            "phase": -1.2941985351038479,
+            "frequency": 1.5915494309189535,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 11.0,
+            "magnitude": 0.4066146505209362,
+            "phase": -0.4611541851990659,
+            "frequency": 1.7507043740108488,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 13.0,
+            "magnitude": 3.439358366216563,
+            "phase": -1.1366946593661724,
+            "frequency": 2.0690142601946393,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 15.0,
+            "magnitude": 0.6374419600705236,
+            "phase": -1.6558263828436552,
+            "frequency": 2.3873241463784303,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          },
+          {
+            "scale": 17.0,
+            "magnitude": 0.34470991259016476,
+            "phase": 0.7199228986135825,
+            "frequency": 2.705634032562221,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0005979562058697604,
+            "adaptive_threshold_multiplier": 0.013845331711244451,
+            "complexity_score": 0.9070782941860446,
+            "signal_entropy": 2.097713298473774,
+            "signal_variance": 0.1865228422934622,
+            "signal_skewness": 0.6161363105231048,
+            "signal_kurtosis": 0.3169313673500671
+          }
+        ],
+        "n_features": 12,
+        "detected_scales": [
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0,
+          8.0,
+          9.0,
+          10.0,
+          11.0,
+          13.0,
+          15.0,
+          17.0
+        ],
+        "max_magnitude": 18.62140800204658,
+        "avg_magnitude": 2.9453443540793156,
+        "scaling_method": "linear",
+        "adaptive_threshold": "data_driven",
+        "threshold_multiplier": 0.013845331711244451,
+        "complexity_score": 0.9070782941860446,
+        "signal_entropy": 2.097713298473774,
+        "signal_variance": 0.1865228422934622,
+        "signal_skewness": 0.6161363105231048,
+        "signal_kurtosis": 0.3169313673500671,
+        "data_driven_analysis": true
+      }
+    },
+    "validation": {
+      "valid": true,
+      "reasons": [
+        "Signal clipped at biological range boundaries - check calibration method",
+        "Signal outside Adamatzky biological range (-0.984-1.124 mV)",
+        "No spikes detected"
+      ],
+      "validation_metrics": {
+        "calibration_validation": {
+          "calibration_applied": true,
+          "scale_factor": 0.9652044455206629,
+          "offset": 0.011906018521491785,
+          "adamatzky_compliance": "unknown",
+          "calibrated_amplitude_range": [
+            0,
+            0
+          ],
+          "forced_patterns_detected": false,
+          "calibration_artifacts": [
+            "clipping_at_boundaries",
+            "outside_biological_range"
+          ]
+        },
+        "complexity_validation": {
+          "shannon_entropy": 2.097713298473774,
+          "variance": 0.1865228422934622,
+          "skewness": 0.6161363105231048,
+          "kurtosis": 0.3169313673500671,
+          "zero_crossings": 4,
+          "spectral_centroid": -5.0767760242796325e-05,
+          "spectral_bandwidth": 0.12453453426349588,
+          "complexity_score": 0.9070782941860446
+        },
+        "feature_validation": {
+          "n_features": 12,
+          "mean_magnitude": 2.920387598159515,
+          "magnitude_cv": 1.1825035181307457,
+          "adaptive_threshold_multiplier": 0.013845331711244451,
+          "complexity_score": 0.9070782941860446,
+          "signal_entropy": 2.097713298473774,
+          "signal_variance": 0.1865228422934622
+        }
+      },
+      "calibration_artifacts": [
+        "clipping_at_boundaries",
+        "outside_biological_range"
+      ],
+      "forced_patterns_detected": false,
+      "data_driven_analysis": true,
+      "validation_score": 0.9070782941860446,
+      "adaptive_thresholds_used": {
+        "expected_isi_cv": 0.060000000000000005,
+        "expected_entropy": 0.1621953531466671,
+        "expected_magnitude_cv": 0.001,
+        "complexity_score": 0.9070782941860446,
+        "adaptive_threshold": 0.006000000000000001,
+        "adaptive_entropy_threshold": 0.028918910830024548,
+        "adaptive_magnitude_threshold": 0.0005,
+        "variance_factor": 0.1,
+        "complexity_factor": 0.1,
+        "threshold_factor": 0.08914839503408668,
+        "data_driven_validation": true
+      }
+    },
+    "parameter_log": {
+      "timestamp": "20250717_150659",
+      "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "signal_characteristics": {
+        "original_samples": 34,
+        "original_amplitude_range": [
+          0.234006,
+          2.39913
+        ],
+        "original_mean": 0.8233907352941178,
+        "original_std": 0.5295577791698582,
+        "signal_variance": 0.2804314414793123,
+        "signal_skewness": 1.4355443226668623,
+        "signal_kurtosis": 1.4603266631461995
+      },
+      "analysis_parameters": {
+        "sampling_rate": 0.0005,
+        "adaptive_bins_used": 6,
+        "n_scales_detected": 12,
+        "spike_threshold": 0.6343712844561411,
+        "calibration_applied": true,
+        "outlier_detection_method": "MAD_based"
+      },
+      "methodology": {
+        "data_driven_analysis": true,
+        "adaptive_parameters": true,
+        "no_forced_parameters": true,
+        "adamatzky_compliance": true,
+        "calibration_enabled": true
+      }
+    },
+    "comparison_metrics": {
+      "sqrt_features": 12,
+      "linear_features": 12,
+      "sqrt_superiority": false,
+      "feature_count_ratio": 1.0,
+      "max_magnitude_ratio": 1.0,
+      "fair_comparison": true
+    }
+  },
+  "rate_0.001": {
+    "sampling_rate": 0.001,
+    "signal_statistics": {
+      "original_samples": 68,
+      "original_amplitude_range": [
+        0.123965,
+        2.39913
+      ],
+      "original_mean": 0.8055026911764706,
+      "original_std": 0.49238865028218654,
+      "signal_variance": 0.2424465829267134,
+      "signal_skewness": 1.3952800282759483,
+      "signal_kurtosis": 1.8495078578107593,
+      "sampling_rate": 0.001,
+      "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "calibration_applied": true,
+      "scale_factor": 0.9381536195863529,
+      "offset": 0.08139425654797777,
+      "data_driven_amplitude_range": [
+        0.19769247,
+        2.3321467499999997
+      ],
+      "robust_amplitude_range": [
+        -0.11076799999999987,
+        1.518004
+      ],
+      "calibrated_mean": 0.8370795218617317,
+      "calibrated_std": 0.4619361945054723,
+      "outlier_detection_method": "MAD_based",
+      "processed_samples": 68,
+      "processed_amplitude_range": [
+        -0.7213819784947184,
+        1.3363262919771273
+      ],
+      "final_signal_variance": 0.17555187231676306,
+      "final_signal_skewness": 1.0289522976017547,
+      "final_signal_kurtosis": 1.0430092356043996
+    },
+    "spike_detection": {
+      "spike_times": [],
+      "spike_amplitudes": [],
+      "spike_isi": [],
+      "threshold_used": 0.652247599214087,
+      "n_spikes": 0,
+      "mean_amplitude": 0.0,
+      "mean_isi": 0.0,
+      "isi_cv": 0.0,
+      "signal_variance": 0.17555187231676306,
+      "signal_skewness": 1.0289522976017547,
+      "signal_kurtosis": 1.0430092356043996,
+      "signal_range": 2.0577082704718457,
+      "signal_iqr": 0.4252441677455166,
+      "threshold_percentile": -0.42414840809716386,
+      "data_driven_analysis": true,
+      "biological_constraints_applied": true,
+      "adamatzky_compliance": "species_adaptive_spike_detection",
+      "adaptive_refractory_period_sec": 10.0,
+      "adaptive_spike_rate_range": [
+        0.05,
+        1.0
+      ],
+      "signal_complexity_factor": 0.08531426676337188
+    },
+    "complexity_measures": {
+      "shannon_entropy": 2.712539441883575,
+      "variance": 0.17555187231676306,
+      "skewness": 1.0289522976017547,
+      "kurtosis": 1.0430092356043996,
+      "zero_crossings": 10,
+      "spectral_centroid": -0.00019944276227131015,
+      "spectral_bandwidth": 0.09374388602167542,
+      "adaptive_bins_used": 9
+    },
+    "wave_transform_results": {
+      "square_root": {
+        "all_features": [
+          {
+            "scale": 2.0,
+            "magnitude": 45.06468959251923,
+            "phase": 0.6845982534416187,
+            "frequency": 0.3183098861837907,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 3.0,
+            "magnitude": 1.7684639726664857,
+            "phase": -1.2222898227715746,
+            "frequency": 0.477464829275686,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 3.6,
+            "magnitude": 14.18695703246955,
+            "phase": -1.426909602053741,
+            "frequency": 0.5729577951308232,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 4.0,
+            "magnitude": 20.484913292043206,
+            "phase": 2.5686487181734474,
+            "frequency": 0.6366197723675814,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 4.857142857142858,
+            "magnitude": 5.698160844593618,
+            "phase": -2.8309885831702006,
+            "frequency": 0.7730382950177774,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 6.0,
+            "magnitude": 6.370256210896364,
+            "phase": -1.667085008052299,
+            "frequency": 0.954929658551372,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 6.800000000000001,
+            "magnitude": 7.7520180926314906,
+            "phase": -0.68569122348199,
+            "frequency": 1.0822536130248885,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 8.0,
+            "magnitude": 5.242763537756801,
+            "phase": -0.7160100417046332,
+            "frequency": 1.2732395447351628,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 9.0,
+            "magnitude": 4.3129765441576495,
+            "phase": -0.4467041547313896,
+            "frequency": 1.432394487827058,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 10.0,
+            "magnitude": 0.7979339381752095,
+            "phase": -1.1575579539589926,
+            "frequency": 1.5915494309189535,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 11.0,
+            "magnitude": 2.9130522413839515,
+            "phase": 1.911096519530434,
+            "frequency": 1.7507043740108488,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 13.75,
+            "magnitude": 2.235623800359147,
+            "phase": -0.8934735562493552,
+            "frequency": 2.1883804675135607,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 18.0,
+            "magnitude": 0.6951763136357078,
+            "phase": 0.4075632990488102,
+            "frequency": 2.864788975654116,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 20.0,
+            "magnitude": 0.9475368563568082,
+            "phase": 2.9829297214770185,
+            "frequency": 3.183098861837907,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 23.0,
+            "magnitude": 1.0664894250943004,
+            "phase": -1.3845378176341239,
+            "frequency": 3.660563691113593,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 34.0,
+            "magnitude": 1.058787055887149,
+            "phase": -0.8935473246283121,
+            "frequency": 5.411268065124442,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          }
+        ],
+        "n_features": 16,
+        "detected_scales": [
+          2.0,
+          3.0,
+          3.6,
+          4.0,
+          4.857142857142858,
+          6.0,
+          6.800000000000001,
+          8.0,
+          9.0,
+          10.0,
+          11.0,
+          13.75,
+          18.0,
+          20.0,
+          23.0,
+          34.0
+        ],
+        "max_magnitude": 45.06468959251923,
+        "avg_magnitude": 7.537237421914166,
+        "scaling_method": "square_root",
+        "adaptive_threshold": "data_driven",
+        "threshold_multiplier": 0.018750975597325217,
+        "complexity_score": 2.488444972454624,
+        "signal_entropy": 2.712539441883575,
+        "signal_variance": 0.17555187231676306,
+        "signal_skewness": 1.0289522976017547,
+        "signal_kurtosis": 1.0430092356043996,
+        "data_driven_analysis": true,
+        "signal_stats": {
+          "original_samples": 68,
+          "original_amplitude_range": [
+            0.123965,
+            2.39913
+          ],
+          "original_mean": 0.8055026911764706,
+          "original_std": 0.49238865028218654,
+          "signal_variance": 0.2424465829267134,
+          "signal_skewness": 1.3952800282759483,
+          "signal_kurtosis": 1.8495078578107593,
+          "sampling_rate": 0.001,
+          "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+          "calibration_applied": true,
+          "scale_factor": 0.9381536195863529,
+          "offset": 0.08139425654797777,
+          "data_driven_amplitude_range": [
+            0.19769247,
+            2.3321467499999997
+          ],
+          "robust_amplitude_range": [
+            -0.11076799999999987,
+            1.518004
+          ],
+          "calibrated_mean": 0.8370795218617317,
+          "calibrated_std": 0.4619361945054723,
+          "outlier_detection_method": "MAD_based",
+          "processed_samples": 68,
+          "processed_amplitude_range": [
+            -0.7213819784947184,
+            1.3363262919771273
+          ],
+          "final_signal_variance": 0.17555187231676306,
+          "final_signal_skewness": 1.0289522976017547,
+          "final_signal_kurtosis": 1.0430092356043996
+        }
+      },
+      "linear": {
+        "all_features": [
+          {
+            "scale": 2.0,
+            "magnitude": 18.23284884065965,
+            "phase": 1.6064296043283843,
+            "frequency": 0.3183098861837907,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 3.0,
+            "magnitude": 8.862486329782394,
+            "phase": 1.3065741831750328,
+            "frequency": 0.477464829275686,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 3.6,
+            "magnitude": 6.781606549780609,
+            "phase": 0.9203310013458452,
+            "frequency": 0.5729577951308232,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 4.0,
+            "magnitude": 3.8013674890575078,
+            "phase": -1.4704862156004426,
+            "frequency": 0.6366197723675814,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 4.857142857142858,
+            "magnitude": 4.970150236835681,
+            "phase": -0.9879941497875632,
+            "frequency": 0.7730382950177774,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 6.0,
+            "magnitude": 38.09319830743905,
+            "phase": 2.5291464189237685,
+            "frequency": 0.954929658551372,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 6.800000000000001,
+            "magnitude": 17.605090361628374,
+            "phase": 2.445607040244162,
+            "frequency": 1.0822536130248885,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 8.0,
+            "magnitude": 1.4444981655987172,
+            "phase": -1.953379601708106,
+            "frequency": 1.2732395447351628,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 9.0,
+            "magnitude": 2.7990056528087655,
+            "phase": -3.1368556777294376,
+            "frequency": 1.432394487827058,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 10.0,
+            "magnitude": 0.9775762707449538,
+            "phase": -0.4298099022117802,
+            "frequency": 1.5915494309189535,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 11.0,
+            "magnitude": 1.3197226396076738,
+            "phase": -0.8477807330673214,
+            "frequency": 1.7507043740108488,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 13.75,
+            "magnitude": 2.0307884024453475,
+            "phase": 1.231188439740514,
+            "frequency": 2.1883804675135607,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 18.0,
+            "magnitude": 2.968483187124089,
+            "phase": 1.6672440817103582,
+            "frequency": 2.864788975654116,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 20.0,
+            "magnitude": 1.688470767102392,
+            "phase": 2.40664165754807,
+            "frequency": 3.183098861837907,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 23.0,
+            "magnitude": 0.551583584910654,
+            "phase": 1.4200096748181337,
+            "frequency": 3.660563691113593,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          },
+          {
+            "scale": 34.0,
+            "magnitude": 0.3441570183235674,
+            "phase": -0.8757860122815141,
+            "frequency": 5.411268065124442,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0016057884288579473,
+            "adaptive_threshold_multiplier": 0.018750975597325217,
+            "complexity_score": 2.488444972454624,
+            "signal_entropy": 2.712539441883575,
+            "signal_variance": 0.17555187231676306,
+            "signal_skewness": 1.0289522976017547,
+            "signal_kurtosis": 1.0430092356043996
+          }
+        ],
+        "n_features": 16,
+        "detected_scales": [
+          2.0,
+          3.0,
+          3.6,
+          4.0,
+          4.857142857142858,
+          6.0,
+          6.800000000000001,
+          8.0,
+          9.0,
+          10.0,
+          11.0,
+          13.75,
+          18.0,
+          20.0,
+          23.0,
+          34.0
+        ],
+        "max_magnitude": 38.09319830743905,
+        "avg_magnitude": 7.029439612740589,
+        "scaling_method": "linear",
+        "adaptive_threshold": "data_driven",
+        "threshold_multiplier": 0.018750975597325217,
+        "complexity_score": 2.488444972454624,
+        "signal_entropy": 2.712539441883575,
+        "signal_variance": 0.17555187231676306,
+        "signal_skewness": 1.0289522976017547,
+        "signal_kurtosis": 1.0430092356043996,
+        "data_driven_analysis": true
+      }
+    },
+    "validation": {
+      "valid": true,
+      "reasons": [
+        "Signal clipped at biological range boundaries - check calibration method",
+        "Signal outside Adamatzky biological range (-0.721-1.336 mV)",
+        "No spikes detected"
+      ],
+      "validation_metrics": {
+        "calibration_validation": {
+          "calibration_applied": true,
+          "scale_factor": 0.9381536195863529,
+          "offset": 0.08139425654797777,
+          "adamatzky_compliance": "unknown",
+          "calibrated_amplitude_range": [
+            0,
+            0
+          ],
+          "forced_patterns_detected": false,
+          "calibration_artifacts": [
+            "clipping_at_boundaries",
+            "outside_biological_range"
+          ]
+        },
+        "complexity_validation": {
+          "shannon_entropy": 2.712539441883575,
+          "variance": 0.17555187231676306,
+          "skewness": 1.0289522976017547,
+          "kurtosis": 1.0430092356043996,
+          "zero_crossings": 10,
+          "spectral_centroid": -0.00019944276227131015,
+          "spectral_bandwidth": 0.09374388602167542,
+          "complexity_score": 2.488444972454624
+        },
+        "feature_validation": {
+          "n_features": 16,
+          "mean_magnitude": 7.537237421914166,
+          "magnitude_cv": 1.4620143288106924,
+          "adaptive_threshold_multiplier": 0.018750975597325217,
+          "complexity_score": 2.488444972454624,
+          "signal_entropy": 2.712539441883575,
+          "signal_variance": 0.17555187231676306
+        }
+      },
+      "calibration_artifacts": [
+        "clipping_at_boundaries",
+        "outside_biological_range"
+      ],
+      "forced_patterns_detected": false,
+      "data_driven_analysis": true,
+      "validation_score": 2.488444972454624,
+      "adaptive_thresholds_used": {
+        "expected_isi_cv": 0.09131729352643181,
+        "expected_entropy": 0.2073506713962443,
+        "expected_magnitude_cv": 0.001,
+        "complexity_score": 2.488444972454624,
+        "adaptive_threshold": 0.01866443097066517,
+        "adaptive_entropy_threshold": 0.08476121320604146,
+        "adaptive_magnitude_threshold": 0.0005,
+        "variance_factor": 0.1,
+        "complexity_factor": 0.20439097842143936,
+        "threshold_factor": 0.20439097842143936,
+        "data_driven_validation": true
+      }
+    },
+    "parameter_log": {
+      "timestamp": "20250717_150659",
+      "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "signal_characteristics": {
+        "original_samples": 68,
+        "original_amplitude_range": [
+          0.123965,
+          2.39913
+        ],
+        "original_mean": 0.8055026911764706,
+        "original_std": 0.49238865028218654,
+        "signal_variance": 0.2424465829267134,
+        "signal_skewness": 1.3952800282759483,
+        "signal_kurtosis": 1.8495078578107593
+      },
+      "analysis_parameters": {
+        "sampling_rate": 0.001,
+        "adaptive_bins_used": 9,
+        "n_scales_detected": 16,
+        "spike_threshold": 0.652247599214087,
+        "calibration_applied": true,
+        "outlier_detection_method": "MAD_based"
+      },
+      "methodology": {
+        "data_driven_analysis": true,
+        "adaptive_parameters": true,
+        "no_forced_parameters": true,
+        "adamatzky_compliance": true,
+        "calibration_enabled": true
+      }
+    },
+    "comparison_metrics": {
+      "sqrt_features": 16,
+      "linear_features": 16,
+      "sqrt_superiority": false,
+      "feature_count_ratio": 1.0,
+      "max_magnitude_ratio": 1.0,
+      "fair_comparison": true
+    }
+  },
+  "rate_0.002": {
+    "sampling_rate": 0.002,
+    "signal_statistics": {
+      "original_samples": 135,
+      "original_amplitude_range": [
+        0.123965,
+        2.659409
+      ],
+      "original_mean": 0.8155243333333333,
+      "original_std": 0.4957868269268184,
+      "signal_variance": 0.24580457775416298,
+      "signal_skewness": 1.592543307972324,
+      "signal_kurtosis": 2.8863119276091096,
+      "sampling_rate": 0.002,
+      "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "calibration_applied": true,
+      "scale_factor": 0.9315990177289812,
+      "offset": 0.08834252776722686,
+      "data_driven_amplitude_range": [
+        0.20382820000000001,
+        2.565845339999999
+      ],
+      "robust_amplitude_range": [
+        -0.06914599999999993,
+        1.471156
+      ],
+      "calibrated_mean": 0.8480841956346424,
+      "calibrated_std": 0.4618745209679924,
+      "outlier_detection_method": "MAD_based",
+      "processed_samples": 135,
+      "processed_amplitude_range": [
+        -0.7309832710570164,
+        1.5041922131578762
+      ],
+      "final_signal_variance": 0.1753552746771593,
+      "final_signal_skewness": 1.311538438304139,
+      "final_signal_kurtosis": 2.2131339464043247
+    },
+    "spike_detection": {
+      "spike_times": [
+        "11",
+        "60"
+      ],
+      "spike_amplitudes": [
+        1.4397103144239234,
+        1.5041922131578762
+      ],
+      "spike_isi": [
+        49
+      ],
+      "threshold_used": 0.733712400988043,
+      "n_spikes": 2,
+      "mean_amplitude": 1.4719512637908998,
+      "mean_isi": 49.0,
+      "isi_cv": 0.0,
+      "signal_variance": 0.1753552746771593,
+      "signal_skewness": 1.311538438304139,
+      "signal_kurtosis": 2.2131339464043247,
+      "signal_range": 2.2351754842148925,
+      "signal_iqr": 0.43381664857702806,
+      "threshold_percentile": -0.4953300812957253,
+      "data_driven_analysis": true,
+      "biological_constraints_applied": true,
+      "adamatzky_compliance": "species_adaptive_spike_detection",
+      "adaptive_refractory_period_sec": 10.0,
+      "adaptive_spike_rate_range": [
+        0.05,
+        1.0
+      ],
+      "signal_complexity_factor": 0.07845257605395925
+    },
+    "complexity_measures": {
+      "shannon_entropy": 3.01327055279247,
+      "variance": 0.1753552746771593,
+      "skewness": 1.311538438304139,
+      "kurtosis": 2.2131339464043247,
+      "zero_crossings": 10,
+      "spectral_centroid": -4.44665902479573e-18,
+      "spectral_bandwidth": 0.07983658833075938,
+      "adaptive_bins_used": 13
+    },
+    "wave_transform_results": {
+      "square_root": {
+        "all_features": [
+          {
+            "scale": 2.5833333333333335,
+            "magnitude": 43.73731915640463,
+            "phase": -1.6096237750266231,
+            "frequency": 0.411150269654063,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 3.0,
+            "magnitude": 54.300738308870585,
+            "phase": 1.2450732404206273,
+            "frequency": 0.477464829275686,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 3.75,
+            "magnitude": 6.28624805548273,
+            "phase": -0.29534628268800445,
+            "frequency": 0.5968310365946076,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 4.916666666666667,
+            "magnitude": 16.57241256906186,
+            "phase": -1.3499331551296285,
+            "frequency": 0.7825118035351522,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 6.0,
+            "magnitude": 20.96811921048778,
+            "phase": -2.822201278628448,
+            "frequency": 0.954929658551372,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 7.0,
+            "magnitude": 3.540713517429493,
+            "phase": 1.0786835578392144,
+            "frequency": 1.1140846016432675,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 8.0,
+            "magnitude": 13.897687916359095,
+            "phase": 0.22944990429908382,
+            "frequency": 1.2732395447351628,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 9.0,
+            "magnitude": 6.146814531909369,
+            "phase": -0.7020128324625794,
+            "frequency": 1.432394487827058,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 11.0,
+            "magnitude": 11.598480562520262,
+            "phase": 2.487360487029826,
+            "frequency": 1.7507043740108488,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 13.0,
+            "magnitude": 3.947711706417271,
+            "phase": -0.2624886007847037,
+            "frequency": 2.0690142601946393,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 15.0,
+            "magnitude": 2.2956252157435575,
+            "phase": -3.0860987617046627,
+            "frequency": 2.3873241463784303,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 18.0,
+            "magnitude": 2.811764997357784,
+            "phase": -2.735033627240178,
+            "frequency": 2.864788975654116,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 21.0,
+            "magnitude": 3.0707583108314056,
+            "phase": 0.2758783360822304,
+            "frequency": 3.3422538049298023,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 25.75,
+            "magnitude": 3.7865570123232315,
+            "phase": 1.2875419576788794,
+            "frequency": 4.098239784616305,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 29.0,
+            "magnitude": 3.2108715151277165,
+            "phase": 3.0723202413748947,
+            "frequency": 4.615493349664965,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 35.0,
+            "magnitude": 2.1987563561053145,
+            "phase": -1.4449925380886697,
+            "frequency": 5.570423008216337,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 41.0,
+            "magnitude": 1.0658331914212842,
+            "phase": 2.5312378290211144,
+            "frequency": 6.525352666767709,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 48.0,
+            "magnitude": 1.5805356182022479,
+            "phase": 3.139520111552678,
+            "frequency": 7.639437268410976,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 57.0,
+            "magnitude": 0.47030117201193133,
+            "phase": -0.07852130164969845,
+            "frequency": 9.071831756238035,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 67.0,
+            "magnitude": 2.6941645852916136,
+            "phase": 1.270886839112618,
+            "frequency": 10.663381187156988,
+            "temporal_scale": "data_driven",
+            "scaling_method": "square_root",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          }
+        ],
+        "n_features": 20,
+        "detected_scales": [
+          2.5833333333333335,
+          3.0,
+          3.75,
+          4.916666666666667,
+          6.0,
+          7.0,
+          8.0,
+          9.0,
+          11.0,
+          13.0,
+          15.0,
+          18.0,
+          21.0,
+          25.75,
+          29.0,
+          35.0,
+          41.0,
+          48.0,
+          57.0,
+          67.0
+        ],
+        "max_magnitude": 54.300738308870585,
+        "avg_magnitude": 10.20907067546796,
+        "scaling_method": "square_root",
+        "adaptive_threshold": "data_driven",
+        "threshold_multiplier": 0.028231027041702873,
+        "complexity_score": 5.770653244230337,
+        "signal_entropy": 3.01327055279247,
+        "signal_variance": 0.1753552746771593,
+        "signal_skewness": 1.311538438304139,
+        "signal_kurtosis": 2.2131339464043247,
+        "data_driven_analysis": true,
+        "signal_stats": {
+          "original_samples": 135,
+          "original_amplitude_range": [
+            0.123965,
+            2.659409
+          ],
+          "original_mean": 0.8155243333333333,
+          "original_std": 0.4957868269268184,
+          "signal_variance": 0.24580457775416298,
+          "signal_skewness": 1.592543307972324,
+          "signal_kurtosis": 2.8863119276091096,
+          "sampling_rate": 0.002,
+          "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+          "calibration_applied": true,
+          "scale_factor": 0.9315990177289812,
+          "offset": 0.08834252776722686,
+          "data_driven_amplitude_range": [
+            0.20382820000000001,
+            2.565845339999999
+          ],
+          "robust_amplitude_range": [
+            -0.06914599999999993,
+            1.471156
+          ],
+          "calibrated_mean": 0.8480841956346424,
+          "calibrated_std": 0.4618745209679924,
+          "outlier_detection_method": "MAD_based",
+          "processed_samples": 135,
+          "processed_amplitude_range": [
+            -0.7309832710570164,
+            1.5041922131578762
+          ],
+          "final_signal_variance": 0.1753552746771593,
+          "final_signal_skewness": 1.311538438304139,
+          "final_signal_kurtosis": 2.2131339464043247
+        }
+      },
+      "linear": {
+        "all_features": [
+          {
+            "scale": 2.5833333333333335,
+            "magnitude": 9.996286484162374,
+            "phase": -3.078324443956514,
+            "frequency": 0.411150269654063,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 3.0,
+            "magnitude": 2.055224770471317,
+            "phase": -1.505531544413733,
+            "frequency": 0.477464829275686,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 3.75,
+            "magnitude": 11.165340236433453,
+            "phase": 3.013211252972625,
+            "frequency": 0.5968310365946076,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 4.916666666666667,
+            "magnitude": 2.5509159790596403,
+            "phase": -1.6537994355419698,
+            "frequency": 0.7825118035351522,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 6.0,
+            "magnitude": 49.11233326247354,
+            "phase": -2.1112622761844184,
+            "frequency": 0.954929658551372,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 7.0,
+            "magnitude": 12.562438605154929,
+            "phase": 1.0513984671391585,
+            "frequency": 1.1140846016432675,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 8.0,
+            "magnitude": 20.080752087558544,
+            "phase": 0.8079886746527041,
+            "frequency": 1.2732395447351628,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 9.0,
+            "magnitude": 3.077628987711065,
+            "phase": -1.3989297823867075,
+            "frequency": 1.432394487827058,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 11.0,
+            "magnitude": 9.958722767253619,
+            "phase": 0.8362689567572104,
+            "frequency": 1.7507043740108488,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 13.0,
+            "magnitude": 11.300217461216073,
+            "phase": -1.4773075085368368,
+            "frequency": 2.0690142601946393,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 15.0,
+            "magnitude": 2.3472624840293843,
+            "phase": -2.158075419437636,
+            "frequency": 2.3873241463784303,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 18.0,
+            "magnitude": 10.857538172007956,
+            "phase": 1.4418895432719046,
+            "frequency": 2.864788975654116,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 21.0,
+            "magnitude": 2.9165782610213524,
+            "phase": -1.454139916259361,
+            "frequency": 3.3422538049298023,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 25.75,
+            "magnitude": 8.989833042818901,
+            "phase": 0.671720675629651,
+            "frequency": 4.098239784616305,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 29.0,
+            "magnitude": 0.9563975202451317,
+            "phase": -0.25039859429256167,
+            "frequency": 4.615493349664965,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 35.0,
+            "magnitude": 1.287007238912102,
+            "phase": -0.3951928716437746,
+            "frequency": 5.570423008216337,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 41.0,
+            "magnitude": 0.5977028302678409,
+            "phase": -0.34322564305228187,
+            "frequency": 6.525352666767709,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 48.0,
+            "magnitude": 0.790746265189057,
+            "phase": -1.8817551044044967,
+            "frequency": 7.639437268410976,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 57.0,
+            "magnitude": 2.3353718517967743,
+            "phase": -1.7674043107342463,
+            "frequency": 9.071831756238035,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          },
+          {
+            "scale": 67.0,
+            "magnitude": 0.40669029314421706,
+            "phase": -2.123852728382995,
+            "frequency": 10.663381187156988,
+            "temporal_scale": "data_driven",
+            "scaling_method": "linear",
+            "threshold_used": 0.0048199573870547135,
+            "adaptive_threshold_multiplier": 0.028231027041702873,
+            "complexity_score": 5.770653244230337,
+            "signal_entropy": 3.01327055279247,
+            "signal_variance": 0.1753552746771593,
+            "signal_skewness": 1.311538438304139,
+            "signal_kurtosis": 2.2131339464043247
+          }
+        ],
+        "n_features": 20,
+        "detected_scales": [
+          2.5833333333333335,
+          3.0,
+          3.75,
+          4.916666666666667,
+          6.0,
+          7.0,
+          8.0,
+          9.0,
+          11.0,
+          13.0,
+          15.0,
+          18.0,
+          21.0,
+          25.75,
+          29.0,
+          35.0,
+          41.0,
+          48.0,
+          57.0,
+          67.0
+        ],
+        "max_magnitude": 49.11233326247354,
+        "avg_magnitude": 8.167249430046363,
+        "scaling_method": "linear",
+        "adaptive_threshold": "data_driven",
+        "threshold_multiplier": 0.028231027041702873,
+        "complexity_score": 5.770653244230337,
+        "signal_entropy": 3.01327055279247,
+        "signal_variance": 0.1753552746771593,
+        "signal_skewness": 1.311538438304139,
+        "signal_kurtosis": 2.2131339464043247,
+        "data_driven_analysis": true
+      }
+    },
+    "validation": {
+      "valid": false,
+      "reasons": [
+        "Signal clipped at biological range boundaries - check calibration method",
+        "Signal outside Adamatzky biological range (-0.731-1.504 mV)",
+        "Suspiciously regular spike intervals (CV=0.000, expected>0.152)"
+      ],
+      "validation_metrics": {
+        "calibration_validation": {
+          "calibration_applied": true,
+          "scale_factor": 0.9315990177289812,
+          "offset": 0.08834252776722686,
+          "adamatzky_compliance": "unknown",
+          "calibrated_amplitude_range": [
+            0,
+            0
+          ],
+          "forced_patterns_detected": false,
+          "calibration_artifacts": [
+            "clipping_at_boundaries",
+            "outside_biological_range"
+          ]
+        },
+        "spike_validation": {
+          "n_spikes": 2,
+          "mean_amplitude": 1.4719512637908998,
+          "mean_isi": 49.0,
+          "isi_cv": 0.0,
+          "threshold_used": 0.733712400988043,
+          "signal_variance": 0.1753552746771593,
+          "signal_skewness": 1.311538438304139,
+          "signal_kurtosis": 2.2131339464043247,
+          "threshold_percentile": -0.4953300812957253
+        },
+        "complexity_validation": {
+          "shannon_entropy": 3.01327055279247,
+          "variance": 0.1753552746771593,
+          "skewness": 1.311538438304139,
+          "kurtosis": 2.2131339464043247,
+          "zero_crossings": 10,
+          "spectral_centroid": -4.44665902479573e-18,
+          "spectral_bandwidth": 0.07983658833075938,
+          "complexity_score": 5.770653244230337
+        },
+        "feature_validation": {
+          "n_features": 20,
+          "mean_magnitude": 10.20907067546796,
+          "magnitude_cv": 1.383106837291868,
+          "adaptive_threshold_multiplier": 0.028231027041702873,
+          "complexity_score": 5.770653244230337,
+          "signal_entropy": 3.01327055279247,
+          "signal_variance": 0.1753552746771593
+        }
+      },
+      "calibration_artifacts": [
+        "clipping_at_boundaries",
+        "outside_biological_range"
+      ],
+      "forced_patterns_detected": false,
+      "data_driven_analysis": true,
+      "validation_score": 5.770653244230337,
+      "adaptive_thresholds_used": {
+        "expected_isi_cv": 0.15231461661870588,
+        "expected_entropy": 0.2866219283054911,
+        "expected_magnitude_cv": 0.001,
+        "complexity_score": 5.770653244230337,
+        "adaptive_threshold": 0.06210101312380725,
+        "adaptive_entropy_threshold": 0.14331096415274555,
+        "adaptive_magnitude_threshold": 0.0005,
+        "variance_factor": 0.1,
+        "complexity_factor": 0.4077153887290196,
+        "threshold_factor": 0.4077153887290196,
+        "data_driven_validation": true
+      }
+    },
+    "parameter_log": {
+      "timestamp": "20250717_150659",
+      "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "signal_characteristics": {
+        "original_samples": 135,
+        "original_amplitude_range": [
+          0.123965,
+          2.659409
+        ],
+        "original_mean": 0.8155243333333333,
+        "original_std": 0.4957868269268184,
+        "signal_variance": 0.24580457775416298,
+        "signal_skewness": 1.592543307972324,
+        "signal_kurtosis": 2.8863119276091096
+      },
+      "analysis_parameters": {
+        "sampling_rate": 0.002,
+        "adaptive_bins_used": 13,
+        "n_scales_detected": 20,
+        "spike_threshold": 0.733712400988043,
+        "calibration_applied": true,
+        "outlier_detection_method": "MAD_based"
+      },
+      "methodology": {
+        "data_driven_analysis": true,
+        "adaptive_parameters": true,
+        "no_forced_parameters": true,
+        "adamatzky_compliance": true,
+        "calibration_enabled": true
+      }
+    },
+    "comparison_metrics": {
+      "sqrt_features": 20,
+      "linear_features": 20,
+      "sqrt_superiority": false,
+      "feature_count_ratio": 1.0,
+      "max_magnitude_ratio": 1.0,
+      "fair_comparison": true
+    }
+  },
+  "parameter_log": [
+    {
+      "timestamp": "20250717_150659",
+      "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "signal_characteristics": {
+        "original_samples": 7,
+        "original_amplitude_range": [
+          0.253751,
+          2.182242
+        ],
+        "original_mean": 0.9057435714285715,
+        "original_std": 0.6043081238871104,
+        "signal_variance": 0.3651883085959592,
+        "signal_skewness": 1.1607771513960587,
+        "signal_kurtosis": 0.11070464165926808
+      },
+      "analysis_parameters": {
+        "sampling_rate": 0.0001,
+        "adaptive_bins_used": 2,
+        "n_scales_detected": 1,
+        "spike_threshold": 0.49377776895165737,
+        "calibration_applied": true,
+        "outlier_detection_method": "MAD_based"
+      },
+      "methodology": {
+        "data_driven_analysis": true,
+        "adaptive_parameters": true,
+        "no_forced_parameters": true,
+        "adamatzky_compliance": true,
+        "calibration_enabled": true
+      }
+    },
+    {
+      "timestamp": "20250717_150659",
+      "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "signal_characteristics": {
+        "original_samples": 34,
+        "original_amplitude_range": [
+          0.234006,
+          2.39913
+        ],
+        "original_mean": 0.8233907352941178,
+        "original_std": 0.5295577791698582,
+        "signal_variance": 0.2804314414793123,
+        "signal_skewness": 1.4355443226668623,
+        "signal_kurtosis": 1.4603266631461995
+      },
+      "analysis_parameters": {
+        "sampling_rate": 0.0005,
+        "adaptive_bins_used": 6,
+        "n_scales_detected": 12,
+        "spike_threshold": 0.6343712844561411,
+        "calibration_applied": true,
+        "outlier_detection_method": "MAD_based"
+      },
+      "methodology": {
+        "data_driven_analysis": true,
+        "adaptive_parameters": true,
+        "no_forced_parameters": true,
+        "adamatzky_compliance": true,
+        "calibration_enabled": true
+      }
+    },
+    {
+      "timestamp": "20250717_150659",
+      "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "signal_characteristics": {
+        "original_samples": 68,
+        "original_amplitude_range": [
+          0.123965,
+          2.39913
+        ],
+        "original_mean": 0.8055026911764706,
+        "original_std": 0.49238865028218654,
+        "signal_variance": 0.2424465829267134,
+        "signal_skewness": 1.3952800282759483,
+        "signal_kurtosis": 1.8495078578107593
+      },
+      "analysis_parameters": {
+        "sampling_rate": 0.001,
+        "adaptive_bins_used": 9,
+        "n_scales_detected": 16,
+        "spike_threshold": 0.652247599214087,
+        "calibration_applied": true,
+        "outlier_detection_method": "MAD_based"
+      },
+      "methodology": {
+        "data_driven_analysis": true,
+        "adaptive_parameters": true,
+        "no_forced_parameters": true,
+        "adamatzky_compliance": true,
+        "calibration_enabled": true
+      }
+    },
+    {
+      "timestamp": "20250717_150659",
+      "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "signal_characteristics": {
+        "original_samples": 135,
+        "original_amplitude_range": [
+          0.123965,
+          2.659409
+        ],
+        "original_mean": 0.8155243333333333,
+        "original_std": 0.4957868269268184,
+        "signal_variance": 0.24580457775416298,
+        "signal_skewness": 1.592543307972324,
+        "signal_kurtosis": 2.8863119276091096
+      },
+      "analysis_parameters": {
+        "sampling_rate": 0.002,
+        "adaptive_bins_used": 13,
+        "n_scales_detected": 20,
+        "spike_threshold": 0.733712400988043,
+        "calibration_applied": true,
+        "outlier_detection_method": "MAD_based"
+      },
+      "methodology": {
+        "data_driven_analysis": true,
+        "adaptive_parameters": true,
+        "no_forced_parameters": true,
+        "adamatzky_compliance": true,
+        "calibration_enabled": true
+      }
+    }
+  ],
+  "adaptive_rates_used": [
+    0.0001,
+    0.0005,
+    0.001,
+    0.002
+  ]
+}
