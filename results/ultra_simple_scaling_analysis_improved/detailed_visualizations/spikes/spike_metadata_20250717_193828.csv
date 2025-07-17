@@ -1,0 +1,4 @@
+spike_number,timestamp,spike_index,time_seconds,amplitude_mv,threshold_mv,detection_method,plot_path
+1,20250717_193828,34,34.0,0.07638815151834151,0.018738631621256815,prominence_based,results/ultra_simple_scaling_analysis_improved/detailed_visualizations/spikes/spike_0001_20250717_193828.png
+2,20250717_193828,57,57.0,0.08641492510796618,0.018738631621256815,prominence_based,results/ultra_simple_scaling_analysis_improved/detailed_visualizations/spikes/spike_0002_20250717_193828.png
+3,20250717_193828,70,70.0,0.11253995555176895,0.018738631621256815,prominence_based,results/ultra_simple_scaling_analysis_improved/detailed_visualizations/spikes/spike_0003_20250717_193828.png
