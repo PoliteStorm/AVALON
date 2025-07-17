@@ -1,0 +1,52 @@
+file,rate_key,sampling_rate,entropy,isi_cv,magnitude_cv,variance,skewness,kurtosis,n_spikes,n_features,entropy_norm,isi_cv_norm,magnitude_cv_norm,variance_norm,skewness_norm,kurtosis_norm,n_spikes_norm,n_features_norm
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_221749.json,rate_1.0,1.0,,10.8286873364735,,,,,428,,0,0.9799642175943731,0,0,0,0,0.18069634200088144,0
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_231750.json,rate_0.5,0.5,,10.508263109330798,,,,,495,,0,0.9500399350819424,0,0,0,0,0.21022476862053768,0
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_231750.json,rate_1.0,1.0,,9.105469946280564,,,,,1808,,0,0.8190336772469925,0,0,0,0,0.7888937858087263,0
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_231750.json,rate_2.0,2.0,,9.105469946280564,,,,,1808,,0,0.8190336772469925,0,0,0,0,0.7888937858087263,0
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_231750.json,rate_5.0,5.0,,9.105469946280564,,,,,1808,,0,0.8190336772469925,0,0,0,0,0.7888937858087263,0
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_232314.json,rate_0.5,0.5,,10.508263109330798,,,,,495,,0,0.9500399350819424,0,0,0,0,0.21022476862053768,0
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_232314.json,rate_1.0,1.0,,9.105469946280564,,,,,1808,,0,0.8190336772469925,0,0,0,0,0.7888937858087263,0
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_232314.json,rate_2.0,2.0,,9.105469946280564,,,,,1808,,0,0.8190336772469925,0,0,0,0,0.7888937858087263,0
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_232314.json,rate_5.0,5.0,,9.105469946280564,,,,,1808,,0,0.8190336772469925,0,0,0,0,0.7888937858087263,0
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_233301.json,rate_0.5,0.5,,7.222869398883374,,,,,1665,,0,0.6432184115265234,0,0,0,0,0.7258704275011018,0
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_233301.json,rate_1.0,1.0,,8.474085374395345,,,,,2287,,0,0.7600689401808749,0,0,0,0,1.0,0
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_233301.json,rate_2.0,2.0,,8.474085374395345,,,,,2287,,0,0.7600689401808749,0,0,0,0,1.0,0
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_233301.json,rate_5.0,5.0,,8.474085374395345,,,,,2287,,0,0.7600689401808749,0,0,0,0,1.0,0
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_234356.json,rate_0.5,0.5,,7.222869398883374,,,,,1665,,0,0.6432184115265234,0,0,0,0,0.7258704275011018,0
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_234356.json,rate_1.0,1.0,,8.474085374395345,,,,,2287,,0,0.7600689401808749,0,0,0,0,1.0,0
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_234356.json,rate_2.0,2.0,,8.474085374395345,,,,,2287,,0,0.7600689401808749,0,0,0,0,1.0,0
+ultra_simple_analysis_Ch1-2_1second_sampling_20250716_234356.json,rate_5.0,5.0,,8.474085374395345,,,,,2287,,0,0.7600689401808749,0,0,0,0,1.0,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_221749.json,rate_1.0,1.0,,10.660470496375478,,,,,195,,0,0.9642545183268462,0,0,0,0,0.07800793301013663,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_231750.json,rate_0.5,0.5,,8.910703541235094,,,,,238,,0,0.8008445253826564,0,0,0,0,0.09695901278096078,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_231750.json,rate_1.0,1.0,,11.043227153421675,,,,,554,,0,1.0,0,0,0,0,0.2362274129572499,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_231750.json,rate_2.0,2.0,,11.043227153421675,,,,,554,,0,1.0,0,0,0,0,0.2362274129572499,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_231750.json,rate_5.0,5.0,,11.043227153421675,,,,,554,,0,1.0,0,0,0,0,0.2362274129572499,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_232314.json,rate_0.5,0.5,,8.910703541235094,,,,,238,,0,0.8008445253826564,0,0,0,0,0.09695901278096078,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_232314.json,rate_1.0,1.0,,11.043227153421675,,,,,554,,0,1.0,0,0,0,0,0.2362274129572499,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_232314.json,rate_2.0,2.0,,11.043227153421675,,,,,554,,0,1.0,0,0,0,0,0.2362274129572499,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_232314.json,rate_5.0,5.0,,11.043227153421675,,,,,554,,0,1.0,0,0,0,0,0.2362274129572499,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_233301.json,rate_0.5,0.5,,7.860289157980225,,,,,570,,0,0.7027467721636385,0,0,0,0,0.24327897752313796,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_233301.json,rate_1.0,1.0,,9.246153002686,,,,,787,,0,0.8321720081470265,0,0,0,0,0.3389158219479947,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_233301.json,rate_2.0,2.0,,9.246153002686,,,,,787,,0,0.8321720081470265,0,0,0,0,0.3389158219479947,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_233301.json,rate_5.0,5.0,,9.246153002686,,,,,787,,0,0.8321720081470265,0,0,0,0,0.3389158219479947,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_234356.json,rate_0.5,0.5,,7.860289157980225,,,,,570,,0,0.7027467721636385,0,0,0,0,0.24327897752313796,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_234356.json,rate_1.0,1.0,,9.246153002686,,,,,787,,0,0.8321720081470265,0,0,0,0,0.3389158219479947,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_234356.json,rate_2.0,2.0,,9.246153002686,,,,,787,,0,0.8321720081470265,0,0,0,0,0.3389158219479947,0
+ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_234356.json,rate_5.0,5.0,,9.246153002686,,,,,787,,0,0.8321720081470265,0,0,0,0,0.3389158219479947,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_221749.json,rate_1.0,1.0,,0.4677347714409604,,,,,18,,0,0.012359257074806987,0,0,0,0,0.0,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_231750.json,rate_0.5,0.5,,0.335393907642207,,,,,20,,0,0.0,0,0,0,0,0.0008814455707360071,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_231750.json,rate_1.0,1.0,,1.0449577019610856,,,,,37,,0,0.06626586145227427,0,0,0,0,0.008373732921992068,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_231750.json,rate_2.0,2.0,,1.0449577019610856,,,,,37,,0,0.06626586145227427,0,0,0,0,0.008373732921992068,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_231750.json,rate_5.0,5.0,,1.0449577019610856,,,,,37,,0,0.06626586145227427,0,0,0,0,0.008373732921992068,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_232314.json,rate_0.5,0.5,,0.335393907642207,,,,,20,,0,0.0,0,0,0,0,0.0008814455707360071,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_232314.json,rate_1.0,1.0,,1.0449577019610856,,,,,37,,0,0.06626586145227427,0,0,0,0,0.008373732921992068,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_232314.json,rate_2.0,2.0,,1.0449577019610856,,,,,37,,0,0.06626586145227427,0,0,0,0,0.008373732921992068,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_232314.json,rate_5.0,5.0,,1.0449577019610856,,,,,37,,0,0.06626586145227427,0,0,0,0,0.008373732921992068,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_233301.json,rate_0.5,0.5,,6.430136015205993,,,,,1521,,0,0.5691853774400204,0,0,0,0,0.6624063464081092,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_233301.json,rate_1.0,1.0,,7.833237830042199,,,,,2255,,0,0.7002204601342008,0,0,0,0,0.9858968708682239,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_233301.json,rate_2.0,2.0,,7.833237830042199,,,,,2255,,0,0.7002204601342008,0,0,0,0,0.9858968708682239,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_233301.json,rate_5.0,5.0,,7.833237830042199,,,,,2255,,0,0.7002204601342008,0,0,0,0,0.9858968708682239,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_234356.json,rate_0.5,0.5,,6.430136015205993,,,,,1521,,0,0.5691853774400204,0,0,0,0,0.6624063464081092,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_234356.json,rate_1.0,1.0,,7.833237830042199,,,,,2255,,0,0.7002204601342008,0,0,0,0,0.9858968708682239,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_234356.json,rate_2.0,2.0,,7.833237830042199,,,,,2255,,0,0.7002204601342008,0,0,0,0,0.9858968708682239,0
+ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_234356.json,rate_5.0,5.0,,7.833237830042199,,,,,2255,,0,0.7002204601342008,0,0,0,0,0.9858968708682239,0

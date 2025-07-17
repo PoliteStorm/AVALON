@@ -1,0 +1,67 @@
+{
+  "timestamp": "20250716_220252",
+  "total_files": 3,
+  "total_analyses": 3,
+  "valid_analyses": 3,
+  "sampling_rates_tested": [
+    1.0
+  ],
+  "adamatzky_settings": {
+    "amplitude_range": [
+      0.05,
+      5.0
+    ],
+    "sampling_rates": [
+      1.0
+    ],
+    "voltage_range": 78,
+    "electrode_type": "Iridium-coated stainless steel sub-dermal needle electrodes",
+    "temporal_scales": {
+      "very_fast": [
+        30,
+        300
+      ],
+      "slow": [
+        600,
+        3600
+      ],
+      "very_slow": [
+        3600,
+        86400
+      ]
+    }
+  },
+  "overall_statistics": {
+    "analyses_with_sqrt_superiority": 0,
+    "analyses_with_linear_superiority": 3,
+    "sqrt_superiority_percentage": 0.0,
+    "avg_feature_count_ratio": 1.0,
+    "avg_magnitude_ratio": 1.1660145629552663,
+    "feature_count_ci_95": [
+      NaN,
+      NaN
+    ],
+    "magnitude_ratio_ci_95": [
+      -0.589767539730736,
+      2.921796665641269
+    ],
+    "total_spikes_detected": 489,
+    "avg_spikes_per_analysis": 163.0
+  },
+  "complexity_statistics": {
+    "avg_shannon_entropy": 2.5088456719051866,
+    "avg_variance": 0.34744699061550444,
+    "avg_skewness": 2.854612754457856,
+    "avg_kurtosis": 13.438599764272448
+  },
+  "methodology_validation": {
+    "no_forced_parameters": true,
+    "ultra_simple_implementation": true,
+    "no_array_comparison_issues": true,
+    "adaptive_thresholds_used": true,
+    "spike_detection_integrated": true,
+    "complexity_analysis_performed": true,
+    "multiple_sampling_rates_tested": true,
+    "adamatzky_compliance": true
+  }
+}

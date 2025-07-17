@@ -1,0 +1,77 @@
+{
+  "timestamp": "20250716_211024",
+  "total_files": 3,
+  "valid_files": 3,
+  "biologically_valid_files": 0,
+  "statistically_valid_files": 0,
+  "adamatzky_settings": {
+    "amplitude_range": [
+      0.05,
+      5.0
+    ],
+    "sampling_rate": 1,
+    "voltage_range": 78,
+    "electrode_type": "Iridium-coated stainless steel sub-dermal needle electrodes",
+    "temporal_scales": {
+      "very_fast": [
+        30,
+        300
+      ],
+      "slow": [
+        600,
+        3600
+      ],
+      "very_slow": [
+        3600,
+        86400
+      ]
+    }
+  },
+  "overall_statistics": {
+    "files_with_sqrt_superiority": 0,
+    "files_with_linear_superiority": 3,
+    "sqrt_superiority_percentage": 0.0,
+    "avg_feature_count_ratio": 1.0,
+    "avg_magnitude_ratio": 0.46992784603944654,
+    "feature_count_ci_95": [
+      NaN,
+      NaN
+    ],
+    "magnitude_ratio_ci_95": [
+      -0.2042362477473782,
+      1.1440919398262712
+    ],
+    "total_sqrt_features": 30,
+    "total_linear_features": 30
+  },
+  "methodology_validation": {
+    "no_forced_parameters": true,
+    "adaptive_thresholds_used": true,
+    "biological_validation_performed": true,
+    "statistical_validation_performed": true,
+    "adamatzky_compliance": true
+  },
+  "file_results": {
+    "Ch1-2_1second_sampling.csv": {
+      "feature_count_ratio": 1.0,
+      "max_magnitude_ratio": 0.631313067094152,
+      "sqrt_superiority": false,
+      "biological_validation": false,
+      "statistical_validation": false
+    },
+    "New_Oyster_with spray_as_mV_seconds_SigView.csv": {
+      "feature_count_ratio": 1.0,
+      "max_magnitude_ratio": 0.6218665322868618,
+      "sqrt_superiority": false,
+      "biological_validation": false,
+      "statistical_validation": false
+    },
+    "Norm_vs_deep_tip_crop.csv": {
+      "feature_count_ratio": 1.0,
+      "max_magnitude_ratio": 0.1566039387373256,
+      "sqrt_superiority": false,
+      "biological_validation": false,
+      "statistical_validation": false
+    }
+  }
+}

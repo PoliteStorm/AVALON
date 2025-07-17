@@ -1,0 +1,114 @@
+{
+  "timestamp": "20250716_221815",
+  "improvements_implemented": [
+    "Removed forced amplitude ranges",
+    "Implemented adaptive thresholds",
+    "Eliminated artificial noise",
+    "Data-driven scale detection"
+  ],
+  "spike_detection_comparison": {
+    "original_spikes": {
+      "ultra_simple_analysis_Ch1-2_1second_sampling_20250716_220252": {
+        "n_spikes": 337,
+        "mean_amplitude": 2.2033206397783007,
+        "mean_isi": 191.20833333333334,
+        "isi_cv": 11.848389127669481,
+        "threshold_used": 1.4282916329564177
+      },
+      "ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_220252": {
+        "n_spikes": 133,
+        "mean_amplitude": 3.273207447127253,
+        "mean_isi": 209.78787878787878,
+        "isi_cv": 9.621148817243707,
+        "threshold_used": 2.452173743288476
+      },
+      "ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_220252": {
+        "n_spikes": 19,
+        "mean_amplitude": 3.472080401766346,
+        "mean_isi": 1721.7222222222222,
+        "isi_cv": 0.5458809804566281,
+        "threshold_used": 2.498029820030045
+      }
+    },
+    "improved_spikes": {
+      "ultra_simple_analysis_Ch1-2_1second_sampling_20250716_221749": {
+        "n_spikes": 428,
+        "mean_amplitude": 1.936499617798413,
+        "mean_isi": 156.73067915690868,
+        "isi_cv": 10.8286873364735,
+        "threshold_used": 1.1406453077577812
+      },
+      "ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_221749": {
+        "n_spikes": 195,
+        "mean_amplitude": 1.4832217920086463,
+        "mean_isi": 150.2680412371134,
+        "isi_cv": 10.660470496375478,
+        "threshold_used": 0.9765649444731722
+      },
+      "ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_221749": {
+        "n_spikes": 18,
+        "mean_amplitude": 0.4014159785531727,
+        "mean_isi": 1572.1176470588234,
+        "isi_cv": 0.4677347714409604,
+        "threshold_used": 0.3115829611602885
+      }
+    },
+    "differences": {}
+  },
+  "feature_detection_comparison": {
+    "original_features": {
+      "ultra_simple_analysis_Ch1-2_1second_sampling_20250716_220252": {
+        "sqrt_features": 6,
+        "linear_features": 6,
+        "sqrt_max_magnitude": 3592.771708256528,
+        "linear_max_magnitude": 7896.172926857698,
+        "sqrt_avg_magnitude": 2220.948587709416,
+        "linear_avg_magnitude": 3369.5745003939514
+      },
+      "ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_220252": {
+        "sqrt_features": 6,
+        "linear_features": 6,
+        "sqrt_max_magnitude": 2998.58324627381,
+        "linear_max_magnitude": 2553.0235135015946,
+        "sqrt_avg_magnitude": 1873.636427319927,
+        "linear_avg_magnitude": 1707.6171897916847
+      },
+      "ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_220252": {
+        "sqrt_features": 6,
+        "linear_features": 6,
+        "sqrt_max_magnitude": 8658.09111860328,
+        "linear_max_magnitude": 4633.663372796833,
+        "sqrt_avg_magnitude": 4735.114431541791,
+        "linear_avg_magnitude": 2513.3186136834497
+      }
+    },
+    "improved_features": {
+      "ultra_simple_analysis_Ch1-2_1second_sampling_20250716_221749": {
+        "sqrt_features": 10,
+        "linear_features": 10,
+        "sqrt_max_magnitude": 876.3041022056749,
+        "linear_max_magnitude": 35.96905057493616,
+        "sqrt_avg_magnitude": 377.11321961153817,
+        "linear_avg_magnitude": 7.712599131297263
+      },
+      "ultra_simple_analysis_New_Oyster_with spray_as_mV_seconds_SigView_20250716_221749": {
+        "sqrt_features": 10,
+        "linear_features": 10,
+        "sqrt_max_magnitude": 397.55632526249644,
+        "linear_max_magnitude": 101.60118493546041,
+        "sqrt_avg_magnitude": 156.8095669521353,
+        "linear_avg_magnitude": 20.05559603432139
+      },
+      "ultra_simple_analysis_Norm_vs_deep_tip_crop_20250716_221749": {
+        "sqrt_features": 10,
+        "linear_features": 10,
+        "sqrt_max_magnitude": 247.68377335248016,
+        "linear_max_magnitude": 5.709387158218545,
+        "sqrt_avg_magnitude": 95.7621186611265,
+        "linear_avg_magnitude": 2.6240864580093355
+      }
+    },
+    "differences": {}
+  },
+  "summary_statistics": {}
+}

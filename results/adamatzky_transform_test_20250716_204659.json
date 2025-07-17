@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-07-16T20:46:59.596400",
+  "test_file": "data/raw/simulated_adamatzky_test.csv",
+  "simulated_data_stats": {
+    "duration_seconds": 21600,
+    "duration_hours": 6.0,
+    "amplitude_range": [
+      -0.1577242325161194,
+      0.7573739498793115
+    ],
+    "mean_amplitude": 0.15910256902986197,
+    "std_amplitude": 0.1463276852592066,
+    "peak_count": 2333,
+    "peak_density": 0.10800925925925926,
+    "dominant_period": 459.5744680851064,
+    "temporal_match": "slow"
+  },
+  "adamatzky_compliance": {
+    "within_range": 

@@ -1,0 +1,273 @@
+{
+  "rate_1.0": {
+    "sampling_rate": 1.0,
+    "signal_statistics": {
+      "original_samples": 61646,
+      "processed_samples": 61646,
+      "original_amplitude_range": [
+        -0.059677,
+        0.862857
+      ],
+      "processed_amplitude_range": [
+        0.05,
+        5.0
+      ],
+      "signal_variance": 0.3907775640377678,
+      "signal_skewness": 0.9776788608157438,
+      "signal_kurtosis": 1.5418696624336068,
+      "sampling_rate": 1.0,
+      "filename": "Norm_vs_deep_tip_crop.csv"
+    },
+    "spike_detection": {
+      "spike_times": [
+        6103,
+        6121,
+        7890,
+        9611,
+        11429,
+        13323,
+        15112,
+        17027,
+        18834,
+        18851,
+        20754,
+        22647,
+        22666,
+        24907,
+        26757,
+        28816,
+        30821,
+        32827,
+        37094
+      ],
+      "spike_amplitudes": [
+        2.881945727374127,
+        2.5638797196838183,
+        4.703092027192535,
+        3.045140924356059,
+        3.90975914324341,
+        3.8108271460421363,
+        3.6319104899671326,
+        4.133901902290372,
+        4.047948512780078,
+        2.7509267474686108,
+        3.1837971108752146,
+        3.2179510029906244,
+        2.7097794581257584,
+        3.360600542465584,
+        5.0,
+        3.690648534131057,
+        3.946669972194452,
+        2.880731827857342,
+        2.5000168445222672
+      ],
+      "spike_isi": [
+        18,
+        1769,
+        1721,
+        1818,
+        1894,
+        1789,
+        1915,
+        1807,
+        17,
+        1903,
+        1893,
+        19,
+        2241,
+        1850,
+        2059,
+        2005,
+        2006,
+        4267
+      ],
+      "threshold_used": 2.498029820030045,
+      "n_spikes": 19,
+      "mean_amplitude": 3.472080401766346,
+      "mean_isi": 1721.7222222222222,
+      "isi_cv": 0.5458809804566281
+    },
+    "complexity_analysis": {
+      "shannon_entropy": 3.329766579338298,
+      "variance": 0.3907775640377678,
+      "skewness": 0.9776788608157436,
+      "kurtosis": 1.541869662433606,
+      "zero_crossings": 324,
+      "signal_length": 61646
+    },
+    "square_root_results": {
+      "all_features": [
+        {
+          "scale": 30.233447768513976,
+          "magnitude": 2738.4400837623,
+          "phase": 1.5350683250673722,
+          "frequency": 4.811802659069632,
+          "temporal_scale": "very_fast",
+          "scaling_method": "square_root",
+          "threshold_used": 0.03125610196576693
+        },
+        {
+          "scale": 30.337598425196852,
+          "magnitude": 8658.09111860328,
+          "phase": 1.2299034459269549,
+          "frequency": 4.828378750906979,
+          "temporal_scale": "very_fast",
+          "scaling_method": "square_root",
+          "threshold_used": 0.03125610196576693
+        },
+        {
+          "scale": 30.3974358974359,
+          "magnitude": 3168.441028867716,
+          "phase": 3.10549863956158,
+          "frequency": 4.837902180395948,
+          "temporal_scale": "very_fast",
+          "scaling_method": "square_root",
+          "threshold_used": 0.03125610196576693
+        },
+        {
+          "scale": 30.563212692117006,
+          "magnitude": 6667.9803924309335,
+          "phase": 0.5679093846896466,
+          "frequency": 4.864286376719376,
+          "temporal_scale": "very_fast",
+          "scaling_method": "square_root",
+          "threshold_used": 0.03125610196576693
+        },
+        {
+          "scale": 30.593548387096774,
+          "magnitude": 2620.373578703783,
+          "phase": 2.0606149322431113,
+          "frequency": 4.869114452527533,
+          "temporal_scale": "very_fast",
+          "scaling_method": "square_root",
+          "threshold_used": 0.03125610196576693
+        },
+        {
+          "scale": 30.730807577268195,
+          "magnitude": 4557.360386882733,
+          "phase": -1.3533406553534242,
+          "frequency": 4.890959931128106,
+          "temporal_scale": "very_fast",
+          "scaling_method": "square_root",
+          "threshold_used": 0.03125610196576693
+        }
+      ],
+      "n_features": 6,
+      "detected_scales": [
+        30.233447768513976,
+        30.337598425196852,
+        30.3974358974359,
+        30.563212692117006,
+        30.593548387096774,
+        30.730807577268195
+      ],
+      "max_magnitude": 8658.09111860328,
+      "avg_magnitude": 4735.114431541791,
+      "scaling_method": "square_root",
+      "adaptive_threshold": 0.03125610196576693
+    },
+    "linear_results": {
+      "all_features": [
+        {
+          "scale": 30.233447768513976,
+          "magnitude": 2400.6743351944524,
+          "phase": 1.2572514615551402,
+          "frequency": 4.811802659069632,
+          "temporal_scale": "very_fast",
+          "scaling_method": "linear",
+          "threshold_used": 0.03125610196576693
+        },
+        {
+          "scale": 30.337598425196852,
+          "magnitude": 1215.4827508395872,
+          "phase": 2.05828186116047,
+          "frequency": 4.828378750906979,
+          "temporal_scale": "very_fast",
+          "scaling_method": "linear",
+          "threshold_used": 0.03125610196576693
+        },
+        {
+          "scale": 30.3974358974359,
+          "magnitude": 2488.7280500470497,
+          "phase": 2.7409498932871057,
+          "frequency": 4.837902180395948,
+          "temporal_scale": "very_fast",
+          "scaling_method": "linear",
+          "threshold_used": 0.03125610196576693
+        },
+        {
+          "scale": 30.563212692117006,
+          "magnitude": 2024.8517308745174,
+          "phase": -2.850406341609391,
+          "frequency": 4.864286376719376,
+          "temporal_scale": "very_fast",
+          "scaling_method": "linear",
+          "threshold_used": 0.03125610196576693
+        },
+        {
+          "scale": 30.593548387096774,
+          "magnitude": 2316.5114423482596,
+          "phase": -2.1289810897853325,
+          "frequency": 4.869114452527533,
+          "temporal_scale": "very_fast",
+          "scaling_method": "linear",
+          "threshold_used": 0.03125610196576693
+        },
+        {
+          "scale": 30.730807577268195,
+          "magnitude": 4633.663372796833,
+          "phase": 2.8173531312865725,
+          "frequency": 4.890959931128106,
+          "temporal_scale": "very_fast",
+          "scaling_method": "linear",
+          "threshold_used": 0.03125610196576693
+        }
+      ],
+      "n_features": 6,
+      "detected_scales": [
+        30.233447768513976,
+        30.337598425196852,
+        30.3974358974359,
+        30.563212692117006,
+        30.593548387096774,
+        30.730807577268195
+      ],
+      "max_magnitude": 4633.663372796833,
+      "avg_magnitude": 2513.3186136834497,
+      "scaling_method": "linear",
+      "adaptive_threshold": 0.03125610196576693
+    },
+    "validation": {
+      "valid": true,
+      "reasons": [],
+      "validation_metrics": {
+        "spike_validation": {
+          "n_spikes": 19,
+          "mean_amplitude": 3.472080401766346,
+          "mean_isi": 1721.7222222222222,
+          "isi_cv": 0.5458809804566281,
+          "threshold_used": 2.498029820030045
+        },
+        "complexity_validation": {
+          "shannon_entropy": 3.329766579338298,
+          "variance": 0.3907775640377678,
+          "skewness": 0.9776788608157436,
+          "kurtosis": 1.541869662433606,
+          "zero_crossings": 324
+        },
+        "feature_validation": {
+          "n_features": 6,
+          "mean_magnitude": 4735.114431541791,
+          "magnitude_cv": 0.4727864926243358
+        }
+      }
+    },
+    "plot_path": "fast_mode_no_plot",
+    "comparison_metrics": {
+      "feature_count_ratio": 1.0,
+      "max_magnitude_ratio": 1.8685196618798279,
+      "sqrt_superiority": false,
+      "magnitude_superiority": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-07-16T20:39:47.969322",
+  "validation_tests": {},
+  "amplitude_analysis": {},
+  "quality_metrics": {},
+  "adamatzky_compliance": {},
+  "validation_summary": {
+    "total_files": 273,
+    "average_compliance_score": 0.61246163003663,
+    "average_quality_score": 0.7417934290721692,
+    "files_within_biological_range": 0,
+    "best_compliance_file": 

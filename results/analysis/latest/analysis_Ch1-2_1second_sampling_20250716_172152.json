@@ -1,0 +1,23 @@
+{
+  "filename": "Ch1-2_1second_sampling.csv",
+  "timestamp": "20250716_172152",
+  "metadata": {
+    "original_samples": 187351,
+    "compressed_samples": 101,
+    "compression_factor": 86400,
+    "best_column": 0,
+    "variance": 0,
+    "mean_amplitude": NaN,
+    "max_amplitude": NaN
+  },
+  "wave_features": {
+    "all_features": [
+      {
+        "scale": 30.0,
+        "shift": 0.0,
+        "magnitude": 23.337062006622237,
+        "phase": -0.588457774391865,
+        "frequency": 4.7746482927568605,
+        "temporal_scale": "very_fast",
+        "transformed_signal": [
+          

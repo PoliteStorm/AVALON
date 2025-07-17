@@ -1,0 +1,52 @@
+{
+  "adamatzky_compliant_files": [
+    "Ch1-2_1second_sampling.csv",
+    "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+    "Norm_vs_deep_tip_crop.csv"
+  ],
+  "criteria": {
+    "sampling_rate": "1 Hz",
+    "voltage_range": "\u00b139 mV",
+    "duration": "6 days maximum",
+    "spike_amplitude": "0.05-5.0 mV",
+    "temporal_scales": {
+      "very_slow": "hour scale (43 min avg, 2573\u00b1168s)",
+      "slow": "10-minute scale (8 min avg, 457\u00b1120s)",
+      "very_fast": "half-minute scale (24s avg, 24\u00b10.07s)"
+    },
+    "spike_characteristics": {
+      "very_slow": {
+        "duration": 2573,
+        "amplitude": 0.16,
+        "distance": 2656
+      },
+      "slow": {
+        "duration": 457,
+        "amplitude": 0.4,
+        "distance": 1819
+      },
+      "very_fast": {
+        "duration": 24,
+        "amplitude": 0.36,
+        "distance": 148
+      }
+    }
+  },
+  "description": "Files identified as meeting Adamatzky's 2023 research criteria for fungal electrical activity analysis",
+  "wave_transform_parameters": {
+    "formula": "W(k,\u03c4) = \u222b\u2080^\u221e V(t) \u00b7 \u03c8(\u221at/\u03c4) \u00b7 e^(-ik\u221at) dt",
+    "k_range": [
+      0.1,
+      10.0
+    ],
+    "tau_range": [
+      30,
+      86400
+    ],
+    "temporal_classification": {
+      "very_fast": "\u03c4 \u2264 300s",
+      "slow": "300s < \u03c4 \u2264 3600s",
+      "very_slow": "\u03c4 > 3600s"
+    }
+  }
+}

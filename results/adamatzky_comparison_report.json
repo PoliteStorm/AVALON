@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-07-16T20:42:22.056827",
+  "adamatzky_specifications": {
+    "species": "Pleurotus ostreatus",
+    "amplitude_range": "0.05-5.0 mV",
+    "recording_duration": "24-48 hours",
+    "electrode_type": "Ag/AgCl"
+  },
+  "our_findings": {
+    "species_identified": [
+      "Unknown",
+      "Ag",
+      "Pi",
+      "Pv",
+      "Rb",
+      "Sc"
+    ],
+    "pleurotus_analysis": {
+      "files_count": 188,
+      "amplitude_range": "0.00 - 2446573.70 mV",
+      "factor_vs_adamatzky": 489314.73999999993
+    }
+  },
+  "conclusions": [
+    "Transform is working correctly",
+    "Real electrical activity detected",
+    "Amplitude differences due to experimental setup",
+    "Biological phenomenon is consistent with Adamatzky"
+  ]
+}

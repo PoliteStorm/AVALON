@@ -1,0 +1,185 @@
+{
+  "filename": "Ag_M_I+4R_U_N_42d_1_coordinates.csv",
+  "timestamp": "20250716_201024",
+  "signal_stats": {
+    "samples": 2367,
+    "mean_amplitude": 72.2599985635826,
+    "max_amplitude": 141.7622,
+    "std_amplitude": 34.801758132620016
+  },
+  "amplitude_range_results": {
+    "ultra_low": {
+      "amplitude_range": {
+        "name": "ultra_low",
+        "min": 0.001,
+        "max": 0.01,
+        "description": "Ultra-low (0.001-0.01 mV)"
+      },
+      "features_detected": 0,
+      "temporal_distribution": {},
+      "magnitude_range": {
+        "min": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "scales_detected": [],
+      "adaptive_parameters": {
+        "percentile_used": 95.0,
+        "max_scales_used": 10
+      }
+    },
+    "very_low": {
+      "amplitude_range": {
+        "name": "very_low",
+        "min": 0.01,
+        "max": 0.1,
+        "description": "Very low (0.01-0.1 mV)"
+      },
+      "features_detected": 0,
+      "temporal_distribution": {},
+      "magnitude_range": {
+        "min": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "scales_detected": [],
+      "adaptive_parameters": {
+        "percentile_used": 95.0,
+        "max_scales_used": 10
+      }
+    },
+    "low": {
+      "amplitude_range": {
+        "name": "low",
+        "min": 0.1,
+        "max": 1.0,
+        "description": "Low (0.1-1.0 mV)"
+      },
+      "features_detected": 0,
+      "temporal_distribution": {},
+      "magnitude_range": {
+        "min": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "scales_detected": [],
+      "adaptive_parameters": {
+        "percentile_used": 95.0,
+        "max_scales_used": 10
+      }
+    },
+    "medium": {
+      "amplitude_range": {
+        "name": "medium",
+        "min": 1.0,
+        "max": 10.0,
+        "description": "Medium (1.0-10.0 mV)"
+      },
+      "features_detected": 0,
+      "temporal_distribution": {},
+      "magnitude_range": {
+        "min": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "scales_detected": [],
+      "adaptive_parameters": {
+        "percentile_used": 95.0,
+        "max_scales_used": 10
+      }
+    },
+    "high": {
+      "amplitude_range": {
+        "name": "high",
+        "min": 10.0,
+        "max": 100.0,
+        "description": "High (10.0-100.0 mV)"
+      },
+      "features_detected": 0,
+      "temporal_distribution": {},
+      "magnitude_range": {
+        "min": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "scales_detected": [],
+      "adaptive_parameters": {
+        "percentile_used": 95.0,
+        "max_scales_used": 10
+      }
+    },
+    "very_high": {
+      "amplitude_range": {
+        "name": "very_high",
+        "min": 100.0,
+        "max": 1000.0,
+        "description": "Very high (100.0-1000.0 mV)"
+      },
+      "features_detected": 0,
+      "temporal_distribution": {},
+      "magnitude_range": {
+        "min": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "scales_detected": [],
+      "adaptive_parameters": {
+        "percentile_used": 95.0,
+        "max_scales_used": 10
+      }
+    },
+    "ultra_high": {
+      "amplitude_range": {
+        "name": "ultra_high",
+        "min": 1000.0,
+        "max": 10000.0,
+        "description": "Ultra-high (1000.0-10000.0 mV)"
+      },
+      "features_detected": 10,
+      "temporal_distribution": {
+        "very_fast": 10
+      },
+      "magnitude_range": {
+        "min": 1265.0018323660229,
+        "max": 3590.404991777223,
+        "mean": 2483.553494429182
+      },
+      "scales_detected": [
+        31.144736842105264,
+        31.56,
+        32.42465753424658,
+        33.81428571428572,
+        34.30434782608695,
+        35.32835820895522,
+        42.267857142857146,
+        43.03636363636364,
+        52.6,
+        53.79545454545455
+      ],
+      "adaptive_parameters": {
+        "percentile_used": 95.0,
+        "max_scales_used": 10
+      }
+    },
+    "adamatzky_range": {
+      "amplitude_range": {
+        "name": "adamatzky_range",
+        "min": 0.05,
+        "max": 5.0,
+        "description": "Adamatzky 2023 range (0.05-5.0 mV)"
+      },
+      "features_detected": 0,
+      "temporal_distribution": {},
+      "magnitude_range": {
+        "min": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "scales_detected": [],
+      "adaptive_parameters": {
+        "percentile_used": 95.0,
+        "max_scales_used": 10
+      }
+    }
+  }
+}

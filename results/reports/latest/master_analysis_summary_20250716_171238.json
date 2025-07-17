@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-07-16T17:12:38.264681",
+  "analysis_scripts": [
+    "enhanced_adamatzky_processor.py",
+    "comprehensive_wave_transform_analysis.py",
+    "batch_wave_transform_processor.py",
+    "comprehensive_wave_transform_validation.py",
+    "identify_adamatzky_files.py",
+    "run_adamatzky_analysis.py",
+    "run_enhanced_analysis.py"
+  ],
+  "adamatzky_parameters": {
+    "temporal_scales": {
+      "very_slow": "hour scale (43 min avg, 2573\u00b1168s)",
+      "slow": "10-minute scale (8 min avg, 457\u00b1120s)",
+      "very_fast": "half-minute scale (24s avg, 24\u00b10.07s)"
+    },
+    "wave_transform": "W(k,\u03c4) = \u222b\u2080^\u221e V(t) \u00b7 \u03c8(\u221at/\u03c4) \u00b7 e^(-ik\u221at) dt",
+    "sampling_rate": "1 Hz",
+    "voltage_range": "\u00b139 mV"
+  },
+  "output_directories": {
+    "results": "../results/analysis",
+    "visualizations": "../results/visualizations",
+    "reports": "../results/reports",
+    "validation": "../results/validation"
+  },
+  "data_directories": {
+    "raw": "../data/raw",
+    "processed": "../data/processed",
+    "metadata": "../data/metadata"
+  }
+}

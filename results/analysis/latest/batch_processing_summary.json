@@ -1,0 +1,48 @@
+{
+  "total_files": 3,
+  "processing_timestamp": "2025-07-16T17:37:21.979571",
+  "file_summaries": [
+    {
+      "filename": "Ch1-2_1second_sampling.csv",
+      "validation_score": 0.6479889063338167,
+      "recommendation": "GOOD - Moderate confidence, minor issues",
+      "n_features": 35,
+      "issues": [
+        "Suspiciously uniform patterns detected",
+        "High risk of false positives"
+      ]
+    },
+    {
+      "filename": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "validation_score": 0.6006398823991876,
+      "recommendation": "GOOD - Moderate confidence, minor issues",
+      "n_features": 700,
+      "issues": [
+        "Poor energy conservation",
+        "Suspiciously uniform patterns detected",
+        "High risk of false positives",
+        "Low signal-to-noise ratio"
+      ]
+    },
+    {
+      "filename": "Norm_vs_deep_tip_crop.csv",
+      "validation_score": 0.6053170946914609,
+      "recommendation": "GOOD - Moderate confidence, minor issues",
+      "n_features": 700,
+      "issues": [
+        "Poor energy conservation",
+        "Suspiciously uniform patterns detected",
+        "High risk of false positives",
+        "Low signal-to-noise ratio"
+      ]
+    }
+  ],
+  "overall_statistics": {
+    "avg_validation_score": 0.6179819611414884,
+    "files_with_issues": 3,
+    "excellent_files": 0,
+    "good_files": 3,
+    "caution_files": 0,
+    "reject_files": 0
+  }
+}

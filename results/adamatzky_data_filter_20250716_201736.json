@@ -1,0 +1,2354 @@
+{
+  "timestamp": "2025-07-16T20:17:32.982629",
+  "adamatzky_parameters": {
+    "amplitude_range": {
+      "min": 0.05,
+      "max": 5.0
+    },
+    "temporal_scales": {
+      "very_slow": {
+        "min": 60,
+        "max": 300
+      },
+      "slow": {
+        "min": 10,
+        "max": 60
+      },
+      "very_fast": {
+        "min": 1,
+        "max": 10
+      }
+    },
+    "species": [
+      "Pv"
+    ],
+    "recording_duration": {
+      "min_minutes": 30,
+      "max_minutes": 480
+    }
+  },
+  "filtered_files": [],
+  "rejected_files": [
+    {
+      "file": "Ch1-2_1second_sampling.csv",
+      "reason": "Species Ch1-2 not in Adamatzky's study",
+      "species": "Ch1-2"
+    },
+    {
+      "file": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "reason": "Species New not in Adamatzky's study",
+      "species": "New"
+    },
+    {
+      "file": "Norm_vs_deep_tip_crop.csv",
+      "reason": "Species Norm not in Adamatzky's study",
+      "species": "Norm"
+    },
+    {
+      "file": "Ag_M_I+4R_U_N_42d_1_coordinates.csv",
+      "reason": "Species Ag not in Adamatzky's study",
+      "species": "Ag"
+    },
+    {
+      "file": "Pi_M_I_U_N_46d_1_coordinates.csv",
+      "reason": "Species Pi not in Adamatzky's study",
+      "species": "Pi"
+    },
+    {
+      "file": "Pi_M_I_U_N_46d_2_coordinates.csv",
+      "reason": "Species Pi not in Adamatzky's study",
+      "species": "Pi"
+    },
+    {
+      "file": "Pi_M_I_U_N_46d_3_coordinates.csv",
+      "reason": "Species Pi not in Adamatzky's study",
+      "species": "Pi"
+    },
+    {
+      "file": "Pi_M_I_U_N_46d_4_coordinates.csv",
+      "reason": "Species Pi not in Adamatzky's study",
+      "species": "Pi"
+    },
+    {
+      "file": "Pi_M_I_U_N_46d_5_coordinates.csv",
+      "reason": "Species Pi not in Adamatzky's study",
+      "species": "Pi"
+    },
+    {
+      "file": "Pi_M_I_U_N_46d_6_coordinates.csv",
+      "reason": "Species Pi not in Adamatzky's study",
+      "species": "Pi"
+    },
+    {
+      "file": "Pi_M_I_U_N_46d_7_coordinates.csv",
+      "reason": "Species Pi not in Adamatzky's study",
+      "species": "Pi"
+    },
+    {
+      "file": "Pp_M_Tokyo_U_N_26h_11_coordinates.csv",
+      "reason": "Species Pp not in Adamatzky's study",
+      "species": "Pp"
+    },
+    {
+      "file": "Pp_M_Tokyo_U_N_26h_1_coordinates.csv",
+      "reason": "Species Pp not in Adamatzky's study",
+      "species": "Pp"
+    },
+    {
+      "file": "Pp_M_Tokyo_U_N_26h_2_coordinates.csv",
+      "reason": "Species Pp not in Adamatzky's study",
+      "species": "Pp"
+    },
+    {
+      "file": "Pp_M_Tokyo_U_N_26h_4_coordinates.csv",
+      "reason": "Species Pp not in Adamatzky's study",
+      "species": "Pp"
+    },
+    {
+      "file": "Pp_M_Tokyo_U_N_26h_6_coordinates.csv",
+      "reason": "Species Pp not in Adamatzky's study",
+      "species": "Pp"
+    },
+    {
+      "file": "Pp_M_Tokyo_U_N_26h_7_coordinates.csv",
+      "reason": "Species Pp not in Adamatzky's study",
+      "species": "Pp"
+    },
+    {
+      "file": "Pp_M_Tokyo_U_N_26h_9_coordinates.csv",
+      "reason": "Species Pp not in Adamatzky's study",
+      "species": "Pp"
+    },
+    {
+      "file": "Pp_M_UK_U_N_15h_10_coordinates.csv",
+      "reason": "Species Pp not in Adamatzky's study",
+      "species": "Pp"
+    },
+    {
+      "file": "Pp_M_UK_U_N_15h_11_coordinates.csv",
+      "reason": "Species Pp not in Adamatzky's study",
+      "species": "Pp"
+    },
+    {
+      "file": "Pp_M_UK_U_N_15h_12_coordinates.csv",
+      "reason": "Species Pp not in Adamatzky's study",
+      "species": "Pp"
+    },
+    {
+      "file": "Pp_M_UK_U_N_15h_1_coordinates.csv",
+      "reason": "Species Pp not in Adamatzky's study",
+      "species": "Pp"
+    },
+    {
+      "file": "Pp_M_UK_U_N_15h_2_coordinates.csv",
+      "reason": "Species Pp not in Adamatzky's study",
+      "species": "Pp"
+    },
+    {
+      "file": "Pp_M_UK_U_N_15h_6_coordinates.csv",
+      "reason": "Species Pp not in Adamatzky's study",
+      "species": "Pp"
+    },
+    {
+      "file": "Pp_M_UK_U_N_15h_7_coordinates.csv",
+      "reason": "Species Pp not in Adamatzky's study",
+      "species": "Pp"
+    },
+    {
+      "file": "Pp_M_UK_U_N_15h_8_coordinates.csv",
+      "reason": "Species Pp not in Adamatzky's study",
+      "species": "Pp"
+    },
+    {
+      "file": "Pp_M_UK_U_N_15h_9_coordinates.csv",
+      "reason": "Species Pp not in Adamatzky's study",
+      "species": "Pp"
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_155d_1_coordinates.csv",
+      "reason": "Amplitude range 281.845-571.708 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 281.8447,
+        "max": 571.7081,
+        "mean": 463.1593694942904
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_155d_2_coordinates.csv",
+      "reason": "Amplitude range 23.959-299.390 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 23.9589,
+        "max": 299.3902,
+        "mean": 160.79462236180908
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_155d_3_coordinates.csv",
+      "reason": "Amplitude range 28.229-528.072 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 28.2292,
+        "max": 528.0725,
+        "mean": 303.4852226190476
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_208d_1_coordinates.csv",
+      "reason": "Amplitude range 281.845-573.122 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 281.8447,
+        "max": 573.1225,
+        "mean": 474.3569586580087
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_208d_2_coordinates.csv",
+      "reason": "Amplitude range 17.345-298.152 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 17.3451,
+        "max": 298.1521,
+        "mean": 143.27781793248946
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_208d_3_coordinates.csv",
+      "reason": "Amplitude range 25.657-511.351 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 25.6574,
+        "max": 511.3514,
+        "mean": 279.945906234414
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_36d_1_coordinates.csv",
+      "reason": "Amplitude range 281.845-574.265 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 281.8447,
+        "max": 574.2652,
+        "mean": 414.2939679
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_36d_2_coordinates.csv",
+      "reason": "Amplitude range 64.156-308.160 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 64.1563,
+        "max": 308.1601,
+        "mean": 197.1837442877292
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_36d_3_coordinates.csv",
+      "reason": "Amplitude range 68.490-444.895 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 68.4903,
+        "max": 444.8951,
+        "mean": 276.4394655
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_57d_1_coordinates.csv",
+      "reason": "Amplitude range 281.845-566.680 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 281.8447,
+        "max": 566.6798,
+        "mean": 414.4289543
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_57d_2_coordinates.csv",
+      "reason": "Amplitude range 9.980-308.160 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 9.9803,
+        "max": 308.1601,
+        "mean": 189.26392115107913
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_57d_3_coordinates.csv",
+      "reason": "Amplitude range 39.118-514.168 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 39.1179,
+        "max": 514.1682,
+        "mean": 285.4392325
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_78d_1_coordinates.csv",
+      "reason": "Amplitude range 281.845-549.435 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 281.8447,
+        "max": 549.4351,
+        "mean": 417.8226655112652
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_78d_2_coordinates.csv",
+      "reason": "Amplitude range 48.153-306.613 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 48.153,
+        "max": 306.6125,
+        "mean": 193.82108293963253
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_78d_3_coordinates.csv",
+      "reason": "Amplitude range 40.371-514.168 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 40.3711,
+        "max": 514.1682,
+        "mean": 286.1770651
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_99d_1_coordinates.csv",
+      "reason": "Amplitude range 281.845-557.122 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 281.8447,
+        "max": 557.1225,
+        "mean": 448.05352900136796
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_99d_2_coordinates.csv",
+      "reason": "Amplitude range 48.153-303.620 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 48.153,
+        "max": 303.6204,
+        "mean": 188.30950570409985
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_Fc_N_99d_3_coordinates.csv",
+      "reason": "Amplitude range 37.865-535.744 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 37.8646,
+        "max": 535.7436,
+        "mean": 301.06326060000004
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_155d_1_coordinates.csv",
+      "reason": "Amplitude range 287.173-575.572 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 287.173,
+        "max": 575.572,
+        "mean": 460.6423112328767
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_155d_2_coordinates.csv",
+      "reason": "Amplitude range 43.252-567.438 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 43.2519,
+        "max": 567.4381,
+        "mean": 298.8817957198444
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_155d_3_coordinates.csv",
+      "reason": "Amplitude range 22.478-566.917 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 22.4781,
+        "max": 566.9171,
+        "mean": 315.61243411764707
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_155d_4_coordinates.csv",
+      "reason": "Amplitude range 17.944-283.089 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 17.9442,
+        "max": 283.0885,
+        "mean": 138.12618733031675
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_208d_1_coordinates.csv",
+      "reason": "Amplitude range 287.173-567.887 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 287.173,
+        "max": 567.8866,
+        "mean": 456.04495454545463
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_208d_2_coordinates.csv",
+      "reason": "Amplitude range 1.324-567.438 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 1.3236,
+        "max": 567.4381,
+        "mean": 274.7610910638298
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_208d_3_coordinates.csv",
+      "reason": "Amplitude range 20.598-566.917 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 20.5981,
+        "max": 566.9171,
+        "mean": 324.0273029850746
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_208d_4_coordinates.csv",
+      "reason": "Amplitude range 33.129-268.723 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 33.1293,
+        "max": 268.7227,
+        "mean": 152.07872008733625
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_36d_1_coordinates.csv",
+      "reason": "Amplitude range 287.173-554.695 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 287.173,
+        "max": 554.6948,
+        "mean": 413.11097250000006
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_36d_2_coordinates.csv",
+      "reason": "Amplitude range 135.845-533.626 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 135.8455,
+        "max": 533.6264,
+        "mean": 330.0354977
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_36d_3_coordinates.csv",
+      "reason": "Amplitude range 68.881-450.660 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 68.8809,
+        "max": 450.6599,
+        "mean": 260.2930855614973
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_36d_4_coordinates.csv",
+      "reason": "Amplitude range 6.087-283.089 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 6.0874,
+        "max": 283.0885,
+        "mean": 129.7033538
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_57d_1_coordinates.csv",
+      "reason": "Amplitude range 287.173-559.368 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 287.173,
+        "max": 559.3684,
+        "mean": 415.21830869999997
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_57d_2_coordinates.csv",
+      "reason": "Amplitude range 136.651-519.916 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 136.6509,
+        "max": 519.9156,
+        "mean": 338.55167156626504
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_57d_3_coordinates.csv",
+      "reason": "Amplitude range 78.828-454.905 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 78.8283,
+        "max": 454.9047,
+        "mean": 263.84489793956044
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_57d_4_coordinates.csv",
+      "reason": "Amplitude range 2.135-283.089 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.1351,
+        "max": 283.0885,
+        "mean": 122.1542120855615
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_78d_1_coordinates.csv",
+      "reason": "Amplitude range 287.173-573.806 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 287.173,
+        "max": 573.8064,
+        "mean": 435.0985625
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_78d_2_coordinates.csv",
+      "reason": "Amplitude range 149.982-522.305 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 149.9818,
+        "max": 522.3046,
+        "mean": 328.47384750000003
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_78d_3_coordinates.csv",
+      "reason": "Amplitude range 78.828-454.905 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 78.8283,
+        "max": 454.9047,
+        "mean": 266.75174932065215
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_78d_4_coordinates.csv",
+      "reason": "Amplitude range 5.879-283.089 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 5.8793,
+        "max": 283.0885,
+        "mean": 147.5684798
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_99d_1_coordinates.csv",
+      "reason": "Amplitude range 287.173-573.806 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 287.173,
+        "max": 573.8064,
+        "mean": 442.3885031
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_99d_2_coordinates.csv",
+      "reason": "Amplitude range 43.252-498.647 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 43.2519,
+        "max": 498.6472,
+        "mean": 299.5350967112025
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_99d_3_coordinates.csv",
+      "reason": "Amplitude range 78.828-454.905 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 78.8283,
+        "max": 454.9047,
+        "mean": 257.3099869148936
+      }
+    },
+    {
+      "file": "Pv_L_I+4xR_U_N_99d_4_coordinates.csv",
+      "reason": "Amplitude range 6.677-283.089 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 6.6767,
+        "max": 283.0885,
+        "mean": 140.3645499436302
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_15d_3_coordinates.csv",
+      "reason": "Amplitude range 93.021-312.620 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 93.0213,
+        "max": 312.62,
+        "mean": 212.145226927253
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_18d_1_coordinates.csv",
+      "reason": "Amplitude range 101.774-327.127 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 101.7738,
+        "max": 327.1266,
+        "mean": 207.5710684
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_18d_2_coordinates.csv",
+      "reason": "Amplitude range 127.975-323.028 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 127.9749,
+        "max": 323.0279,
+        "mean": 232.12863262411346
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_18d_3_coordinates.csv",
+      "reason": "Amplitude range 88.784-312.620 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 88.7837,
+        "max": 312.62,
+        "mean": 211.6919533
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_21d_1_coordinates.csv",
+      "reason": "Amplitude range 101.774-327.127 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 101.7738,
+        "max": 327.1266,
+        "mean": 209.64071840000003
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_21d_2_coordinates.csv",
+      "reason": "Amplitude range 109.498-323.028 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 109.4979,
+        "max": 323.0279,
+        "mean": 228.30208919999998
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_22d_3_coordinates.csv",
+      "reason": "Amplitude range 88.784-314.574 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 88.7837,
+        "max": 314.5744,
+        "mean": 211.4648353
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_25d_1_coordinates.csv",
+      "reason": "Amplitude range 101.774-327.127 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 101.7738,
+        "max": 327.1266,
+        "mean": 210.1770545
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_25d_2_coordinates.csv",
+      "reason": "Amplitude range 101.154-323.028 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 101.1537,
+        "max": 323.0279,
+        "mean": 218.82050790000002
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_25d_3_coordinates.csv",
+      "reason": "Amplitude range 88.784-314.574 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 88.7837,
+        "max": 314.5744,
+        "mean": 209.08087920000003
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_28d_1_coordinates.csv",
+      "reason": "Amplitude range 101.774-326.921 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 101.7738,
+        "max": 326.9206,
+        "mean": 212.7682903
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_28d_2_coordinates.csv",
+      "reason": "Amplitude range 101.154-323.028 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 101.1537,
+        "max": 323.0279,
+        "mean": 217.91597280000002
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_30d_2_coordinates.csv",
+      "reason": "Amplitude range 101.154-323.028 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 101.1537,
+        "max": 323.0279,
+        "mean": 217.91597280000002
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_30d_3_coordinates.csv",
+      "reason": "Amplitude range 88.784-314.574 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 88.7837,
+        "max": 314.5744,
+        "mean": 209.57114789999997
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_32d_1_coordinates.csv",
+      "reason": "Amplitude range 101.774-326.921 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 101.7738,
+        "max": 326.9206,
+        "mean": 216.3056838
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_33d_3_coordinates.csv",
+      "reason": "Amplitude range 88.784-311.367 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 88.7837,
+        "max": 311.3667,
+        "mean": 205.44404820000003
+      }
+    },
+    {
+      "file": "Pv_M_5xI_U_N_35d_1_coordinates.csv",
+      "reason": "Amplitude range 101.774-326.921 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 101.7738,
+        "max": 326.9206,
+        "mean": 218.4483161
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_15d_1_coordinates.csv",
+      "reason": "Amplitude range 1223.898-2023.764 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 1223.8984,
+        "max": 2023.7637,
+        "mean": 1588.7770894052044
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_15d_2_coordinates.csv",
+      "reason": "Amplitude range 122.395-235.200 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 122.3955,
+        "max": 235.2004,
+        "mean": 176.17047955974846
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_18d_1_coordinates.csv",
+      "reason": "Amplitude range 1210.583-2225.780 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 1210.5831,
+        "max": 2225.7795,
+        "mean": 1636.2149034632037
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_18d_3_coordinates.csv",
+      "reason": "Amplitude range 960.769-1951.764 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 960.7694,
+        "max": 1951.7637,
+        "mean": 1379.9286678466076
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_18d_4_coordinates.csv",
+      "reason": "Amplitude range 103.849-314.880 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 103.8494,
+        "max": 314.8795,
+        "mean": 221.82245942275043
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_18d_5_coordinates.csv",
+      "reason": "Amplitude range 119.008-301.582 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 119.0084,
+        "max": 301.5817,
+        "mean": 210.34884026666668
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_19d_2_coordinates.csv",
+      "reason": "Amplitude range 113.128-242.934 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 113.1279,
+        "max": 242.9342,
+        "mean": 176.01537020725388
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_21d_1_coordinates.csv",
+      "reason": "Amplitude range 1182.980-2369.219 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 1182.9798,
+        "max": 2369.2189,
+        "mean": 1670.0700167290886
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_21d_2_coordinates.csv",
+      "reason": "Amplitude range 107.167-247.395 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 107.1673,
+        "max": 247.3954,
+        "mean": 175.41708536585367
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_21d_4_coordinates.csv",
+      "reason": "Amplitude range 92.638-318.843 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 92.6375,
+        "max": 318.8427,
+        "mean": 218.79204274570984
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_21d_5_coordinates.csv",
+      "reason": "Amplitude range 114.364-304.225 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 114.3643,
+        "max": 304.2249,
+        "mean": 211.53546666666668
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_22d_3_coordinates.csv",
+      "reason": "Amplitude range 767.557-2196.500 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 767.5572,
+        "max": 2196.5,
+        "mean": 1389.506830127042
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_25d_1_coordinates.csv",
+      "reason": "Amplitude range 1123.653-2369.219 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 1123.6532,
+        "max": 2369.2189,
+        "mean": 1674.0034078651686
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_25d_2_coordinates.csv",
+      "reason": "Amplitude range 107.167-261.012 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 107.1673,
+        "max": 261.012,
+        "mean": 179.19727485822307
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_25d_3_coordinates.csv",
+      "reason": "Amplitude range 710.817-2280.567 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 710.8165,
+        "max": 2280.5668,
+        "mean": 1391.5168375874125
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_25d_4_coordinates.csv",
+      "reason": "Amplitude range 92.638-319.773 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 92.6375,
+        "max": 319.7729,
+        "mean": 215.20771481481484
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_25d_5_coordinates.csv",
+      "reason": "Amplitude range 109.190-310.043 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 109.1899,
+        "max": 310.0428,
+        "mean": 211.08245559701493
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_27d_1_coordinates.csv",
+      "reason": "Amplitude range 1084.475-2413.805 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 1084.4747,
+        "max": 2413.8047,
+        "mean": 1670.0547236
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_28d_4_coordinates.csv",
+      "reason": "Amplitude range 90.051-319.773 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 90.0506,
+        "max": 319.7729,
+        "mean": 205.60042819148936
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_28d_5_coordinates.csv",
+      "reason": "Amplitude range 100.888-310.622 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 100.8882,
+        "max": 310.6223,
+        "mean": 212.92772411467118
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_29d_2_coordinates.csv",
+      "reason": "Amplitude range 98.956-274.471 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 98.9561,
+        "max": 274.4713,
+        "mean": 181.78636555555556
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_29d_3_coordinates.csv",
+      "reason": "Amplitude range 710.817-2286.790 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 710.8165,
+        "max": 2286.7896,
+        "mean": 1397.3478875
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_30d_4_coordinates.csv",
+      "reason": "Amplitude range 90.051-319.018 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 90.0506,
+        "max": 319.0181,
+        "mean": 203.8541029
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_31d_1_coordinates.csv",
+      "reason": "Amplitude range 1009.551-2413.805 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 1009.5505,
+        "max": 2413.8047,
+        "mean": 1656.8469364
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_32d_2_coordinates.csv",
+      "reason": "Amplitude range 95.561-276.790 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 95.5608,
+        "max": 276.7904,
+        "mean": 181.79020161527166
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_32d_3_coordinates.csv",
+      "reason": "Amplitude range 658.911-2302.403 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 658.9108,
+        "max": 2302.4035,
+        "mean": 1411.3397237421384
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_32d_5_coordinates.csv",
+      "reason": "Amplitude range 88.327-310.622 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 88.3266,
+        "max": 310.6223,
+        "mean": 208.856433573487
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_33d_4_coordinates.csv",
+      "reason": "Amplitude range 90.051-319.018 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 90.0506,
+        "max": 319.0181,
+        "mean": 209.5760708
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_35d_1_coordinates.csv",
+      "reason": "Amplitude range 939.499-2413.805 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 939.4989,
+        "max": 2413.8047,
+        "mean": 1619.9462812000002
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_35d_3_coordinates.csv",
+      "reason": "Amplitude range 658.911-2321.393 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 658.9108,
+        "max": 2321.3934,
+        "mean": 1379.6295293421053
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_35d_5_coordinates.csv",
+      "reason": "Amplitude range 85.892-310.622 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 85.8925,
+        "max": 310.6223,
+        "mean": 205.61416320093454
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_36d_2_coordinates.csv",
+      "reason": "Amplitude range 95.561-279.170 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 95.5608,
+        "max": 279.17,
+        "mean": 184.86757038961036
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_38d_1_coordinates.csv",
+      "reason": "Amplitude range 1098.000-2413.805 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 1098.0,
+        "max": 2413.8047,
+        "mean": 1701.0344718000001
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_39d_2_coordinates.csv",
+      "reason": "Amplitude range 87.425-279.170 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 87.425,
+        "max": 279.17,
+        "mean": 184.4970785888078
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_39d_3_coordinates.csv",
+      "reason": "Amplitude range 640.343-2375.831 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 640.3429,
+        "max": 2375.8311,
+        "mean": 1413.617533101852
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_42d_1_coordinates.csv",
+      "reason": "Amplitude range 1099.000-2413.805 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 1099.0,
+        "max": 2413.8047,
+        "mean": 1702.9873464
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_42d_2_coordinates.csv",
+      "reason": "Amplitude range 87.425-279.170 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 87.425,
+        "max": 279.17,
+        "mean": 184.5102256111758
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_42d_5_coordinates.csv",
+      "reason": "Amplitude range 83.514-311.295 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 83.5141,
+        "max": 311.2952,
+        "mean": 203.2757722
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_45d_1_coordinates.csv",
+      "reason": "Amplitude range 1098.000-2413.805 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 1098.0,
+        "max": 2413.8047,
+        "mean": 1702.8679764
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_46d_2_coordinates.csv",
+      "reason": "Amplitude range 85.312-280.514 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 85.3124,
+        "max": 280.5136,
+        "mean": 184.14807258064516
+      }
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_50d_2_coordinates.csv",
+      "reason": "Amplitude range 85.312-280.514 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 85.3124,
+        "max": 280.5136,
+        "mean": 184.0285798136646
+      }
+    },
+    {
+      "file": "Pv_M_I_Fc_Hf_18d_1_coordinates.csv",
+      "reason": "Amplitude range 2.808-174.389 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.8085,
+        "max": 174.3894,
+        "mean": 76.3068466
+      }
+    },
+    {
+      "file": "Pv_M_I_Fc_Hf_18d_2_coordinates.csv",
+      "reason": "Amplitude range 4.431-135.766 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 4.4311,
+        "max": 135.7661,
+        "mean": 72.582978
+      }
+    },
+    {
+      "file": "Pv_M_I_Fc_Hf_18d_3_coordinates.csv",
+      "reason": "Amplitude range 4.464-184.483 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 4.4641,
+        "max": 184.4835,
+        "mean": 73.02250812182741
+      }
+    },
+    {
+      "file": "Pv_M_I_Fc_Hf_22d_1_coordinates.csv",
+      "reason": "Amplitude range 2.808-177.142 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.8085,
+        "max": 177.142,
+        "mean": 77.7388576
+      }
+    },
+    {
+      "file": "Pv_M_I_Fc_Hf_22d_2_coordinates.csv",
+      "reason": "Amplitude range 4.431-135.766 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 4.4311,
+        "max": 135.7661,
+        "mean": 73.1076814
+      }
+    },
+    {
+      "file": "Pv_M_I_Fc_Hf_22d_3_coordinates.csv",
+      "reason": "Amplitude range 4.464-184.483 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 4.4641,
+        "max": 184.4835,
+        "mean": 72.0323873
+      }
+    },
+    {
+      "file": "Pv_M_I_Fc_Hf_26d_1_coordinates.csv",
+      "reason": "Amplitude range 2.808-177.142 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.8085,
+        "max": 177.142,
+        "mean": 77.7236724
+      }
+    },
+    {
+      "file": "Pv_M_I_Fc_Hf_26d_2_coordinates.csv",
+      "reason": "Amplitude range 4.431-135.766 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 4.4311,
+        "max": 135.7661,
+        "mean": 73.0511212
+      }
+    },
+    {
+      "file": "Pv_M_I_Fc_Hf_26d_3_coordinates.csv",
+      "reason": "Amplitude range 4.464-209.672 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 4.4641,
+        "max": 209.6721,
+        "mean": 76.2148627
+      }
+    },
+    {
+      "file": "Pv_M_I_Fc_Hf_38d_1_coordinates.csv",
+      "reason": "Amplitude range 2.808-177.142 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.8085,
+        "max": 177.142,
+        "mean": 80.06730680000001
+      }
+    },
+    {
+      "file": "Pv_M_I_Fc_Hf_38d_2_coordinates.csv",
+      "reason": "Amplitude range 4.320-135.766 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 4.3204,
+        "max": 135.7661,
+        "mean": 70.2597658
+      }
+    },
+    {
+      "file": "Pv_M_I_Fc_Hf_38d_3_coordinates.csv",
+      "reason": "Amplitude range 4.464-184.483 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 4.4641,
+        "max": 184.4835,
+        "mean": 72.3497618
+      }
+    },
+    {
+      "file": "Pv_M_I_Fc_Hf_48d_1_coordinates.csv",
+      "reason": "Amplitude range 2.588-177.142 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.5883,
+        "max": 177.142,
+        "mean": 78.88249579999999
+      }
+    },
+    {
+      "file": "Pv_M_I_Fc_Hf_48d_2_coordinates.csv",
+      "reason": "Amplitude range 4.320-143.109 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 4.3204,
+        "max": 143.1095,
+        "mean": 73.1483819
+      }
+    },
+    {
+      "file": "Pv_M_I_Fc_Hf_48d_3_coordinates.csv",
+      "reason": "Amplitude range 4.464-184.483 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 4.4641,
+        "max": 184.4835,
+        "mean": 73.3351565
+      }
+    },
+    {
+      "file": "Pv_M_I_Fc_N_20d_1_coordinates.csv",
+      "reason": "Amplitude range 110.385-213.786 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 110.385,
+        "max": 213.7864,
+        "mean": 164.35139130000002
+      }
+    },
+    {
+      "file": "Pv_M_I+R_U_N_18d_1_coordinates.csv",
+      "reason": "Amplitude range 2.511-186.416 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.5113,
+        "max": 186.4161,
+        "mean": 94.3571942800789
+      }
+    },
+    {
+      "file": "Pv_M_I+R_U_N_18d_2_coordinates.csv",
+      "reason": "Amplitude range 7.357-167.254 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 7.3571,
+        "max": 167.2536,
+        "mean": 90.32202389791183
+      }
+    },
+    {
+      "file": "Pv_M_I+R_U_N_18d_3_coordinates.csv",
+      "reason": "Amplitude range 9.614-177.631 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 9.6142,
+        "max": 177.6305,
+        "mean": 93.04653602941175
+      }
+    },
+    {
+      "file": "Pv_M_I+R_U_N_18d_4_coordinates.csv",
+      "reason": "Amplitude range 25.287-183.103 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 25.2868,
+        "max": 183.103,
+        "mean": 108.21551156069366
+      }
+    },
+    {
+      "file": "Pv_M_I+R_U_N_25d_1_coordinates.csv",
+      "reason": "Amplitude range 2.511-226.654 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.5113,
+        "max": 226.6535,
+        "mean": 107.31021337386018
+      }
+    },
+    {
+      "file": "Pv_M_I+R_U_N_25d_2_coordinates.csv",
+      "reason": "Amplitude range 4.474-175.254 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 4.474,
+        "max": 175.2542,
+        "mean": 84.36784087719299
+      }
+    },
+    {
+      "file": "Pv_M_I+R_U_N_25d_3_coordinates.csv",
+      "reason": "Amplitude range 9.843-217.788 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 9.8433,
+        "max": 217.7881,
+        "mean": 100.5172333
+      }
+    },
+    {
+      "file": "Pv_M_I+R_U_N_25d_4_coordinates.csv",
+      "reason": "Amplitude range 3.456-220.749 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 3.4557,
+        "max": 220.7493,
+        "mean": 108.66568550368551
+      }
+    },
+    {
+      "file": "Pv_M_I+R_U_N_31d_1_coordinates.csv",
+      "reason": "Amplitude range 2.135-230.595 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.1348,
+        "max": 230.5948,
+        "mean": 106.07023895899053
+      }
+    },
+    {
+      "file": "Pv_M_I+R_U_N_31d_2_coordinates.csv",
+      "reason": "Amplitude range 2.860-198.030 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.8595,
+        "max": 198.0304,
+        "mean": 95.91972809315865
+      }
+    },
+    {
+      "file": "Pv_M_I+R_U_N_31d_3_coordinates.csv",
+      "reason": "Amplitude range 10.196-217.788 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 10.1958,
+        "max": 217.7881,
+        "mean": 102.45281580000001
+      }
+    },
+    {
+      "file": "Pv_M_I+R_U_N_31d_4_coordinates.csv",
+      "reason": "Amplitude range 3.456-234.559 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 3.4557,
+        "max": 234.5592,
+        "mean": 119.77738326417705
+      }
+    },
+    {
+      "file": "Pv_M_I+R_U_N_39d_1_coordinates.csv",
+      "reason": "Amplitude range 2.064-228.010 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.0643,
+        "max": 228.01,
+        "mean": 104.22478904761905
+      }
+    },
+    {
+      "file": "Pv_M_I+R_U_N_39d_2_coordinates.csv",
+      "reason": "Amplitude range 2.355-232.411 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.355,
+        "max": 232.4111,
+        "mean": 106.19820745098039
+      }
+    },
+    {
+      "file": "Pv_M_I+R_U_N_39d_3_coordinates.csv",
+      "reason": "Amplitude range 10.196-217.788 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 10.1958,
+        "max": 217.7881,
+        "mean": 102.9638241
+      }
+    },
+    {
+      "file": "Pv_M_I+R_U_N_39d_4_coordinates.csv",
+      "reason": "Amplitude range 3.219-234.559 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 3.2187,
+        "max": 234.5592,
+        "mean": 128.31852276064612
+      }
+    },
+    {
+      "file": "Pv_M_I_U_Hf_18d_1_coordinates.csv",
+      "reason": "Amplitude range 2.349-150.094 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.3488,
+        "max": 150.0937,
+        "mean": 78.5035928
+      }
+    },
+    {
+      "file": "Pv_M_I_U_Hf_18d_2_coordinates.csv",
+      "reason": "Amplitude range 2.812-177.027 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.8124,
+        "max": 177.0272,
+        "mean": 75.67948990000001
+      }
+    },
+    {
+      "file": "Pv_M_I_U_Hf_18d_3_coordinates.csv",
+      "reason": "Amplitude range 3.717-150.931 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 3.7166,
+        "max": 150.9309,
+        "mean": 77.84839079999999
+      }
+    },
+    {
+      "file": "Pv_M_I_U_Hf_22d_1_coordinates.csv",
+      "reason": "Amplitude range 2.626-150.094 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.6259,
+        "max": 150.0937,
+        "mean": 78.7972505
+      }
+    },
+    {
+      "file": "Pv_M_I_U_Hf_22d_2_coordinates.csv",
+      "reason": "Amplitude range 2.812-177.027 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.8124,
+        "max": 177.0272,
+        "mean": 75.3719434
+      }
+    },
+    {
+      "file": "Pv_M_I_U_Hf_22d_3_coordinates.csv",
+      "reason": "Amplitude range 3.717-150.931 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 3.7166,
+        "max": 150.9309,
+        "mean": 78.0262556
+      }
+    },
+    {
+      "file": "Pv_M_I_U_Hf_26d_1_coordinates.csv",
+      "reason": "Amplitude range 2.626-150.094 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.6259,
+        "max": 150.0937,
+        "mean": 78.5350159
+      }
+    },
+    {
+      "file": "Pv_M_I_U_Hf_26d_2_coordinates.csv",
+      "reason": "Amplitude range 2.812-177.027 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.8124,
+        "max": 177.0272,
+        "mean": 73.7571131
+      }
+    },
+    {
+      "file": "Pv_M_I_U_Hf_26d_3_coordinates.csv",
+      "reason": "Amplitude range 3.717-150.931 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 3.7166,
+        "max": 150.9309,
+        "mean": 77.98875140000001
+      }
+    },
+    {
+      "file": "Pv_M_I_U_Hf_30d_1_coordinates.csv",
+      "reason": "Amplitude range 2.349-190.262 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.3488,
+        "max": 190.2616,
+        "mean": 88.44384020000001
+      }
+    },
+    {
+      "file": "Pv_M_I_U_Hf_38d_1_coordinates.csv",
+      "reason": "Amplitude range 1.631-190.262 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 1.6306,
+        "max": 190.2616,
+        "mean": 84.16850349999999
+      }
+    },
+    {
+      "file": "Pv_M_I_U_Hf_38d_2_coordinates.csv",
+      "reason": "Amplitude range 3.639-177.027 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 3.6394,
+        "max": 177.0272,
+        "mean": 80.08823880000001
+      }
+    },
+    {
+      "file": "Pv_M_I_U_Hf_38d_3_coordinates.csv",
+      "reason": "Amplitude range 3.883-228.048 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 3.883,
+        "max": 228.0484,
+        "mean": 95.6864934
+      }
+    },
+    {
+      "file": "Pv_M_I_U_Hf_48d_2_coordinates.csv",
+      "reason": "Amplitude range 2.992-203.474 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 2.9919,
+        "max": 203.474,
+        "mean": 82.9547243
+      }
+    },
+    {
+      "file": "Pv_M_I_U_Hf_48d_3_coordinates.csv",
+      "reason": "Amplitude range 3.107-225.719 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 3.1071,
+        "max": 225.7191,
+        "mean": 102.90795759562842
+      }
+    },
+    {
+      "file": "Pv_M_I_U_Hf_52d_1_coordinates.csv",
+      "reason": "Amplitude range 1.631-190.262 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 1.6306,
+        "max": 190.2616,
+        "mean": 84.16850349999999
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_15d_1_coordinates.csv",
+      "reason": "Amplitude range 1068.920-1978.549 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 1068.9198,
+        "max": 1978.5494,
+        "mean": 1520.9440004854368
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_15d_2_coordinates.csv",
+      "reason": "Amplitude range 1066.099-2037.036 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 1066.0988,
+        "max": 2037.0365,
+        "mean": 1482.6395456692915
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_18d_1_coordinates.csv",
+      "reason": "Amplitude range 1020.100-2083.854 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 1020.1004,
+        "max": 2083.8535,
+        "mean": 1538.538592
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_18d_3_coordinates.csv",
+      "reason": "Amplitude range 956.542-2074.158 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 956.5421,
+        "max": 2074.1582,
+        "mean": 1598.1306282868525
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_18d_5_coordinates.csv",
+      "reason": "Amplitude range 6.024-183.321 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 6.0242,
+        "max": 183.3206,
+        "mean": 96.32327136294028
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_18d_6_coordinates.csv",
+      "reason": "Amplitude range 8.741-168.094 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 8.7405,
+        "max": 168.0943,
+        "mean": 84.44475607675905
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_18d_7_coordinates.csv",
+      "reason": "Amplitude range 7.491-184.817 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 7.4907,
+        "max": 184.8166,
+        "mean": 100.6523183962264
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_19d_2_coordinates.csv",
+      "reason": "Amplitude range 880.273-2274.394 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 880.2733,
+        "max": 2274.3939,
+        "mean": 1506.6800468468468
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_20d_4_coordinates.csv",
+      "reason": "Amplitude range 74.867-229.552 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 74.8668,
+        "max": 229.5515,
+        "mean": 175.1191667
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_21d_1_coordinates.csv",
+      "reason": "Amplitude range 986.603-2044.430 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 986.6027,
+        "max": 2044.4304,
+        "mean": 1526.8588969
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_21d_2_coordinates.csv",
+      "reason": "Amplitude range 693.699-2367.331 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 693.6987,
+        "max": 2367.3305,
+        "mean": 1505.004149825784
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_22d_3_coordinates.csv",
+      "reason": "Amplitude range 753.371-2321.968 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 753.3709,
+        "max": 2321.968,
+        "mean": 1612.653810526316
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_25d_1_coordinates.csv",
+      "reason": "Amplitude range 986.603-2044.430 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 986.6027,
+        "max": 2044.4304,
+        "mean": 1526.1377873999998
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_25d_2_coordinates.csv",
+      "reason": "Amplitude range 621.887-2367.331 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 621.8872,
+        "max": 2367.3305,
+        "mean": 1515.3832672307692
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_25d_3_coordinates.csv",
+      "reason": "Amplitude range 712.522-2387.450 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 712.5224,
+        "max": 2387.4495,
+        "mean": 1630.484823067485
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_25d_5_coordinates.csv",
+      "reason": "Amplitude range 6.024-214.414 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 6.0242,
+        "max": 214.4136,
+        "mean": 105.81845115257958
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_25d_6_coordinates.csv",
+      "reason": "Amplitude range 6.130-194.064 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 6.1297,
+        "max": 194.0644,
+        "mean": 93.52404541139241
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_25d_7_coordinates.csv",
+      "reason": "Amplitude range 7.184-223.884 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 7.1839,
+        "max": 223.884,
+        "mean": 107.54294634873325
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_27d_1_coordinates.csv",
+      "reason": "Amplitude range 986.603-2044.430 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 986.6027,
+        "max": 2044.4304,
+        "mean": 1526.1377873999998
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_29d_2_coordinates.csv",
+      "reason": "Amplitude range 616.244-2386.239 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 616.2441,
+        "max": 2386.2387,
+        "mean": 1515.963215989515
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_29d_3_coordinates.csv",
+      "reason": "Amplitude range 698.190-2389.249 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 698.1902,
+        "max": 2389.2492,
+        "mean": 1622.6900443624868
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_31d_1_coordinates.csv",
+      "reason": "Amplitude range 986.603-2044.430 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 986.6027,
+        "max": 2044.4304,
+        "mean": 1526.2383379
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_31d_5_coordinates.csv",
+      "reason": "Amplitude range 6.024-231.519 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 6.0242,
+        "max": 231.5191,
+        "mean": 120.10911809999999
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_31d_6_coordinates.csv",
+      "reason": "Amplitude range 4.935-232.621 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 4.9347,
+        "max": 232.6212,
+        "mean": 101.1550403726708
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_31d_7_coordinates.csv",
+      "reason": "Amplitude range 6.792-233.029 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 6.7917,
+        "max": 233.029,
+        "mean": 116.21608418079096
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_32d_2_coordinates.csv",
+      "reason": "Amplitude range 607.895-2386.239 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 607.8952,
+        "max": 2386.2387,
+        "mean": 1507.393102453988
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_32d_3_coordinates.csv",
+      "reason": "Amplitude range 645.893-2389.249 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 645.8934,
+        "max": 2389.2492,
+        "mean": 1642.4624684
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_35d_1_coordinates.csv",
+      "reason": "Amplitude range 986.603-2044.430 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 986.6027,
+        "max": 2044.4304,
+        "mean": 1524.7956140000001
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_35d_3_coordinates.csv",
+      "reason": "Amplitude range 635.829-2389.249 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 635.8294,
+        "max": 2389.2492,
+        "mean": 1639.7715061
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_36d_2_coordinates.csv",
+      "reason": "Amplitude range 607.895-2446.574 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 607.8952,
+        "max": 2446.5737,
+        "mean": 1498.4307122866894
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_38d_1_coordinates.csv",
+      "reason": "Amplitude range 986.603-2044.430 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 986.6027,
+        "max": 2044.4304,
+        "mean": 1524.8773396000001
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_39d_2_coordinates.csv",
+      "reason": "Amplitude range 607.895-2446.574 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 607.8952,
+        "max": 2446.5737,
+        "mean": 1492.0525459399332
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_39d_3_coordinates.csv",
+      "reason": "Amplitude range 635.829-2389.249 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 635.8294,
+        "max": 2389.2492,
+        "mean": 1627.6931041999999
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_39d_5_coordinates.csv",
+      "reason": "Amplitude range 6.024-231.519 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 6.0242,
+        "max": 231.5191,
+        "mean": 119.46881845841784
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_39d_6_coordinates.csv",
+      "reason": "Amplitude range 4.935-231.963 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 4.9347,
+        "max": 231.9634,
+        "mean": 107.44907931034483
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_39d_7_coordinates.csv",
+      "reason": "Amplitude range 6.792-233.029 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 6.7917,
+        "max": 233.029,
+        "mean": 121.81594520795659
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_42d_1_coordinates.csv",
+      "reason": "Amplitude range 986.603-2044.430 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 986.6027,
+        "max": 2044.4304,
+        "mean": 1524.8773396000001
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_42d_2_coordinates.csv",
+      "reason": "Amplitude range 607.895-2446.574 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 607.8952,
+        "max": 2446.5737,
+        "mean": 1486.618613185654
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_43d_3_coordinates.csv",
+      "reason": "Amplitude range 635.829-2389.249 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 635.8294,
+        "max": 2389.2492,
+        "mean": 1612.6675010000001
+      }
+    },
+    {
+      "file": "Pv_M_I_U_N_46d_3_coordinates.csv",
+      "reason": "Amplitude range 635.829-2389.249 mV outside Adamatzky's biological range",
+      "species": "Pv",
+      "amplitude_range": {
+        "min": 635.8294,
+        "max": 2389.2492,
+        "mean": 1582.3821302999997
+      }
+    },
+    {
+      "file": "Rb_M_I_Fc-H_N_16d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-H_N_16d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-H_N_16d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-H_N_18d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-H_N_18d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-H_N_18d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-H_N_20d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-H_N_20d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-H_N_20d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-H_N_26d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-H_N_26d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-H_N_31d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-L_N_16d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-L_N_16d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-L_N_16d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-L_N_18d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-L_N_18d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-L_N_18d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-L_N_20d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-L_N_20d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-L_N_20d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-L_N_26d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-L_N_26d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-L_N_26d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-L_N_31d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-L_N_31d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-L_N_31d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-M_N_16d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-M_N_16d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-M_N_16d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-M_N_18d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-M_N_18d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-M_N_18d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-M_N_20d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-M_N_20d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-M_N_20d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-M_N_26d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-M_N_26d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-M_N_26d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-M_N_31d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-M_N_31d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_Fc-M_N_31d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_U_N_16d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_U_N_16d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_U_N_16d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_U_N_18d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_U_N_18d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_U_N_18d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_U_N_20d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_U_N_20d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_U_N_20d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_U_N_26d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_U_N_26d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_U_N_26d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_U_N_31d_1_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_U_N_31d_2_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Rb_M_I_U_N_31d_3_coordinates.csv",
+      "reason": "Species Rb not in Adamatzky's study",
+      "species": "Rb"
+    },
+    {
+      "file": "Sc_M_I_U_N_42d_1_coordinates.csv",
+      "reason": "Species Sc not in Adamatzky's study",
+      "species": "Sc"
+    },
+    {
+      "file": "Ch1-2_moisture_added.csv",
+      "reason": "Species Ch1-2 not in Adamatzky's study",
+      "species": "Ch1-2"
+    },
+    {
+      "file": "Spray_in_bag_crop.csv",
+      "reason": "Species Spray not in Adamatzky's study",
+      "species": "Spray"
+    }
+  ],
+  "compliance_summary": {
+    "total_files_processed": 275,
+    "accepted_files": 0,
+    "rejected_files": 275,
+    "compliance_rate": "0.0%"
+  }
+}

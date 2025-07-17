@@ -1,0 +1,347 @@
+{
+  "filename": "Norm_vs_deep_tip_crop.csv",
+  "timestamp": "20250716_211024",
+  "signal_statistics": {
+    "original_samples": 61646,
+    "processed_samples": 61646,
+    "original_amplitude_range": [
+      -0.059677,
+      0.862857
+    ],
+    "processed_amplitude_range": [
+      0.05,
+      5.0
+    ],
+    "signal_variance": 0.3907735221064942,
+    "signal_skewness": 0.9776921612860057,
+    "signal_kurtosis": 1.5434164103646015,
+    "sampling_rate": 1,
+    "filename": "Norm_vs_deep_tip_crop.csv"
+  },
+  "square_root_results": {
+    "features": {
+      "all_features": [
+        {
+          "scale": 30.233447768513976,
+          "magnitude": 2701.0610387949087,
+          "phase": 1.542834908628463,
+          "frequency": 4.811802659069632,
+          "temporal_scale": "very_fast",
+          "scaling_method": "square_root",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 30.337598425196852,
+          "magnitude": 8629.761837585642,
+          "phase": 1.2303350061002507,
+          "frequency": 4.828378750906979,
+          "temporal_scale": "very_fast",
+          "scaling_method": "square_root",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 30.3974358974359,
+          "magnitude": 3158.0540777479678,
+          "phase": 3.0971509640454298,
+          "frequency": 4.837902180395948,
+          "temporal_scale": "very_fast",
+          "scaling_method": "square_root",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 30.563212692117006,
+          "magnitude": 6761.793480684294,
+          "phase": 0.5689459831922313,
+          "frequency": 4.864286376719376,
+          "temporal_scale": "very_fast",
+          "scaling_method": "square_root",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 30.593548387096774,
+          "magnitude": 2676.9129653221908,
+          "phase": 2.070204008513777,
+          "frequency": 4.869114452527533,
+          "temporal_scale": "very_fast",
+          "scaling_method": "square_root",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 30.746134663341643,
+          "magnitude": 4490.083733971887,
+          "phase": 2.4900776991217377,
+          "frequency": 4.89339931263989,
+          "temporal_scale": "very_fast",
+          "scaling_method": "square_root",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 30.8384192096048,
+          "magnitude": 2328.3144572401457,
+          "phase": 1.683079323586975,
+          "frequency": 4.908086854348665,
+          "temporal_scale": "very_fast",
+          "scaling_method": "square_root",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 30.853853853853856,
+          "magnitude": 2254.733235637063,
+          "phase": -0.5097406503358118,
+          "frequency": 4.910543354275767,
+          "temporal_scale": "very_fast",
+          "scaling_method": "square_root",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 31.260649087221093,
+          "magnitude": 1682.1125919981953,
+          "phase": 2.0932825758776037,
+          "frequency": 4.9752868264923835,
+          "temporal_scale": "very_fast",
+          "scaling_method": "square_root",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 31.27650938609843,
+          "magnitude": 2240.270833845726,
+          "phase": -0.0026837481605676604,
+          "frequency": 4.977811071457626,
+          "temporal_scale": "very_fast",
+          "scaling_method": "square_root",
+          "threshold_used": 0.03125594031966141
+        }
+      ],
+      "n_features": 10,
+      "detected_scales": [
+        30.233447768513976,
+        30.337598425196852,
+        30.3974358974359,
+        30.563212692117006,
+        30.593548387096774,
+        30.746134663341643,
+        30.8384192096048,
+        30.853853853853856,
+        31.260649087221093,
+        31.27650938609843
+      ],
+      "max_magnitude": 8629.761837585642,
+      "avg_magnitude": 3692.3098252828013,
+      "scaling_method": "square_root",
+      "adaptive_threshold": 0.03125594031966141
+    },
+    "biological_validation": {
+      "valid": false,
+      "reasons": [
+        "Suspiciously frequent spikes",
+        "Insufficient temporal scale diversity"
+      ],
+      "biological_metrics": {
+        "isi": {
+          "mean": 0.1158957352871614,
+          "std": 0.11533277345117685,
+          "min": 0.01543464424905494,
+          "max": 0.40679523336723733
+        },
+        "amplitude": {
+          "mean": 3692.3098252828013,
+          "std": 2163.6094749783038,
+          "cv": 0.5859772276321878
+        },
+        "temporal_distribution": {
+          "very_fast": 10
+        }
+      }
+    },
+    "statistical_validation": {
+      "valid": false,
+      "reasons": [
+        "Features not statistically significant (p >= 0.05)"
+      ],
+      "statistical_metrics": {
+        "bootstrap": {
+          "actual_mean_magnitude": 3692.3098252828013,
+          "null_mean_magnitude": 4385.491018054532,
+          "p_value": 0.592,
+          "significant": "False"
+        },
+        "confidence_intervals": {
+          "magnitude_ci_95": [
+            2060.834934802412,
+            5323.78471576319
+          ],
+          "n_features": 10
+        }
+      }
+    }
+  },
+  "linear_results": {
+    "features": {
+      "all_features": [
+        {
+          "scale": 30.233447768513976,
+          "magnitude": 1739.4678014458298,
+          "phase": 1.1887451850400816,
+          "frequency": 4.811802659069632,
+          "temporal_scale": "very_fast",
+          "scaling_method": "linear",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 30.337598425196852,
+          "magnitude": 1587.5913877625678,
+          "phase": 0.44493438364925164,
+          "frequency": 4.828378750906979,
+          "temporal_scale": "very_fast",
+          "scaling_method": "linear",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 30.3974358974359,
+          "magnitude": 1805.6255042602636,
+          "phase": 2.8191155787938786,
+          "frequency": 4.837902180395948,
+          "temporal_scale": "very_fast",
+          "scaling_method": "linear",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 30.563212692117006,
+          "magnitude": 1754.5716660351443,
+          "phase": 2.8786745933343156,
+          "frequency": 4.864286376719376,
+          "temporal_scale": "very_fast",
+          "scaling_method": "linear",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 30.593548387096774,
+          "magnitude": 2324.230674308931,
+          "phase": -1.4342139914234933,
+          "frequency": 4.869114452527533,
+          "temporal_scale": "very_fast",
+          "scaling_method": "linear",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 30.746134663341643,
+          "magnitude": 2913.6047831983583,
+          "phase": 2.3357413363318784,
+          "frequency": 4.89339931263989,
+          "temporal_scale": "very_fast",
+          "scaling_method": "linear",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 30.8384192096048,
+          "magnitude": 4092.973774600495,
+          "phase": 2.219471608107799,
+          "frequency": 4.908086854348665,
+          "temporal_scale": "very_fast",
+          "scaling_method": "linear",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 30.853853853853856,
+          "magnitude": 1232.6784390498824,
+          "phase": -2.5615528577465896,
+          "frequency": 4.910543354275767,
+          "temporal_scale": "very_fast",
+          "scaling_method": "linear",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 31.260649087221093,
+          "magnitude": 55105.650005779775,
+          "phase": -1.823047790867465,
+          "frequency": 4.9752868264923835,
+          "temporal_scale": "very_fast",
+          "scaling_method": "linear",
+          "threshold_used": 0.03125594031966141
+        },
+        {
+          "scale": 31.27650938609843,
+          "magnitude": 54183.1513468594,
+          "phase": -2.1100747305020877,
+          "frequency": 4.977811071457626,
+          "temporal_scale": "very_fast",
+          "scaling_method": "linear",
+          "threshold_used": 0.03125594031966141
+        }
+      ],
+      "n_features": 10,
+      "detected_scales": [
+        30.233447768513976,
+        30.337598425196852,
+        30.3974358974359,
+        30.563212692117006,
+        30.593548387096774,
+        30.746134663341643,
+        30.8384192096048,
+        30.853853853853856,
+        31.260649087221093,
+        31.27650938609843
+      ],
+      "max_magnitude": 55105.650005779775,
+      "avg_magnitude": 12673.954538330066,
+      "scaling_method": "linear",
+      "adaptive_threshold": 0.03125594031966141
+    },
+    "biological_validation": {
+      "valid": false,
+      "reasons": [
+        "Suspiciously frequent spikes",
+        "Insufficient temporal scale diversity"
+      ],
+      "biological_metrics": {
+        "isi": {
+          "mean": 0.1158957352871614,
+          "std": 0.11533277345117685,
+          "min": 0.01543464424905494,
+          "max": 0.40679523336723733
+        },
+        "amplitude": {
+          "mean": 12673.954538330066,
+          "std": 21000.484250114307,
+          "cv": 1.65697961016052
+        },
+        "temporal_distribution": {
+          "very_fast": 10
+        }
+      }
+    },
+    "statistical_validation": {
+      "valid": true,
+      "reasons": [],
+      "statistical_metrics": {
+        "bootstrap": {
+          "actual_mean_magnitude": 12673.954538330066,
+          "null_mean_magnitude": 4365.9987465566,
+          "p_value": 0.0,
+          "significant": "True"
+        },
+        "confidence_intervals": {
+          "magnitude_ci_95": [
+            -3161.510751603524,
+            28509.419828263657
+          ],
+          "n_features": 10
+        }
+      }
+    }
+  },
+  "comparison_metrics": {
+    "feature_count_ratio": 1.0,
+    "max_magnitude_ratio": 0.1566039387373256,
+    "sqrt_superiority": false,
+    "magnitude_superiority": false
+  },
+  "plot_path": "results/enhanced_scaling_comparison/visualizations/comprehensive_analysis_Norm_vs_deep_tip_crop_20250716_211024.png",
+  "methodology": {
+    "adamatzky_compliance": true,
+    "no_forced_parameters": true,
+    "adaptive_thresholds": true,
+    "biological_validation": true,
+    "statistical_validation": true
+  }
+}

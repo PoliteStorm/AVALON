@@ -1,0 +1,3032 @@
+{
+  "timestamp": "2025-07-16T20:21:00.594010",
+  "adamatzky_parameters": {
+    "amplitude_range": {
+      "min": 0.05,
+      "max": 5.0
+    },
+    "temporal_scales": {
+      "very_slow": {
+        "min": 60,
+        "max": 300
+      },
+      "slow": {
+        "min": 10,
+        "max": 60
+      },
+      "very_fast": {
+        "min": 1,
+        "max": 10
+      }
+    },
+    "wave_transform_parameters": {
+      "scale_min": 1,
+      "scale_max": 300,
+      "scale_steps": 50,
+      "threshold_multiplier": 2.0,
+      "min_peaks": 3
+    }
+  },
+  "analysis_method": "wave_transform_on_calibrated_data",
+  "files_analyzed": [
+    {
+      "file": "calibrated_Ch1-2_1second_sampling.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 3.9044838899257317
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.0,
+        "mean": 1.1074646366228387
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Norm_vs_deep_tip_crop.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 1.0095359981515712
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Ag_M_I+4R_U_N_42d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.5259826514913883
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pi_M_I_U_N_46d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 1.9228686911370803
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pi_M_I_U_N_46d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 1.9228686911370803
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pi_M_I_U_N_46d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 1.9228686911370803
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pi_M_I_U_N_46d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.49968627178215
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pi_M_I_U_N_46d_5_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.596631407113475
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 89,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pi_M_I_U_N_46d_6_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.6340181606314097
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pi_M_I_U_N_46d_7_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.7125946766817552
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 244,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pp_M_Tokyo_U_N_26h_11_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.579924540376243
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 58,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pp_M_Tokyo_U_N_26h_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.0,
+        "mean": 2.332482666615332
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pp_M_Tokyo_U_N_26h_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 3.084467881318007
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 68,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pp_M_Tokyo_U_N_26h_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.1876272186259693
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pp_M_Tokyo_U_N_26h_6_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.5452945840844086
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pp_M_Tokyo_U_N_26h_7_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.3602757543367896
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pp_M_Tokyo_U_N_26h_9_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.385162336740203
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pp_M_UK_U_N_15h_10_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.916264982107251
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pp_M_UK_U_N_15h_11_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.6051771995983692
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 50,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pp_M_UK_U_N_15h_12_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.508387661661723
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pp_M_UK_U_N_15h_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.480667100050292
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 230,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pp_M_UK_U_N_15h_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.509909276078121
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 202,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pp_M_UK_U_N_15h_6_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.143661808377053
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 54,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pp_M_UK_U_N_15h_7_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.5718323521200723
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 54,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pp_M_UK_U_N_15h_8_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.4217333344661855
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 60,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pp_M_UK_U_N_15h_9_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.801943473335478
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 36,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_155d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 3.146312311236043
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_155d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.0,
+        "mean": 2.509186104451291
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_155d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.0,
+        "mean": 2.7758889175153207
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_208d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 4.999999999999999,
+        "mean": 3.3215698908641267
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_208d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.0,
+        "mean": 2.269912444368633
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_208d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.0,
+        "mean": 2.6416072791929675
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_36d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.000000000000001,
+        "mean": 2.3980386486488343
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_36d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.7486704683462286
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 135,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_36d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.516181859669893
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 218,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_57d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.000000000000001,
+        "mean": 2.3781381522184013
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_57d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 3.0262375744361014
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 131,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_57d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.000000000000001,
+        "mean": 2.6591676597613643
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_78d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.000000000000001,
+        "mean": 2.5653777163932734
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_78d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.8398259129619188
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 74,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_78d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 4.999999999999999,
+        "mean": 2.631627506814744
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_99d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.000000000000001,
+        "mean": 3.0387397514684134
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_99d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.765707378848707
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 87,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_Fc_N_99d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 4.999999999999999,
+        "mean": 2.7004027605681005
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_155d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 3.0273788764965888
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_155d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.0,
+        "mean": 2.463966609218689
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_155d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.0,
+        "mean": 2.715156158692439
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_155d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.0,
+        "mean": 2.2936870688340942
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_208d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 4.999999999999999,
+        "mean": 3.0278257091925713
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_208d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000002,
+        "mean": 2.4408866152800504
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_208d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.7992628936136574
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_208d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.549219542789885
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 56,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_36d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.5146024648808574
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_36d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.4434517069509196
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 207,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_36d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.531776940401153
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 152,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_36d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.0694218707387777
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 220,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_57d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 4.999999999999999,
+        "mean": 2.532781204237427
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_57d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.657620318941483
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 157,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_57d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.4852290114477387
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 117,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_57d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1645663473854717
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 169,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_78d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.000000000000001,
+        "mean": 2.7573247597072084
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_78d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.314216464695704
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 241,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_78d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.523489626408965
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 85,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_78d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.5411271506923465
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 209,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_99d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.984558212712691
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_99d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.0,
+        "mean": 2.835715671023509
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_99d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.399215080310074
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 119,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_L_I+4xR_U_N_99d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.4440904737821234
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 141,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_15d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.7351863799280336
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_18d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.3859297903832526
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_18d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 4.999999999999999,
+        "mean": 2.693184039667996
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_18d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.7273240031228982
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 214,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_21d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.415913665416312
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_21d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.792668558687484
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_22d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.670093014507731
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 248,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_25d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.402480020665765
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_25d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.6660033561766427
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_25d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.6546910362667075
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 267,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_28d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.4349334393056576
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_28d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.591498170079493
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_30d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.591498170079493
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_30d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.640007587189658
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 276,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_32d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.4935859135850476
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_33d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.624311854455645
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 285,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_5xI_U_N_35d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.509033315826954
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_15d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.308067092741443
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_15d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 4.999999999999999,
+        "mean": 2.409703779009198
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_18d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.000000000000001,
+        "mean": 2.1253397344029756
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_18d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.1436935518606997
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_18d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.8172196721823783
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_18d_5_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.5264583831261196
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_19d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 4.999999999999998,
+        "mean": 2.4481345861172117
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_21d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.082555302559989
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_21d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.459192148798819
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_21d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.810612870929863
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 121,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_21d_5_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.583423337964802
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_22d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.204495385769715
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_25d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.237145590901054
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_25d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.367586342254262
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_25d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.1964985042893077
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_25d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.721193320518657
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 148,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_25d_5_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.5611320284906216
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_27d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.2733527434551
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_28d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.5398394694284026
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 181,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_28d_5_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.694279801747175
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_29d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.3860359359189407
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_29d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 4.999999999999999,
+        "mean": 2.2063378005151226
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_30d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.527099884360565
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 204,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_31d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.3487498565742784
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_32d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.4052197764360503
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_32d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.3162243480141926
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_32d_5_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.73391460648479
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 129,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_33d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.580505673154065
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 221,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_35d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 4.999999999999999,
+        "mean": 2.393570027289568
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_35d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000002,
+        "mean": 2.1959218341553903
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_35d_5_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.687043386522954
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 164,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_36d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.4576599289609202
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_38d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.478127330233856
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_39d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.000000000000001,
+        "mean": 2.555967764555001
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_39d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.2555519788922607
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 205,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_42d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.521358107147712
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_42d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.000000000000001,
+        "mean": 2.556307161987641
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_42d_5_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.590246405768944
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 226,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_45d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.6292641368882204
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 328,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_46d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.5563195271043084
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+4R_U_N_50d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.553289375667976
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_Fc_Hf_18d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.2163325237173086
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 231,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_Fc_Hf_18d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.584888716367904
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 246,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_Fc_Hf_18d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 1.9351530457442128
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_Fc_Hf_22d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.0784421393191392
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 285,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_Fc_Hf_22d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.387321431523075
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_Fc_Hf_22d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.0300235863766667
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 229,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_Fc_Hf_26d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1018843899336623
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 296,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_Fc_Hf_26d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1980385122270625
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 310,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_Fc_Hf_26d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.009237571876511
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 248,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_Fc_Hf_38d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.2477380064283934
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 338,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_Fc_Hf_38d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 1.959666603253375
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_Fc_Hf_38d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.1913322345506616
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_Fc_Hf_48d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.3323376542173095
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 372,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_Fc_Hf_48d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.0923066165800743
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 251,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_Fc_Hf_48d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.2364341580810185
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_Fc_N_20d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.502253296091416
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 568,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+R_U_N_18d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.522133281384665
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+R_U_N_18d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.618388759570494
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 79,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+R_U_N_18d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.000000000000001,
+        "mean": 2.5080356985934595
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+R_U_N_18d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.651108898994105
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 51,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+R_U_N_25d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.3643996141762145
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+R_U_N_25d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.3656929921741825
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 106,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+R_U_N_25d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.000000000000001,
+        "mean": 2.1986394137690235
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+R_U_N_25d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.4467085466081064
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+R_U_N_31d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.3019496754224074
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 106,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+R_U_N_31d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.4102295683482295
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+R_U_N_31d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.3814132743004772
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+R_U_N_31d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.5414911810408602
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+R_U_N_39d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.2881236765546515
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 113,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+R_U_N_39d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.2843414362077463
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 150,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I+R_U_N_39d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.000000000000001,
+        "mean": 2.4520629966258265
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I+R_U_N_39d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.7267648667881255
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_Hf_18d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1076725075637226
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 297,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_Hf_18d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.0575542411696666
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 171,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_Hf_18d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.0343383618835014
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 196,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_Hf_22d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 1.9798077229164122
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 368,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_Hf_22d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 1.8704388907960334
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 227,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_Hf_22d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 1.8580456562454917
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_Hf_26d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 1.965363765623513
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 386,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_Hf_26d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.0163468873693815
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 324,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_Hf_26d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 1.9404867564887551
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 265,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_Hf_30d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 4.999999999999999,
+        "mean": 2.1506963419541165
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 281,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_Hf_38d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 4.999999999999999,
+        "mean": 2.3492439840533086
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 292,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_Hf_38d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.197960290376123
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 322,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_Hf_38d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1102259230519254
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 175,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_Hf_48d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.37966663830463
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 306,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_Hf_48d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.269171675823229
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 134,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_Hf_52d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 4.999999999999999,
+        "mean": 2.3492439840533086
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 292,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_15d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.5098141841502435
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_15d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.000000000000001,
+        "mean": 2.1735931935313593
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_18d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 4.999999999999999,
+        "mean": 2.4614358876269744
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_18d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.8916405374080787
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_18d_5_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.5710912531024563
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 115,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_18d_6_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.0,
+        "mean": 2.4015979385490485
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_18d_7_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.6505789964202684
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_19d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 4.999999999999998,
+        "mean": 2.274135700234177
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_20d_4_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.686495246755786
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 410,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_21d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.3421044498563672
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_21d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.4495492775875976
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_22d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.761627101124478
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_25d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.3463723263162395
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_25d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.5839153284396623
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 132,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_25d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.7629025461371124
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_25d_5_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.4204734655662374
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 180,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_25d_6_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.351874054053841
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 115,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_25d_7_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 4.999999999999999,
+        "mean": 2.342464467834715
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 120,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_27d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.5373996823964484
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 310,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_29d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.566171305917035
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 164,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_29d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.7561588209484764
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_31d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.6127168394080176
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_31d_5_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.481805893175978
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_31d_6_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.141870553786547
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 115,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_31d_7_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.444170641600281
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_32d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 4.999999999999999,
+        "mean": 2.5537427342621033
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 168,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_32d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.816026200294387
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 181,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_35d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.629548151633189
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 347,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_35d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.786625002659448
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_36d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.447455991256281
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 180,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_38d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.5712244653576755
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 368,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_39d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.430285004911228
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 185,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_39d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.7509887831957323
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_39d_5_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.540304043990212
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_39d_6_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.2851631207252954
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 107,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_39d_7_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.566693815650139
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_42d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.527158843733173
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 410,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_42d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.4156560378929686
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 190,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_43d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.726857113256303
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Pv_M_I_U_N_46d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.685376800076694
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-H_N_16d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 4.999999999999999,
+        "mean": 2.3720783733937223
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-H_N_16d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.084123982134352
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-H_N_16d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 4.999999999999999,
+        "mean": 2.5564801173538108
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-H_N_18d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.000000000000001,
+        "mean": 2.4459905713532133
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-H_N_18d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.000000000000001,
+        "mean": 2.0174653026138634
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-H_N_18d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.582787995078467
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 54,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-H_N_20d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.4112607321348665
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-H_N_20d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.000000000000001,
+        "mean": 1.9552903961261245
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-H_N_20d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.4151010692438186
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 57,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-H_N_26d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.315598386786826
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-H_N_26d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.5725088342807427
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 39,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-H_N_31d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.5357139632325567
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 30,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-L_N_16d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.000000000000001,
+        "mean": 2.208751032582022
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-L_N_16d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.409450361820347
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-L_N_16d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.000000000000001,
+        "mean": 2.7490149212571633
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-L_N_18d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1404694405891873
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 21,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-L_N_18d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.4806982224036482
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-L_N_18d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.7340563835413145
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-L_N_20d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.267762514373685
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 25,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-L_N_20d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.4594645044886048
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 57,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-L_N_20d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.000000000000001,
+        "mean": 2.667135335803552
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-L_N_26d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.4938894252101496
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 32,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-L_N_26d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.3092797705088746
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-L_N_26d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.711417427505332
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 54,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-L_N_31d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.3022361949216723
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 27,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-L_N_31d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.5057515954984013
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 64,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-L_N_31d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 4.999999999999999,
+        "mean": 2.743789889770349
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 53,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-M_N_16d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.0892321733517707
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-M_N_16d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.488360604645002
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-M_N_16d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.449681230803565
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-M_N_18d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.0826843041961722
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 27,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-M_N_18d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.4727194462552586
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 61,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-M_N_18d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.4797344943932824
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 58,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-M_N_20d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1606304175855344
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 33,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-M_N_20d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.504640321187028
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-M_N_20d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.6259998712648414
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 72,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-M_N_26d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 4.999999999999999,
+        "mean": 2.147736986582344
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-M_N_26d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.350342537363961
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 61,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-M_N_26d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.355759304532909
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 84,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-M_N_31d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 4.999999999999999,
+        "mean": 2.201717856069934
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-M_N_31d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.422825709911561
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 52,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_Fc-M_N_31d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.3568293511058034
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_U_N_16d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 4.999999999999999,
+        "mean": 2.0472917196510028
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_U_N_16d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 4.999999999999999,
+        "mean": 2.832350263181201
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_U_N_16d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 2.5243527062786426
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_U_N_18d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.0023655921256167
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 25,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_U_N_18d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.970052207691115
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 55,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_U_N_18d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.5122609952646946
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 60,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_U_N_20d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 1.9295080560568103
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 26,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_U_N_20d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.0,
+        "mean": 2.9411628690774716
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_U_N_20d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.0,
+        "mean": 2.3802768840881456
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_U_N_26d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1027925760552844
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 36,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_U_N_26d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.887775267494879
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 106,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_U_N_26d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.3934190227609564
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Rb_M_I_U_N_31d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1416867720590753
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 36,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_U_N_31d_2_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.8599504185459854
+      },
+      "temporal_scale": "very_fast",
+      "spike_count": 108,
+      "adamatzky_compliance": "meets_biological_ranges",
+      "wave_transform_ready": true
+    },
+    {
+      "file": "calibrated_Rb_M_I_U_N_31d_3_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.387475623066469
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Sc_M_I_U_N_42d_1_coordinates.csv",
+      "amplitude_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.377678163760765
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Ch1-2_moisture_added.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999998,
+        "max": 5.0,
+        "mean": 3.9036856115524237
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    },
+    {
+      "file": "calibrated_Spray_in_bag_crop.csv",
+      "amplitude_range": {
+        "min": 0.0499999999999999,
+        "max": 5.0,
+        "mean": 0.4628115969911332
+      },
+      "adamatzky_compliance": "outside_biological_ranges",
+      "wave_transform_ready": false
+    }
+  ],
+  "spike_detection_summary": {},
+  "validation_results": {
+    "total_calibrated_files": 275,
+    "files_meeting_biological_ranges": 121,
+    "compliance_rate": "44.0%",
+    "wave_transform_validation": "ready_for_adamatzky_comparison"
+  }
+}

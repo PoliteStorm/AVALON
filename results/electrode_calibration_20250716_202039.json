@@ -1,0 +1,5531 @@
+{
+  "timestamp": "2025-07-16T20:20:30.393544",
+  "adamatzky_ranges": {
+    "amplitude_min": 0.05,
+    "amplitude_max": 5.0,
+    "temporal_scales": {
+      "very_slow": {
+        "min": 60,
+        "max": 300
+      },
+      "slow": {
+        "min": 10,
+        "max": 60
+      },
+      "very_fast": {
+        "min": 1,
+        "max": 10
+      }
+    }
+  },
+  "calibration_method": "linear_scaling_to_biological_range",
+  "calibrated_files": [
+    {
+      "original_file": "Ch1-2_1second_sampling.csv",
+      "calibrated_file": "calibrated_Ch1-2_1second_sampling.csv",
+      "original_range": {
+        "min": -0.549531,
+        "max": 0.179713,
+        "mean": 0.018319353500000007,
+        "std": 0.11330981011815151
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 3.9044838899257317
+      },
+      "calibration_parameters": {
+        "scale_factor": 6.787851528432185,
+        "offset": 3.780134838270867
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "calibrated_file": "calibrated_New_Oyster_with spray_as_mV_seconds_SigView.csv",
+      "original_range": {
+        "min": 0.224327,
+        "max": 3.459079,
+        "mean": 0.9153645450999999,
+        "std": 0.6641742752842638
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.0,
+        "mean": 1.1074646366228387
+      },
+      "calibration_parameters": {
+        "scale_factor": 1.5302564153295215,
+        "offset": -0.29327783088162557
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Norm_vs_deep_tip_crop.csv",
+      "calibrated_file": "calibrated_Norm_vs_deep_tip_crop.csv",
+      "original_range": {
+        "min": 0.304957,
+        "max": 0.829727,
+        "mean": 0.40668138500000006,
+        "std": 0.04894078054065305
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 1.0095359981515712
+      },
+      "calibration_parameters": {
+        "scale_factor": 9.432703851211008,
+        "offset": -2.826569068353755
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Ag_M_I+4R_U_N_42d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Ag_M_I+4R_U_N_42d_1_coordinates.csv",
+      "original_range": {
+        "min": 82.2671,
+        "max": 219.3148,
+        "mean": 150.81815608622148,
+        "std": 28.96756935169622
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.525982651491388
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.036118811187637594,
+        "offset": -2.9213898518545007
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pi_M_I_U_N_46d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pi_M_I_U_N_46d_1_coordinates.csv",
+      "original_range": {
+        "min": 120.955,
+        "max": 214.1575,
+        "mean": 156.2188473102432,
+        "std": 22.035108624855706
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 1.9228686911370803
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.053110163353987286,
+        "offset": -6.373939808481532
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pi_M_I_U_N_46d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pi_M_I_U_N_46d_2_coordinates.csv",
+      "original_range": {
+        "min": 120.955,
+        "max": 214.1575,
+        "mean": 156.2188473102432,
+        "std": 22.035108624855706
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 1.9228686911370803
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.053110163353987286,
+        "offset": -6.373939808481532
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pi_M_I_U_N_46d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pi_M_I_U_N_46d_3_coordinates.csv",
+      "original_range": {
+        "min": 120.955,
+        "max": 214.1575,
+        "mean": 156.2188473102432,
+        "std": 22.035108624855706
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 1.9228686911370803
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.053110163353987286,
+        "offset": -6.373939808481532
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pi_M_I_U_N_46d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pi_M_I_U_N_46d_4_coordinates.csv",
+      "original_range": {
+        "min": 23.1716,
+        "max": 145.2576,
+        "mean": 83.59026629834256,
+        "std": 29.19939542292261
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.000000000000001,
+        "mean": 2.49968627178215
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.040545189456612556,
+        "offset": -0.8894969120128435
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pi_M_I_U_N_46d_5_coordinates.csv",
+      "calibrated_file": "calibrated_Pi_M_I_U_N_46d_5_coordinates.csv",
+      "original_range": {
+        "min": 32.5294,
+        "max": 124.2888,
+        "mean": 79.73694948240166,
+        "std": 21.648612922521977
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.596631407113475
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.05394542684455217,
+        "offset": -1.7048123679971754
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pi_M_I_U_N_46d_6_coordinates.csv",
+      "calibrated_file": "calibrated_Pi_M_I_U_N_46d_6_coordinates.csv",
+      "original_range": {
+        "min": 54.0194,
+        "max": 178.1103,
+        "mean": 118.79781195335276,
+        "std": 29.852924034567547
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.6340181606314097
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.03989011281246248,
+        "offset": -2.1048399600615357
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pi_M_I_U_N_46d_7_coordinates.csv",
+      "calibrated_file": "calibrated_Pi_M_I_U_N_46d_7_coordinates.csv",
+      "original_range": {
+        "min": 19.7298,
+        "max": 125.4952,
+        "mean": 76.62078808426595,
+        "std": 24.69151423306109
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.7125946766817552
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.04680169507230153,
+        "offset": -0.8733880834374947
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pp_M_Tokyo_U_N_26h_11_coordinates.csv",
+      "calibrated_file": "calibrated_Pp_M_Tokyo_U_N_26h_11_coordinates.csv",
+      "original_range": {
+        "min": 7.6983,
+        "max": 160.8272,
+        "mean": 85.96184786885244,
+        "std": 40.84427156784614
+      },
+      "calibrated_range": {
+        "min": 0.05000000000000002,
+        "max": 5.0,
+        "mean": 2.579924540376243
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.03232570729627131,
+        "offset": -0.19885299247888538
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pp_M_Tokyo_U_N_26h_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pp_M_Tokyo_U_N_26h_1_coordinates.csv",
+      "original_range": {
+        "min": 143.1027,
+        "max": 1843.1848,
+        "mean": 927.0234929440388,
+        "std": 436.0901069269131
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.0,
+        "mean": 2.332482666615332
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.002911624091565931,
+        "offset": -0.36666126888813194
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pp_M_Tokyo_U_N_26h_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pp_M_Tokyo_U_N_26h_2_coordinates.csv",
+      "original_range": {
+        "min": 287.1287,
+        "max": 1544.4051,
+        "mean": 1057.8690744927535,
+        "std": 295.11276120480153
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 3.084467881318007
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0039370817745405864,
+        "offset": -1.0804491717175315
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pp_M_Tokyo_U_N_26h_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pp_M_Tokyo_U_N_26h_4_coordinates.csv",
+      "original_range": {
+        "min": 358.8077,
+        "max": 1563.9019,
+        "mean": 879.2202581673306,
+        "std": 303.179420334261
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.000000000000001,
+        "mean": 2.1876272186259693
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0041075627116950696,
+        "offset": -1.4238251291890711
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pp_M_Tokyo_U_N_26h_6_coordinates.csv",
+      "calibrated_file": "calibrated_Pp_M_Tokyo_U_N_26h_6_coordinates.csv",
+      "original_range": {
+        "min": 47.5034,
+        "max": 1778.2737,
+        "mean": 919.9845628048781,
+        "std": 440.1291106425309
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.5452945840844086
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0028599982331566475,
+        "offset": -0.08585964006893347
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pp_M_Tokyo_U_N_26h_7_coordinates.csv",
+      "calibrated_file": "calibrated_Pp_M_Tokyo_U_N_26h_7_coordinates.csv",
+      "original_range": {
+        "min": 171.9882,
+        "max": 799.1111,
+        "mean": 464.68048906250004,
+        "std": 147.16669543270356
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.000000000000001,
+        "mean": 2.3602757543367896
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.007893189676218172,
+        "offset": -1.3075354846713463
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pp_M_Tokyo_U_N_26h_9_coordinates.csv",
+      "calibrated_file": "calibrated_Pp_M_Tokyo_U_N_26h_9_coordinates.csv",
+      "original_range": {
+        "min": 511.8712,
+        "max": 1602.0613,
+        "mean": 1026.168343718593,
+        "std": 249.85718246637
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.385162336740203
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.004540492525110988,
+        "offset": -2.2741473574195914
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pp_M_UK_U_N_15h_10_coordinates.csv",
+      "calibrated_file": "calibrated_Pp_M_UK_U_N_15h_10_coordinates.csv",
+      "original_range": {
+        "min": 225.9329,
+        "max": 1030.5119,
+        "mean": 691.8190844522968,
+        "std": 152.5301405751758
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.000000000000001,
+        "mean": 2.916264982107251
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.006152285853844061,
+        "offset": -1.3400037845879647
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pp_M_UK_U_N_15h_11_coordinates.csv",
+      "calibrated_file": "calibrated_Pp_M_UK_U_N_15h_11_coordinates.csv",
+      "original_range": {
+        "min": 173.9833,
+        "max": 989.0778,
+        "mean": 594.7329731147541,
+        "std": 143.34438031198124
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.6051771995983692
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.006072915471764317,
+        "offset": -1.0065858743986127
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pp_M_UK_U_N_15h_12_coordinates.csv",
+      "calibrated_file": "calibrated_Pp_M_UK_U_N_15h_12_coordinates.csv",
+      "original_range": {
+        "min": 117.5511,
+        "max": 949.775,
+        "mean": 530.8700833333334,
+        "std": 168.09707102998237
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.000000000000001,
+        "mean": 2.508387661661723
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.005947918582967877,
+        "offset": -0.6491843721383151
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pp_M_UK_U_N_15h_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pp_M_UK_U_N_15h_1_coordinates.csv",
+      "original_range": {
+        "min": 172.3198,
+        "max": 1019.3204,
+        "mean": 588.2342428571428,
+        "std": 147.52816458531098
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.480667100050292
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.005844151704260895,
+        "offset": -0.9570630528478965
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pp_M_UK_U_N_15h_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pp_M_UK_U_N_15h_2_coordinates.csv",
+      "original_range": {
+        "min": 171.3805,
+        "max": 977.8284,
+        "mean": 572.1458878552972,
+        "std": 131.45218004536338
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.509909276078121
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.006138028259482107,
+        "offset": -1.0019383521241734
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pp_M_UK_U_N_15h_6_coordinates.csv",
+      "calibrated_file": "calibrated_Pp_M_UK_U_N_15h_6_coordinates.csv",
+      "original_range": {
+        "min": 177.0818,
+        "max": 1020.6747,
+        "mean": 533.8895245551603,
+        "std": 187.3347949702343
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.143661808377053
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.005867759199964817,
+        "offset": -0.9890733610963296
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pp_M_UK_U_N_15h_7_coordinates.csv",
+      "calibrated_file": "calibrated_Pp_M_UK_U_N_15h_7_coordinates.csv",
+      "original_range": {
+        "min": 215.7813,
+        "max": 1036.4937,
+        "mean": 633.9023266881029,
+        "std": 153.78683064402603
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.5718323521200723
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.006031345450610957,
+        "offset": -1.251451562081918
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pp_M_UK_U_N_15h_8_coordinates.csv",
+      "calibrated_file": "calibrated_Pp_M_UK_U_N_15h_8_coordinates.csv",
+      "original_range": {
+        "min": 172.0736,
+        "max": 982.2329,
+        "mean": 560.2517450581395,
+        "std": 181.21404727492967
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.4217333344661855
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.006109909495576981,
+        "offset": -1.001354122578115
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pp_M_UK_U_N_15h_9_coordinates.csv",
+      "calibrated_file": "calibrated_Pp_M_UK_U_N_15h_9_coordinates.csv",
+      "original_range": {
+        "min": 159.205,
+        "max": 998.5651,
+        "mean": 625.8457169642858,
+        "std": 171.75072499805773
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.801943473335478
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.005897349659579959,
+        "offset": -0.8888875525534273
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_155d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_155d_1_coordinates.csv",
+      "original_range": {
+        "min": 281.8447,
+        "max": 571.7081,
+        "mean": 463.1593694942904,
+        "std": 62.54038205871601
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 3.146312311236043
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.01707700937752059,
+        "offset": -4.763064584904477
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_155d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_155d_2_coordinates.csv",
+      "original_range": {
+        "min": 23.9589,
+        "max": 299.3902,
+        "mean": 160.79462236180908,
+        "std": 65.25430847182393
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.0,
+        "mean": 2.509186104451291
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.017971813660974625,
+        "offset": -0.38058488632192494
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_155d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_155d_3_coordinates.csv",
+      "original_range": {
+        "min": 28.2292,
+        "max": 528.0725,
+        "mean": 303.4852226190476,
+        "std": 103.55772440503502
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.0,
+        "mean": 2.7758889175153207
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.009903103632678482,
+        "offset": -0.2295566930676074
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_208d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_208d_1_coordinates.csv",
+      "original_range": {
+        "min": 281.8447,
+        "max": 573.1225,
+        "mean": 474.3569586580087,
+        "std": 64.28616681163739
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 4.999999999999999,
+        "mean": 3.3215698908641267
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0169940860580518,
+        "offset": -4.739693086805793
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_208d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_208d_2_coordinates.csv",
+      "original_range": {
+        "min": 17.3451,
+        "max": 298.1521,
+        "mean": 143.27781793248946,
+        "std": 70.32135614216001
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.0,
+        "mean": 2.2699124443686336
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.017627765689601754,
+        "offset": -0.2557553586627114
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_208d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_208d_3_coordinates.csv",
+      "original_range": {
+        "min": 25.6574,
+        "max": 511.3514,
+        "mean": 279.945906234414,
+        "std": 115.28225251648902
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.0,
+        "mean": 2.6416072791929675
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.010191602119853241,
+        "offset": -0.21149001222992253
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_36d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_36d_1_coordinates.csv",
+      "original_range": {
+        "min": 281.8447,
+        "max": 574.2652,
+        "mean": 420.5547274054982,
+        "std": 68.6101197606984
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.000000000000001,
+        "mean": 2.3980386486488343
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.016927677779088674,
+        "offset": -4.720976265343913
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_36d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_36d_2_coordinates.csv",
+      "original_range": {
+        "min": 64.1563,
+        "max": 308.1601,
+        "mean": 197.1837442877292,
+        "std": 51.88918571407522
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.7486704683462286
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.020286569307527178,
+        "offset": -1.2515112264645059
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_36d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_36d_3_coordinates.csv",
+      "original_range": {
+        "min": 68.4903,
+        "max": 514.1682,
+        "mean": 290.53530045167116,
+        "std": 95.34786380918861
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.516181859669893
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.011106675919986162,
+        "offset": -0.7106995657626283
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_57d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_57d_1_coordinates.csv",
+      "original_range": {
+        "min": 281.8447,
+        "max": 566.6798,
+        "mean": 415.81146028301885,
+        "std": 64.44387090205427
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.000000000000001,
+        "mean": 2.3781381522184013
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.017378476177971044,
+        "offset": -4.848031404837395
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_57d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_57d_2_coordinates.csv",
+      "original_range": {
+        "min": 9.9803,
+        "max": 308.1601,
+        "mean": 189.26392115107913,
+        "std": 60.85311573586273
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 3.0262375744361014
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.01660072211464358,
+        "offset": -0.11568018692077732
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_57d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_57d_3_coordinates.csv",
+      "original_range": {
+        "min": 39.1179,
+        "max": 545.9785,
+        "mean": 306.2864425307557,
+        "std": 109.98965745817996
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.000000000000001,
+        "mean": 2.6591676597613643
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.009765998777573164,
+        "offset": -0.33202536358122925
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_78d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_78d_1_coordinates.csv",
+      "original_range": {
+        "min": 281.8447,
+        "max": 549.4351,
+        "mean": 417.8226655112652,
+        "std": 60.3162710433909
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.000000000000001,
+        "mean": 2.5653777163932734
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.018498421468034727,
+        "offset": -5.163682049131807
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_78d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_78d_2_coordinates.csv",
+      "original_range": {
+        "min": 48.153,
+        "max": 306.6125,
+        "mean": 193.82108293963253,
+        "std": 58.08635697518688
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.8398259129619188
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.019151936763786976,
+        "offset": -0.8722232109866341
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_78d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_78d_3_coordinates.csv",
+      "original_range": {
+        "min": 40.3711,
+        "max": 539.7123,
+        "mean": 300.79796408199644,
+        "std": 105.96897139083308
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 4.999999999999999,
+        "mean": 2.631627506814744
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.009913061449766211,
+        "offset": -0.3502011950946567
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_99d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_99d_1_coordinates.csv",
+      "original_range": {
+        "min": 281.8447,
+        "max": 557.1225,
+        "mean": 448.05352900136796,
+        "std": 63.311252211754976
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.000000000000001,
+        "mean": 3.0387397514684134
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.017981835077147526,
+        "offset": -5.0180849127681215
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_99d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_99d_2_coordinates.csv",
+      "original_range": {
+        "min": 48.153,
+        "max": 303.6204,
+        "mean": 188.30950570409985,
+        "std": 56.51697414202308
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.765707378848707
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.019376249180913102,
+        "offset": -0.8830245268085085
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_Fc_N_99d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_Fc_N_99d_3_coordinates.csv",
+      "original_range": {
+        "min": 37.8646,
+        "max": 539.7123,
+        "mean": 306.5713736292428,
+        "std": 99.08606101484422
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 4.999999999999999,
+        "mean": 2.7004027605681005
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.009863550236456199,
+        "offset": -0.3234793842833194
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_155d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_155d_1_coordinates.csv",
+      "original_range": {
+        "min": 287.173,
+        "max": 575.572,
+        "mean": 460.6423112328767,
+        "std": 72.41125220025307
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 3.0273788764965888
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.01716372109473334,
+        "offset": -4.878957277937857
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_155d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_155d_2_coordinates.csv",
+      "original_range": {
+        "min": 43.2519,
+        "max": 567.4381,
+        "mean": 298.8817957198444,
+        "std": 107.80008257616133
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.0,
+        "mean": 2.463966609218689
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.009443209302343328,
+        "offset": -0.3584367444240234
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_155d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_155d_3_coordinates.csv",
+      "original_range": {
+        "min": 22.4781,
+        "max": 566.9171,
+        "mean": 315.61243411764707,
+        "std": 123.69006402631783
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.0,
+        "mean": 2.715156158692439
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.009091927653970417,
+        "offset": -0.15436925899871246
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_155d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_155d_4_coordinates.csv",
+      "original_range": {
+        "min": 17.9442,
+        "max": 283.0885,
+        "mean": 138.12618733031675,
+        "std": 62.82300970854311
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.0,
+        "mean": 2.2936870688340942
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.01866907944089313,
+        "offset": -0.28500169530327446
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_208d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_208d_1_coordinates.csv",
+      "original_range": {
+        "min": 287.173,
+        "max": 567.8866,
+        "mean": 456.04495454545463,
+        "std": 85.97491661333298
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 4.999999999999999,
+        "mean": 3.0278257091925713
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.017633630860777672,
+        "offset": -5.0139026751821065
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_208d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_208d_2_coordinates.csv",
+      "original_range": {
+        "min": 1.3236,
+        "max": 567.4381,
+        "mean": 274.7610910638298,
+        "std": 137.83665626272963
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000002,
+        "mean": 2.4408866152800504
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.008743814193065186,
+        "offset": 0.03842668753405892
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_208d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_208d_3_coordinates.csv",
+      "original_range": {
+        "min": 20.5981,
+        "max": 566.9171,
+        "mean": 324.0273029850746,
+        "std": 127.18240985332247
+      },
+      "calibrated_range": {
+        "min": 0.05000000000000002,
+        "max": 5.000000000000001,
+        "mean": 2.7992628936136574
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.00906064039508053,
+        "offset": -0.13663197692190826
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_208d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_208d_4_coordinates.csv",
+      "original_range": {
+        "min": 33.1293,
+        "max": 268.7227,
+        "mean": 152.07872008733625,
+        "std": 64.82286476142856
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.549219542789885
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02101077534430082,
+        "offset": -0.6460722796139451
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_36d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_36d_1_coordinates.csv",
+      "original_range": {
+        "min": 287.173,
+        "max": 559.3684,
+        "mean": 422.6989502564102,
+        "std": 66.38645166930534
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.5146024648808574
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.018185465294417176,
+        "offset": -5.1723746249936635
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_36d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_36d_2_coordinates.csv",
+      "original_range": {
+        "min": 135.8455,
+        "max": 533.6264,
+        "mean": 328.18274729241875,
+        "std": 87.14901826183575
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.4434517069509196
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.012444036402954491,
+        "offset": -1.6404663471775542
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_36d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_36d_3_coordinates.csv",
+      "original_range": {
+        "min": 68.8809,
+        "max": 450.6599,
+        "mean": 260.2930855614973,
+        "std": 80.28114681526135
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.531776940401153
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.012965616233475388,
+        "offset": -0.8430833152163948
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_36d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_36d_4_coordinates.csv",
+      "original_range": {
+        "min": 5.8793,
+        "max": 283.0885,
+        "mean": 118.97067803030303,
+        "std": 66.56500567743889
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.0694218707387777
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.017856550215505113,
+        "offset": -0.0549840156820192
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_57d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_57d_1_coordinates.csv",
+      "original_range": {
+        "min": 287.173,
+        "max": 572.664,
+        "mean": 430.3672805614035,
+        "std": 69.59710382632049
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 4.999999999999999,
+        "mean": 2.532781204237427
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.017338550076885086,
+        "offset": -4.9291634412293215
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_57d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_57d_2_coordinates.csv",
+      "original_range": {
+        "min": 136.6509,
+        "max": 519.9156,
+        "mean": 338.55167156626504,
+        "std": 88.16799993773049
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.657620318941483
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.012915355888502122,
+        "offset": -1.7148950059841148
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_57d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_57d_3_coordinates.csv",
+      "original_range": {
+        "min": 78.8283,
+        "max": 454.9047,
+        "mean": 263.84489793956044,
+        "std": 81.20658618459854
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.4852290114477387
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.013162219166105611,
+        "offset": -0.9875553610915229
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_57d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_57d_4_coordinates.csv",
+      "original_range": {
+        "min": 2.1351,
+        "max": 283.0885,
+        "mean": 122.1542120855615,
+        "std": 64.75821281448474
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1645663473854717
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.01761858016311602,
+        "offset": 0.01238256949373099
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_78d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_78d_1_coordinates.csv",
+      "original_range": {
+        "min": 287.173,
+        "max": 573.8064,
+        "mean": 443.9426365210223,
+        "std": 72.43554577287318
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.000000000000001,
+        "mean": 2.7573247597072084
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.01726944591942181,
+        "offset": -4.90931859301812
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_78d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_78d_2_coordinates.csv",
+      "original_range": {
+        "min": 149.9818,
+        "max": 522.3046,
+        "mean": 320.28875231143553,
+        "std": 81.43263881597834
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.314216464695704
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.013294915057579067,
+        "offset": -1.943995291182812
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_78d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_78d_3_coordinates.csv",
+      "original_range": {
+        "min": 78.8283,
+        "max": 454.9047,
+        "mean": 266.75174932065215,
+        "std": 64.54625962711752
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.5234896264089643
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.013162219166105611,
+        "offset": -0.9875553610915229
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_78d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_78d_4_coordinates.csv",
+      "original_range": {
+        "min": 5.8793,
+        "max": 283.0885,
+        "mean": 145.3870504124656,
+        "std": 65.37507813735006
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.5411271506923465
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.017856550215505113,
+        "offset": -0.0549840156820192
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_99d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_99d_1_coordinates.csv",
+      "original_range": {
+        "min": 287.173,
+        "max": 575.572,
+        "mean": 458.14747555315705,
+        "std": 72.00884058949275
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.984558212712691
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.01716372109473334,
+        "offset": -4.878957277937857
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_99d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_99d_2_coordinates.csv",
+      "original_range": {
+        "min": 43.2519,
+        "max": 498.6472,
+        "mean": 299.5350967112025,
+        "std": 104.90496976725609
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.0,
+        "mean": 2.835715671023509
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.010869677398954272,
+        "offset": -0.42013419989183026
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_99d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_99d_3_coordinates.csv",
+      "original_range": {
+        "min": 78.8283,
+        "max": 454.9047,
+        "mean": 257.3099869148936,
+        "std": 67.50149431666931
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.399215080310074
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.013162219166105611,
+        "offset": -0.9875553610915229
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_L_I+4xR_U_N_99d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_L_I+4xR_U_N_99d_4_coordinates.csv",
+      "original_range": {
+        "min": 6.6767,
+        "max": 283.0885,
+        "mean": 140.3645499436302,
+        "std": 54.98263530768143
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.4440904737821234
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.01790806325923857,
+        "offset": -0.06956676596295816
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_15d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_15d_3_coordinates.csv",
+      "original_range": {
+        "min": 93.0213,
+        "max": 312.62,
+        "mean": 212.145226927253,
+        "std": 50.18393370885065
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.7351863799280336
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022541117046685613,
+        "offset": -2.0468040111348564
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_18d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_18d_1_coordinates.csv",
+      "original_range": {
+        "min": 101.7738,
+        "max": 327.1266,
+        "mean": 208.11891492248063,
+        "std": 63.7657911208425
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.3859297903832526
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021965558005048087,
+        "offset": -2.185518307294163
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_18d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_18d_2_coordinates.csv",
+      "original_range": {
+        "min": 127.9749,
+        "max": 323.0279,
+        "mean": 232.12863262411346,
+        "std": 49.0853312892599
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 4.999999999999999,
+        "mean": 2.693184039667996
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.025377717851045613,
+        "offset": -3.1977109042157776
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_18d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_18d_3_coordinates.csv",
+      "original_range": {
+        "min": 88.7837,
+        "max": 312.62,
+        "mean": 209.85083106267032,
+        "std": 55.32804292855853
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.7273240031228982
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022114375550346392,
+        "offset": -1.9133960845492888
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_21d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_21d_1_coordinates.csv",
+      "original_range": {
+        "min": 101.7738,
+        "max": 327.1266,
+        "mean": 209.48395536562202,
+        "std": 64.55188363962566
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.415913665416312
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021965558005048087,
+        "offset": -2.185518307294163
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_21d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_21d_2_coordinates.csv",
+      "original_range": {
+        "min": 109.4979,
+        "max": 323.0279,
+        "mean": 227.80941865384617,
+        "std": 52.44294372257476
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.792668558687484
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.023181754320236038,
+        "offset": -2.488353416381774
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_22d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_22d_3_coordinates.csv",
+      "original_range": {
+        "min": 88.7837,
+        "max": 314.5744,
+        "mean": 208.29736380016382,
+        "std": 59.411211119196565
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.670093014507731
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021922957854331467,
+        "offset": -1.8964013132516084
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_25d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_25d_1_coordinates.csv",
+      "original_range": {
+        "min": 101.7738,
+        "max": 327.1266,
+        "mean": 208.87237769718948,
+        "std": 65.79193990605546
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.402480020665765
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021965558005048087,
+        "offset": -2.185518307294163
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_25d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_25d_2_coordinates.csv",
+      "original_range": {
+        "min": 101.0504,
+        "max": 323.0279,
+        "mean": 218.36229595872743,
+        "std": 57.30867153346993
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.6660033561766427
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022299557387573065,
+        "offset": -2.2033791938372134
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_25d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_25d_3_coordinates.csv",
+      "original_range": {
+        "min": 88.7837,
+        "max": 314.5744,
+        "mean": 207.5948136085627,
+        "std": 60.45045216505753
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.6546910362667075
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021922957854331467,
+        "offset": -1.8964013132516084
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_28d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_28d_1_coordinates.csv",
+      "original_range": {
+        "min": 101.7738,
+        "max": 327.1266,
+        "mean": 210.34984613356767,
+        "std": 66.18093193101711
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.4349334393056576
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021965558005048087,
+        "offset": -2.185518307294163
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_28d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_28d_2_coordinates.csv",
+      "original_range": {
+        "min": 100.4318,
+        "max": 323.0279,
+        "mean": 214.7202001650165,
+        "std": 59.0712975568469
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.5914981700794923
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022237586372807074,
+        "offset": -2.1833608270764855
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_30d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_30d_2_coordinates.csv",
+      "original_range": {
+        "min": 100.4318,
+        "max": 323.0279,
+        "mean": 214.7202001650165,
+        "std": 59.0712975568469
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.5914981700794923
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022237586372807074,
+        "offset": -2.1833608270764855
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_30d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_30d_3_coordinates.csv",
+      "original_range": {
+        "min": 88.7837,
+        "max": 314.5744,
+        "mean": 206.92503860946746,
+        "std": 60.205122504139744
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.640007587189658
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021922957854331467,
+        "offset": -1.8964013132516084
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_32d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_32d_1_coordinates.csv",
+      "original_range": {
+        "min": 101.7738,
+        "max": 327.1266,
+        "mean": 213.02004801352493,
+        "std": 66.72133664550692
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.4935859135850476
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021965558005048087,
+        "offset": -2.185518307294163
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_33d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_33d_3_coordinates.csv",
+      "original_range": {
+        "min": 88.7837,
+        "max": 314.5744,
+        "mean": 206.20908901734103,
+        "std": 60.26605377430574
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.624311854455645
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021922957854331467,
+        "offset": -1.8964013132516084
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_5xI_U_N_35d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_5xI_U_N_35d_1_coordinates.csv",
+      "original_range": {
+        "min": 101.7738,
+        "max": 327.1266,
+        "mean": 213.7233036393714,
+        "std": 66.30658222906553
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.509033315826954
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021965558005048087,
+        "offset": -2.185518307294163
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_15d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_15d_1_coordinates.csv",
+      "original_range": {
+        "min": 1223.8984,
+        "max": 2023.7637,
+        "mean": 1588.7770894052044,
+        "std": 153.02673411096154
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.308067092741443
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.006188541995758537,
+        "offset": -7.524146646941681
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_15d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_15d_2_coordinates.csv",
+      "original_range": {
+        "min": 122.3955,
+        "max": 235.2004,
+        "mean": 176.17047955974846,
+        "std": 26.513623495984188
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 4.999999999999999,
+        "mean": 2.409703779009198
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.04388107254206156,
+        "offset": -5.320845814321896
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_18d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_18d_1_coordinates.csv",
+      "original_range": {
+        "min": 1210.5831,
+        "max": 2225.7795,
+        "mean": 1636.2149034632037,
+        "std": 210.83678037514005
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.000000000000001,
+        "mean": 2.1253397344029756
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0048759038152617565,
+        "offset": -5.852686755981405
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_18d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_18d_3_coordinates.csv",
+      "original_range": {
+        "min": 960.7694,
+        "max": 1951.7637,
+        "mean": 1379.9286678466076,
+        "std": 249.12684232995707
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.1436935518606997
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.004994983321296601,
+        "offset": -4.749027128612143
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_18d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_18d_4_coordinates.csv",
+      "original_range": {
+        "min": 103.8494,
+        "max": 314.8795,
+        "mean": 221.82245942275043,
+        "std": 50.64012801330427
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.8172196721823783
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.023456369494209595,
+        "offset": -2.38592989815197
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_18d_5_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_18d_5_coordinates.csv",
+      "original_range": {
+        "min": 119.0084,
+        "max": 301.5817,
+        "mean": 210.34884026666668,
+        "std": 37.984372271545766
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.5264583831261196
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0271123981436497,
+        "offset": -3.176603123238721
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_19d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_19d_2_coordinates.csv",
+      "original_range": {
+        "min": 113.1279,
+        "max": 242.9342,
+        "mean": 176.01537020725388,
+        "std": 31.118757489415582
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 4.999999999999998,
+        "mean": 2.4481345861172117
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.03813374235302908,
+        "offset": -4.263990191539239
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_21d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_21d_1_coordinates.csv",
+      "original_range": {
+        "min": 1182.9798,
+        "max": 2369.2189,
+        "mean": 1670.0700167290886,
+        "std": 262.4375371007471
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.082555302559989
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.004172851830630099,
+        "offset": -4.886399424028429
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_21d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_21d_2_coordinates.csv",
+      "original_range": {
+        "min": 107.1673,
+        "max": 247.3954,
+        "mean": 175.41708536585367,
+        "std": 32.98607035308164
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.459192148798819
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.03529962967479414,
+        "offset": -3.7329660032475664
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_21d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_21d_4_coordinates.csv",
+      "original_range": {
+        "min": 92.6375,
+        "max": 318.8427,
+        "mean": 218.79204274570984,
+        "std": 54.070853033256114
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.810612870929863
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021882786072115055,
+        "offset": -1.9771665947555583
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_21d_5_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_21d_5_coordinates.csv",
+      "original_range": {
+        "min": 114.3643,
+        "max": 304.2249,
+        "mean": 211.53546666666668,
+        "std": 38.619980725563494
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.583423337964802
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.026071760017612928,
+        "offset": -2.9316785841822903
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_22d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_22d_3_coordinates.csv",
+      "original_range": {
+        "min": 767.5572,
+        "max": 2196.5,
+        "mean": 1389.506830127042,
+        "std": 337.41810016665687
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.204495385769715
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0034640994727010766,
+        "offset": -2.6088944917879147
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_25d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_25d_1_coordinates.csv",
+      "original_range": {
+        "min": 1123.6532,
+        "max": 2369.2189,
+        "mean": 1674.0034078651686,
+        "std": 297.6875134748707
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.237145590901054
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.003974097873761296,
+        "offset": -4.415507792965077
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_25d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_25d_2_coordinates.csv",
+      "original_range": {
+        "min": 107.1673,
+        "max": 261.012,
+        "mean": 179.19727485822307,
+        "std": 35.705488279643454
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.367586342254262
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.03217530405662334,
+        "offset": -3.3981404624273703
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_25d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_25d_3_coordinates.csv",
+      "original_range": {
+        "min": 710.8165,
+        "max": 2280.5668,
+        "mean": 1391.5168375874125,
+        "std": 348.7175052943877
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.1964985042893077
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.003153367768109361,
+        "offset": -2.191465840140308
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_25d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_25d_4_coordinates.csv",
+      "original_range": {
+        "min": 92.6375,
+        "max": 319.7729,
+        "mean": 215.20771481481484,
+        "std": 56.39658846028591
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.721193320518657
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02179316830401602,
+        "offset": -1.9688646287632838
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_25d_5_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_25d_5_coordinates.csv",
+      "original_range": {
+        "min": 109.1899,
+        "max": 310.0428,
+        "mean": 211.08245559701493,
+        "std": 48.30208430203701
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.561132028490621
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.024644901816204795,
+        "offset": -2.64097436482122
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_27d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_27d_1_coordinates.csv",
+      "original_range": {
+        "min": 1084.4747,
+        "max": 2413.8047,
+        "mean": 1681.5594479711453,
+        "std": 325.6244382466626
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.2733527434551
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0037236803502516303,
+        "offset": -3.9882371307350315
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_28d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_28d_4_coordinates.csv",
+      "original_range": {
+        "min": 90.0506,
+        "max": 319.7729,
+        "mean": 205.60042819148936,
+        "std": 60.301288407229755
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.5398394694284026
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02154775570329916,
+        "offset": -1.8903883297355113
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_28d_5_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_28d_5_coordinates.csv",
+      "original_range": {
+        "min": 100.8882,
+        "max": 310.6223,
+        "mean": 212.92772411467118,
+        "std": 49.86770653494925
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.694279801747175
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02360131232832429,
+        "offset": -2.3310939184424466
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_29d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_29d_2_coordinates.csv",
+      "original_range": {
+        "min": 98.9561,
+        "max": 274.4713,
+        "mean": 181.78636555555556,
+        "std": 39.850016779777626
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.3860359359189407
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.028202685579368628,
+        "offset": -2.74082777446056
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_29d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_29d_3_coordinates.csv",
+      "original_range": {
+        "min": 710.8165,
+        "max": 2286.7896,
+        "mean": 1397.3478875,
+        "std": 356.70894388405253
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 4.999999999999999,
+        "mean": 2.2063378005151226
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0031409165549843455,
+        "offset": -2.18261531240603
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_30d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_30d_4_coordinates.csv",
+      "original_range": {
+        "min": 90.0506,
+        "max": 319.7729,
+        "mean": 205.00920257879656,
+        "std": 61.80172462054204
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.527099884360565
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02154775570329916,
+        "offset": -1.8903883297355113
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_31d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_31d_1_coordinates.csv",
+      "original_range": {
+        "min": 1009.5505,
+        "max": 2413.8047,
+        "mean": 1661.6775991603695,
+        "std": 340.6176256192036
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.3487498565742784
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0035250028093204207,
+        "offset": -3.508668348650836
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_32d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_32d_2_coordinates.csv",
+      "original_range": {
+        "min": 95.5608,
+        "max": 276.7904,
+        "mean": 181.79020161527166,
+        "std": 40.933440058023166
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.4052197764360503
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.027313418999986763,
+        "offset": -2.560092170373935
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_32d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_32d_3_coordinates.csv",
+      "original_range": {
+        "min": 658.9108,
+        "max": 2302.4035,
+        "mean": 1411.3397237421384,
+        "std": 398.5060268113645
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.000000000000001,
+        "mean": 2.3162243480141926
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0030118783004025517,
+        "offset": -1.9345591404208857
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_32d_5_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_32d_5_coordinates.csv",
+      "original_range": {
+        "min": 88.3266,
+        "max": 310.6223,
+        "mean": 208.856433573487,
+        "std": 54.42628411884626
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.7339146064847895
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022267637205757917,
+        "offset": -1.9168246844180972
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_33d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_33d_4_coordinates.csv",
+      "original_range": {
+        "min": 90.0506,
+        "max": 319.7729,
+        "mean": 207.48768755555557,
+        "std": 62.05627598386623
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.580505673154065
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02154775570329916,
+        "offset": -1.8903883297355113
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_35d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_35d_1_coordinates.csv",
+      "original_range": {
+        "min": 939.4989,
+        "max": 2413.8047,
+        "mean": 1637.5067553412464,
+        "std": 362.2431335990857
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 4.999999999999999,
+        "mean": 2.393570027289568
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0033575123966818822,
+        "offset": -3.1043792034189925
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_35d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_35d_3_coordinates.csv",
+      "original_range": {
+        "min": 658.9108,
+        "max": 2321.3934,
+        "mean": 1379.6295293421053,
+        "std": 413.7587427984944
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.000000000000002,
+        "mean": 2.1959218341553903
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.002977474771766033,
+        "offset": -1.911890283844174
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_35d_5_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_35d_5_coordinates.csv",
+      "original_range": {
+        "min": 85.8925,
+        "max": 310.6223,
+        "mean": 205.61416320093454,
+        "std": 58.275069348389394
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.687043386522954
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022026451320652625,
+        "offset": -1.8419069700591555
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_36d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_36d_2_coordinates.csv",
+      "original_range": {
+        "min": 95.5608,
+        "max": 279.17,
+        "mean": 184.86757038961036,
+        "std": 42.77264403170559
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.4576599289609202
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.026959433405297772,
+        "offset": -2.5262650237569795
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_38d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_38d_1_coordinates.csv",
+      "original_range": {
+        "min": 853.8468,
+        "max": 2413.8047,
+        "mean": 1619.054155758427,
+        "std": 373.551106196166
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.478127330233856
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0031731625577844117,
+        "offset": -2.6593946958440355
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_39d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_39d_2_coordinates.csv",
+      "original_range": {
+        "min": 87.425,
+        "max": 279.17,
+        "mean": 184.4970785888078,
+        "std": 43.61577752736468
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.000000000000001,
+        "mean": 2.555967764555001
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02581553625909411,
+        "offset": -2.2069232574513027
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_39d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_39d_3_coordinates.csv",
+      "original_range": {
+        "min": 640.3429,
+        "max": 2375.8311,
+        "mean": 1413.617533101852,
+        "std": 448.9131161337667
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.2555519788922607
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.002852223368617546,
+        "offset": -1.7764009833083283
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_42d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_42d_1_coordinates.csv",
+      "original_range": {
+        "min": 742.4529,
+        "max": 2413.8047,
+        "mean": 1576.899126429479,
+        "std": 397.85491679827504
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.521358107147712
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.002961674496057622,
+        "offset": -2.1489038184540203
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_42d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_42d_2_coordinates.csv",
+      "original_range": {
+        "min": 87.425,
+        "max": 279.17,
+        "mean": 184.5102256111758,
+        "std": 43.875582101874635
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.000000000000001,
+        "mean": 2.556307161987641
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02581553625909411,
+        "offset": -2.2069232574513027
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_42d_5_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_42d_5_coordinates.csv",
+      "original_range": {
+        "min": 83.5141,
+        "max": 311.2952,
+        "mean": 200.40705365193867,
+        "std": 64.88752730963503
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.590246405768944
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021731390356794306,
+        "offset": -1.7648775073963552
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_45d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_45d_1_coordinates.csv",
+      "original_range": {
+        "min": 647.9388,
+        "max": 2413.8047,
+        "mean": 1568.0669992775436,
+        "std": 410.06884406273133
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.6292641368882204
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0028031573631950193,
+        "offset": -1.766274418119745
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_46d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_46d_2_coordinates.csv",
+      "original_range": {
+        "min": 85.3124,
+        "max": 280.5136,
+        "mean": 184.14807258064516,
+        "std": 45.34037141114925
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.5563195271043084
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.025358450665262305,
+        "offset": -2.113390286535124
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+4R_U_N_50d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+4R_U_N_50d_2_coordinates.csv",
+      "original_range": {
+        "min": 85.3124,
+        "max": 280.5136,
+        "mean": 184.0285798136646,
+        "std": 45.97507233736072
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.553289375667976
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.025358450665262305,
+        "offset": -2.113390286535124
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_Fc_Hf_18d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_Fc_Hf_18d_1_coordinates.csv",
+      "original_range": {
+        "min": 2.5883,
+        "max": 177.142,
+        "mean": 78.9804934232715,
+        "std": 45.446758391654924
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.216332523717308
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.028358035378224584,
+        "offset": -0.023399102969458685
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_Fc_Hf_18d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_Fc_Hf_18d_2_coordinates.csv",
+      "original_range": {
+        "min": 4.3204,
+        "max": 143.4971,
+        "mean": 75.59261139622642,
+        "std": 37.35999614772997
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.584888716367904
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.03556629809443679,
+        "offset": -0.10366063428720469
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_Fc_Hf_18d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_Fc_Hf_18d_3_coordinates.csv",
+      "original_range": {
+        "min": 4.4641,
+        "max": 184.4835,
+        "mean": 73.02250812182741,
+        "std": 43.69196390859762
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 1.9351530457442128
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.027497036430518047,
+        "offset": -0.07274952032947561
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_Fc_Hf_22d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_Fc_Hf_22d_1_coordinates.csv",
+      "original_range": {
+        "min": 2.5883,
+        "max": 208.5487,
+        "mean": 86.98804836182336,
+        "std": 50.67558677745716
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.0784421393191392
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02403374629297671,
+        "offset": -0.012206545530111614
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_Fc_Hf_22d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_Fc_Hf_22d_2_coordinates.csv",
+      "original_range": {
+        "min": 4.3204,
+        "max": 159.1142,
+        "mean": 77.41188812260538,
+        "std": 39.45414571260604
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.387321431523075
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.03197802495965601,
+        "offset": -0.08815785903569782
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_Fc_Hf_22d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_Fc_Hf_22d_3_coordinates.csv",
+      "original_range": {
+        "min": 4.4641,
+        "max": 201.917,
+        "mean": 83.44620084817642,
+        "std": 50.96267582986339
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.0300235863766667
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.025069269684061365,
+        "offset": -0.06191172679661834
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_Fc_Hf_26d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_Fc_Hf_26d_1_coordinates.csv",
+      "original_range": {
+        "min": 2.4231,
+        "max": 210.4886,
+        "mean": 88.6708477845944,
+        "std": 51.73742444925539
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1018843899336623
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.023790585176302656,
+        "offset": -0.007646966940698961
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_Fc_Hf_26d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_Fc_Hf_26d_2_coordinates.csv",
+      "original_range": {
+        "min": 4.3204,
+        "max": 180.2954,
+        "mean": 80.68425397760754,
+        "std": 41.53219994114545
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1980385122270625
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.028128995595965336,
+        "offset": -0.07152851257280865
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_Fc_Hf_26d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_Fc_Hf_26d_3_coordinates.csv",
+      "original_range": {
+        "min": 4.4641,
+        "max": 209.6721,
+        "mean": 85.6865694241687,
+        "std": 52.699810374406404
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.009237571876511
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.024121866593894977,
+        "offset": -0.057682424661806564
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_Fc_Hf_38d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_Fc_Hf_38d_1_coordinates.csv",
+      "original_range": {
+        "min": 2.4231,
+        "max": 221.4731,
+        "mean": 99.67855662790697,
+        "std": 57.07112295646497
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.2477380064283934
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022597580461081946,
+        "offset": -0.004756197215247657
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_Fc_Hf_38d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_Fc_Hf_38d_2_coordinates.csv",
+      "original_range": {
+        "min": 4.3204,
+        "max": 210.8912,
+        "mean": 84.01360362976408,
+        "std": 45.24755058250655
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 1.959666603253375
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.023962728517292864,
+        "offset": -0.05352857228611209
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_Fc_Hf_38d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_Fc_Hf_38d_3_coordinates.csv",
+      "original_range": {
+        "min": 4.4641,
+        "max": 221.7922,
+        "mean": 98.47857798053529,
+        "std": 59.14257484797042
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.1913322345506616
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022776622075102115,
+        "offset": -0.051677118605463354
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_Fc_Hf_48d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_Fc_Hf_48d_1_coordinates.csv",
+      "original_range": {
+        "min": 2.4231,
+        "max": 221.4731,
+        "mean": 103.42230467804072,
+        "std": 60.24068578315951
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.3323376542173095
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022597580461081946,
+        "offset": -0.004756197215247657
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_Fc_Hf_48d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_Fc_Hf_48d_2_coordinates.csv",
+      "original_range": {
+        "min": 4.3204,
+        "max": 226.2552,
+        "mean": 95.88785666452029,
+        "std": 53.98431866194216
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.092306616580074
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022303847796740304,
+        "offset": -0.046361544021036816
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_Fc_Hf_48d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_Fc_Hf_48d_3_coordinates.csv",
+      "original_range": {
+        "min": 4.4641,
+        "max": 225.7534,
+        "mean": 102.20844027027027,
+        "std": 61.18781247203897
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.2364341580810185
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0223689080312514,
+        "offset": -0.04985704234230938
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_Fc_N_20d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_Fc_N_20d_1_coordinates.csv",
+      "original_range": {
+        "min": 27.3665,
+        "max": 213.7864,
+        "mean": 119.71979580445094,
+        "std": 46.449696924267265
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.502253296091416
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02655295920660831,
+        "offset": -0.6766615581276463
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+R_U_N_18d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+R_U_N_18d_1_coordinates.csv",
+      "original_range": {
+        "min": 2.5113,
+        "max": 186.4161,
+        "mean": 94.3571942800789,
+        "std": 38.6521295457179
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.522133281384665
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.026916100069166223,
+        "offset": -0.01759440210369713
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+R_U_N_18d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+R_U_N_18d_2_coordinates.csv",
+      "original_range": {
+        "min": 7.3571,
+        "max": 167.2536,
+        "mean": 90.32202389791183,
+        "std": 34.50355331181373
+      },
+      "calibrated_range": {
+        "min": 0.05000000000000002,
+        "max": 5.0,
+        "mean": 2.618388759570494
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.03095752564940446,
+        "offset": -0.17775761195523354
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+R_U_N_18d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+R_U_N_18d_3_coordinates.csv",
+      "original_range": {
+        "min": 9.6142,
+        "max": 177.6305,
+        "mean": 93.04653602941175,
+        "std": 37.79337156479188
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.000000000000001,
+        "mean": 2.5080356985934595
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.029461427254379488,
+        "offset": -0.2332480539090553
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+R_U_N_18d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+R_U_N_18d_4_coordinates.csv",
+      "original_range": {
+        "min": 25.2868,
+        "max": 183.103,
+        "mean": 108.21551156069366,
+        "std": 32.18265813823636
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.651108898994105
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.03136560125006178,
+        "offset": -0.743135685690062
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+R_U_N_25d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+R_U_N_25d_1_coordinates.csv",
+      "original_range": {
+        "min": 2.5113,
+        "max": 226.6535,
+        "mean": 107.31021337386018,
+        "std": 45.7494889678333
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.3643996141762145
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02208419476564431,
+        "offset": -0.0054600383149625495
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+R_U_N_25d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+R_U_N_25d_2_coordinates.csv",
+      "original_range": {
+        "min": 4.474,
+        "max": 175.2542,
+        "mean": 84.36784087719299,
+        "std": 40.50633889709861
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.3656929921741825
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.028984624681315515,
+        "offset": -0.0796772108242056
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+R_U_N_25d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+R_U_N_25d_3_coordinates.csv",
+      "original_range": {
+        "min": 9.8433,
+        "max": 217.7881,
+        "mean": 100.105601650165,
+        "std": 44.56140862200417
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.000000000000001,
+        "mean": 2.1986394137690235
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02380439424308759,
+        "offset": -0.18431379385298408
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+R_U_N_25d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+R_U_N_25d_4_coordinates.csv",
+      "original_range": {
+        "min": 3.4557,
+        "max": 220.7493,
+        "mean": 108.66568550368551,
+        "std": 49.58075958017034
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.4467085466081064
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02278023835032417,
+        "offset": -0.028721669667215233
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+R_U_N_31d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+R_U_N_31d_1_coordinates.csv",
+      "original_range": {
+        "min": 2.1348,
+        "max": 230.5948,
+        "mean": 106.07023895899053,
+        "std": 54.032291637650594
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.3019496754224074
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021666812571128426,
+        "offset": 0.003745688523155044
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+R_U_N_31d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+R_U_N_31d_2_coordinates.csv",
+      "original_range": {
+        "min": 2.8595,
+        "max": 198.0304,
+        "mean": 95.91972809315865,
+        "std": 51.34240394499153
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.4102295683482295
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.025362387528058746,
+        "offset": -0.022523747136483988
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+R_U_N_31d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+R_U_N_31d_3_coordinates.csv",
+      "original_range": {
+        "min": 8.1862,
+        "max": 237.0558,
+        "mean": 115.98208354016982,
+        "std": 53.07364106216186
+      },
+      "calibrated_range": {
+        "min": 0.05000000000000002,
+        "max": 5.000000000000001,
+        "mean": 2.381413274300478
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021628036226742215,
+        "offset": -0.1270514301593571
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+R_U_N_31d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+R_U_N_31d_4_coordinates.csv",
+      "original_range": {
+        "min": 3.4557,
+        "max": 234.5592,
+        "mean": 119.77738326417705,
+        "std": 47.493074719203946
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.54149118104086
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021418974615269783,
+        "offset": -0.024017550577987795
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+R_U_N_39d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+R_U_N_39d_1_coordinates.csv",
+      "original_range": {
+        "min": 2.0643,
+        "max": 228.01,
+        "mean": 104.22478904761905,
+        "std": 59.44869445626373
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.2881236765546515
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021907918583978364,
+        "offset": 0.004775483667093468
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+R_U_N_39d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+R_U_N_39d_2_coordinates.csv",
+      "original_range": {
+        "min": 2.355,
+        "max": 232.4111,
+        "mean": 106.19820745098039,
+        "std": 63.06237333737837
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.2843414362077463
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021516490977635454,
+        "offset": -0.0006713362523314906
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+R_U_N_39d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+R_U_N_39d_3_coordinates.csv",
+      "original_range": {
+        "min": 8.1862,
+        "max": 237.3735,
+        "mean": 119.402832853855,
+        "std": 57.372572227397086
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.000000000000001,
+        "mean": 2.4520629966258265
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021598055389631103,
+        "offset": -0.12680600103059814
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I+R_U_N_39d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I+R_U_N_39d_4_coordinates.csv",
+      "original_range": {
+        "min": 3.2187,
+        "max": 234.5592,
+        "mean": 128.31852276064612,
+        "std": 53.71924952472862
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.7267648667881255
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021397031648154995,
+        "offset": -0.018870625765916485
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_Hf_18d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_Hf_18d_1_coordinates.csv",
+      "original_range": {
+        "min": 0.9599,
+        "max": 190.2616,
+        "mean": 79.65099166163142,
+        "std": 44.348117812305155
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1076725075637226
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.026148735061544616,
+        "offset": 0.024899829214423328
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_Hf_18d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_Hf_18d_2_coordinates.csv",
+      "original_range": {
+        "min": 2.8124,
+        "max": 177.0272,
+        "mean": 73.46808901303538,
+        "std": 36.12393860139252
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.0575542411696666
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.028413200256235407,
+        "offset": -0.02990928440063645
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_Hf_18d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_Hf_18d_3_coordinates.csv",
+      "original_range": {
+        "min": 3.0515,
+        "max": 191.5552,
+        "mean": 78.61819156908666,
+        "std": 38.98801862679006
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.0343383618835014
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0262594315124849,
+        "offset": -0.030130655260347666
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_Hf_22d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_Hf_22d_1_coordinates.csv",
+      "original_range": {
+        "min": 0.4222,
+        "max": 217.9418,
+        "mean": 85.22442302337146,
+        "std": 50.34578283896425
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 1.9798077229164117
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022756569982659035,
+        "offset": 0.04039217615332136
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_Hf_22d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_Hf_22d_2_coordinates.csv",
+      "original_range": {
+        "min": 2.8124,
+        "max": 214.9323,
+        "mean": 80.82276676197283,
+        "std": 46.710244634918716
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 1.8704388907960339
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.023335858634668413,
+        "offset": -0.015629768824141438
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_Hf_22d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_Hf_22d_3_coordinates.csv",
+      "original_range": {
+        "min": 3.0515,
+        "max": 224.5253,
+        "mean": 83.94740748730965,
+        "std": 45.885461390238916
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 1.8580456562454917
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02235027348607375,
+        "offset": -0.01820185954275405
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_Hf_26d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_Hf_26d_1_coordinates.csv",
+      "original_range": {
+        "min": 0.4222,
+        "max": 227.2082,
+        "mean": 88.17526807084728,
+        "std": 53.597628250166395
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 1.965363765623513
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021826744155282955,
+        "offset": 0.04078474861763954
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_Hf_26d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_Hf_26d_2_coordinates.csv",
+      "original_range": {
+        "min": 2.7573,
+        "max": 226.6915,
+        "mean": 91.71332366576819,
+        "std": 54.22546929342529
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.0163468873693815
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022104707543555206,
+        "offset": -0.010949310109844762
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_Hf_26d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_Hf_26d_3_coordinates.csv",
+      "original_range": {
+        "min": 3.0515,
+        "max": 225.7191,
+        "mean": 88.09193412103747,
+        "std": 49.43316347052589
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 1.9404867564887551
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022230445740646598,
+        "offset": -0.01783620517758308
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_Hf_30d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_Hf_30d_1_coordinates.csv",
+      "original_range": {
+        "min": 1.6306,
+        "max": 227.2082,
+        "mean": 97.36192103975536,
+        "std": 53.75298895413323
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 4.999999999999999,
+        "mean": 2.1506963419541165
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021943668165633465,
+        "offset": 0.014218654689118072
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_Hf_38d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_Hf_38d_1_coordinates.csv",
+      "original_range": {
+        "min": 1.6306,
+        "max": 227.2082,
+        "mean": 106.40998176508761,
+        "std": 56.388781355821195
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 4.999999999999999,
+        "mean": 2.3492439840533086
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021943668165633465,
+        "offset": 0.014218654689118072
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_Hf_38d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_Hf_38d_2_coordinates.csv",
+      "original_range": {
+        "min": 2.7573,
+        "max": 228.7865,
+        "mean": 100.83846082130967,
+        "std": 56.36157662410565
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1979602903761233
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021899825332302197,
+        "offset": -0.01038438838875684
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_Hf_38d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_Hf_38d_3_coordinates.csv",
+      "original_range": {
+        "min": 3.1071,
+        "max": 228.0484,
+        "mean": 96.7293015,
+        "std": 46.55310519929645
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1102259230519254
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022005741053332584,
+        "offset": -0.01837403802680966
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_Hf_48d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_Hf_48d_2_coordinates.csv",
+      "original_range": {
+        "min": 2.7573,
+        "max": 228.7865,
+        "mean": 109.13562050963331,
+        "std": 57.20187134883526
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.37966663830463
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021899825332302197,
+        "offset": -0.01038438838875684
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_Hf_48d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_Hf_48d_3_coordinates.csv",
+      "original_range": {
+        "min": 3.1071,
+        "max": 225.7191,
+        "mean": 102.90795759562842,
+        "std": 45.97016016352338
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.269171675823229
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022235998059403808,
+        "offset": -0.019089469570373566
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_Hf_52d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_Hf_52d_1_coordinates.csv",
+      "original_range": {
+        "min": 1.6306,
+        "max": 227.2082,
+        "mean": 106.40998176508761,
+        "std": 56.388781355821195
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 4.999999999999999,
+        "mean": 2.3492439840533086
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021943668165633465,
+        "offset": 0.014218654689118072
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_15d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_15d_1_coordinates.csv",
+      "original_range": {
+        "min": 1068.9198,
+        "max": 1978.5494,
+        "mean": 1520.9440004854368,
+        "std": 184.17111705777947
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.5098141841502435
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.005441775421556202,
+        "offset": -5.766821495254771
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_15d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_15d_2_coordinates.csv",
+      "original_range": {
+        "min": 1066.0988,
+        "max": 2037.0365,
+        "mean": 1482.6395456692915,
+        "std": 215.7152565345158
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.000000000000001,
+        "mean": 2.1735931935313593
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.00509816438274052,
+        "offset": -5.385146930642409
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_18d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_18d_1_coordinates.csv",
+      "original_range": {
+        "min": 986.6027,
+        "max": 2083.8535,
+        "mean": 1521.1380448176583,
+        "std": 218.6657080003924
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 4.999999999999999,
+        "mean": 2.4614358876269744
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.004511274906338641,
+        "offset": -4.400836003035951
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_18d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_18d_3_coordinates.csv",
+      "original_range": {
+        "min": 956.5421,
+        "max": 2074.1582,
+        "mean": 1598.1306282868525,
+        "std": 266.47080968000125
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.8916405374080782
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.00442907005366154,
+        "offset": -4.186591970176522
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_18d_5_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_18d_5_coordinates.csv",
+      "original_range": {
+        "min": 6.0242,
+        "max": 183.3206,
+        "mean": 96.32327136294028,
+        "std": 43.64110314746792
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.571091253102457
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.027919348616215558,
+        "offset": -0.11819173993380579
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_18d_6_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_18d_6_coordinates.csv",
+      "original_range": {
+        "min": 8.7405,
+        "max": 168.0943,
+        "mean": 84.44475607675905,
+        "std": 38.523400123145684
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.0,
+        "mean": 2.4015979385490485
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.031062955511572364,
+        "offset": -0.22150576264889826
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_18d_7_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_18d_7_coordinates.csv",
+      "original_range": {
+        "min": 7.4907,
+        "max": 184.8166,
+        "mean": 100.6523183962264,
+        "std": 41.14964231063765
+      },
+      "calibrated_range": {
+        "min": 0.05000000000000002,
+        "max": 5.000000000000001,
+        "mean": 2.6505789964202684
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02791470394341718,
+        "offset": -0.15910067282895507
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_19d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_19d_2_coordinates.csv",
+      "original_range": {
+        "min": 880.2733,
+        "max": 2274.3939,
+        "mean": 1506.6800468468468,
+        "std": 323.7595589864639
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 4.999999999999998,
+        "mean": 2.274135700234177
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0035506253906584548,
+        "offset": -3.0755207296987073
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_20d_4_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_20d_4_coordinates.csv",
+      "original_range": {
+        "min": 0.3787,
+        "max": 229.5515,
+        "mean": 122.4419318961039,
+        "std": 65.79758457289948
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.686495246755786
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021599421920926044,
+        "offset": 0.04182029891854531
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_21d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_21d_1_coordinates.csv",
+      "original_range": {
+        "min": 892.2486,
+        "max": 2222.2374,
+        "mean": 1508.1017811594204,
+        "std": 261.63359155974126
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.3421044498563672
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0037218358530538,
+        "offset": -3.2708028293170592
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_21d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_21d_2_coordinates.csv",
+      "original_range": {
+        "min": 693.6987,
+        "max": 2367.3305,
+        "mean": 1505.004149825784,
+        "std": 408.18857045398494
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.4495492775875976
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0029576397867201137,
+        "offset": -2.0017108751160206
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_22d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_22d_3_coordinates.csv",
+      "original_range": {
+        "min": 753.3709,
+        "max": 2321.968,
+        "mean": 1612.653810526316,
+        "std": 345.4941499257847
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.761627101124478
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.003155686058580626,
+        "offset": -2.3274020460703393
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_25d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_25d_1_coordinates.csv",
+      "original_range": {
+        "min": 796.4686,
+        "max": 2356.8412,
+        "mean": 1520.3466721984078,
+        "std": 308.6928573737272
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.3463723263162395
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.003172319226830823,
+        "offset": -2.4766526533470286
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_25d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_25d_2_coordinates.csv",
+      "original_range": {
+        "min": 621.8872,
+        "max": 2367.3305,
+        "mean": 1515.3832672307692,
+        "std": 434.2928968143607
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.5839153284396623
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0028359557712358805,
+        "offset": -1.7136445938977223
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_25d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_25d_3_coordinates.csv",
+      "original_range": {
+        "min": 712.5224,
+        "max": 2387.4495,
+        "mean": 1630.484823067485,
+        "std": 384.84734661824194
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.7629025461371124
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.002955352504595573,
+        "offset": -2.0557548594204484
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_25d_5_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_25d_5_coordinates.csv",
+      "original_range": {
+        "min": 6.0242,
+        "max": 214.4136,
+        "mean": 105.81845115257958,
+        "std": 53.25693543280822
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.4204734655662374
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.023753607429168662,
+        "offset": -0.09309648187479787
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_25d_6_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_25d_6_coordinates.csv",
+      "original_range": {
+        "min": 6.1297,
+        "max": 194.0644,
+        "mean": 93.52404541139241,
+        "std": 48.51286602821086
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.351874054053841
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.026338935811215276,
+        "offset": -0.11144977484200626
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_25d_7_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_25d_7_coordinates.csv",
+      "original_range": {
+        "min": 7.1839,
+        "max": 223.884,
+        "mean": 107.54294634873325,
+        "std": 52.87678207301863
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 4.999999999999999,
+        "mean": 2.342464467834715
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022842629052778472,
+        "offset": -0.11409916285225528
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_27d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_27d_1_coordinates.csv",
+      "original_range": {
+        "min": 663.9747,
+        "max": 2402.4035,
+        "mean": 1537.5438404017857,
+        "std": 336.36054533847215
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.5373996823964484
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0028473987545535374,
+        "offset": -1.8406007338350585
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_29d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_29d_2_coordinates.csv",
+      "original_range": {
+        "min": 616.2441,
+        "max": 2386.2387,
+        "mean": 1515.963215989515,
+        "std": 452.28221575650167
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.566171305917035
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0027966187015485812,
+        "offset": -1.673399774778974
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_29d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_29d_3_coordinates.csv",
+      "original_range": {
+        "min": 698.1902,
+        "max": 2389.2492,
+        "mean": 1622.6900443624868,
+        "std": 401.80896732620283
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.000000000000001,
+        "mean": 2.7561588209484764
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.002927159844807307,
+        "offset": -1.9937143174779826
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_31d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_31d_1_coordinates.csv",
+      "original_range": {
+        "min": 614.1925,
+        "max": 2409.1554,
+        "mean": 1543.4817222106358,
+        "std": 354.9362131791382
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.000000000000001,
+        "mean": 2.6127168394080176
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.00275771716507344,
+        "offset": -1.6437691999093687
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_31d_5_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_31d_5_coordinates.csv",
+      "original_range": {
+        "min": 6.0242,
+        "max": 231.5191,
+        "mean": 116.80396296992481,
+        "std": 62.38497928955319
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.481805893175978
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021951715981159664,
+        "offset": -0.08224152741370207
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_31d_6_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_31d_6_coordinates.csv",
+      "original_range": {
+        "min": 4.9347,
+        "max": 232.6212,
+        "mean": 101.1550403726708,
+        "std": 58.24722181714687
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.141870553786547
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0217404193924541,
+        "offset": -0.05728244757594325
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_31d_7_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_31d_7_coordinates.csv",
+      "original_range": {
+        "min": 6.7917,
+        "max": 233.029,
+        "mean": 116.21608418079096,
+        "std": 59.645795196892315
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.444170641600281
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021879681201994544,
+        "offset": -0.09860023081958634
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_32d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_32d_2_coordinates.csv",
+      "original_range": {
+        "min": 607.8952,
+        "max": 2386.2387,
+        "mean": 1507.393102453988,
+        "std": 454.0421808282506
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 4.999999999999999,
+        "mean": 2.5537427342621033
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.002783489241532921,
+        "offset": -1.6420697491795033
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_32d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_32d_3_coordinates.csv",
+      "original_range": {
+        "min": 645.8934,
+        "max": 2389.2492,
+        "mean": 1620.0687170172084,
+        "std": 410.7584242696349
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.816026200294387
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.002839351554054542,
+        "offset": -1.7839184290435721
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_35d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_35d_1_coordinates.csv",
+      "original_range": {
+        "min": 568.1947,
+        "max": 2409.1554,
+        "mean": 1527.557684023099,
+        "std": 382.0872197976868
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.629548151633189
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0026888135091639926,
+        "offset": -1.477769585195382
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_35d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_35d_3_coordinates.csv",
+      "original_range": {
+        "min": 635.8294,
+        "max": 2389.2492,
+        "mean": 1605.2137363309353,
+        "std": 425.58146368563393
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.000000000000001,
+        "mean": 2.786625002659448
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0028230546957437115,
+        "offset": -1.7449811733619065
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_36d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_36d_2_coordinates.csv",
+      "original_range": {
+        "min": 607.8952,
+        "max": 2446.5737,
+        "mean": 1498.4307122866894,
+        "std": 466.5255630963238
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.447455991256281
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0026921509116465984,
+        "offset": -1.5865456168655914
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_38d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_38d_1_coordinates.csv",
+      "original_range": {
+        "min": 568.1947,
+        "max": 2432.7873,
+        "mean": 1517.9030800090661,
+        "std": 407.62987846732034
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.5712244653576755
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.002654735409761897,
+        "offset": -1.458406589729038
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_39d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_39d_2_coordinates.csv",
+      "original_range": {
+        "min": 607.8952,
+        "max": 2446.5737,
+        "mean": 1492.0525459399332,
+        "std": 472.34643318452976
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.430285004911228
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0026921509116465984,
+        "offset": -1.5865456168655914
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_39d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_39d_3_coordinates.csv",
+      "original_range": {
+        "min": 635.8294,
+        "max": 2389.2492,
+        "mean": 1592.590452936021,
+        "std": 430.04070862361436
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.000000000000001,
+        "mean": 2.7509887831957323
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0028230546957437115,
+        "offset": -1.7449811733619065
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_39d_5_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_39d_5_coordinates.csv",
+      "original_range": {
+        "min": 6.0242,
+        "max": 231.5191,
+        "mean": 119.46881845841784,
+        "std": 62.60789300914291
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.540304043990212
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021951715981159664,
+        "offset": -0.08224152741370207
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_39d_6_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_39d_6_coordinates.csv",
+      "original_range": {
+        "min": 4.9347,
+        "max": 231.9634,
+        "mean": 107.44907931034483,
+        "std": 63.09124413382837
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.285163120725296
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021803410758199294,
+        "offset": -0.057593291068486055
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_39d_7_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_39d_7_coordinates.csv",
+      "original_range": {
+        "min": 6.7917,
+        "max": 233.029,
+        "mean": 121.81594520795659,
+        "std": 63.010546501736066
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.566693815650139
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021879681201994544,
+        "offset": -0.09860023081958634
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_42d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_42d_1_coordinates.csv",
+      "original_range": {
+        "min": 568.1947,
+        "max": 2432.7873,
+        "mean": 1501.3042048584707,
+        "std": 429.8614731417088
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.527158843733173
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.002654735409761897,
+        "offset": -1.458406589729038
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_42d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_42d_2_coordinates.csv",
+      "original_range": {
+        "min": 607.8952,
+        "max": 2446.5737,
+        "mean": 1486.618613185654,
+        "std": 464.91295108831275
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.4156560378929686
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0026921509116465984,
+        "offset": -1.5865456168655914
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_43d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_43d_3_coordinates.csv",
+      "original_range": {
+        "min": 635.8294,
+        "max": 2389.2492,
+        "mean": 1584.0423826574633,
+        "std": 431.88078251036694
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.000000000000001,
+        "mean": 2.726857113256303
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0028230546957437115,
+        "offset": -1.7449811733619065
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Pv_M_I_U_N_46d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Pv_M_I_U_N_46d_3_coordinates.csv",
+      "original_range": {
+        "min": 635.8294,
+        "max": 2389.2492,
+        "mean": 1569.3489680232558,
+        "std": 430.86435564921857
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.000000000000001,
+        "mean": 2.685376800076694
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0028230546957437115,
+        "offset": -1.7449811733619065
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-H_N_16d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-H_N_16d_1_coordinates.csv",
+      "original_range": {
+        "min": 68.3386,
+        "max": 172.7459,
+        "mean": 117.31676835443035,
+        "std": 22.692256278779215
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 4.999999999999999,
+        "mean": 2.3720783733937223
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.04741047800297488,
+        "offset": -3.1899656920540993
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-H_N_16d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-H_N_16d_2_coordinates.csv",
+      "original_range": {
+        "min": 72.3892,
+        "max": 167.0849,
+        "mean": 111.30289583333335,
+        "std": 19.003882321121242
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.084123982134352
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0522727008723733,
+        "offset": -3.7339789979904054
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-H_N_16d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-H_N_16d_3_coordinates.csv",
+      "original_range": {
+        "min": 66.4422,
+        "max": 172.1927,
+        "mean": 119.98998295964125,
+        "std": 26.009444817323267
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 4.999999999999999,
+        "mean": 2.5564801173538108
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.04680828932250911,
+        "offset": -3.0600457208240153
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-H_N_18d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-H_N_18d_1_coordinates.csv",
+      "original_range": {
+        "min": 59.1346,
+        "max": 175.2129,
+        "mean": 115.32096612903224,
+        "std": 25.127453100428852
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.000000000000001,
+        "mean": 2.4459905713532133
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.042643629343296734,
+        "offset": -2.471713963764115
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-H_N_18d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-H_N_18d_2_coordinates.csv",
+      "original_range": {
+        "min": 70.4714,
+        "max": 167.0849,
+        "mean": 108.87214929577466,
+        "std": 20.735987615147895
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.000000000000001,
+        "mean": 2.0174653026138634
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.05123507584343803,
+        "offset": -3.5606075237932595
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-H_N_18d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-H_N_18d_3_coordinates.csv",
+      "original_range": {
+        "min": 44.3148,
+        "max": 200.3072,
+        "mean": 124.13210869565219,
+        "std": 31.846497098118718
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.582787995078467
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.03173231516407209,
+        "offset": -1.356211200032822
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-H_N_20d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-H_N_20d_1_coordinates.csv",
+      "original_range": {
+        "min": 56.867,
+        "max": 177.6065,
+        "mean": 114.46244245810055,
+        "std": 25.006260766296258
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.4112607321348665
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.04099735380716335,
+        "offset": -2.2813965189519583
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-H_N_20d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-H_N_20d_2_coordinates.csv",
+      "original_range": {
+        "min": 70.4714,
+        "max": 167.0849,
+        "mean": 107.65862700729926,
+        "std": 20.112366053272034
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.000000000000001,
+        "mean": 1.9552903961261245
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.05123507584343803,
+        "offset": -3.5606075237932595
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-H_N_20d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-H_N_20d_3_coordinates.csv",
+      "original_range": {
+        "min": 44.3148,
+        "max": 211.8891,
+        "mean": 124.38149820359283,
+        "std": 32.30627836567587
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.4151010692438186
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02953913577439977,
+        "offset": -1.2590208940153709
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-H_N_26d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-H_N_26d_1_coordinates.csv",
+      "original_range": {
+        "min": 56.867,
+        "max": 185.9208,
+        "mean": 115.93449112903225,
+        "std": 28.375559153535185
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.315598386786826
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.038356096449697716,
+        "offset": -2.13119613680496
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-H_N_26d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-H_N_26d_3_coordinates.csv",
+      "original_range": {
+        "min": 33.2638,
+        "max": 231.3356,
+        "mean": 134.2007424892704,
+        "std": 40.10345433039347
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.5725088342807427
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02499093762968782,
+        "offset": -0.7812935511264097
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-H_N_31d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-H_N_31d_3_coordinates.csv",
+      "original_range": {
+        "min": 41.4522,
+        "max": 230.8317,
+        "mean": 136.55185,
+        "std": 41.24910077970199
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.5357139632325567
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.026137992760568066,
+        "offset": -1.0334773035096194
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-L_N_16d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-L_N_16d_1_coordinates.csv",
+      "original_range": {
+        "min": 77.4889,
+        "max": 178.0451,
+        "mean": 121.34259708737865,
+        "std": 20.98086953693702
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.000000000000001,
+        "mean": 2.208751032582022
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.04922620385416315,
+        "offset": -3.7644843878348633
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-L_N_16d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-L_N_16d_2_coordinates.csv",
+      "original_range": {
+        "min": 71.5022,
+        "max": 172.3858,
+        "mean": 119.58903768115941,
+        "std": 26.16595120510005
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.409450361820347
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.04906644885789168,
+        "offset": -3.458359039526743
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-L_N_16d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-L_N_16d_3_coordinates.csv",
+      "original_range": {
+        "min": 64.7464,
+        "max": 165.5673,
+        "mean": 119.71955423728815,
+        "std": 20.01562346718457
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.000000000000001,
+        "mean": 2.7490149212571633
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.04909696303048277,
+        "offset": -3.1288516071568493
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-L_N_18d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-L_N_18d_1_coordinates.csv",
+      "original_range": {
+        "min": 47.4903,
+        "max": 209.0481,
+        "mean": 115.7189149068323,
+        "std": 32.68953240915815
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.1404694405891873
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.03063918919420789,
+        "offset": -1.405064286589691
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-L_N_18d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-L_N_18d_2_coordinates.csv",
+      "original_range": {
+        "min": 42.2483,
+        "max": 201.3612,
+        "mean": 120.38071276595744,
+        "std": 45.59722309267913
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.000000000000001,
+        "mean": 2.4806982224036482
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.031109985425443194,
+        "offset": -1.2643439972497517
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-L_N_18d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-L_N_18d_3_coordinates.csv",
+      "original_range": {
+        "min": 36.1146,
+        "max": 192.2931,
+        "mean": 120.79983230240549,
+        "std": 32.46401588653762
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.000000000000001,
+        "mean": 2.7340563835413145
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.03169450340475802,
+        "offset": -1.094634312661474
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-L_N_20d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-L_N_20d_1_coordinates.csv",
+      "original_range": {
+        "min": 29.6615,
+        "max": 226.9597,
+        "mean": 118.05757113402062,
+        "std": 40.296704493471786
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.2677625143736844
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.025088926305460467,
+        "offset": -0.6941751876094155
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-L_N_20d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-L_N_20d_2_coordinates.csv",
+      "original_range": {
+        "min": 25.3155,
+        "max": 219.1715,
+        "mean": 119.67694464285715,
+        "std": 57.687779423839096
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.4594645044886048
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02553441729943876,
+        "offset": -0.5964165411439418
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-L_N_20d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-L_N_20d_3_coordinates.csv",
+      "original_range": {
+        "min": 19.3598,
+        "max": 207.1772,
+        "mean": 118.661528125,
+        "std": 38.622039049627034
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.000000000000001,
+        "mean": 2.667135335803552
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02635538560325082,
+        "offset": -0.4602349942018152
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-L_N_26d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-L_N_26d_1_coordinates.csv",
+      "original_range": {
+        "min": 2.245,
+        "max": 229.4198,
+        "mean": 114.40461442307694,
+        "std": 52.73983877789301
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.49388942521015
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021789388611765038,
+        "offset": 0.0010828225665874894
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-L_N_26d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-L_N_26d_2_coordinates.csv",
+      "original_range": {
+        "min": 2.6004,
+        "max": 230.864,
+        "mean": 106.78450784313725,
+        "std": 73.76035736270246
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.3092797705088746
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021685454886368218,
+        "offset": -0.006390856886511913
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-L_N_26d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-L_N_26d_3_coordinates.csv",
+      "original_range": {
+        "min": 1.5507,
+        "max": 230.3275,
+        "mean": 124.55485404624278,
+        "std": 51.817393075189464
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.711417427505332
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021636809326819856,
+        "offset": 0.016447799776900453
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-L_N_31d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-L_N_31d_1_coordinates.csv",
+      "original_range": {
+        "min": 2.9146,
+        "max": 229.1209,
+        "mean": 105.83783563218391,
+        "std": 55.37940100451048
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.3022361949216728
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02188267966011557,
+        "offset": -0.013779258137372838
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-L_N_31d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-L_N_31d_2_coordinates.csv",
+      "original_range": {
+        "min": 2.6004,
+        "max": 230.7475,
+        "mean": 115.78678481481481,
+        "std": 74.12812183147776
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.5057515954984013
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021696528248660623,
+        "offset": -0.006419652057817082
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-L_N_31d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-L_N_31d_3_coordinates.csv",
+      "original_range": {
+        "min": 2.0546,
+        "max": 230.0755,
+        "mean": 126.14356870229007,
+        "std": 58.274295389661035
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 4.999999999999999,
+        "mean": 2.743789889770349
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02170853636662253,
+        "offset": 0.005397641181137343
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-M_N_16d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-M_N_16d_1_coordinates.csv",
+      "original_range": {
+        "min": 67.8945,
+        "max": 167.6677,
+        "mean": 108.99767565217391,
+        "std": 23.11538002939302
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.0892321733517707
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.04961252119807724,
+        "offset": -3.318417320482855
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-M_N_16d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-M_N_16d_2_coordinates.csv",
+      "original_range": {
+        "min": 65.1423,
+        "max": 172.6026,
+        "mean": 118.07703981481481,
+        "std": 23.42808870103214
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.488360604645002
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.04606352299407317,
+        "offset": -2.950683833936813
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-M_N_16d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-M_N_16d_3_coordinates.csv",
+      "original_range": {
+        "min": 64.4386,
+        "max": 157.3961,
+        "mean": 109.50291677018633,
+        "std": 23.042608424783516
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.449681230803565
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0532501411935562,
+        "offset": -3.3813645483150903
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-M_N_18d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-M_N_18d_1_coordinates.csv",
+      "original_range": {
+        "min": 46.0459,
+        "max": 196.772,
+        "mean": 107.94056216216217,
+        "std": 36.062776429313175
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.0826843041961722
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.03284102753272327,
+        "offset": -1.4621946696690225
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-M_N_18d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-M_N_18d_2_coordinates.csv",
+      "original_range": {
+        "min": 39.0546,
+        "max": 203.1511,
+        "mean": 119.36970739644971,
+        "std": 35.71479505981525
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.4727194462552586
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.030165177197563627,
+        "offset": -1.1280889293799683
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-M_N_18d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-M_N_18d_3_coordinates.csv",
+      "original_range": {
+        "min": 36.5017,
+        "max": 183.3073,
+        "mean": 108.56202935153583,
+        "std": 36.18054284043929
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.479734494393282
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.03371805980153346,
+        "offset": -1.1807665034576338
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-M_N_20d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-M_N_20d_1_coordinates.csv",
+      "original_range": {
+        "min": 38.0502,
+        "max": 206.2338,
+        "mean": 109.76200240384615,
+        "std": 43.269450368552874
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.1606304175855344
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.029432120611046497,
+        "offset": -1.0698980756744414
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-M_N_20d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-M_N_20d_2_coordinates.csv",
+      "original_range": {
+        "min": 24.5081,
+        "max": 216.7376,
+        "mean": 119.8321972972973,
+        "std": 40.69130204370626
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.000000000000001,
+        "mean": 2.5046403211870283
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0257504701411594,
+        "offset": -0.5810950972665486
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-M_N_20d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-M_N_20d_3_coordinates.csv",
+      "original_range": {
+        "min": 19.4048,
+        "max": 189.3273,
+        "mean": 107.83315113636363,
+        "std": 41.125555031910224
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.6259998712648414
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02913092733452015,
+        "offset": -0.5152798187408966
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-M_N_26d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-M_N_26d_1_coordinates.csv",
+      "original_range": {
+        "min": 18.9939,
+        "max": 226.17,
+        "mean": 106.79207529411765,
+        "std": 53.67332024390765
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 4.999999999999999,
+        "mean": 2.147736986582344
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.023892717354945865,
+        "offset": -0.40381588416810626
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-M_N_26d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-M_N_26d_2_coordinates.csv",
+      "original_range": {
+        "min": 3.1831,
+        "max": 228.6853,
+        "mean": 107.97750463215259,
+        "std": 57.915761468243765
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.350342537363961
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021951005356045307,
+        "offset": -0.019872245148827808
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-M_N_26d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-M_N_26d_3_coordinates.csv",
+      "original_range": {
+        "min": 4.0635,
+        "max": 229.3144,
+        "mean": 108.98761283422458,
+        "std": 59.81412792553596
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.355759304532909
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02197549488148549,
+        "offset": -0.03929742345091629
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-M_N_31d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-M_N_31d_1_coordinates.csv",
+      "original_range": {
+        "min": 18.9939,
+        "max": 226.17,
+        "mean": 109.05137751937986,
+        "std": 52.611035767301885
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 4.999999999999999,
+        "mean": 2.201717856069934
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.023892717354945865,
+        "offset": -0.40381588416810626
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-M_N_31d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-M_N_31d_2_coordinates.csv",
+      "original_range": {
+        "min": 5.3211,
+        "max": 228.308,
+        "mean": 112.21181702898551,
+        "std": 62.05764611695717
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.422825709911561
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.022198613461149513,
+        "offset": -0.06812104208812268
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_Fc-M_N_31d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_Fc-M_N_31d_3_coordinates.csv",
+      "original_range": {
+        "min": 4.4408,
+        "max": 229.0629,
+        "mean": 109.1205683206107,
+        "std": 62.98640926623511
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.3568293511058034
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02203701238658173,
+        "offset": -0.047861964606332144
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_U_N_16d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_U_N_16d_1_coordinates.csv",
+      "original_range": {
+        "min": 85.1223,
+        "max": 176.3619,
+        "mean": 121.93686516853931,
+        "std": 20.243584000700864
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 4.999999999999999,
+        "mean": 2.047291719651003
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.05425275867057725,
+        "offset": -4.568119599384478
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_U_N_16d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_U_N_16d_2_coordinates.csv",
+      "original_range": {
+        "min": 60.9099,
+        "max": 181.7202,
+        "mean": 128.81627777777777,
+        "std": 30.154483575388618
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 4.999999999999999,
+        "mean": 2.832350263181201
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0409733276053449,
+        "offset": -2.4456812871087976
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_U_N_16d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_U_N_16d_3_coordinates.csv",
+      "original_range": {
+        "min": 55.8668,
+        "max": 179.8514,
+        "mean": 117.84288697916668,
+        "std": 32.31094905094173
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 2.5243527062786426
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.03992431318083052,
+        "offset": -2.1804436196108226
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_U_N_18d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_U_N_18d_1_coordinates.csv",
+      "original_range": {
+        "min": 58.0891,
+        "max": 202.6722,
+        "mean": 115.11517467532468,
+        "std": 27.379692335700003
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.0023655921256167
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0342363664909661,
+        "offset": -1.9387597167303787
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_U_N_18d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_U_N_18d_2_coordinates.csv",
+      "original_range": {
+        "min": 29.4395,
+        "max": 212.312,
+        "mean": 137.31773178807947,
+        "std": 48.98800346185368
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.970052207691115
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02706803920764467,
+        "offset": -0.7468695402534552
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_U_N_18d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_U_N_18d_3_coordinates.csv",
+      "original_range": {
+        "min": 23.4597,
+        "max": 206.7459,
+        "mean": 114.63110630914827,
+        "std": 41.20635076511255
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 2.5122609952646946
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.027006943239589232,
+        "offset": -0.5835747863177915
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_U_N_20d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_U_N_20d_1_coordinates.csv",
+      "original_range": {
+        "min": 43.7771,
+        "max": 219.4568,
+        "mean": 110.48243564356436,
+        "std": 34.83002945279552
+      },
+      "calibrated_range": {
+        "min": 0.050000000000000044,
+        "max": 5.0,
+        "mean": 1.9295080560568105
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.028176277623424905,
+        "offset": -1.1834757231484343
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_U_N_20d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_U_N_20d_2_coordinates.csv",
+      "original_range": {
+        "min": 12.7086,
+        "max": 229.7851,
+        "mean": 139.49718920187794,
+        "std": 57.89181573496531
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.0,
+        "mean": 2.9411628690774716
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02280302105478944,
+        "offset": -0.23979447337689708
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_U_N_20d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_U_N_20d_3_coordinates.csv",
+      "original_range": {
+        "min": 11.7758,
+        "max": 223.0574,
+        "mean": 111.23936131578948,
+        "std": 46.262772673020486
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.0,
+        "mean": 2.3802768840881456
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.023428448099597883,
+        "offset": -0.22588871913124475
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_U_N_26d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_U_N_26d_1_coordinates.csv",
+      "original_range": {
+        "min": 3.4684,
+        "max": 230.2508,
+        "mean": 97.51632466666668,
+        "std": 52.325333819378756
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1027925760552844
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021827090638426968,
+        "offset": -0.025705081170320096
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_U_N_26d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_U_N_26d_2_coordinates.csv",
+      "original_range": {
+        "min": 3.6754,
+        "max": 234.3869,
+        "mean": 135.9395189144737,
+        "std": 68.10521831517352
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.887775267494879
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02145536741774901,
+        "offset": -0.0288570574071947
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_U_N_26d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_U_N_26d_3_coordinates.csv",
+      "original_range": {
+        "min": 1.7356,
+        "max": 230.5128,
+        "mean": 110.04284089979551,
+        "std": 56.17536769779678
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.3934190227609564
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021636771496460313,
+        "offset": 0.012447219390743482
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_U_N_31d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_U_N_31d_1_coordinates.csv",
+      "original_range": {
+        "min": 3.4684,
+        "max": 230.9743,
+        "mean": 99.60397203947367,
+        "std": 54.37525228481611
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.1416867720590753
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02175767749319908,
+        "offset": -0.025464328617411686
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_U_N_31d_2_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_U_N_31d_2_coordinates.csv",
+      "original_range": {
+        "min": 3.6754,
+        "max": 234.3869,
+        "mean": 134.6426476744186,
+        "std": 69.34334070184758
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.0,
+        "mean": 2.859950418545985
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.02145536741774901,
+        "offset": -0.0288570574071947
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Rb_M_I_U_N_31d_3_coordinates.csv",
+      "calibrated_file": "calibrated_Rb_M_I_U_N_31d_3_coordinates.csv",
+      "original_range": {
+        "min": 1.7356,
+        "max": 230.5128,
+        "mean": 109.7681511340206,
+        "std": 57.91249266542868
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.387475623066469
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.021636771496460313,
+        "offset": 0.012447219390743482
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Sc_M_I_U_N_42d_1_coordinates.csv",
+      "calibrated_file": "calibrated_Sc_M_I_U_N_42d_1_coordinates.csv",
+      "original_range": {
+        "min": 3.5832,
+        "max": 211.4554,
+        "mean": 101.33261026119403,
+        "std": 50.98245789636219
+      },
+      "calibrated_range": {
+        "min": 0.05,
+        "max": 5.000000000000001,
+        "mean": 2.377678163760765
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.0238127080003964,
+        "offset": -0.035325695307020386
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Ch1-2_moisture_added.csv",
+      "calibrated_file": "calibrated_Ch1-2_moisture_added.csv",
+      "original_range": {
+        "min": -0.548671,
+        "max": 0.179713,
+        "mean": 0.018392220300000008,
+        "std": 0.11317882143688242
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999982,
+        "max": 5.0,
+        "mean": 3.9036856115524237
+      },
+      "calibration_parameters": {
+        "scale_factor": 6.795865916879009,
+        "offset": 3.778694548479923
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    },
+    {
+      "original_file": "Spray_in_bag_crop.csv",
+      "calibrated_file": "calibrated_Spray_in_bag_crop.csv",
+      "original_range": {
+        "min": -0.494471,
+        "max": 7.430296,
+        "mean": 0.16642510526315793,
+        "std": 1.2344266592757949
+      },
+      "calibrated_range": {
+        "min": 0.04999999999999999,
+        "max": 5.0,
+        "mean": 0.4628115969911332
+      },
+      "calibration_parameters": {
+        "scale_factor": 0.6246240425743748,
+        "offset": 0.35885847495579365
+      },
+      "adamatzky_compliance": "calibrated_to_biological_range"
+    }
+  ],
+  "calibration_factors": {},
+  "validation_summary": {
+    "total_files_processed": 275,
+    "successfully_calibrated": 275,
+    "calibration_rate": "100.0%",
+    "adamatzky_compliance": "all_calibrated_files_meet_biological_ranges"
+  }
+}

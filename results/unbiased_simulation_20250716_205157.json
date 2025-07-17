@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-07-16T20:51:56.414564",
+  "experimental_setup": {
+    "electrode_type": "Iridium-coated stainless steel sub-dermal needle electrodes",
+    "voltage_range": 78,
+    "sampling_rate": 1,
+    "biological_amplitude_range": [
+      0.05,
+      5.0
+    ],
+    "recording_duration_hours": 6
+  },
+  "simulation_parameters": {
+    "n_samples": 21600,
+    "duration_seconds": 21599.0,
+    "amplitude_range": [
+      -0.06065172103596142,
+      1.9565867389044729
+    ],
+    "mean_amplitude": 0.043190478977248405,
+    "std_amplitude": 0.258781680422621
+  },
+  "output_file": "data/unbiased_adamatzky_signals.csv",
+  "analysis": {
+    "statistics": {
+      "min": -0.06065172103596142,
+      "max": 1.9565867389044729,
+      "mean": 0.043190478977248405,
+      "std": 0.258781680422621,
+      "range": 2.0172384599404345
+    },
+    "peak_analysis": {
+      "peak_count": 4655,
+      "peak_density": 0.21550925925925926,
+      "mean_peak_amplitude": 0.0471105163720245,
+      "peak_prominence_mean": 0.02388393418408282
+    },
+    "frequency_analysis": {
+      "dominant_frequency": 0.00032407407407407406,
+      "dominant_period": 3085.714285714286,
+      "spectral_entropy": -412456365.5048263,
+      "total_power": 32114899.718368202
+    }
+  }
+}
