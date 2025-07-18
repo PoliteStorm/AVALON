@@ -1,0 +1,14 @@
+{
+  "phrase_0": {
+    "meaning": "Complex sequence: urgent_communication",
+    "word_count": 4,
+    "confidence": 0.8,
+    "context": "Duration: 30.0s"
+  },
+  "phrase_1": {
+    "meaning": "Complex sequence: urgent_communication",
+    "word_count": 5,
+    "confidence": 0.8,
+    "context": "Duration: 39.9s"
+  }
+}

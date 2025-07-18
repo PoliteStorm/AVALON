@@ -1,0 +1,23 @@
+{
+  "electrochemical_rhythmic_pattern": {
+    "meaning": "coordination_signal",
+    "confidence": 0.8,
+    "context": [
+      "network_synchronization"
+    ]
+  },
+  "electrochemical_burst_pattern": {
+    "meaning": "urgent_communication",
+    "confidence": 0.8,
+    "context": [
+      "stress_response"
+    ]
+  },
+  "acoustic_burst_pattern": {
+    "meaning": "urgent_communication",
+    "confidence": 0.8,
+    "context": [
+      "stress_response"
+    ]
+  }
+}

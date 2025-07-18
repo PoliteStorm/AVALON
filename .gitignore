@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fungal Electrical Activity Analysis System
 # Git ignore file for scientific computing project
 
@@ -6,6 +7,19 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
+=======
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+>>>>>>> 4292fd667ab575ab7375884743ba83237b710a3b
 .Python
 build/
 develop-eggs/
@@ -19,6 +33,7 @@ parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
 share/python-wheels/
 *.egg-info/
 .installed.cfg
@@ -204,12 +219,20 @@ venv/
 env/
 
 # IDE files
+=======
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+>>>>>>> 4292fd667ab575ab7375884743ba83237b710a3b
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
+<<<<<<< HEAD
 # Documentation builds
 docs/_build/
 docs/build/
@@ -280,3 +303,11 @@ wave_transform_batch_analysis/data/
 integrated_fungal_analysis_*.json
 batch_fungal_csv_analysis_summary.json
 csv_parameter_analysis_*.json 
+=======
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log 
+>>>>>>> 4292fd667ab575ab7375884743ba83237b710a3b
