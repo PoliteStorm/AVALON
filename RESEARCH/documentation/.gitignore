@@ -1,0 +1,313 @@
+<<<<<<< HEAD
+# Fungal Electrical Activity Analysis System
+# Git ignore file for scientific computing project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+=======
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+>>>>>>> 4292fd667ab575ab7375884743ba83237b710a3b
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+<<<<<<< HEAD
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Scientific Computing Specific
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.mat
+*.csv.bak
+*.json.bak
+
+# Large Data Files
+*.csv
+*.json
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.tif
+
+# Results and Output
+results/
+output/
+temp/
+tmp/
+cache/
+
+# Logs
+*.log
+logs/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.lnk
+
+# Linux
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Configuration files with sensitive data
+config.ini
+secrets.json
+.env.local
+
+# Virtual environments
+fungal_venv/
+venv/
+env/
+
+# IDE files
+=======
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+>>>>>>> 4292fd667ab575ab7375884743ba83237b710a3b
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+<<<<<<< HEAD
+# Documentation builds
+docs/_build/
+docs/build/
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython
+cython_debug/
+
+# Exclude large subdirectories and embedded git repos
+Fungal-Spike-Clustering/
+QuantumMyceliumNetwork/
+fungal_analysis_project/
+fungal_electrical_monitoring_system/
+15061491/
+csv_data/
+detailed_visualizations/
+results/
+rigorous_analysis_results/
+validation_results/
+validated_fungal_electrical_csvs/
+wave_transform_batch_analysis/results/
+wave_transform_batch_analysis/data/
+
+# Exclude large files
+integrated_fungal_analysis_*.json
+batch_fungal_csv_analysis_summary.json
+csv_parameter_analysis_*.json 
+=======
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log 
+>>>>>>> 4292fd667ab575ab7375884743ba83237b710a3b

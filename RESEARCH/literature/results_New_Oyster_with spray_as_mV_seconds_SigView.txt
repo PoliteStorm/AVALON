@@ -1,0 +1,9 @@
+Results for Oyster mushroom voltage recording (single channel)
+File: 15061491/fungal_spikes/good_recordings/New_Oyster_with spray_as_mV_seconds_SigView.csv
+Data length: 67471
+Original spikes: 665
+√t features: 18
+Plausible features: 0
+Significant: True
+p-value: 0.0000
+Additional features: 0

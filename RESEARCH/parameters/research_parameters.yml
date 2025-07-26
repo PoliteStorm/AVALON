@@ -1,0 +1,247 @@
+# ---------------------------------------------------------------------------
+# Fungal Rosetta Stone :: Research-Backed Parameters (v1.0)
+#
+# This configuration centralizes all scientific and experimental parameters
+# used in the analysis pipeline. Each parameter includes units and, where
+# applicable, a citation to the peer-reviewed source.
+#
+# This file enables transparent, reproducible science.
+# ---------------------------------------------------------------------------
+
+# ===========================================================================
+# 🔬 VOLTAGE PARAMETERS
+# Source: Adamatzky, A. (2018). On spiking behaviour of oyster fungi Pleurotus
+#         djamor. Scientific reports, 8(1), 1-8.
+# ===========================================================================
+voltage_params:
+  # Voltage ranges observed across different fungal species.
+  # unit: millivolts (mV)
+  ranges_mv:
+    C_militaris: [0.1, 0.3]
+    F_velutipes: [0.2, 0.4]
+    S_commune: [0.02, 0.04]
+    O_nidiformis: [0.005, 0.009]
+
+  # Standard deviation of baseline voltage fluctuations.
+  # unit: millivolts (mV)
+  baseline_noise_std_mv: { value: 0.05, unit: "mV" }
+
+# ===========================================================================
+# ⚡️ SPIKE DETECTION & CHARACTERISTICS
+# Sources:
+# - Adamatzky, A. (2021). Language of fungi derived from their electrical spiking activity
+# - Adamatzky, A. (2018). On spiking behaviour of oyster fungi Pleurotus djamor
+# ===========================================================================
+spike_detection:
+  species_params:
+    C_militaris:  # Most complex patterns, medium amplitude
+      threshold: 0.05    # Lowered to match generated amplitudes
+      window_size: 55    # Medium window
+      min_distance: 45   # Allow moderately close spikes
+      prominence: 0.03   # Lowered prominence
+      width: 20         # Medium width
+    F_velutipes:  # Regular patterns, highest amplitude
+      threshold: 0.10    # Lowered threshold
+      window_size: 45    # Smaller window for sharp spikes
+      min_distance: 65   # Keep spikes well separated
+      prominence: 0.08   # Lowered prominence
+      width: 12         # Narrow width for clear spikes
+    S_commune:    # Medium complexity, medium-high amplitude
+      threshold: 0.01    # Lowered to match actual voltage range
+      window_size: 50    # Medium window
+      min_distance: 55   # Medium separation
+      prominence: 0.008  # Lowered prominence
+      width: 15         # Medium width
+    O_nidiformis: # Simplest patterns, lowest amplitude
+      threshold: 0.003   # Lowered to match actual voltage range
+      window_size: 60    # Larger window for broader spikes
+      min_distance: 70   # Keep spikes well separated
+      prominence: 0.002  # Lowered prominence
+      width: 25         # Wider for broader spikes
+  apply_notch_filter: true
+  normalize_amplitude: true
+
+spike_characteristics:
+  # Validated spike characteristics from Adamatzky 2021
+  amplitude_range_mv:
+    C_militaris: [0.1, 0.3]
+    F_velutipes: [0.2, 0.4]
+    S_commune: [0.02, 0.04]
+    O_nidiformis: [0.005, 0.009]
+  
+  # Species-specific intervals (minutes) from Table 1
+  mean_intervals:
+    C_militaris: 116
+    F_velutipes: 102
+    S_commune: 41
+    O_nidiformis: 92
+
+  # Typical shape parameters based on real recordings
+  shape:
+    rise_time_min: { value: 2, unit: "min" }
+    fall_time_min: { value: 5, unit: "min" }
+    recovery_time_min: { value: 8, unit: "min" }
+    
+  # Standard deviations from paper
+  std_intervals:
+    C_militaris: 312.7
+    F_velutipes: 178.2
+    S_commune: 126.9
+    O_nidiformis: 151.6
+  
+  std_amplitudes:
+    C_militaris: 0.2622
+    F_velutipes: 0.3083
+    S_commune: 0.09428
+    O_nidiformis: 0.007595
+
+# ===========================================================================
+# 📖 PATTERN VOCABULARY
+# Source: Adamatzky, A. (2021). On representation of information in fungi.
+#         Royal Society open science, 8(10), 211029.
+# ===========================================================================
+pattern_params:
+  # Size of the documented fungal pattern vocabulary.
+  documented_patterns:
+    value: 50
+    unit: patterns
+  # Number of core, frequently observed patterns.
+  core_patterns:
+    value: 15
+    unit: patterns
+  # Average number of species-specific patterns observed.
+  species_specific:
+    value: 4
+    unit: patterns
+  # Mean interval between spikes for specific species.
+  # unit: minutes
+  species_intervals:
+    C_militaris: 116
+    F_velutipes: 102
+    S_commune: 41
+    O_nidiformis: 92
+
+# ===========================================================================
+# 🎶 SIGNAL PROCESSING PARAMETERS
+# Basis: Standard practice in digital signal processing (DSP) for biological
+#        signals. See Oppenheim & Schafer, "Discrete-Time Signal Processing".
+# ===========================================================================
+signal_params:
+  # Adjusted sampling rate for slow fungal signals
+  sampling_rate_hz:
+    value: 100
+    unit: Hz
+  # Nyquist frequency, derived as sampling_rate / 2.
+  nyquist_freq_hz:
+    value: 50
+    unit: Hz
+  # Order of the digital filter (e.g., Butterworth).
+  filter_order:
+    value: 3
+    unit: dimensionless
+  # Windowing function for FFT to reduce spectral leakage.
+  window_func:
+    value: "hamming"
+    unit: string
+  # Overlap between consecutive windows for Welch's method.
+  overlap_factor:
+    value: 0.75
+    unit: ratio
+  # Size of the Fast Fourier Transform buffer.
+  fft_size:
+    value: 512
+    unit: samples
+
+# ===========================================================================
+# 📊 FREQUENCY BANDS
+# Source: Adamatzky 2021, Language of fungi derived from electrical spiking activity
+# ===========================================================================
+freq_bands:
+  # Frequency bands observed in fungal electrical activity
+  high_freq_period_min: 2.6    # High frequency oscillations
+  low_freq_period_min: 14.0    # Low frequency oscillations
+  common_width_min: [5, 8]     # Most common spike width range
+
+# ===========================================================================
+# 🧪 EXPERIMENTAL CONDITIONS
+# Basis: Standard laboratory protocol for fungal cultivation and measurement.
+# ===========================================================================
+exp_conditions:
+  temperature_c:
+    value: 25.0
+    unit: Celsius
+  humidity_pct:
+    value: 70.0
+    unit: percent
+  light_cycle:
+    value: "12h/12h"
+    unit: string
+  substrate_ph:
+    value: 6.5
+    unit: pH
+  electrode_spacing_mm:
+    value: 1.0
+    unit: mm
+  amplifier_gain:
+    value: 1000
+    unit: dimensionless
+
+# ===========================================================================
+# ✅ STATISTICAL VALIDATION PARAMETERS
+# Basis: Standard practice in biostatistics and computational biology.
+# ===========================================================================
+stats_params:
+  # Alpha level for hypothesis testing (p-value threshold).
+  significance_level:
+    value: 0.05
+    unit: probability
+  # Confidence level for constructing confidence intervals.
+  confidence_level:
+    value: 0.95
+    unit: probability
+  # Minimum Pearson's |r| to be considered a strong correlation.
+  correlation_threshold:
+    value: 0.7
+    unit: dimensionless
+  # Minimum sample size required for reliable statistical tests.
+  min_sample_size:
+    value: 30
+    unit: samples
+  # Threshold for outlier detection.
+  # unit: standard deviations
+  outlier_threshold:
+    value: 3.0
+    unit: std_dev 
+
+# Spike grouping parameters based on Adamatzky's research
+spike_grouping:
+  C_militaris:
+    avg_interval: 116    # Minutes between spikes
+    theta_1: 150        # Group spikes within 2.5 hours
+    theta_2: 300        # Group spikes within 5 hours
+    avg_word_length_1: 4.7  # Target: 4-5 spikes per word
+    avg_word_length_2: 8.9  # Target: 8-9 spikes per word
+  F_velutipes:
+    avg_interval: 102   # Minutes between spikes
+    theta_1: 130       # Group spikes within ~2 hours
+    theta_2: 260       # Group spikes within ~4 hours
+    avg_word_length_1: 3.6  # Target: 3-4 spikes per word
+    avg_word_length_2: 7.4  # Target: 7-8 spikes per word
+  S_commune:
+    avg_interval: 41    # Minutes between spikes
+    theta_1: 60        # Group spikes within 1 hour
+    theta_2: 120       # Group spikes within 2 hours
+    avg_word_length_1: 4.4  # Target: 4-5 spikes per word
+    avg_word_length_2: 8.5  # Target: 8-9 spikes per word
+  O_nidiformis:
+    avg_interval: 92    # Minutes between spikes
+    theta_1: 120       # Group spikes within 2 hours
+    theta_2: 240       # Group spikes within 4 hours
+    avg_word_length_1: 3.3  # Target: 3-4 spikes per word
+    avg_word_length_2: 7.0  # Target: 7-8 spikes per word
+
+complexity_analysis:
+  block_size: 4
+  alphabet_size: 10
+  max_word_length: 20
+  core_lexicon_size: 50 

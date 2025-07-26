@@ -1,0 +1,9 @@
+Results for Hericium erinaceus voltage recording (multi-channel)
+File: 15061491/fungal_spikes/good_recordings/Hericium_20_4_22_part1.csv
+Data length: 500000
+Original spikes: 0
+√t features: 40
+Plausible features: 0
+Significant: False
+p-value: 0.2947
+Additional features: 0
