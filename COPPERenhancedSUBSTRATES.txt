@@ -1,9 +1,0 @@
-- 45% hardwood sawdust
-- 20% crushed oyster or snail shells
-- 15% wheat bran
-- 10% vermiculite
-- 5% gypsum
-- 5% copper sulfate solution (0.1-0.5% concentration, mixed with water)
-- Water to achieve 60-65% moisture content
-
-Copper ions can potentially be incorporated into the mycelium structure, enhancing conductivity.

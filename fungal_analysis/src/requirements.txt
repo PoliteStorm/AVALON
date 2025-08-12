@@ -1,7 +1,0 @@
-numpy>=2.3.1
-scipy>=1.16.0
-matplotlib>=3.10.3
-PyWavelets>=1.8.0
-pandas>=2.3.1
-scikit-learn>=1.7.0  # For potential future machine learning analysis
-seaborn>=0.13.2      # For enhanced visualizations 

@@ -1,4 +1,0 @@
-flake8==7.3.0
-nbsphinx==0.9.7
-pytest-cov==6.2.1
-Sphinx==8.1.3

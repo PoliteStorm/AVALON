@@ -1,8 +1,0 @@
-- 50% hardwood sawdust or wood chips
-- 20% crushed oyster shells (finely ground to powder)
-- 15% wheat bran
-- 10% vermiculite
-- 5% gypsum (calcium sulfate)
-- Water to achieve 60-65% moisture content
-
-The calcium carbonate in oyster shells can potentially enhance piezoelectric properties by creating mineral-rich structures within the mycelium network.

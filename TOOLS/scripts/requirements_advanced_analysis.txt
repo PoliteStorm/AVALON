@@ -1,6 +1,6 @@
 # Requirements for Advanced Fungal Communication Analysis System
 # Author: Joe Knowles
-# Timestamp: 2025-01-27
+# Timestamp: 2025-08-12 09:23:27 BST
 
 # Core scientific computing
 numpy>=1.21.0

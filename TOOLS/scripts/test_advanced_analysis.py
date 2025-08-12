@@ -2,7 +2,7 @@
 """
 Test Script for Advanced Fungal Communication Analysis
 Author: Joe Knowles
-Timestamp: 2025-01-27
+Timestamp: 2025-08-12 09:23:27 BST
 Description: Demonstrates advanced signal analysis techniques for mushroom communication
 """
 
@@ -187,7 +187,7 @@ def main():
     """Main test function."""
     print("🍄 Advanced Fungal Communication Analysis Test Suite")
     print("Author: Joe Knowles")
-    print("Timestamp: 2025-01-27")
+    print("Timestamp: 2025-08-12 09:23:27 BST")
     print("=" * 60)
     
     # Create analyzer
