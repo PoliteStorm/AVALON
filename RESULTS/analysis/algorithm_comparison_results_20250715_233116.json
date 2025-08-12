@@ -1,0 +1,25 @@
+{
+  "adamatzky_results": {
+    "n_spikes": 18886,
+    "mean_amplitude": 0.991925840940379,
+    "mean_isi": 3.559809372517871,
+    "classifications": {
+      "very_fast": 18846,
+      "slow": 39,
+      "very_slow": 0
+    }
+  },
+  "current_results": {
+    "n_features": 1,
+    "mean_magnitude": 5727.831288252676,
+    "mean_frequency": 0.01723069877689206,
+    "mean_time_scale": 1000.0
+  },
+  "voltage_stats": {
+    "n_samples": 67472,
+    "min_voltage": 0.112789,
+    "max_voltage": 3.459079,
+    "mean_voltage": 0.7997177209657339,
+    "std_voltage": 0.4882833895291334
+  }
+}

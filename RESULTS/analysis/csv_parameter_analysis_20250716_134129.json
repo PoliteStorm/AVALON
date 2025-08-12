@@ -1,0 +1,16 @@
+{
+  "analysis_timestamp": "20250716_134129",
+  "total_files": 293,
+  "valid_files": 115,
+  "meets_adamatzky": 5,
+  "meets_wave_transform": 21,
+  "meets_both": 5,
+  "top_files": [
+    {
+      "file": "15061491/Ch1-2.csv",
+      "filename": "Ch1-2.csv",
+      "n_samples": 598754,
+      "n_columns": 4,
+      "mean_voltage": 299377.5,
+      "std_voltage": 172845.53587668962,
+      "voltage_range": 

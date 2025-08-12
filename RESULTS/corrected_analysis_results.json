@@ -1,0 +1,136 @@
+{
+  "analysis_metadata": {
+    "timestamp": "2025-08-12T16:47:21+0100",
+    "author": "Joe Knowles",
+    "system": "Integrated Fungal Analysis System",
+    "wave_transform_equation": "W(k,τ) = ∫₀^∞ V(t) · ψ(√t/τ) · e^(-ik√t) dt",
+    "total_files_analyzed": 2,
+    "analysis_duration_seconds": 5448.739
+  },
+  "Spray_in_bag.csv": {
+    "file_metadata": {
+      "measurements": 229,
+      "duration_seconds": 229,
+      "voltage_range_mv": [-0.902, 4.864],
+      "analysis_timestamp": "2025-08-12T14:50:50+0100",
+      "unix_timestamp": 1755006650
+    },
+    "wave_transform": {
+      "k_range": [0.1, 0.358, 0.616, 0.874, 1.132, 1.389, 1.647, 1.905, 2.163, 2.421, 2.679, 2.937, 3.195, 3.453, 3.711, 3.968, 4.226, 4.484, 4.742, 5.0],
+      "tau_range": [0.1, 0.174, 0.302, 0.525, 0.912, 1.585, 2.754, 4.785, 8.316, 14.451, 25.112, 43.639, 75.833, 131.779, 229.0],
+      "matrix_shape": [20, 15],
+      "computation_speed": "117.6 computations/second"
+    },
+    "pattern_recognition": {
+      "dominant_pattern": {
+        "k_value": 0.1,
+        "tau_value": 229.0,
+        "magnitude": 145.328,
+        "interpretation": "Low frequency, long time scale pattern"
+      },
+      "pattern_characteristics": {
+        "coherence": 2.977,
+        "total_energy": 119820.653,
+        "mean_magnitude": 6.363,
+        "complexity_score": "High (coherence > 2.0)"
+      }
+    },
+    "synth_sounds": {
+      "additive": {
+        "filename": "additive_synth_1755006650.wav",
+        "filepath": "RESULTS/audio/additive_synth_1755006650.wav",
+        "size_bytes": 705644,
+        "creation_time": "2025-08-12T14:50:50+0100",
+        "synthesis_type": "Additive synthesis with 229 frequency components"
+      },
+      "fm": {
+        "filename": "fm_synth_1755006650.wav",
+        "filepath": "RESULTS/audio/fm_synth_1755006650.wav",
+        "size_bytes": 705644,
+        "creation_time": "2025-08-12T14:50:50+0100",
+        "synthesis_type": "Frequency modulation with carrier 440Hz, modulator 220Hz"
+      },
+      "granular": {
+        "filename": "granular_synth_1755006650.wav",
+        "filepath": "RESULTS/audio/granular_synth_1755006650.wav",
+        "size_bytes": 705644,
+        "creation_time": "2025-08-12T14:50:50+0100",
+        "synthesis_type": "Granular synthesis with 80 audio grains"
+      }
+    }
+  },
+  "New_Oyster_with spray.csv": {
+    "file_metadata": {
+      "measurements": 67472,
+      "duration_seconds": 67472,
+      "voltage_range_mv": [0.000, 0.003],
+      "analysis_timestamp": "2025-08-12T16:21:41+0100",
+      "unix_timestamp": 1755012101
+    },
+    "wave_transform": {
+      "k_range": [0.1, 0.358, 0.616, 0.874, 1.132, 1.389, 1.647, 1.905, 2.163, 2.421, 2.679, 2.937, 3.195, 3.453, 3.711, 3.968, 4.226, 4.484, 4.742, 5.0],
+      "tau_range": [0.1, 0.261, 0.680, 1.775, 4.629, 12.073, 31.492, 82.141, 214.253, 558.848, 1457.672, 3802.119, 9917.259, 25867.688, 67472.0],
+      "matrix_shape": [20, 15],
+      "computation_speed": "78.6 computations/second"
+    },
+    "pattern_recognition": {
+      "dominant_pattern": {
+        "k_value": 3.453,
+        "tau_value": 67472.0,
+        "magnitude": 5.842,
+        "interpretation": "High frequency, very long time scale pattern"
+      },
+      "pattern_characteristics": {
+        "coherence": 2.458,
+        "total_energy": 301.352,
+        "mean_magnitude": 0.378,
+        "complexity_score": "High (coherence > 2.0)"
+      }
+    },
+    "synth_sounds": {
+      "additive": {
+        "filename": "additive_synth_1755012101.wav",
+        "filepath": "RESULTS/audio/additive_synth_1755012101.wav",
+        "size_bytes": 705644,
+        "creation_time": "2025-08-12T16:21:41+0100",
+        "synthesis_type": "Additive synthesis with 67472 frequency components"
+      },
+      "fm": {
+        "filename": "fm_synth_1755012101.wav",
+        "filepath": "RESULTS/audio/fm_synth_1755012101.wav",
+        "size_bytes": 705644,
+        "creation_time": "2025-08-12T16:21:41+0100",
+        "synthesis_type": "Frequency modulation with carrier 440Hz, modulator 220Hz"
+      },
+      "granular": {
+        "filename": "granular_synth_1755012101.wav",
+        "filepath": "RESULTS/audio/granular_synth_1755012101.wav",
+        "size_bytes": 705644,
+        "creation_time": "2025-08-12T16:21:41+0100",
+        "synthesis_type": "Granular synthesis with 80 audio grains"
+      }
+    }
+  },
+  "comparison_analysis": {
+    "voltage_characteristics": {
+      "spray_in_bag": {
+        "voltage_range": "Wide (-0.902 to 4.864 mV)",
+        "pattern_type": "High amplitude, low frequency",
+        "complexity": "High coherence (2.977)"
+      },
+      "new_oyster": {
+        "voltage_range": "Narrow (0.000 to 0.003 mV)",
+        "pattern_type": "Low amplitude, high frequency",
+        "complexity": "High coherence (2.458)"
+      }
+    },
+    "wave_transform_insights": {
+      "spray_in_bag": "Dominant at k=0.1, τ=229s - suggests slow, large-scale electrical patterns",
+      "new_oyster": "Dominant at k=3.453, τ=67472s - suggests fast, very long-term patterns"
+    },
+    "biological_interpretation": {
+      "spray_in_bag": "May represent immediate response to environmental stimulus (spray)",
+      "new_oyster": "May represent long-term growth or adaptation patterns"
+    }
+  }
+} 

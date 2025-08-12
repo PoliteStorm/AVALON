@@ -100,9 +100,9 @@ dmypy.json
 ehthumbs.db
 Thumbs.db
 
-# Large data files
+# Large data files - be more selective
+# Block raw data files but allow analysis results
 *.csv
-*.json
 *.png
 *.jpg
 *.jpeg
@@ -111,15 +111,26 @@ Thumbs.db
 *.avi
 *.mov
 
-# Results and outputs
-results/
+# Allow important analysis JSON files but block temporary ones
+# Block temporary/auto-generated JSON
+temp_*.json
+*_temp.json
+*.tmp.json
+# Allow analysis results and important JSON files
+!*analysis*.json
+!*results*.json
+!*summary*.json
+!*report*.json
+
+# Results and outputs - be more selective
+# Block large visualization directories but allow analysis results
+results/visualizations/
+results/plots/
 outputs/
-visualizations/
 *.log
 *.out
 
 # Temporary files
 *.tmp
 *.temp
-temp/
-tmp/ 
+temp/ 

@@ -1,0 +1,200 @@
+{
+  "spikes": [
+    {
+      "time_index": 269,
+      "time_seconds": 0.269,
+      "amplitude_mv": 0.38704001562078827,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 3250,
+      "time_seconds": 3.25,
+      "amplitude_mv": 0.3880064155077898,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 6801,
+      "time_seconds": 6.801,
+      "amplitude_mv": 0.402430861950541,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 7155,
+      "time_seconds": 7.155,
+      "amplitude_mv": 0.40329400296251705,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 13759,
+      "time_seconds": 13.759,
+      "amplitude_mv": 0.385303576485022,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 14809,
+      "time_seconds": 14.809,
+      "amplitude_mv": 0.3874316058051925,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 19220,
+      "time_seconds": 19.22,
+      "amplitude_mv": 0.39216738257441497,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 20813,
+      "time_seconds": 20.813,
+      "amplitude_mv": 0.3932235018607214,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 24654,
+      "time_seconds": 24.654,
+      "amplitude_mv": 0.5425545339906191,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 25963,
+      "time_seconds": 25.963,
+      "amplitude_mv": 0.3914200286333607,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 32552,
+      "time_seconds": 32.552,
+      "amplitude_mv": 0.3913491828022998,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 38663,
+      "time_seconds": 38.663,
+      "amplitude_mv": 0.39466891455317954,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 41875,
+      "time_seconds": 41.875,
+      "amplitude_mv": 0.38368747142592063,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 42353,
+      "time_seconds": 42.353,
+      "amplitude_mv": 0.38659559152571904,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 46012,
+      "time_seconds": 46.012,
+      "amplitude_mv": 0.39193550567656016,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 47627,
+      "time_seconds": 47.627,
+      "amplitude_mv": 0.399447174280648,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 49149,
+      "time_seconds": 49.149,
+      "amplitude_mv": 0.39052585554293023,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 50580,
+      "time_seconds": 50.58,
+      "amplitude_mv": 0.387054588798449,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 51142,
+      "time_seconds": 51.142,
+      "amplitude_mv": 0.401495219984415,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    },
+    {
+      "time_index": 59381,
+      "time_seconds": 59.381,
+      "amplitude_mv": 0.3922787057403592,
+      "threshold": 0.02108138171049652,
+      "baseline": -0.0016062549850754647
+    }
+  ],
+  "bursts": [],
+  "stats": {
+    "n_spikes": 20,
+    "mean_amplitude": 0.3995955067860724,
+    "std_amplitude": 0.033268226963672466,
+    "mean_isi": 3.111157894736842,
+    "std_isi": 2.3027848875279564,
+    "spike_rate": 0.3333333333333333,
+    "classifications": {
+      "very_fast": 0,
+      "fast": 3,
+      "slow": 16,
+      "very_slow": 0
+    },
+    "n_bursts": 0,
+    "quality_score": 1.0,
+    "snr": 6.778716979882351
+  },
+  "config": {
+    "adamatzky": {
+      "baseline_threshold": 0.15,
+      "threshold_multiplier": 1.0,
+      "adaptive_threshold": true,
+      "min_isi": 0.2,
+      "max_isi": 10.0,
+      "spike_duration": 0.05,
+      "min_spike_amplitude": 0.05,
+      "max_spike_amplitude": 5.0,
+      "min_snr": 3.0,
+      "baseline_stability": 0.1,
+      "spike_threshold": 0.2,
+      "max_amplitude": 3.0,
+      "typical_frequency": 0.5
+    },
+    "acquisition": {
+      "sampling_rate": 1000,
+      "recording_duration": 3600,
+      "buffer_size": 10000,
+      "electrode_impedance": 1000000.0,
+      "amplifier_gain": 1000,
+      "filter_bandwidth": [
+        0.1,
+        100
+      ]
+    },
+    "analysis": {
+      "confidence_level": 0.95,
+      "p_value_threshold": 0.05,
+      "min_spikes": 10,
+      "max_spikes": 10000,
+      "min_quality_score": 0.7,
+      "validation_split": 0.2,
+      "cv_folds": 5
+    },
+    "species": "pleurotus"
+  }
+}

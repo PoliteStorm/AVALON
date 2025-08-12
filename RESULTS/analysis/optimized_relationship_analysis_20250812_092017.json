@@ -1,0 +1,459 @@
+{
+  "metadata": {
+    "author": "Joe Knowles",
+    "timestamp": "20250812_092017",
+    "total_processing_steps": 28
+  },
+  "performance_metrics": {
+    "total_analyses": 6,
+    "average_duration": 0.1751709779103597
+  },
+  "processing_steps": [
+    {
+      "step": "Data Loading",
+      "details": "Loaded 229 samples from DATA/raw/15061491/Spray_in_bag.csv",
+      "timestamp": "2025-08-12T09:20:17.243193",
+      "duration": 0.0006229877471923828
+    },
+    {
+      "step": "Data Loading",
+      "details": "Loaded 226 samples from DATA/raw/15061491/Spray_in_bag_crop.csv",
+      "timestamp": "2025-08-12T09:20:17.247034",
+      "duration": 0.000720977783203125
+    },
+    {
+      "step": "Data Loading",
+      "details": "Loaded 67472 samples from DATA/raw/15061491/New_Oyster_with spray.csv",
+      "timestamp": "2025-08-12T09:20:17.559772",
+      "duration": 0.31183600425720215
+    },
+    {
+      "step": "Data Loading",
+      "details": "Loaded 67472 samples from DATA/raw/15061491/New_Oyster_with spray_as_mV.csv",
+      "timestamp": "2025-08-12T09:20:17.826791",
+      "duration": 0.25475311279296875
+    },
+    {
+      "step": "Data Preparation",
+      "details": "Preparing 229 vs 226 samples",
+      "timestamp": "2025-08-12T09:20:17.834035",
+      "duration": null
+    },
+    {
+      "step": "Cross-Correlation",
+      "details": "Max correlation: -153.039401 at lag 0",
+      "timestamp": "2025-08-12T09:20:17.843414",
+      "duration": 0.009085893630981445
+    },
+    {
+      "step": "Phase Analysis",
+      "details": "Mean phase diff: -0.0043, Consistency: 0.2536",
+      "timestamp": "2025-08-12T09:20:17.849360",
+      "duration": 0.0038290023803710938
+    },
+    {
+      "step": "Analysis Complete",
+      "details": "Pattern: Strong Synchronized, Strength: 0.583",
+      "timestamp": "2025-08-12T09:20:17.854747",
+      "duration": 0.020693302154541016
+    },
+    {
+      "step": "Data Preparation",
+      "details": "Preparing 229 vs 67472 samples",
+      "timestamp": "2025-08-12T09:20:17.856905",
+      "duration": null
+    },
+    {
+      "step": "Cross-Correlation",
+      "details": "Max correlation: 0.135182 at lag 0",
+      "timestamp": "2025-08-12T09:20:17.864119",
+      "duration": 0.0071430206298828125
+    },
+    {
+      "step": "Phase Analysis",
+      "details": "Mean phase diff: 0.0026, Consistency: 0.0393",
+      "timestamp": "2025-08-12T09:20:17.873170",
+      "duration": 0.0059583187103271484
+    },
+    {
+      "step": "Analysis Complete",
+      "details": "Pattern: Frequency Similar, Strength: 0.704",
+      "timestamp": "2025-08-12T09:20:17.897054",
+      "duration": 0.04012918472290039
+    },
+    {
+      "step": "Data Preparation",
+      "details": "Preparing 229 vs 67472 samples",
+      "timestamp": "2025-08-12T09:20:17.899108",
+      "duration": null
+    },
+    {
+      "step": "Cross-Correlation",
+      "details": "Max correlation: 135.153604 at lag 0",
+      "timestamp": "2025-08-12T09:20:17.908436",
+      "duration": 0.009261369705200195
+    },
+    {
+      "step": "Phase Analysis",
+      "details": "Mean phase diff: 0.0026, Consistency: 0.0393",
+      "timestamp": "2025-08-12T09:20:17.919359",
+      "duration": 0.006306171417236328
+    },
+    {
+      "step": "Analysis Complete",
+      "details": "Pattern: Strong Synchronized, Strength: 0.705",
+      "timestamp": "2025-08-12T09:20:17.956785",
+      "duration": 0.05765819549560547
+    },
+    {
+      "step": "Data Preparation",
+      "details": "Preparing 226 vs 67472 samples",
+      "timestamp": "2025-08-12T09:20:17.960847",
+      "duration": null
+    },
+    {
+      "step": "Cross-Correlation",
+      "details": "Max correlation: -0.019335 at lag 0",
+      "timestamp": "2025-08-12T09:20:17.972397",
+      "duration": 0.011456966400146484
+    },
+    {
+      "step": "Phase Analysis",
+      "details": "Mean phase diff: 0.0067, Consistency: 0.2349",
+      "timestamp": "2025-08-12T09:20:17.985630",
+      "duration": 0.009556293487548828
+    },
+    {
+      "step": "Analysis Complete",
+      "details": "Pattern: Frequency Similar, Strength: 0.458",
+      "timestamp": "2025-08-12T09:20:18.029422",
+      "duration": 0.06855535507202148
+    },
+    {
+      "step": "Data Preparation",
+      "details": "Preparing 226 vs 67472 samples",
+      "timestamp": "2025-08-12T09:20:18.034146",
+      "duration": null
+    },
+    {
+      "step": "Cross-Correlation",
+      "details": "Max correlation: -19.331318 at lag 0",
+      "timestamp": "2025-08-12T09:20:18.045457",
+      "duration": 0.011235713958740234
+    },
+    {
+      "step": "Phase Analysis",
+      "details": "Mean phase diff: 0.0067, Consistency: 0.2349",
+      "timestamp": "2025-08-12T09:20:18.058316",
+      "duration": 0.009107351303100586
+    },
+    {
+      "step": "Analysis Complete",
+      "details": "Pattern: Strong Synchronized, Strength: 0.460",
+      "timestamp": "2025-08-12T09:20:18.120230",
+      "duration": 0.08606481552124023
+    },
+    {
+      "step": "Data Preparation",
+      "details": "Preparing 67472 vs 67472 samples",
+      "timestamp": "2025-08-12T09:20:18.120464",
+      "duration": null
+    },
+    {
+      "step": "Cross-Correlation",
+      "details": "Max correlation: 7.129722 at lag 0",
+      "timestamp": "2025-08-12T09:20:18.770035",
+      "duration": 0.6495192050933838
+    },
+    {
+      "step": "Phase Analysis",
+      "details": "Mean phase diff: 0.0000, Consistency: 0.0002",
+      "timestamp": "2025-08-12T09:20:18.823021",
+      "duration": 0.04707479476928711
+    },
+    {
+      "step": "Analysis Complete",
+      "details": "Pattern: Strong Synchronized, Strength: 1.000",
+      "timestamp": "2025-08-12T09:20:18.898417",
+      "duration": 0.7779250144958496
+    }
+  ],
+  "relationship_results": {
+    "Spray_in_bag.csv \u2194 Spray_in_bag_crop.csv": {
+      "analysis_name": "Spray_in_bag.csv \u2194 Spray_in_bag_crop.csv",
+      "cross_correlation": {
+        "max_correlation": -153.03940118865984,
+        "lag_at_max": 0
+      },
+      "phase_analysis": {
+        "mean_phase_diff": -0.004335982021724645,
+        "phase_consistency": 0.2536296904106719
+      },
+      "relationship_strength": 0.5827234716237704,
+      "communication_pattern": "Strong Synchronized",
+      "processing_steps": [
+        {
+          "step": "Data Loading",
+          "details": "Loaded 67472 samples from DATA/raw/15061491/New_Oyster_with spray.csv",
+          "timestamp": "2025-08-12T09:20:17.559772",
+          "duration": 0.31183600425720215
+        },
+        {
+          "step": "Data Loading",
+          "details": "Loaded 67472 samples from DATA/raw/15061491/New_Oyster_with spray_as_mV.csv",
+          "timestamp": "2025-08-12T09:20:17.826791",
+          "duration": 0.25475311279296875
+        },
+        {
+          "step": "Data Preparation",
+          "details": "Preparing 229 vs 226 samples",
+          "timestamp": "2025-08-12T09:20:17.834035",
+          "duration": null
+        },
+        {
+          "step": "Cross-Correlation",
+          "details": "Max correlation: -153.039401 at lag 0",
+          "timestamp": "2025-08-12T09:20:17.843414",
+          "duration": 0.009085893630981445
+        },
+        {
+          "step": "Phase Analysis",
+          "details": "Mean phase diff: -0.0043, Consistency: 0.2536",
+          "timestamp": "2025-08-12T09:20:17.849360",
+          "duration": 0.0038290023803710938
+        }
+      ],
+      "total_duration": 0.020693302154541016
+    },
+    "Spray_in_bag.csv \u2194 New_Oyster_with spray.csv": {
+      "analysis_name": "Spray_in_bag.csv \u2194 New_Oyster_with spray.csv",
+      "cross_correlation": {
+        "max_correlation": 0.1351815039808242,
+        "lag_at_max": 0
+      },
+      "phase_analysis": {
+        "mean_phase_diff": 0.0026001401036041746,
+        "phase_consistency": 0.03926125458143855
+      },
+      "relationship_strength": 0.7041970839571032,
+      "communication_pattern": "Frequency Similar",
+      "processing_steps": [
+        {
+          "step": "Phase Analysis",
+          "details": "Mean phase diff: -0.0043, Consistency: 0.2536",
+          "timestamp": "2025-08-12T09:20:17.849360",
+          "duration": 0.0038290023803710938
+        },
+        {
+          "step": "Analysis Complete",
+          "details": "Pattern: Strong Synchronized, Strength: 0.583",
+          "timestamp": "2025-08-12T09:20:17.854747",
+          "duration": 0.020693302154541016
+        },
+        {
+          "step": "Data Preparation",
+          "details": "Preparing 229 vs 67472 samples",
+          "timestamp": "2025-08-12T09:20:17.856905",
+          "duration": null
+        },
+        {
+          "step": "Cross-Correlation",
+          "details": "Max correlation: 0.135182 at lag 0",
+          "timestamp": "2025-08-12T09:20:17.864119",
+          "duration": 0.0071430206298828125
+        },
+        {
+          "step": "Phase Analysis",
+          "details": "Mean phase diff: 0.0026, Consistency: 0.0393",
+          "timestamp": "2025-08-12T09:20:17.873170",
+          "duration": 0.0059583187103271484
+        }
+      ],
+      "total_duration": 0.04012918472290039
+    },
+    "Spray_in_bag.csv \u2194 New_Oyster_with spray_as_mV.csv": {
+      "analysis_name": "Spray_in_bag.csv \u2194 New_Oyster_with spray_as_mV.csv",
+      "cross_correlation": {
+        "max_correlation": 135.15360412775,
+        "lag_at_max": 0
+      },
+      "phase_analysis": {
+        "mean_phase_diff": 0.0026023575119323798,
+        "phase_consistency": 0.039294736712945366
+      },
+      "relationship_strength": 0.7050001566967394,
+      "communication_pattern": "Strong Synchronized",
+      "processing_steps": [
+        {
+          "step": "Phase Analysis",
+          "details": "Mean phase diff: 0.0026, Consistency: 0.0393",
+          "timestamp": "2025-08-12T09:20:17.873170",
+          "duration": 0.0059583187103271484
+        },
+        {
+          "step": "Analysis Complete",
+          "details": "Pattern: Frequency Similar, Strength: 0.704",
+          "timestamp": "2025-08-12T09:20:17.897054",
+          "duration": 0.04012918472290039
+        },
+        {
+          "step": "Data Preparation",
+          "details": "Preparing 229 vs 67472 samples",
+          "timestamp": "2025-08-12T09:20:17.899108",
+          "duration": null
+        },
+        {
+          "step": "Cross-Correlation",
+          "details": "Max correlation: 135.153604 at lag 0",
+          "timestamp": "2025-08-12T09:20:17.908436",
+          "duration": 0.009261369705200195
+        },
+        {
+          "step": "Phase Analysis",
+          "details": "Mean phase diff: 0.0026, Consistency: 0.0393",
+          "timestamp": "2025-08-12T09:20:17.919359",
+          "duration": 0.006306171417236328
+        }
+      ],
+      "total_duration": 0.05765819549560547
+    },
+    "Spray_in_bag_crop.csv \u2194 New_Oyster_with spray.csv": {
+      "analysis_name": "Spray_in_bag_crop.csv \u2194 New_Oyster_with spray.csv",
+      "cross_correlation": {
+        "max_correlation": -0.019335309002507815,
+        "lag_at_max": 0
+      },
+      "phase_analysis": {
+        "mean_phase_diff": 0.0067443591042191465,
+        "phase_consistency": 0.23494682223127294
+      },
+      "relationship_strength": 0.45825110733640173,
+      "communication_pattern": "Frequency Similar",
+      "processing_steps": [
+        {
+          "step": "Phase Analysis",
+          "details": "Mean phase diff: 0.0026, Consistency: 0.0393",
+          "timestamp": "2025-08-12T09:20:17.919359",
+          "duration": 0.006306171417236328
+        },
+        {
+          "step": "Analysis Complete",
+          "details": "Pattern: Strong Synchronized, Strength: 0.705",
+          "timestamp": "2025-08-12T09:20:17.956785",
+          "duration": 0.05765819549560547
+        },
+        {
+          "step": "Data Preparation",
+          "details": "Preparing 226 vs 67472 samples",
+          "timestamp": "2025-08-12T09:20:17.960847",
+          "duration": null
+        },
+        {
+          "step": "Cross-Correlation",
+          "details": "Max correlation: -0.019335 at lag 0",
+          "timestamp": "2025-08-12T09:20:17.972397",
+          "duration": 0.011456966400146484
+        },
+        {
+          "step": "Phase Analysis",
+          "details": "Mean phase diff: 0.0067, Consistency: 0.2349",
+          "timestamp": "2025-08-12T09:20:17.985630",
+          "duration": 0.009556293487548828
+        }
+      ],
+      "total_duration": 0.06855535507202148
+    },
+    "Spray_in_bag_crop.csv \u2194 New_Oyster_with spray_as_mV.csv": {
+      "analysis_name": "Spray_in_bag_crop.csv \u2194 New_Oyster_with spray_as_mV.csv",
+      "cross_correlation": {
+        "max_correlation": -19.331318424918212,
+        "lag_at_max": 0
+      },
+      "phase_analysis": {
+        "mean_phase_diff": 0.006746986116381527,
+        "phase_consistency": 0.23492866514359045
+      },
+      "relationship_strength": 0.45965924053108304,
+      "communication_pattern": "Strong Synchronized",
+      "processing_steps": [
+        {
+          "step": "Phase Analysis",
+          "details": "Mean phase diff: 0.0067, Consistency: 0.2349",
+          "timestamp": "2025-08-12T09:20:17.985630",
+          "duration": 0.009556293487548828
+        },
+        {
+          "step": "Analysis Complete",
+          "details": "Pattern: Frequency Similar, Strength: 0.458",
+          "timestamp": "2025-08-12T09:20:18.029422",
+          "duration": 0.06855535507202148
+        },
+        {
+          "step": "Data Preparation",
+          "details": "Preparing 226 vs 67472 samples",
+          "timestamp": "2025-08-12T09:20:18.034146",
+          "duration": null
+        },
+        {
+          "step": "Cross-Correlation",
+          "details": "Max correlation: -19.331318 at lag 0",
+          "timestamp": "2025-08-12T09:20:18.045457",
+          "duration": 0.011235713958740234
+        },
+        {
+          "step": "Phase Analysis",
+          "details": "Mean phase diff: 0.0067, Consistency: 0.2349",
+          "timestamp": "2025-08-12T09:20:18.058316",
+          "duration": 0.009107351303100586
+        }
+      ],
+      "total_duration": 0.08606481552124023
+    },
+    "New_Oyster_with spray.csv \u2194 New_Oyster_with spray_as_mV.csv": {
+      "analysis_name": "New_Oyster_with spray.csv \u2194 New_Oyster_with spray_as_mV.csv",
+      "cross_correlation": {
+        "max_correlation": 7.129721509316272,
+        "lag_at_max": 0
+      },
+      "phase_analysis": {
+        "mean_phase_diff": 5.831944990352983e-06,
+        "phase_consistency": 0.00018653109329284267
+      },
+      "relationship_strength": 0.9998887382520988,
+      "communication_pattern": "Strong Synchronized",
+      "processing_steps": [
+        {
+          "step": "Phase Analysis",
+          "details": "Mean phase diff: 0.0067, Consistency: 0.2349",
+          "timestamp": "2025-08-12T09:20:18.058316",
+          "duration": 0.009107351303100586
+        },
+        {
+          "step": "Analysis Complete",
+          "details": "Pattern: Strong Synchronized, Strength: 0.460",
+          "timestamp": "2025-08-12T09:20:18.120230",
+          "duration": 0.08606481552124023
+        },
+        {
+          "step": "Data Preparation",
+          "details": "Preparing 67472 vs 67472 samples",
+          "timestamp": "2025-08-12T09:20:18.120464",
+          "duration": null
+        },
+        {
+          "step": "Cross-Correlation",
+          "details": "Max correlation: 7.129722 at lag 0",
+          "timestamp": "2025-08-12T09:20:18.770035",
+          "duration": 0.6495192050933838
+        },
+        {
+          "step": "Phase Analysis",
+          "details": "Mean phase diff: 0.0000, Consistency: 0.0002",
+          "timestamp": "2025-08-12T09:20:18.823021",
+          "duration": 0.04707479476928711
+        }
+      ],
+      "total_duration": 0.7779250144958496
+    }
+  }
+}

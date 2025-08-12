@@ -1,0 +1,29 @@
+{
+  "timestamp": "20250812_092327",
+  "author": "Joe Knowles",
+  "data_source": "REAL fungal electrical measurements (not simulated)",
+  "sample_rate": 44100,
+  "synthesis_methods": [
+    "additive",
+    "fm",
+    "granular",
+    "waveform",
+    "filtered",
+    "ambient"
+  ],
+  "generated_sounds": {
+    "additive": "RESULTS/audio/additive_synth_1754990028.wav",
+    "fm": "RESULTS/audio/fm_synth_1754990028.wav",
+    "granular": "RESULTS/audio/granular_synth_1754990028.wav",
+    "waveform": "RESULTS/audio/waveform_synth_1754990058.wav",
+    "filtered": "RESULTS/audio/filtered_synth_1754990058.wav",
+    "ambient": "RESULTS/audio/ambient_synth_1754990069.wav",
+    "complete_mix": "RESULTS/audio/fungal_synth_mix.wav"
+  },
+  "total_duration": 229,
+  "voltage_range": [
+    -0.901845,
+    4.864298
+  ],
+  "note": "All sounds generated from actual mushroom electrical activity patterns"
+}

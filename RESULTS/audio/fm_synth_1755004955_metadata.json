@@ -1,0 +1,13 @@
+{
+  "mushroom_info": {
+    "species": "Test Pleurotus ostreatus",
+    "strain": "Test strain",
+    "treatment": "Test conditions",
+    "electrode_type": "Test electrodes"
+  },
+  "synthesis_method": "fm",
+  "efficiency": "Ultra-Fast",
+  "generation_time": 0.11945605278015137,
+  "timestamp": "20250812_092327",
+  "author": "Joe Knowles"
+}

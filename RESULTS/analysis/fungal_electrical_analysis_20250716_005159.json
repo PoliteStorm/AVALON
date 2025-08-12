@@ -1,0 +1,322 @@
+{
+  "spikes": [
+    {
+      "time_index": 2375,
+      "time_seconds": 2.375,
+      "amplitude_mv": 0.3820878238219404,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 4511,
+      "time_seconds": 4.511,
+      "amplitude_mv": 0.3973912705333538,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 5348,
+      "time_seconds": 5.348,
+      "amplitude_mv": 0.3929545603915302,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 6527,
+      "time_seconds": 6.527,
+      "amplitude_mv": 0.3914318733530126,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 7864,
+      "time_seconds": 7.864,
+      "amplitude_mv": 0.38896750248673384,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 9667,
+      "time_seconds": 9.667,
+      "amplitude_mv": 0.37833273676737994,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 11384,
+      "time_seconds": 11.384,
+      "amplitude_mv": 0.38494416590502184,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 11598,
+      "time_seconds": 11.598,
+      "amplitude_mv": 0.3877897097371324,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 17260,
+      "time_seconds": 17.26,
+      "amplitude_mv": 0.40966531552724966,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 18718,
+      "time_seconds": 18.718,
+      "amplitude_mv": 0.38640077565484393,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 22131,
+      "time_seconds": 22.131,
+      "amplitude_mv": 0.3845430366271238,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 22602,
+      "time_seconds": 22.602,
+      "amplitude_mv": 0.39695294337068915,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 26083,
+      "time_seconds": 26.083,
+      "amplitude_mv": 0.3819890948426067,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 31930,
+      "time_seconds": 31.93,
+      "amplitude_mv": 0.38655423784780873,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 32770,
+      "time_seconds": 32.77,
+      "amplitude_mv": 0.38947063790793,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 37432,
+      "time_seconds": 37.432,
+      "amplitude_mv": 0.3902971733085503,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 38160,
+      "time_seconds": 38.16,
+      "amplitude_mv": 0.3890402101246049,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 38725,
+      "time_seconds": 38.725,
+      "amplitude_mv": 0.387629911361702,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 40972,
+      "time_seconds": 40.972,
+      "amplitude_mv": 0.3896702665262911,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 44937,
+      "time_seconds": 44.937,
+      "amplitude_mv": 0.37556174254502317,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 45858,
+      "time_seconds": 45.858,
+      "amplitude_mv": 0.38771389125738903,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 46931,
+      "time_seconds": 46.931,
+      "amplitude_mv": 0.4161459145794561,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 50140,
+      "time_seconds": 50.14,
+      "amplitude_mv": 0.4042340827776051,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 56772,
+      "time_seconds": 56.772,
+      "amplitude_mv": 0.05268390405381254,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 57631,
+      "time_seconds": 57.631,
+      "amplitude_mv": 0.4451079694547173,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 58155,
+      "time_seconds": 58.155,
+      "amplitude_mv": 0.45588872810943626,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 58566,
+      "time_seconds": 58.566,
+      "amplitude_mv": 0.058161785961407794,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    },
+    {
+      "time_index": 59983,
+      "time_seconds": 59.983,
+      "amplitude_mv": 0.22115250248317048,
+      "threshold": 0.02821602679928119,
+      "baseline": -0.0019246825998483791
+    }
+  ],
+  "bursts": [
+    {
+      "start_time": 37.432,
+      "end_time": 38.725,
+      "duration": 1.2929999999999993,
+      "spike_count": 3,
+      "spikes": [
+        {
+          "time_index": 37432,
+          "time_seconds": 37.432,
+          "amplitude_mv": 0.3902971733085503,
+          "threshold": 0.02821602679928119,
+          "baseline": -0.0019246825998483791
+        },
+        {
+          "time_index": 38160,
+          "time_seconds": 38.16,
+          "amplitude_mv": 0.3890402101246049,
+          "threshold": 0.02821602679928119,
+          "baseline": -0.0019246825998483791
+        },
+        {
+          "time_index": 38725,
+          "time_seconds": 38.725,
+          "amplitude_mv": 0.387629911361702,
+          "threshold": 0.02821602679928119,
+          "baseline": -0.0019246825998483791
+        }
+      ]
+    },
+    {
+      "start_time": 56.772,
+      "end_time": 58.566,
+      "duration": 1.794000000000004,
+      "spike_count": 4,
+      "spikes": [
+        {
+          "time_index": 56772,
+          "time_seconds": 56.772,
+          "amplitude_mv": 0.05268390405381254,
+          "threshold": 0.02821602679928119,
+          "baseline": -0.0019246825998483791
+        },
+        {
+          "time_index": 57631,
+          "time_seconds": 57.631,
+          "amplitude_mv": 0.4451079694547173,
+          "threshold": 0.02821602679928119,
+          "baseline": -0.0019246825998483791
+        },
+        {
+          "time_index": 58155,
+          "time_seconds": 58.155,
+          "amplitude_mv": 0.45588872810943626,
+          "threshold": 0.02821602679928119,
+          "baseline": -0.0019246825998483791
+        },
+        {
+          "time_index": 58566,
+          "time_seconds": 58.566,
+          "amplitude_mv": 0.058161785961407794,
+          "threshold": 0.02821602679928119,
+          "baseline": -0.0019246825998483791
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "n_spikes": 28,
+    "mean_amplitude": 0.36474156311848294,
+    "std_amplitude": 0.09332722395622037,
+    "mean_isi": 2.1336296296296293,
+    "std_isi": 1.8018473061493416,
+    "spike_rate": 0.4666666666666667,
+    "classifications": {
+      "very_fast": 0,
+      "fast": 10,
+      "slow": 17,
+      "very_slow": 0
+    },
+    "n_bursts": 2,
+    "quality_score": 1.0,
+    "snr": 6.670783197661995
+  },
+  "config": {
+    "adamatzky": {
+      "baseline_threshold": 0.15,
+      "threshold_multiplier": 1.0,
+      "adaptive_threshold": true,
+      "min_isi": 0.2,
+      "max_isi": 10.0,
+      "spike_duration": 0.05,
+      "min_spike_amplitude": 0.05,
+      "max_spike_amplitude": 5.0,
+      "min_snr": 3.0,
+      "baseline_stability": 0.1,
+      "spike_threshold": 0.2,
+      "max_amplitude": 3.0,
+      "typical_frequency": 0.5
+    },
+    "acquisition": {
+      "sampling_rate": 1000,
+      "recording_duration": 3600,
+      "buffer_size": 10000,
+      "electrode_impedance": 1000000.0,
+      "amplifier_gain": 1000,
+      "filter_bandwidth": [
+        0.1,
+        100
+      ]
+    },
+    "analysis": {
+      "confidence_level": 0.95,
+      "p_value_threshold": 0.05,
+      "min_spikes": 10,
+      "max_spikes": 10000,
+      "min_quality_score": 0.7,
+      "validation_split": 0.2,
+      "cv_folds": 5
+    },
+    "species": "pleurotus"
+  }
+}

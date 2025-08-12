@@ -1,0 +1,116 @@
+{
+  "analysis_timestamp": "2025-07-16T00:33:43.407788",
+  "total_files": 300,
+  "file_type_distribution": {
+    "coordinate": 270,
+    "direct_electrical": 19,
+    "moisture": 9,
+    "fungal_spike": 2
+  },
+  "top_electrical_files": [
+    {
+      "file": "Fridge_substrate_21_1_22",
+      "voltage_rms": 1642684577.3214962,
+      "peak_rate": 0.0
+    },
+    {
+      "file": "Analysis_recording",
+      "voltage_rms": 1642684577.3214962,
+      "peak_rate": 0.0
+    },
+    {
+      "file": "Analysis_recording_part1",
+      "voltage_rms": 1642684577.3214962,
+      "peak_rate": 0.0
+    },
+    {
+      "file": "Fridge_substrate_21_1_22_part1",
+      "voltage_rms": 1642684577.3214962,
+      "peak_rate": 0.0
+    },
+    {
+      "file": "Analysis_recording_part1_part1",
+      "voltage_rms": 1642684577.3214962,
+      "peak_rate": 0.0
+    },
+    {
+      "file": "Fridge_substrate_21_1_22_part1_part1",
+      "voltage_rms": 1642684577.3214962,
+      "peak_rate": 0.0
+    },
+    {
+      "file": "Activity_time_part3",
+      "voltage_rms": 1230678.1959098813,
+      "peak_rate": 0.0
+    },
+    {
+      "file": "Norm_vs_deep_tip",
+      "voltage_rms": 834718.7238175903,
+      "peak_rate": 0.0
+    },
+    {
+      "file": "Activity_time_part2",
+      "voltage_rms": 763763.1068161776,
+      "peak_rate": 0.0
+    },
+    {
+      "file": "Ch1-2_part2",
+      "voltage_rms": 550117.138860443,
+      "peak_rate": 0.0
+    }
+  ],
+  "top_movement_files": [
+    {
+      "file": "Pp_M_Tokyo_U_N_26h_6_coordinates",
+      "velocity_rms": 287.8579040964763,
+      "curvature_rms": 0.08057010268608618
+    },
+    {
+      "file": "Pp_M_UK_U_N_15h_6_coordinates",
+      "velocity_rms": 255.48240959455097,
+      "curvature_rms": 0.06964738168099957
+    },
+    {
+      "file": "Pv_M_I_U_N_39d_3_coordinates",
+      "velocity_rms": 234.24488583798689,
+      "curvature_rms": 0.05625610410764573
+    },
+    {
+      "file": "Pv_M_I_U_N_46d_3_coordinates",
+      "velocity_rms": 233.96638778962833,
+      "curvature_rms": 0.06521270873614501
+    },
+    {
+      "file": "Pv_M_I_U_N_35d_3_coordinates",
+      "velocity_rms": 231.33157778859152,
+      "curvature_rms": 0.05848477735263055
+    },
+    {
+      "file": "Pv_M_I_U_N_43d_3_coordinates",
+      "velocity_rms": 230.63391789995967,
+      "curvature_rms": 0.05069202538108631
+    },
+    {
+      "file": "Pv_M_I+4R_U_N_35d_1_coordinates",
+      "velocity_rms": 216.9028075464389,
+      "curvature_rms": 0.129396497006908
+    },
+    {
+      "file": "Pv_M_I_U_N_32d_3_coordinates",
+      "velocity_rms": 216.89558856897833,
+      "curvature_rms": 0.05965660233771414
+    },
+    {
+      "file": "Pp_M_UK_U_N_15h_10_coordinates",
+      "velocity_rms": 210.891407786449,
+      "curvature_rms": 0.03998115175951525
+    },
+    {
+      "file": "Pp_M_UK_U_N_15h_7_coordinates",
+      "velocity_rms": 207.71615336630686,
+      "curvature_rms": 0.11378777204251446
+    }
+  ],
+  "species_analysis": {},
+  "correlation_insights": []
+}

@@ -1,0 +1,2763 @@
+{
+  "electrical_datasets": [
+    {
+      "filename": "Activity_pause_spray (1).csv",
+      "size_mb": "2.8 MB",
+      "lines": "32166",
+      "metadata": {
+        "species": "Unknown",
+        "electrode_type": "Differential electrodes",
+        "sampling_rate_hz": 1.0,
+        "channels": 7,
+        "amplitude_range_mv": [
+          -0.108786,
+          159786.0
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.109, 159786.000) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Norm_vs_deep_tip.csv",
+      "size_mb": "5.8 MB",
+      "lines": "61648",
+      "metadata": {
+        "species": "Unknown",
+        "electrode_type": "Differential electrodes",
+        "sampling_rate_hz": 1.0,
+        "channels": 8,
+        "amplitude_range_mv": [
+          0.304957,
+          803714.0
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (0.305, 803714.000) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Fridge_substrate_21_1_22.csv",
+      "size_mb": "32.8 MB",
+      "lines": ">100000",
+      "metadata": {
+        "species": "Unknown",
+        "electrode_type": "Unknown",
+        "sampling_rate_hz": 1.0,
+        "channels": 0,
+        "amplitude_range_mv": [
+          -0.000305,
+          1642594603.0
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.000, 1642594603.000) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Hericium_20_4_22.csv",
+      "size_mb": "100.2 MB",
+      "lines": ">100000",
+      "metadata": {
+        "species": "Hericium erinaceus (Lion's Mane)",
+        "electrode_type": "Differential electrodes",
+        "sampling_rate_hz": 1.0,
+        "channels": 8,
+        "amplitude_range_mv": [
+          -0.001273,
+          0.000891
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.001, 0.001) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Full_vs_tip_electrodes.csv",
+      "size_mb": "4.0 MB",
+      "lines": "39981",
+      "metadata": {
+        "species": "Unknown",
+        "electrode_type": "Differential electrodes",
+        "sampling_rate_hz": 1.0,
+        "channels": 8,
+        "amplitude_range_mv": [
+          -0.330965,
+          0.48269
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.331, 0.483) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Analysis_recording.csv",
+      "size_mb": "32.8 MB",
+      "lines": ">100000",
+      "metadata": {
+        "species": "Unknown",
+        "electrode_type": "Unknown",
+        "sampling_rate_hz": 1.0,
+        "channels": 0,
+        "amplitude_range_mv": [
+          -0.000305,
+          1642594603.0
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.000, 1642594603.000) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "New_Oyster_with spray_as_mV.csv",
+      "size_mb": "6.7 MB",
+      "lines": "67473",
+      "metadata": {
+        "species": "Pleurotus ostreatus",
+        "electrode_type": "Differential electrodes",
+        "sampling_rate_hz": 1.0,
+        "channels": 8,
+        "amplitude_range_mv": [
+          -0.250808,
+          0.257624
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.251, 0.258) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Activity_pause_spray.csv",
+      "size_mb": "2.3 MB",
+      "lines": "32166",
+      "metadata": {
+        "species": "Unknown",
+        "electrode_type": "Differential electrodes",
+        "sampling_rate_hz": 1.0,
+        "channels": 7,
+        "amplitude_range_mv": [
+          -0.108786,
+          159786.0
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.109, 159786.000) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "New_Oyster_with spray.csv",
+      "size_mb": "6.7 MB",
+      "lines": "67473",
+      "metadata": {
+        "species": "Pleurotus ostreatus",
+        "electrode_type": "Differential electrodes",
+        "sampling_rate_hz": 1.0,
+        "channels": 8,
+        "amplitude_range_mv": [
+          -0.000251,
+          0.000258
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.000, 0.000) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Spray_in_bag.csv",
+      "size_mb": "23.6 KB",
+      "lines": "230",
+      "metadata": {
+        "species": "Agaricus species",
+        "electrode_type": "Differential electrodes",
+        "sampling_rate_hz": 1.0,
+        "channels": 8,
+        "amplitude_range_mv": [
+          -0.065297,
+          0.274845
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.065, 0.275) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Activity_time_part1.csv",
+      "size_mb": "10.7 MB",
+      "lines": ">100000",
+      "metadata": {
+        "species": "Unknown",
+        "electrode_type": "Unknown",
+        "sampling_rate_hz": 1.0,
+        "channels": 0,
+        "amplitude_range_mv": [
+          0.004,
+          9.0
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (0.004, 9.000) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Activity_time_part2.csv",
+      "size_mb": "9.9 MB",
+      "lines": ">100000",
+      "metadata": {
+        "species": "Unknown",
+        "electrode_type": "Unknown",
+        "sampling_rate_hz": 1.0,
+        "channels": 0,
+        "amplitude_range_mv": [
+          -0.005,
+          500009.0
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.005, 500009.000) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Activity_time_part3.csv",
+      "size_mb": "8.6 MB",
+      "lines": ">100000",
+      "metadata": {
+        "species": "Unknown",
+        "electrode_type": "Unknown",
+        "sampling_rate_hz": 1.0,
+        "channels": 0,
+        "amplitude_range_mv": [
+          0.0,
+          1000009.0
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (0.000, 1000009.000) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Analysis_recording_part1.csv",
+      "size_mb": "24.1 MB",
+      "lines": ">100000",
+      "metadata": {
+        "species": "Unknown",
+        "electrode_type": "Unknown",
+        "sampling_rate_hz": 1.0,
+        "channels": 0,
+        "amplitude_range_mv": [
+          -0.000305,
+          1642594603.0
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.000, 1642594603.000) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Fridge_substrate_21_1_22_part1.csv",
+      "size_mb": "24.1 MB",
+      "lines": ">100000",
+      "metadata": {
+        "species": "Unknown",
+        "electrode_type": "Unknown",
+        "sampling_rate_hz": 1.0,
+        "channels": 0,
+        "amplitude_range_mv": [
+          -0.000305,
+          1642594603.0
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.000, 1642594603.000) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Hericium_20_4_22_part1.csv",
+      "size_mb": "35.1 MB",
+      "lines": ">100000",
+      "metadata": {
+        "species": "Hericium erinaceus (Lion's Mane)",
+        "electrode_type": "Differential electrodes",
+        "sampling_rate_hz": 1.0,
+        "channels": 8,
+        "amplitude_range_mv": [
+          -0.001273,
+          0.000891
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.001, 0.001) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Hericium_20_4_22_part2.csv",
+      "size_mb": "34.7 MB",
+      "lines": ">100000",
+      "metadata": {
+        "species": "Hericium erinaceus (Lion's Mane)",
+        "electrode_type": "Differential electrodes",
+        "sampling_rate_hz": 1.0,
+        "channels": 8,
+        "amplitude_range_mv": [
+          -5.7e-05,
+          8.5e-05
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.000, 0.000) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Hericium_20_4_22_part3.csv",
+      "size_mb": "2.5 MB",
+      "lines": "35778",
+      "metadata": {
+        "species": "Hericium erinaceus (Lion's Mane)",
+        "electrode_type": "Differential electrodes",
+        "sampling_rate_hz": 1.0,
+        "channels": 8,
+        "amplitude_range_mv": [
+          2.5e-05,
+          8.5e-05
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (0.000, 0.000) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Analysis_recording_part1_part1.csv",
+      "size_mb": "24.1 MB",
+      "lines": ">100000",
+      "metadata": {
+        "species": "Unknown",
+        "electrode_type": "Unknown",
+        "sampling_rate_hz": 1.0,
+        "channels": 0,
+        "amplitude_range_mv": [
+          -0.000305,
+          1642594603.0
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.000, 1642594603.000) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Fridge_substrate_21_1_22_part1_part1.csv",
+      "size_mb": "24.1 MB",
+      "lines": ">100000",
+      "metadata": {
+        "species": "Unknown",
+        "electrode_type": "Unknown",
+        "sampling_rate_hz": 1.0,
+        "channels": 0,
+        "amplitude_range_mv": [
+          -0.000305,
+          1642594603.0
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.000, 1642594603.000) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Hericium_20_4_22_part1_part1.csv",
+      "size_mb": "35.1 MB",
+      "lines": ">100000",
+      "metadata": {
+        "species": "Hericium erinaceus (Lion's Mane)",
+        "electrode_type": "Differential electrodes",
+        "sampling_rate_hz": 1.0,
+        "channels": 8,
+        "amplitude_range_mv": [
+          -0.001273,
+          0.000891
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.001, 0.001) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    },
+    {
+      "filename": "Hericium_20_4_22_part2_part1.csv",
+      "size_mb": "34.7 MB",
+      "lines": ">100000",
+      "metadata": {
+        "species": "Hericium erinaceus (Lion's Mane)",
+        "electrode_type": "Differential electrodes",
+        "sampling_rate_hz": 1.0,
+        "channels": 8,
+        "amplitude_range_mv": [
+          -5.7e-05,
+          8.5e-05
+        ]
+      },
+      "validation": {
+        "is_biologically_plausible": false,
+        "warnings": [
+          "Amplitude range (-0.000, 0.000) mV outside Adamatzky range (0.16, 0.5)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": false
+    }
+  ],
+  "environmental_datasets": [
+    {
+      "filename": "GL2_dry.csv",
+      "size_mb": "2.4 KB",
+      "lines": "72",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          -0.121,
+          -0.0898
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Dry condition"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    },
+    {
+      "filename": "GL1.csv",
+      "size_mb": "13.9 KB",
+      "lines": "432",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          -0.0912,
+          -0.0665
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Unknown"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    },
+    {
+      "filename": "Blue_oyster_31_5_22.csv",
+      "size_mb": "3.2 MB",
+      "lines": "95523",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          0.0628,
+          0.0642
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Blue oyster experiment"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    },
+    {
+      "filename": "GL1_dry.csv",
+      "size_mb": "3.0 KB",
+      "lines": "91",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          -0.1225,
+          -0.1217
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Dry condition"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    },
+    {
+      "filename": "GL_medium_block.csv",
+      "size_mb": "5.2 MB",
+      "lines": ">100000",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          -0.1225,
+          -0.1203
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Unknown"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    },
+    {
+      "filename": "Moisture_logger.csv",
+      "size_mb": "8.2 MB",
+      "lines": ">100000",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          0.1499,
+          0.1514
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Unknown"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    },
+    {
+      "filename": "Moisture_logger_0.csv",
+      "size_mb": "8.2 MB",
+      "lines": ">100000",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          0.1499,
+          0.1514
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Unknown"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    },
+    {
+      "filename": "GL3.csv",
+      "size_mb": "4.9 KB",
+      "lines": "152",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          -0.1145,
+          -0.1123
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Unknown"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    },
+    {
+      "filename": "GL3_dry.csv",
+      "size_mb": "2.6 KB",
+      "lines": "78",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          -0.1239,
+          -0.1232
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Dry condition"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    },
+    {
+      "filename": "Moisture_logger_5.csv",
+      "size_mb": "11.9 MB",
+      "lines": ">100000",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          0.1318,
+          0.1332
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Unknown"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    },
+    {
+      "filename": "LM_D.csv",
+      "size_mb": "2.2 KB",
+      "lines": "66",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          -0.1196,
+          -0.0578
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Unknown"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    },
+    {
+      "filename": "LM_E.csv",
+      "size_mb": "1.7 KB",
+      "lines": "50",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          -0.1174,
+          -0.0622
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Unknown"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    },
+    {
+      "filename": "GL5.csv",
+      "size_mb": "3.7 KB",
+      "lines": "114",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          -0.1217,
+          -0.121
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Unknown"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    },
+    {
+      "filename": "GL2.csv",
+      "size_mb": "7.7 KB",
+      "lines": "238",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          -0.1116,
+          -0.1101
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Unknown"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    },
+    {
+      "filename": "GL4.csv",
+      "size_mb": "5.2 KB",
+      "lines": "161",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          -0.0861,
+          -0.0861
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Unknown"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    },
+    {
+      "filename": "Ch1-2_moisture_added.csv",
+      "size_mb": "6.3 MB",
+      "lines": ">100000",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          -0.549531,
+          -0.538861
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Unknown"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [
+          "Moisture range (-0.550, -0.539) outside expected range (-0.2, 0.3)"
+        ],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    },
+    {
+      "filename": "GL4_dry.csv",
+      "size_mb": "2.6 KB",
+      "lines": "80",
+      "metadata": {
+        "sensor_type": "Moisture logger",
+        "moisture_range_m3_m3": [
+          -0.121,
+          -0.0949
+        ],
+        "sampling_interval_seconds": 1,
+        "location": "Dry condition"
+      },
+      "validation": {
+        "is_biologically_plausible": true,
+        "warnings": [],
+        "recommendations": []
+      },
+      "simulation_ready": true
+    }
+  ],
+  "coordinate_datasets": [
+    {
+      "filename": "Pv_M_I+4R_U_N_35d_5_coordinates.csv",
+      "size_mb": "14.6 KB",
+      "lines": "857",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_Fc_Hf_48d_2_coordinates.csv",
+      "size_mb": "25.5 KB",
+      "lines": "1554",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_36d_4_coordinates.csv",
+      "size_mb": "20.1 KB",
+      "lines": "1189",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_U_N_26d_2_coordinates.csv",
+      "size_mb": "10.1 KB",
+      "lines": "609",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-H_N_31d_3_coordinates.csv",
+      "size_mb": "2.9 KB",
+      "lines": "169",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_18d_5_coordinates.csv",
+      "size_mb": "6.5 KB",
+      "lines": "376",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_28d_2_coordinates.csv",
+      "size_mb": "20.7 KB",
+      "lines": "1213",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-M_N_16d_1_coordinates.csv",
+      "size_mb": "2.0 KB",
+      "lines": "116",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Ag_M_I+4R_U_N_42d_1_coordinates.csv",
+      "size_mb": "39.2 KB",
+      "lines": "2367",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-M_N_20d_1_coordinates.csv",
+      "size_mb": "3.5 KB",
+      "lines": "209",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_Hf_52d_1_coordinates.csv",
+      "size_mb": "25.4 KB",
+      "lines": "1542",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+R_U_N_25d_4_coordinates.csv",
+      "size_mb": "13.7 KB",
+      "lines": "815",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pi_M_I_U_N_46d_7_coordinates.csv",
+      "size_mb": "24.0 KB",
+      "lines": "1520",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_99d_2_coordinates.csv",
+      "size_mb": "9.7 KB",
+      "lines": "562",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-M_N_26d_1_coordinates.csv",
+      "size_mb": "2.8 KB",
+      "lines": "171",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_35d_3_coordinates.csv",
+      "size_mb": "18.8 KB",
+      "lines": "1113",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pi_M_I_U_N_46d_6_coordinates.csv",
+      "size_mb": "16.6 KB",
+      "lines": "1030",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pp_M_UK_U_N_15h_9_coordinates.csv",
+      "size_mb": "4.0 KB",
+      "lines": "225",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_99d_1_coordinates.csv",
+      "size_mb": "12.7 KB",
+      "lines": "732",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_U_N_20d_3_coordinates.csv",
+      "size_mb": "6.3 KB",
+      "lines": "381",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_42d_2_coordinates.csv",
+      "size_mb": "14.6 KB",
+      "lines": "860",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_99d_3_coordinates.csv",
+      "size_mb": "19.9 KB",
+      "lines": "1150",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_Fc_Hf_48d_1_coordinates.csv",
+      "size_mb": "29.9 KB",
+      "lines": "1818",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_15d_2_coordinates.csv",
+      "size_mb": "5.5 KB",
+      "lines": "319",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_57d_2_coordinates.csv",
+      "size_mb": "12.0 KB",
+      "lines": "696",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-L_N_26d_3_coordinates.csv",
+      "size_mb": "5.8 KB",
+      "lines": "347",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_Fc_Hf_18d_1_coordinates.csv",
+      "size_mb": "19.5 KB",
+      "lines": "1187",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_18d_2_coordinates.csv",
+      "size_mb": "16.9 KB",
+      "lines": "988",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_78d_3_coordinates.csv",
+      "size_mb": "12.8 KB",
+      "lines": "737",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pp_M_UK_U_N_15h_7_coordinates.csv",
+      "size_mb": "5.5 KB",
+      "lines": "312",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_208d_2_coordinates.csv",
+      "size_mb": "4.0 KB",
+      "lines": "236",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_31d_6_coordinates.csv",
+      "size_mb": "10.6 KB",
+      "lines": "645",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_32d_3_coordinates.csv",
+      "size_mb": "18.1 KB",
+      "lines": "1047",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_36d_2_coordinates.csv",
+      "size_mb": "19.2 KB",
+      "lines": "1109",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_32d_5_coordinates.csv",
+      "size_mb": "11.9 KB",
+      "lines": "695",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_Hf_30d_1_coordinates.csv",
+      "size_mb": "27.0 KB",
+      "lines": "1636",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pi_M_I_U_N_46d_5_coordinates.csv",
+      "size_mb": "7.7 KB",
+      "lines": "484",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-H_N_18d_1_coordinates.csv",
+      "size_mb": "3.2 KB",
+      "lines": "187",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_36d_2_coordinates.csv",
+      "size_mb": "13.1 KB",
+      "lines": "771",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_99d_4_coordinates.csv",
+      "size_mb": "15.2 KB",
+      "lines": "888",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_18d_3_coordinates.csv",
+      "size_mb": "6.0 KB",
+      "lines": "340",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_18d_1_coordinates.csv",
+      "size_mb": "12.0 KB",
+      "lines": "694",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_39d_3_coordinates.csv",
+      "size_mb": "14.5 KB",
+      "lines": "865",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_36d_3_coordinates.csv",
+      "size_mb": "16.2 KB",
+      "lines": "936",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-M_N_20d_3_coordinates.csv",
+      "size_mb": "5.9 KB",
+      "lines": "353",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_Hf_26d_2_coordinates.csv",
+      "size_mb": "30.5 KB",
+      "lines": "1856",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+R_U_N_18d_3_coordinates.csv",
+      "size_mb": "15.9 KB",
+      "lines": "953",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_78d_4_coordinates.csv",
+      "size_mb": "18.7 KB",
+      "lines": "1092",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_39d_6_coordinates.csv",
+      "size_mb": "9.1 KB",
+      "lines": "552",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_Fc_Hf_26d_3_coordinates.csv",
+      "size_mb": "20.2 KB",
+      "lines": "1234",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_19d_2_coordinates.csv",
+      "size_mb": "6.7 KB",
+      "lines": "387",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pp_M_UK_U_N_15h_6_coordinates.csv",
+      "size_mb": "5.0 KB",
+      "lines": "282",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_Fc_Hf_22d_2_coordinates.csv",
+      "size_mb": "25.8 KB",
+      "lines": "1567",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_21d_1_coordinates.csv",
+      "size_mb": "13.6 KB",
+      "lines": "802",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-L_N_16d_3_coordinates.csv",
+      "size_mb": "3.0 KB",
+      "lines": "178",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-H_N_18d_3_coordinates.csv",
+      "size_mb": "5.4 KB",
+      "lines": "323",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_Fc_Hf_48d_3_coordinates.csv",
+      "size_mb": "30.4 KB",
+      "lines": "1851",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_25d_4_coordinates.csv",
+      "size_mb": "13.0 KB",
+      "lines": "757",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pi_M_I_U_N_46d_3_coordinates.csv",
+      "size_mb": "22.5 KB",
+      "lines": "1358",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+R_U_N_18d_2_coordinates.csv",
+      "size_mb": "7.2 KB",
+      "lines": "432",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_33d_3_coordinates.csv",
+      "size_mb": "23.6 KB",
+      "lines": "1385",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pp_M_Tokyo_U_N_26h_9_coordinates.csv",
+      "size_mb": "3.7 KB",
+      "lines": "200",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_Hf_26d_1_coordinates.csv",
+      "size_mb": "34.3 KB",
+      "lines": "2090",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_25d_2_coordinates.csv",
+      "size_mb": "11.2 KB",
+      "lines": "651",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_31d_5_coordinates.csv",
+      "size_mb": "17.6 KB",
+      "lines": "1065",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-L_N_26d_2_coordinates.csv",
+      "size_mb": "5.1 KB",
+      "lines": "307",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_Fc_Hf_22d_3_coordinates.csv",
+      "size_mb": "19.3 KB",
+      "lines": "1180",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-H_N_20d_2_coordinates.csv",
+      "size_mb": "2.3 KB",
+      "lines": "138",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_42d_2_coordinates.csv",
+      "size_mb": "16.0 KB",
+      "lines": "949",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+R_U_N_39d_3_coordinates.csv",
+      "size_mb": "28.9 KB",
+      "lines": "1739",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-M_N_26d_2_coordinates.csv",
+      "size_mb": "6.1 KB",
+      "lines": "368",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_78d_2_coordinates.csv",
+      "size_mb": "6.6 KB",
+      "lines": "382",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-L_N_31d_3_coordinates.csv",
+      "size_mb": "4.4 KB",
+      "lines": "263",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_57d_1_coordinates.csv",
+      "size_mb": "18.4 KB",
+      "lines": "1061",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_Hf_26d_3_coordinates.csv",
+      "size_mb": "28.7 KB",
+      "lines": "1736",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_Fc_Hf_26d_2_coordinates.csv",
+      "size_mb": "28.0 KB",
+      "lines": "1698",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Sc_M_I_U_N_42d_1_coordinates.csv",
+      "size_mb": "8.6 KB",
+      "lines": "537",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_155d_4_coordinates.csv",
+      "size_mb": "7.6 KB",
+      "lines": "443",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-L_N_20d_1_coordinates.csv",
+      "size_mb": "3.3 KB",
+      "lines": "195",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_155d_2_coordinates.csv",
+      "size_mb": "13.7 KB",
+      "lines": "797",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_18d_1_coordinates.csv",
+      "size_mb": "17.6 KB",
+      "lines": "1033",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+R_U_N_39d_2_coordinates.csv",
+      "size_mb": "12.6 KB",
+      "lines": "766",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_Fc_Hf_26d_1_coordinates.csv",
+      "size_mb": "24.2 KB",
+      "lines": "1468",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_Hf_22d_2_coordinates.csv",
+      "size_mb": "22.9 KB",
+      "lines": "1400",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_155d_3_coordinates.csv",
+      "size_mb": "11.6 KB",
+      "lines": "673",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_Fc_Hf_38d_1_coordinates.csv",
+      "size_mb": "28.3 KB",
+      "lines": "1721",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_99d_1_coordinates.csv",
+      "size_mb": "32.1 KB",
+      "lines": "1854",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_18d_4_coordinates.csv",
+      "size_mb": "10.2 KB",
+      "lines": "590",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_Fc_Hf_18d_2_coordinates.csv",
+      "size_mb": "21.9 KB",
+      "lines": "1326",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_57d_3_coordinates.csv",
+      "size_mb": "19.7 KB",
+      "lines": "1139",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_U_N_20d_2_coordinates.csv",
+      "size_mb": "7.1 KB",
+      "lines": "427",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_57d_4_coordinates.csv",
+      "size_mb": "15.8 KB",
+      "lines": "936",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_U_N_16d_2_coordinates.csv",
+      "size_mb": "2.1 KB",
+      "lines": "127",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_32d_1_coordinates.csv",
+      "size_mb": "20.2 KB",
+      "lines": "1184",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_32d_2_coordinates.csv",
+      "size_mb": "11.6 KB",
+      "lines": "682",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-L_N_20d_2_coordinates.csv",
+      "size_mb": "3.8 KB",
+      "lines": "225",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+R_U_N_18d_4_coordinates.csv",
+      "size_mb": "5.9 KB",
+      "lines": "347",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_U_N_18d_3_coordinates.csv",
+      "size_mb": "5.3 KB",
+      "lines": "318",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_Hf_38d_2_coordinates.csv",
+      "size_mb": "29.8 KB",
+      "lines": "1803",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_25d_1_coordinates.csv",
+      "size_mb": "18.8 KB",
+      "lines": "1104",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_U_N_31d_1_coordinates.csv",
+      "size_mb": "5.0 KB",
+      "lines": "305",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_31d_1_coordinates.csv",
+      "size_mb": "20.5 KB",
+      "lines": "1192",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_U_N_31d_2_coordinates.csv",
+      "size_mb": "10.0 KB",
+      "lines": "603",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_155d_1_coordinates.csv",
+      "size_mb": "12.6 KB",
+      "lines": "731",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_25d_6_coordinates.csv",
+      "size_mb": "10.5 KB",
+      "lines": "633",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_25d_7_coordinates.csv",
+      "size_mb": "11.2 KB",
+      "lines": "672",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_42d_1_coordinates.csv",
+      "size_mb": "26.7 KB",
+      "lines": "1575",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_39d_7_coordinates.csv",
+      "size_mb": "9.1 KB",
+      "lines": "554",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-L_N_20d_3_coordinates.csv",
+      "size_mb": "6.0 KB",
+      "lines": "353",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_35d_1_coordinates.csv",
+      "size_mb": "23.2 KB",
+      "lines": "1349",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pi_M_I_U_N_46d_4_coordinates.csv",
+      "size_mb": "9.1 KB",
+      "lines": "544",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_18d_5_coordinates.csv",
+      "size_mb": "10.9 KB",
+      "lines": "654",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_Hf_38d_3_coordinates.csv",
+      "size_mb": "19.9 KB",
+      "lines": "1201",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_36d_2_coordinates.csv",
+      "size_mb": "14.8 KB",
+      "lines": "880",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+R_U_N_18d_1_coordinates.csv",
+      "size_mb": "8.5 KB",
+      "lines": "508",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_Fc_Hf_38d_2_coordinates.csv",
+      "size_mb": "27.2 KB",
+      "lines": "1654",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-L_N_18d_1_coordinates.csv",
+      "size_mb": "2.7 KB",
+      "lines": "162",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_U_N_26d_3_coordinates.csv",
+      "size_mb": "8.1 KB",
+      "lines": "490",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-H_N_16d_2_coordinates.csv",
+      "size_mb": "2.0 KB",
+      "lines": "121",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_39d_2_coordinates.csv",
+      "size_mb": "14.0 KB",
+      "lines": "823",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-M_N_31d_1_coordinates.csv",
+      "size_mb": "2.2 KB",
+      "lines": "130",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_25d_3_coordinates.csv",
+      "size_mb": "22.3 KB",
+      "lines": "1309",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_27d_1_coordinates.csv",
+      "size_mb": "18.9 KB",
+      "lines": "1110",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_46d_2_coordinates.csv",
+      "size_mb": "15.8 KB",
+      "lines": "931",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_208d_3_coordinates.csv",
+      "size_mb": "2.3 KB",
+      "lines": "135",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+R_U_N_39d_4_coordinates.csv",
+      "size_mb": "11.5 KB",
+      "lines": "682",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_36d_3_coordinates.csv",
+      "size_mb": "19.2 KB",
+      "lines": "1108",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_30d_4_coordinates.csv",
+      "size_mb": "17.9 KB",
+      "lines": "1048",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_21d_4_coordinates.csv",
+      "size_mb": "11.1 KB",
+      "lines": "642",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_21d_2_coordinates.csv",
+      "size_mb": "7.8 KB",
+      "lines": "452",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_18d_7_coordinates.csv",
+      "size_mb": "7.1 KB",
+      "lines": "425",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-H_N_16d_1_coordinates.csv",
+      "size_mb": "2.7 KB",
+      "lines": "159",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_Hf_38d_1_coordinates.csv",
+      "size_mb": "25.4 KB",
+      "lines": "1542",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+R_U_N_31d_1_coordinates.csv",
+      "size_mb": "10.4 KB",
+      "lines": "635",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_99d_2_coordinates.csv",
+      "size_mb": "16.8 KB",
+      "lines": "974",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_208d_2_coordinates.csv",
+      "size_mb": "8.1 KB",
+      "lines": "475",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_21d_1_coordinates.csv",
+      "size_mb": "18.0 KB",
+      "lines": "1054",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_208d_1_coordinates.csv",
+      "size_mb": "2.7 KB",
+      "lines": "155",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_29d_2_coordinates.csv",
+      "size_mb": "10.8 KB",
+      "lines": "631",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-L_N_16d_2_coordinates.csv",
+      "size_mb": "1.2 KB",
+      "lines": "70",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_155d_2_coordinates.csv",
+      "size_mb": "4.4 KB",
+      "lines": "258",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_35d_1_coordinates.csv",
+      "size_mb": "38.7 KB",
+      "lines": "2079",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-H_N_26d_1_coordinates.csv",
+      "size_mb": "2.1 KB",
+      "lines": "125",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-L_N_16d_1_coordinates.csv",
+      "size_mb": "1.8 KB",
+      "lines": "104",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pp_M_UK_U_N_15h_12_coordinates.csv",
+      "size_mb": "8.6 KB",
+      "lines": "481",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pp_M_Tokyo_U_N_26h_4_coordinates.csv",
+      "size_mb": "4.5 KB",
+      "lines": "252",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_20d_4_coordinates.csv",
+      "size_mb": "31.9 KB",
+      "lines": "1926",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_25d_2_coordinates.csv",
+      "size_mb": "19.9 KB",
+      "lines": "1164",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-M_N_18d_1_coordinates.csv",
+      "size_mb": "3.1 KB",
+      "lines": "186",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-H_N_18d_2_coordinates.csv",
+      "size_mb": "2.4 KB",
+      "lines": "143",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_30d_3_coordinates.csv",
+      "size_mb": "23.1 KB",
+      "lines": "1353",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pp_M_UK_U_N_15h_8_coordinates.csv",
+      "size_mb": "6.1 KB",
+      "lines": "345",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_U_N_31d_3_coordinates.csv",
+      "size_mb": "8.0 KB",
+      "lines": "486",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_36d_2_coordinates.csv",
+      "size_mb": "12.3 KB",
+      "lines": "710",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_15d_2_coordinates.csv",
+      "size_mb": "4.5 KB",
+      "lines": "255",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_155d_3_coordinates.csv",
+      "size_mb": "7.4 KB",
+      "lines": "426",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-L_N_18d_3_coordinates.csv",
+      "size_mb": "4.9 KB",
+      "lines": "292",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_27d_1_coordinates.csv",
+      "size_mb": "33.4 KB",
+      "lines": "1793",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_32d_2_coordinates.csv",
+      "size_mb": "13.6 KB",
+      "lines": "816",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_Hf_18d_3_coordinates.csv",
+      "size_mb": "21.2 KB",
+      "lines": "1282",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pp_M_Tokyo_U_N_26h_2_coordinates.csv",
+      "size_mb": "6.3 KB",
+      "lines": "346",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_19d_2_coordinates.csv",
+      "size_mb": "7.6 KB",
+      "lines": "445",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_U_N_16d_1_coordinates.csv",
+      "size_mb": "1.5 KB",
+      "lines": "90",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_28d_5_coordinates.csv",
+      "size_mb": "10.2 KB",
+      "lines": "594",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_15d_3_coordinates.csv",
+      "size_mb": "15.7 KB",
+      "lines": "922",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_25d_3_coordinates.csv",
+      "size_mb": "9.8 KB",
+      "lines": "573",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pp_M_Tokyo_U_N_26h_11_coordinates.csv",
+      "size_mb": "4.9 KB",
+      "lines": "306",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_25d_5_coordinates.csv",
+      "size_mb": "9.2 KB",
+      "lines": "537",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pi_M_I_U_N_46d_1_coordinates.csv",
+      "size_mb": "22.5 KB",
+      "lines": "1358",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_Hf_18d_1_coordinates.csv",
+      "size_mb": "27.2 KB",
+      "lines": "1656",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_U_N_16d_3_coordinates.csv",
+      "size_mb": "3.2 KB",
+      "lines": "193",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_57d_1_coordinates.csv",
+      "size_mb": "24.7 KB",
+      "lines": "1426",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_U_N_18d_2_coordinates.csv",
+      "size_mb": "5.1 KB",
+      "lines": "303",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_18d_3_coordinates.csv",
+      "size_mb": "8.8 KB",
+      "lines": "503",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_25d_3_coordinates.csv",
+      "size_mb": "14.0 KB",
+      "lines": "816",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-H_N_20d_1_coordinates.csv",
+      "size_mb": "3.1 KB",
+      "lines": "180",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-L_N_18d_2_coordinates.csv",
+      "size_mb": "2.4 KB",
+      "lines": "142",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_38d_1_coordinates.csv",
+      "size_mb": "41.1 KB",
+      "lines": "2207",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-M_N_26d_3_coordinates.csv",
+      "size_mb": "6.2 KB",
+      "lines": "375",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_35d_1_coordinates.csv",
+      "size_mb": "20.7 KB",
+      "lines": "1210",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_45d_1_coordinates.csv",
+      "size_mb": "28.1 KB",
+      "lines": "1662",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_22d_3_coordinates.csv",
+      "size_mb": "12.2 KB",
+      "lines": "704",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pi_M_I_U_N_46d_2_coordinates.csv",
+      "size_mb": "22.5 KB",
+      "lines": "1358",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-M_N_18d_2_coordinates.csv",
+      "size_mb": "5.7 KB",
+      "lines": "339",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_29d_2_coordinates.csv",
+      "size_mb": "12.8 KB",
+      "lines": "764",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_25d_2_coordinates.csv",
+      "size_mb": "9.1 KB",
+      "lines": "530",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-L_N_31d_1_coordinates.csv",
+      "size_mb": "2.9 KB",
+      "lines": "175",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pp_M_UK_U_N_15h_11_coordinates.csv",
+      "size_mb": "5.4 KB",
+      "lines": "306",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+R_U_N_25d_3_coordinates.csv",
+      "size_mb": "20.3 KB",
+      "lines": "1213",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_78d_1_coordinates.csv",
+      "size_mb": "21.0 KB",
+      "lines": "1214",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_99d_3_coordinates.csv",
+      "size_mb": "16.3 KB",
+      "lines": "941",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_32d_3_coordinates.csv",
+      "size_mb": "10.8 KB",
+      "lines": "637",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_U_N_26d_1_coordinates.csv",
+      "size_mb": "4.9 KB",
+      "lines": "301",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_39d_5_coordinates.csv",
+      "size_mb": "16.3 KB",
+      "lines": "987",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-H_N_16d_3_coordinates.csv",
+      "size_mb": "3.8 KB",
+      "lines": "224",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pp_M_Tokyo_U_N_26h_1_coordinates.csv",
+      "size_mb": "7.4 KB",
+      "lines": "412",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_Fc_Hf_22d_1_coordinates.csv",
+      "size_mb": "23.2 KB",
+      "lines": "1405",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-M_N_31d_2_coordinates.csv",
+      "size_mb": "4.6 KB",
+      "lines": "277",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+R_U_N_31d_3_coordinates.csv",
+      "size_mb": "25.5 KB",
+      "lines": "1532",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_42d_1_coordinates.csv",
+      "size_mb": "44.1 KB",
+      "lines": "2368",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+R_U_N_31d_4_coordinates.csv",
+      "size_mb": "12.2 KB",
+      "lines": "724",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pp_M_Tokyo_U_N_26h_6_coordinates.csv",
+      "size_mb": "8.9 KB",
+      "lines": "493",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_38d_1_coordinates.csv",
+      "size_mb": "24.7 KB",
+      "lines": "1425",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_22d_3_coordinates.csv",
+      "size_mb": "9.6 KB",
+      "lines": "552",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-M_N_20d_2_coordinates.csv",
+      "size_mb": "6.2 KB",
+      "lines": "371",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_Fc_N_20d_1_coordinates.csv",
+      "size_mb": "45.4 KB",
+      "lines": "2742",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-M_N_31d_3_coordinates.csv",
+      "size_mb": "4.4 KB",
+      "lines": "263",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_21d_2_coordinates.csv",
+      "size_mb": "17.8 KB",
+      "lines": "1041",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_31d_1_coordinates.csv",
+      "size_mb": "35.8 KB",
+      "lines": "1919",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_Hf_22d_3_coordinates.csv",
+      "size_mb": "26.0 KB",
+      "lines": "1577",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_155d_1_coordinates.csv",
+      "size_mb": "10.6 KB",
+      "lines": "614",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_39d_2_coordinates.csv",
+      "size_mb": "15.0 KB",
+      "lines": "900",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_18d_6_coordinates.csv",
+      "size_mb": "7.8 KB",
+      "lines": "470",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_Hf_48d_2_coordinates.csv",
+      "size_mb": "26.7 KB",
+      "lines": "1610",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_78d_1_coordinates.csv",
+      "size_mb": "10.0 KB",
+      "lines": "578",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_U_N_20d_1_coordinates.csv",
+      "size_mb": "3.4 KB",
+      "lines": "203",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_18d_1_coordinates.csv",
+      "size_mb": "19.5 KB",
+      "lines": "1043",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_Fc_Hf_18d_3_coordinates.csv",
+      "size_mb": "16.1 KB",
+      "lines": "986",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pp_M_Tokyo_U_N_26h_7_coordinates.csv",
+      "size_mb": "3.3 KB",
+      "lines": "193",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pp_M_UK_U_N_15h_1_coordinates.csv",
+      "size_mb": "23.6 KB",
+      "lines": "1317",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_28d_1_coordinates.csv",
+      "size_mb": "19.4 KB",
+      "lines": "1139",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_22d_3_coordinates.csv",
+      "size_mb": "20.8 KB",
+      "lines": "1222",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_39d_3_coordinates.csv",
+      "size_mb": "19.2 KB",
+      "lines": "1142",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pp_M_UK_U_N_15h_2_coordinates.csv",
+      "size_mb": "20.6 KB",
+      "lines": "1162",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_78d_2_coordinates.csv",
+      "size_mb": "21.4 KB",
+      "lines": "1234",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-M_N_16d_2_coordinates.csv",
+      "size_mb": "3.7 KB",
+      "lines": "217",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_Hf_18d_2_coordinates.csv",
+      "size_mb": "17.6 KB",
+      "lines": "1075",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_35d_3_coordinates.csv",
+      "size_mb": "12.9 KB",
+      "lines": "761",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_28d_4_coordinates.csv",
+      "size_mb": "16.1 KB",
+      "lines": "941",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_42d_5_coordinates.csv",
+      "size_mb": "18.8 KB",
+      "lines": "1110",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_Fc_Hf_38d_3_coordinates.csv",
+      "size_mb": "27.0 KB",
+      "lines": "1645",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_78d_3_coordinates.csv",
+      "size_mb": "19.4 KB",
+      "lines": "1123",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_30d_2_coordinates.csv",
+      "size_mb": "20.7 KB",
+      "lines": "1213",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_50d_2_coordinates.csv",
+      "size_mb": "16.4 KB",
+      "lines": "967",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_21d_2_coordinates.csv",
+      "size_mb": "9.9 KB",
+      "lines": "575",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_43d_3_coordinates.csv",
+      "size_mb": "19.0 KB",
+      "lines": "1160",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pp_M_UK_U_N_15h_10_coordinates.csv",
+      "size_mb": "5.1 KB",
+      "lines": "284",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_46d_3_coordinates.csv",
+      "size_mb": "20.1 KB",
+      "lines": "1205",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+R_U_N_39d_1_coordinates.csv",
+      "size_mb": "10.2 KB",
+      "lines": "631",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_25d_5_coordinates.csv",
+      "size_mb": "15.1 KB",
+      "lines": "912",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_21d_1_coordinates.csv",
+      "size_mb": "25.7 KB",
+      "lines": "1381",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+R_U_N_31d_2_coordinates.csv",
+      "size_mb": "11.3 KB",
+      "lines": "688",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_25d_1_coordinates.csv",
+      "size_mb": "16.8 KB",
+      "lines": "980",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_208d_3_coordinates.csv",
+      "size_mb": "6.9 KB",
+      "lines": "402",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+R_U_N_25d_2_coordinates.csv",
+      "size_mb": "9.4 KB",
+      "lines": "571",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_208d_4_coordinates.csv",
+      "size_mb": "3.9 KB",
+      "lines": "230",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-H_N_20d_3_coordinates.csv",
+      "size_mb": "5.6 KB",
+      "lines": "335",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_57d_3_coordinates.csv",
+      "size_mb": "12.6 KB",
+      "lines": "729",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-L_N_31d_2_coordinates.csv",
+      "size_mb": "4.5 KB",
+      "lines": "271",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_29d_3_coordinates.csv",
+      "size_mb": "9.7 KB",
+      "lines": "577",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-H_N_26d_3_coordinates.csv",
+      "size_mb": "4.0 KB",
+      "lines": "234",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_29d_3_coordinates.csv",
+      "size_mb": "16.4 KB",
+      "lines": "950",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-L_N_26d_1_coordinates.csv",
+      "size_mb": "3.5 KB",
+      "lines": "209",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_15d_1_coordinates.csv",
+      "size_mb": "15.4 KB",
+      "lines": "825",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_15d_1_coordinates.csv",
+      "size_mb": "9.3 KB",
+      "lines": "539",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_33d_4_coordinates.csv",
+      "size_mb": "19.1 KB",
+      "lines": "1126",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_25d_1_coordinates.csv",
+      "size_mb": "30.5 KB",
+      "lines": "1634",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_Hf_22d_1_coordinates.csv",
+      "size_mb": "33.0 KB",
+      "lines": "2012",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+R_U_N_25d_1_coordinates.csv",
+      "size_mb": "10.9 KB",
+      "lines": "659",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_U_N_18d_1_coordinates.csv",
+      "size_mb": "2.6 KB",
+      "lines": "155",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_208d_1_coordinates.csv",
+      "size_mb": "8.0 KB",
+      "lines": "463",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_36d_1_coordinates.csv",
+      "size_mb": "23.7 KB",
+      "lines": "1366",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_5xI_U_N_18d_3_coordinates.csv",
+      "size_mb": "18.8 KB",
+      "lines": "1102",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-M_N_18d_3_coordinates.csv",
+      "size_mb": "4.9 KB",
+      "lines": "294",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I+4R_U_N_21d_5_coordinates.csv",
+      "size_mb": "7.3 KB",
+      "lines": "421",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Rb_M_I_Fc-M_N_16d_3_coordinates.csv",
+      "size_mb": "2.7 KB",
+      "lines": "162",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_N_31d_7_coordinates.csv",
+      "size_mb": "11.8 KB",
+      "lines": "709",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_U_N_57d_2_coordinates.csv",
+      "size_mb": "14.4 KB",
+      "lines": "831",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_M_I_U_Hf_48d_3_coordinates.csv",
+      "size_mb": "15.2 KB",
+      "lines": "916",
+      "metadata": {},
+      "simulation_ready": true
+    },
+    {
+      "filename": "Pv_L_I+4xR_Fc_N_36d_1_coordinates.csv",
+      "size_mb": "20.2 KB",
+      "lines": "1165",
+      "metadata": {},
+      "simulation_ready": true
+    }
+  ],
+  "species_summary": {
+    "Unknown": 13,
+    "Hericium erinaceus (Lion's Mane)": 6,
+    "Pleurotus ostreatus": 2,
+    "Agaricus species": 1
+  },
+  "parameter_ranges": {
+    "amplitude_mv": [
+      -0.330965,
+      1642594603.0
+    ],
+    "moisture_m3_m3": [
+      -0.549531,
+      0.1514
+    ]
+  },
+  "recommendations": []
+}
