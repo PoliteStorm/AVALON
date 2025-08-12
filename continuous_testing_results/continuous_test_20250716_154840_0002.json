@@ -1,0 +1,29 @@
+{
+  "test_id": "test_0001",
+  "timestamp": "2025-07-16T15:48:40.088281",
+  "file": "data/Norm_vs_deep_tip_crop.csv",
+  "spikes": [],
+  "classified_spikes": {
+    "very_fast": [],
+    "slow": [],
+    "very_slow": []
+  },
+  "metrics": {},
+  "config": {
+    "sampling_rate": 1,
+    "min_isi": 30,
+    "max_isi": 3600,
+    "spike_duration": 30,
+    "min_amplitude": 0.05,
+    "max_amplitude": 5.0,
+    "min_snr": 2.0,
+    "time_compression": 86400,
+    "baseline_threshold": 0.1,
+    "adaptive_threshold": true
+  },
+  "compression_info": {
+    "original_samples": 61646,
+    "compressed_samples": 101,
+    "compression_factor": 86400
+  }
+}

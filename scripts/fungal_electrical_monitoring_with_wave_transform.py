@@ -23,15 +23,21 @@ class WaveTransform:
         self.scale_range = scale_range
         self.shift_range = shift_range
         
-    def wave_transform(self, signal_data, scale, shift):
-        """Apply wave transform with given scale and shift parameters"""
+    def wave_transform(self, signal_data, scale, shift, time_compression=86400):
+        """Apply wave transform with Adamatzky-corrected time compression"""
         n = len(signal_data)
         transformed = np.zeros(n)
         
+        # Apply time compression (1 second = 1 day)
+        compressed_t = np.arange(n) / time_compression
+        
         for i in range(n):
-            # Apply wave function: sqrt(t + shift) * scale
-            t = i / n  # Normalize time to [0, 1]
-            wave_value = np.sqrt(t + shift) * scale
+            # Apply wave function: ψ(√t/τ) · e^(-ik√t)
+            t = compressed_t[i]  # Compressed time
+            wave_function = np.sqrt(t + shift) * scale
+            frequency_component = np.exp(-1j * scale * np.sqrt(t))
+            wave_value = wave_function * frequency_component
+            
             transformed[i] = signal_data[i] * wave_value
             
         return transformed
@@ -105,17 +111,17 @@ class IntegratedFungalMonitor:
     def _get_default_config(self):
         """Get default configuration for integrated monitoring"""
         return {
-            # Adamatzky Method Parameters
+            # Adamatzky Method Parameters (CORRECTED)
             'adamatzky': {
                 'baseline_threshold': 0.1,        # mV
                 'threshold_multiplier': 1.0,
                 'adaptive_threshold': True,
-                'min_isi': 0.1,                   # seconds
-                'max_isi': 10.0,                  # seconds
-                'spike_duration': 0.05,           # seconds
+                'min_isi': 30,                    # seconds (Adamatzky: half-minute scale)
+                'max_isi': 3600,                  # seconds (Adamatzky: hour scale)
+                'spike_duration': 30,             # seconds (Adamatzky: long duration)
                 'min_spike_amplitude': 0.05,      # mV
                 'max_spike_amplitude': 5.0,       # mV
-                'min_snr': 3.0,
+                'min_snr': 2.0,                   # Adamatzky's lower threshold
                 'baseline_stability': 0.1         # mV
             },
             
@@ -137,14 +143,14 @@ class IntegratedFungalMonitor:
                 'alignment_threshold': 0.3
             },
             
-            # Data Acquisition Parameters
+            # Data Acquisition Parameters (ADAMATZKY-CORRECTED)
             'acquisition': {
-                'sampling_rate': 1000,            # Hz
-                'recording_duration': 3600,       # seconds
-                'buffer_size': 10000,             # samples
+                'sampling_rate': 1,               # Hz (Adamatzky's rate)
+                'recording_duration': 259200,     # seconds (3 days)
+                'buffer_size': 86400,             # samples (1 day at 1 Hz)
                 'electrode_impedance': 1e6,       # Ω
                 'amplifier_gain': 1000,
-                'filter_bandwidth': [0.1, 100]    # Hz
+                'filter_bandwidth': [0.001, 0.1]  # Hz (Adamatzky's range)
             },
             
             # Analysis Parameters
@@ -168,29 +174,29 @@ class IntegratedFungalMonitor:
             'pleurotus': {
                 'baseline_threshold': 0.15,
                 'spike_threshold': 0.2,
-                'min_isi': 0.2,
+                'min_isi': 30,                    # Adamatzky: half-minute scale
                 'max_amplitude': 3.0,
-                'typical_frequency': 0.5,
-                'wave_scale_range': [0.2, 5.0],
-                'wave_shift_range': [0, 50]
+                'typical_frequency': 0.016,       # Adamatzky: 1 spike per minute
+                'wave_scale_range': [30, 3600],   # Adamatzky: 30s to 1 hour
+                'wave_shift_range': [0, 86400]    # Adamatzky: up to 1 day
             },
             'hericium': {
                 'baseline_threshold': 0.1,
                 'spike_threshold': 0.15,
-                'min_isi': 0.1,
+                'min_isi': 30,                    # Adamatzky: half-minute scale
                 'max_amplitude': 2.0,
-                'typical_frequency': 1.0,
-                'wave_scale_range': [0.1, 8.0],
-                'wave_shift_range': [0, 80]
+                'typical_frequency': 0.016,       # Adamatzky: 1 spike per minute
+                'wave_scale_range': [30, 3600],   # Adamatzky: 30s to 1 hour
+                'wave_shift_range': [0, 86400]    # Adamatzky: up to 1 day
             },
             'rhizopus': {
                 'baseline_threshold': 0.2,
                 'spike_threshold': 0.25,
-                'min_isi': 0.3,
+                'min_isi': 30,                    # Adamatzky: half-minute scale
                 'max_amplitude': 4.0,
-                'typical_frequency': 0.3,
-                'wave_scale_range': [0.3, 6.0],
-                'wave_shift_range': [0, 60]
+                'typical_frequency': 0.016,       # Adamatzky: 1 spike per minute
+                'wave_scale_range': [30, 3600],   # Adamatzky: 30s to 1 hour
+                'wave_shift_range': [0, 86400]    # Adamatzky: up to 1 day
             }
         }
         
@@ -228,10 +234,10 @@ class IntegratedFungalMonitor:
         if wave['threshold'] <= 0:
             errors.append("Wave threshold must be positive")
         
-        # Check acquisition parameters
+        # Check acquisition parameters (Adamatzky-corrected)
         acquisition = self.config['acquisition']
-        if acquisition['sampling_rate'] < 100:
-            errors.append("Sampling rate too low (< 100 Hz)")
+        if acquisition['sampling_rate'] < 1:
+            errors.append("Sampling rate too low (< 1 Hz) - Adamatzky minimum")
         if acquisition['amplifier_gain'] < 100:
             errors.append("Amplifier gain too low (< 100)")
         if acquisition['electrode_impedance'] < 1e5:
@@ -412,16 +418,24 @@ class IntegratedFungalMonitor:
         return combined_score
     
     def calculate_snr(self, voltage_data):
-        """Calculate signal-to-noise ratio"""
+        """Calculate signal-to-noise ratio (Adamatzky-corrected)"""
         # Calculate signal power (variance of signal)
         signal_power = np.var(voltage_data)
         
-        # Estimate noise power (variance of high-frequency components)
-        # Apply high-pass filter to isolate noise
-        nyquist = self.config['acquisition']['sampling_rate'] / 2
-        high_freq = 50 / nyquist  # 50 Hz high-pass
-        b, a = signal.butter(4, high_freq, btype='high')
-        noise_signal = signal.filtfilt(b, a, voltage_data)
+        # For 1 Hz sampling, use simpler noise estimation
+        sampling_rate = self.config['acquisition']['sampling_rate']
+        
+        if sampling_rate >= 100:
+            # Original method for high sampling rates
+            nyquist = sampling_rate / 2
+            high_freq = 50 / nyquist  # 50 Hz high-pass
+            b, a = signal.butter(4, high_freq, btype='high')
+            noise_signal = signal.filtfilt(b, a, voltage_data)
+        else:
+            # For 1 Hz sampling, use baseline variation as noise
+            baseline = np.median(voltage_data)
+            noise_signal = voltage_data - baseline
+        
         noise_power = np.var(noise_signal)
         
         if noise_power > 0:
@@ -670,7 +684,7 @@ def main():
     monitor.get_species_parameters('pleurotus')
     
     # Generate example fungal electrical signal
-    sampling_rate = 1000  # Hz
+    sampling_rate = 1  # Hz (Adamatzky's rate)
     duration = 60  # seconds
     t = np.linspace(0, duration, int(sampling_rate * duration))
     

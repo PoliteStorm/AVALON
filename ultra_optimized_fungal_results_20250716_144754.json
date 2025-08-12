@@ -1,0 +1,243 @@
+{
+  "spikes": [
+    {
+      "time_seconds": 31.922,
+      "amplitude_mv": 0.18815127185452732,
+      "index": 31922
+    },
+    {
+      "time_seconds": 39.388,
+      "amplitude_mv": 0.1853507958193782,
+      "index": 39388
+    },
+    {
+      "time_seconds": 39.704,
+      "amplitude_mv": 0.1895291804542184,
+      "index": 39704
+    },
+    {
+      "time_seconds": 40.894,
+      "amplitude_mv": 0.17051591043007078,
+      "index": 40894
+    },
+    {
+      "time_seconds": 46.528,
+      "amplitude_mv": 0.19171488646717946,
+      "index": 46528
+    },
+    {
+      "time_seconds": 49.151,
+      "amplitude_mv": 0.1931879290157463,
+      "index": 49151
+    },
+    {
+      "time_seconds": 54.528,
+      "amplitude_mv": 0.18156520848373087,
+      "index": 54528
+    },
+    {
+      "time_seconds": 57.501,
+      "amplitude_mv": 0.18445815426385634,
+      "index": 57501
+    },
+    {
+      "time_seconds": 58.768,
+      "amplitude_mv": 0.18634562361704937,
+      "index": 58768
+    },
+    {
+      "time_seconds": 26.386,
+      "amplitude_mv": 0.19351216543031155,
+      "index": 26386
+    },
+    {
+      "time_seconds": 28.267,
+      "amplitude_mv": 0.19765093656648206,
+      "index": 28267
+    }
+  ],
+  "wave_patterns": [
+    {
+      "scale": 0.2,
+      "shift": 16.666666666666668,
+      "strength": 0.10482042928869072
+    },
+    {
+      "scale": 0.8857142857142857,
+      "shift": 16.666666666666668,
+      "strength": 0.19746309941687862
+    },
+    {
+      "scale": 1.5714285714285714,
+      "shift": 16.666666666666668,
+      "strength": 0.2810461729029822
+    },
+    {
+      "scale": 2.257142857142857,
+      "shift": 16.666666666666668,
+      "strength": 0.34506512326702454
+    },
+    {
+      "scale": 0.2,
+      "shift": 33.333333333333336,
+      "strength": 0.18597172938316017
+    },
+    {
+      "scale": 0.8857142857142857,
+      "shift": 33.333333333333336,
+      "strength": 0.35033775702994463
+    },
+    {
+      "scale": 1.5714285714285714,
+      "shift": 33.333333333333336,
+      "strength": 0.4986303067633597
+    },
+    {
+      "scale": 2.257142857142857,
+      "shift": 33.333333333333336,
+      "strength": 0.6122123154737515
+    },
+    {
+      "scale": 0.2,
+      "shift": 50.0,
+      "strength": 0.2671230294776303
+    },
+    {
+      "scale": 0.8857142857142857,
+      "shift": 50.0,
+      "strength": 0.5032124146430116
+    },
+    {
+      "scale": 1.5714285714285714,
+      "shift": 50.0,
+      "strength": 0.7162144406237354
+    },
+    {
+      "scale": 2.257142857142857,
+      "shift": 50.0,
+      "strength": 0.8793595076804753
+    }
+  ],
+  "wave_features": {
+    "wave_patterns": 12,
+    "max_strength": 0.8793595076804753,
+    "avg_strength": 0.41178802716255375,
+    "scale_distribution": [
+      0.2,
+      0.8857142857142857,
+      1.5714285714285714,
+      2.257142857142857,
+      0.2,
+      0.8857142857142857,
+      1.5714285714285714,
+      2.257142857142857,
+      0.2,
+      0.8857142857142857,
+      1.5714285714285714,
+      2.257142857142857
+    ],
+    "shift_distribution": [
+      16.666666666666668,
+      16.666666666666668,
+      16.666666666666668,
+      16.666666666666668,
+      33.333333333333336,
+      33.333333333333336,
+      33.333333333333336,
+      33.333333333333336,
+      50.0,
+      50.0,
+      50.0,
+      50.0
+    ],
+    "confidence": 0.6
+  },
+  "stats": {
+    "n_spikes": 11,
+    "mean_amplitude": 0.18745291476386824,
+    "std_amplitude": 0.006959025073272128,
+    "mean_isi": -0.3655000000000005,
+    "std_isi": 10.890507456037119,
+    "spike_rate": 0.18333333333333332,
+    "quality_score": 1.0,
+    "snr": 1.0
+  },
+  "config": {
+    "adamatzky": {
+      "baseline_threshold": 0.15,
+      "threshold_multiplier": 1.0,
+      "adaptive_threshold": true,
+      "min_isi": 0.2,
+      "max_isi": 10.0,
+      "spike_duration": 0.05,
+      "min_spike_amplitude": 0.05,
+      "max_spike_amplitude": 5.0,
+      "min_snr": 3.0,
+      "baseline_stability": 0.1,
+      "spike_threshold": 0.2,
+      "max_amplitude": 3.0,
+      "typical_frequency": 0.5,
+      "wave_scale_range": [
+        0.2,
+        5.0
+      ],
+      "wave_shift_range": [
+        0,
+        50
+      ]
+    },
+    "wave_transform": {
+      "scale_range": [
+        0.2,
+        5.0
+      ],
+      "shift_range": [
+        0,
+        50
+      ],
+      "threshold": 0.1,
+      "confidence": 0.8,
+      "integration_weight": 0.5,
+      "max_patterns": 25
+    },
+    "performance": {
+      "use_parallel": true,
+      "max_workers": 2,
+      "chunk_size": 5000,
+      "use_cache": true,
+      "early_termination": true,
+      "use_memory_mapping": true,
+      "use_gpu": false,
+      "memory_efficient": true,
+      "gc_after_chunk": true
+    },
+    "integration": {
+      "method_combination": "weighted_average",
+      "spike_wave_alignment": false,
+      "cross_validation": false,
+      "ensemble_threshold": 0.7,
+      "alignment_threshold": 0.3
+    },
+    "acquisition": {
+      "sampling_rate": 1000,
+      "recording_duration": 3600,
+      "buffer_size": 5000,
+      "electrode_impedance": 1000000.0,
+      "amplifier_gain": 1000,
+      "filter_bandwidth": [
+        0.1,
+        100
+      ]
+    },
+    "analysis": {
+      "confidence_level": 0.95,
+      "p_value_threshold": 0.05,
+      "min_spikes": 5,
+      "max_spikes": 2000,
+      "min_quality_score": 0.7,
+      "validation_split": 0.1,
+      "cv_folds": 2
+    },
+    "species": "pleurotus"
+  }
+}
