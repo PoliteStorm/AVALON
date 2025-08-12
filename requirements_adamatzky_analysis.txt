@@ -1,0 +1,35 @@
+# Requirements for Adamatzky Frequency Discrimination Analysis
+# and Fungal Audio-Linguistic Correlation Analysis
+
+# Core scientific computing
+numpy>=1.21.0
+scipy>=1.7.0
+pandas>=1.3.0
+
+# Signal processing and analysis
+librosa>=0.9.0
+pywt>=1.1.0
+
+# Machine learning and clustering
+scikit-learn>=1.0.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Audio processing
+soundfile>=0.10.0
+
+# System monitoring
+psutil>=5.8.0
+
+# Progress bars
+tqdm>=4.62.0
+
+# Fuzzy logic (optional, for advanced fuzzy set analysis)
+# fuzzylogic>=1.2.0
+
+# Additional scientific libraries
+# These may be needed depending on your system
+# h5py>=3.1.0
+# netCDF4>=1.5.0 
