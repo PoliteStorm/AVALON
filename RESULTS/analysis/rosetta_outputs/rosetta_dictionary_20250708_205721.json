@@ -1,0 +1,47 @@
+{
+  "electro_spatial_coordination_signature": {
+    "semantic_meaning": "Electrical activity coordinated with growth",
+    "confidence": 0.7133207748079339,
+    "validation_metrics": {
+      "correlation": -0.7133207748079339,
+      "p_value": 3.8200072832913895e-08,
+      "p_value_fdr": 1.1460021849874169e-07,
+      "confidence_interval": [
+        -0.8325352592755826,
+        -0.5309616509610816
+      ],
+      "growth_rate": 0.0032380324836127363,
+      "significant": true
+    }
+  },
+  "electrochemical_dominant": {
+    "k_value": 4.879310344827586,
+    "tau_value": 3.0,
+    "meaning": "dominant_frequency",
+    "validation": {
+      "z_score": 3.1841878391855696,
+      "significance": 0.0007258039121930127,
+      "magnitude": 0.15614666721335713
+    }
+  },
+  "acoustic_dominant": {
+    "k_value": 14.732352941176469,
+    "tau_value": 2.0,
+    "meaning": "dominant_frequency",
+    "validation": {
+      "z_score": 3.4358129139464717,
+      "significance": 0.0002953893921489037,
+      "magnitude": 0.0475047743360332
+    }
+  },
+  "spatial_dominant": {
+    "k_value": 1.0495833333333333,
+    "tau_value": 5.0,
+    "meaning": "dominant_frequency",
+    "validation": {
+      "z_score": 5.290700169087913,
+      "significance": 6.09244906746298e-08,
+      "magnitude": 1462.1434342191942
+    }
+  }
+}
