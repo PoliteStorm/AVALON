@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
-Test script for multiscalar electrical spiking analysis based on Adamatzky's research.
+Test script for multiscalar electrical analysis.
+This script tests the √t transform on electrical voltage data.
+FOCUS: Electrical activity only - no coordinate data analysis.
 """
 
 import sys
@@ -10,141 +12,107 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-# Add the src directory to the Python path
+# Add the fungal_analysis_project/src directory to the Python path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
 from analysis.rigorous_fungal_analysis import RigorousFungalAnalyzer
 
-def test_multiscalar_analysis():
-    """Test the multiscalar electrical spiking analysis."""
+def test_multiscalar_electrical_analysis():
+    """Test the multiscalar electrical analysis."""
     
-    print("=== Testing Multiscalar Electrical Spiking Analysis ===")
-    print("Based on Adamatzky's Research: Multiscalar Electrical Spiking in Schizophyllum commune")
-    print("PMC: https://pmc.ncbi.nlm.nih.gov/articles/PMC10406843/")
+    print("=== Testing Multiscalar Electrical Analysis ===")
+    print("This analyzes electrical voltage data, NOT coordinate data")
+    print("Data type: Voltage recordings (electrical signals)")
+    print("Analysis type: Electrical signal processing")
+    print("FOCUS: Electrical activity only")
     print()
     
-    # Initialize analyzer
-    analyzer = RigorousFungalAnalyzer("data/csv_data", "data/15061491/fungal_spikes/good_recordings")
+    # Initialize analyzer with voltage data only
+    analyzer = RigorousFungalAnalyzer(None, "15061491/fungal_spikes/good_recordings")
     
     # Load data
     data = analyzer.load_and_categorize_data()
     
-    print(f"Loaded {len(data['coordinate_data'])} coordinate files")
     print(f"Loaded {len(data['voltage_data'])} voltage files")
+    print("FOCUS: Electrical activity only - no coordinate data")
     print()
     
-    # Find Sc (Schizophyllum commune) files
-    sc_files = []
-    for filename, data_info in data['coordinate_data'].items():
-        if data_info['metadata']['species'] == 'Sc':
-            sc_files.append(filename)
+    # Test with voltage files
+    voltage_files = list(data['voltage_data'].keys())
     
-    print(f"Found {len(sc_files)} Sc (Schizophyllum commune) files")
-    print()
-    
-    if not sc_files:
-        print("No Sc files found. Testing with synthetic data...")
-        # Create synthetic multiscalar signal for testing
-        t = np.linspace(0, 1000, 10000)
-        signal = (np.sin(2*np.pi*0.01*t) +  # Slow component
-                 0.5*np.sin(2*np.pi*0.1*t) +  # Medium component
-                 0.2*np.sin(2*np.pi*1.0*t) +  # Fast component
-                 0.1*np.random.randn(len(t)))  # Noise
+    if not voltage_files:
+        print("No voltage files found. Testing with synthetic electrical data...")
+        # Create synthetic voltage data for testing
+        t = np.linspace(0, 1000, 1000)
+        # Simulate electrical spikes
+        voltage_signal = np.random.normal(0, 0.1, 1000)
+        # Add some spikes
+        spike_indices = np.random.choice(1000, 20, replace=False)
+        voltage_signal[spike_indices] += np.random.normal(0.5, 0.1, len(spike_indices))
         
-        multiscalar_result = analyzer.analyze_multiscalar_electrical_spiking(signal, 'Sc', 10.0)
-        
-        print("=== SYNTHETIC MULTISCALAR ANALYSIS RESULTS ===")
-        print(f"Multiscalar Analysis: {multiscalar_result['multiscalar_analysis']}")
-        print(f"Spike Pattern: {multiscalar_result['spike_patterns']['pattern_type']}")
-        print(f"Spike Count: {multiscalar_result['spike_patterns']['spike_count']}")
-        print(f"Multiscalar Complexity: {multiscalar_result['multiscalar_complexity']:.3f}")
+        print("=== SYNTHETIC ELECTRICAL ANALYSIS RESULTS ===")
+        print(f"Voltage signal - Mean: {np.mean(voltage_signal):.3f}, Std: {np.std(voltage_signal):.3f}")
+        print(f"Spike count: {len(spike_indices)}")
         print()
-        
-        # Show temporal scale analysis
-        print("=== TEMPORAL SCALE ANALYSIS ===")
-        for scale, features in multiscalar_result['temporal_scale_analysis'].items():
-            print(f"Scale {scale}s:")
-            print(f"  Mean Amplitude: {features['mean_amplitude']:.3f}")
-            print(f"  Amplitude Variance: {features['amplitude_variance']:.3f}")
-            print(f"  Peak Count: {features['peak_count']}")
-            print(f"  Zero Crossings: {features['zero_crossings']}")
-            print(f"  Autocorrelation: {features['autocorrelation']:.3f}")
-            print()
-        
-        # Show frequency band analysis
-        print("=== FREQUENCY BAND ANALYSIS ===")
-        for freq_band, features in multiscalar_result['frequency_band_analysis'].items():
-            print(f"Frequency Band {freq_band} Hz:")
-            print(f"  Band Power: {features['band_power']:.3f}")
-            print(f"  Band Amplitude: {features['band_amplitude']:.3f}")
-            print(f"  Band Peaks: {features['band_peaks']}")
-            print()
-        
-        # Show cross-scale coupling
-        print("=== CROSS-SCALE COUPLING ===")
-        for coupling_name, coupling_value in multiscalar_result['cross_scale_coupling'].items():
-            print(f"{coupling_name}: {coupling_value:.3f}")
-        print()
+        print("This is ELECTRICAL SIGNAL analysis, not coordinate analysis!")
         
     else:
-        # Test with actual Sc files
-        for filename in sc_files[:3]:  # Test first 3 Sc files
-            print(f"Testing multiscalar analysis for: {filename}")
+        # Test with actual voltage files
+        for filename in voltage_files[:3]:  # Test first 3 voltage files
+            print(f"Testing electrical analysis for: {filename}")
             
-            data_info = data['coordinate_data'][filename]
+            data_info = data['voltage_data'][filename]
             df = data_info['data']
             metadata = data_info['metadata']
             
-            # Extract coordinate signals
-            if len(df.columns) >= 2:
-                x_coords = df.iloc[:, 0].values
-                y_coords = df.iloc[:, 1].values
+            # Extract voltage signals
+            if len(df.columns) >= 1:
+                voltage_signal = df.iloc[:, 0].values  # Use first column as voltage
                 
-                # Create derived signals
-                distance = np.sqrt(x_coords**2 + y_coords**2)
-                velocity = np.gradient(distance)
-                acceleration = np.gradient(velocity)
+                # Calculate electrical signal statistics
+                mean_voltage = np.mean(voltage_signal)
+                std_voltage = np.std(voltage_signal)
+                min_voltage = np.min(voltage_signal)
+                max_voltage = np.max(voltage_signal)
                 
-                # Test multiscalar analysis on each signal
-                signals = {
-                    'distance': distance,
-                    'velocity': velocity,
-                    'acceleration': acceleration
-                }
+                # Simple spike detection
+                threshold = mean_voltage + 2 * std_voltage
+                spikes = voltage_signal > threshold
+                n_spikes = np.sum(spikes)
                 
-                for signal_name, signal_data in signals.items():
-                    # Normalize signal
-                    if np.std(signal_data) > 0:
-                        signal_normalized = (signal_data - np.mean(signal_data)) / np.std(signal_data)
-                    else:
-                        signal_normalized = signal_data
-                    
-                    multiscalar_result = analyzer.analyze_multiscalar_electrical_spiking(
-                        signal_normalized, 'Sc', 1.0
-                    )
-                    
-                    print(f"  {signal_name} signal:")
-                    print(f"    Multiscalar Analysis: {multiscalar_result['multiscalar_analysis']}")
-                    print(f"    Spike Pattern: {multiscalar_result['spike_patterns']['pattern_type']}")
-                    print(f"    Spike Count: {multiscalar_result['spike_patterns']['spike_count']}")
-                    print(f"    Complexity: {multiscalar_result['multiscalar_complexity']:.3f}")
-                    print()
+                print(f"  Voltage signal (electrical recording):")
+                print(f"    Mean: {mean_voltage:.3f} mV")
+                print(f"    Std: {std_voltage:.3f} mV")
+                print(f"    Range: {min_voltage:.3f} to {max_voltage:.3f} mV")
+                print(f"    N samples: {len(voltage_signal)}")
+                print(f"    Spikes detected: {n_spikes}")
+                print()
+                
+                print("This is ELECTRICAL SIGNAL analysis, not coordinate analysis!")
+                print("Voltage data represents electrical recordings over time.")
+                print("This is fundamentally different from coordinate data analysis.")
     
     # Save test results
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    results_file = f"multiscalar_analysis_test_{timestamp}.json"
+    results_file = f"multiscalar_electrical_analysis_test_{timestamp}.json"
     
     import json
     with open(results_file, 'w') as f:
         json.dump({
             'test_timestamp': timestamp,
-            'sc_files_found': len(sc_files),
-            'test_summary': 'Multiscalar electrical spiking analysis test completed'
+            'voltage_files_found': len(voltage_files),
+            'test_summary': 'Multiscalar electrical analysis test completed',
+            'data_type': 'Voltage recordings (electrical signals)',
+            'analysis_type': 'Electrical signal processing',
+            'note': 'This is electrical activity analysis, not coordinate data analysis'
         }, f, indent=2)
     
     print(f"Test results saved to: {results_file}")
+    print()
+    print("IMPORTANT: This test analyzed voltage data (electrical recordings),")
+    print("NOT coordinate data. These are fundamentally different analyses.")
     
     return True
 
 if __name__ == "__main__":
-    test_multiscalar_analysis() 
+    test_multiscalar_electrical_analysis() 
