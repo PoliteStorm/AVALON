@@ -1,0 +1,178 @@
+{
+  "analysis_timestamp": "2025-08-12T23:24:41.972784",
+  "total_papers_analyzed": 20,
+  "successful_scrapes": 6,
+  "scraping_success_rate": 30.0,
+  "priority_distribution": {
+    "high": 0,
+    "medium": 0,
+    "low": 20
+  },
+  "topic_averages": {
+    "fungal_networks": 0.0,
+    "electrical_activity": 1.8333333333333333,
+    "environmental_monitoring": 0.0,
+    "machine_learning": 13.5,
+    "pattern_recognition": 1.5,
+    "sensor_fusion": 2.0,
+    "visualization": 0.0,
+    "signal_processing": 2.8333333333333335,
+    "real_time": 0.0,
+    "sustainability": 0.0
+  },
+  "top_papers_by_topic": {
+    "fungal_networks": [
+      [
+        "PLOS One",
+        0
+      ],
+      [
+        "Investigating the molecular mechanisms underlying the co-occurrence of Parkinson\u2019s disease and inflammatory bowel disease through the integration of multiple datasets",
+        0
+      ],
+      [
+        "Paper from aies-overview.xml",
+        0
+      ]
+    ],
+    "electrical_activity": [
+      [
+        "PLOS One",
+        9
+      ],
+      [
+        "Investigating the molecular mechanisms underlying the co-occurrence of Parkinson\u2019s disease and inflammatory bowel disease through the integration of multiple datasets",
+        2
+      ],
+      [
+        "Paper from aies-overview.xml",
+        0
+      ]
+    ],
+    "environmental_monitoring": [
+      [
+        "PLOS One",
+        0
+      ],
+      [
+        "Investigating the molecular mechanisms underlying the co-occurrence of Parkinson\u2019s disease and inflammatory bowel disease through the integration of multiple datasets",
+        0
+      ],
+      [
+        "Paper from aies-overview.xml",
+        0
+      ]
+    ],
+    "machine_learning": [
+      [
+        "Investigating the molecular mechanisms underlying the co-occurrence of Parkinson\u2019s disease and inflammatory bowel disease through the integration of multiple datasets",
+        28
+      ],
+      [
+        "Paper from aies-overview.xml",
+        26
+      ],
+      [
+        "PLOS One",
+        21
+      ]
+    ],
+    "pattern_recognition": [
+      [
+        "PLOS One",
+        9
+      ],
+      [
+        "Investigating the molecular mechanisms underlying the co-occurrence of Parkinson\u2019s disease and inflammatory bowel disease through the integration of multiple datasets",
+        0
+      ],
+      [
+        "Paper from aies-overview.xml",
+        0
+      ]
+    ],
+    "sensor_fusion": [
+      [
+        "Investigating the molecular mechanisms underlying the co-occurrence of Parkinson\u2019s disease and inflammatory bowel disease through the integration of multiple datasets",
+        12
+      ],
+      [
+        "PLOS One",
+        0
+      ],
+      [
+        "Paper from aies-overview.xml",
+        0
+      ]
+    ],
+    "visualization": [
+      [
+        "PLOS One",
+        0
+      ],
+      [
+        "Investigating the molecular mechanisms underlying the co-occurrence of Parkinson\u2019s disease and inflammatory bowel disease through the integration of multiple datasets",
+        0
+      ],
+      [
+        "Paper from aies-overview.xml",
+        0
+      ]
+    ],
+    "signal_processing": [
+      [
+        "PLOS One",
+        11
+      ],
+      [
+        "Investigating the molecular mechanisms underlying the co-occurrence of Parkinson\u2019s disease and inflammatory bowel disease through the integration of multiple datasets",
+        6
+      ],
+      [
+        "Paper from aies-overview.xml",
+        0
+      ]
+    ],
+    "real_time": [
+      [
+        "PLOS One",
+        0
+      ],
+      [
+        "Investigating the molecular mechanisms underlying the co-occurrence of Parkinson\u2019s disease and inflammatory bowel disease through the integration of multiple datasets",
+        0
+      ],
+      [
+        "Paper from aies-overview.xml",
+        0
+      ]
+    ],
+    "sustainability": [
+      [
+        "PLOS One",
+        0
+      ],
+      [
+        "Investigating the molecular mechanisms underlying the co-occurrence of Parkinson\u2019s disease and inflammatory bowel disease through the integration of multiple datasets",
+        0
+      ],
+      [
+        "Paper from aies-overview.xml",
+        0
+      ]
+    ]
+  },
+  "recommendations": [
+    "Limited research coverage in fungal networks (avg score: 0.0) - consider additional sources",
+    "Limited research coverage in electrical activity (avg score: 1.8) - consider additional sources",
+    "Limited research coverage in environmental monitoring (avg score: 0.0) - consider additional sources",
+    "Limited research coverage in machine learning (avg score: 13.5) - consider additional sources",
+    "Limited research coverage in pattern recognition (avg score: 1.5) - consider additional sources",
+    "Limited research coverage in sensor fusion (avg score: 2.0) - consider additional sources",
+    "Limited research coverage in visualization (avg score: 0.0) - consider additional sources",
+    "Limited research coverage in signal processing (avg score: 2.8) - consider additional sources",
+    "Limited research coverage in real time (avg score: 0.0) - consider additional sources",
+    "Limited research coverage in sustainability (avg score: 0.0) - consider additional sources",
+    "Top 5 most relevant papers: PLOS One..., Investigating the molecular mechanisms underlying ..., Paper from aies-overview.xml..., MCMARL: Parameterizing Value Function via Mixture ..., ..."
+  ]
+}

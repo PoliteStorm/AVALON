@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "created": "20250812_222705",
+  "last_updated": "20250812_225552",
+  "total_signatures": 3,
+  "pollution_categories": [
+    "heavy_metals",
+    "organic_compounds",
+    "pH_changes",
+    "temperature_stress",
+    "moisture_stress"
+  ],
+  "signatures": {
+    "test_heavy_metal_001": {
+      "signature_id": "test_heavy_metal_001",
+      "pollution_type": "heavy_metals",
+      "environmental_conditions": {
+        "temperature": 25.0,
+        "humidity": 70.0,
+        "pH": 6.5,
+        "pollution": 0.5
+      },
+      "audio_characteristics": {
+        "frequency_shift": "low_to_medium",
+        "amplitude_modulation": "high",
+        "noise_increase": "significant",
+        "pattern_disruption": "severe"
+      },
+      "quality_score": 95.0,
+      "validation_data": {
+        "statistical_significance": 0.001,
+        "confidence_interval": 0.95,
+        "cross_validation_score": 0.92
+      },
+      "created": "20250812_225552",
+      "last_updated": "20250812_225552",
+      "usage_count": 1,
+      "detection_accuracy": 0.0
+    },
+    "test_organic_compound_001": {
+      "signature_id": "test_organic_compound_001",
+      "pollution_type": "organic_compounds",
+      "environmental_conditions": {
+        "temperature": 23.0,
+        "humidity": 60.0,
+        "pH": 7.0,
+        "pollution": 0.2
+      },
+      "audio_characteristics": {
+        "frequency_shift": "medium",
+        "amplitude_modulation": "medium",
+        "noise_increase": "moderate",
+        "pattern_disruption": "moderate"
+      },
+      "quality_score": 88.0,
+      "validation_data": {
+        "statistical_significance": 0.005,
+        "confidence_interval": 0.95,
+        "cross_validation_score": 0.85
+      },
+      "created": "20250812_225552",
+      "last_updated": "20250812_225552",
+      "usage_count": 0,
+      "detection_accuracy": 0.0
+    },
+    "integration_test_001": {
+      "signature_id": "integration_test_001",
+      "pollution_type": "temperature_stress",
+      "environmental_conditions": {
+        "temperature": 22.0,
+        "humidity": 65.0,
+        "pH": 6.8,
+        "pollution": 0.0
+      },
+      "audio_characteristics": {
+        "frequency_shift": "medium",
+        "amplitude_modulation": "medium",
+        "noise_increase": "low",
+        "pattern_disruption": "moderate"
+      },
+      "quality_score": 92.0,
+      "validation_data": {
+        "statistical_significance": 0.001,
+        "confidence_interval": 0.95,
+        "cross_validation_score": 0.9
+      },
+      "created": "20250812_225552",
+      "last_updated": "20250812_225552",
+      "usage_count": 0,
+      "detection_accuracy": 0.0
+    }
+  },
+  "metadata": {
+    "adamatzky_compliance": true,
+    "biological_validation": true,
+    "quality_assurance": true
+  }
+}

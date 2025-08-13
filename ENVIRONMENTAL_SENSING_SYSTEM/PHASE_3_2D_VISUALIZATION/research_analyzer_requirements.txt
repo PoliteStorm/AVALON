@@ -1,0 +1,22 @@
+# Research Paper Analyzer Dependencies
+# Environmental Sensing System - Research Analysis
+
+# Core web scraping
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+lxml>=4.6.0
+
+# Data processing
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Text processing
+regex>=2021.0.0
+
+# Additional utilities
+pathlib2>=2.3.0
+typing-extensions>=3.10.0
+
+# Optional: Enhanced web scraping
+# selenium>=4.0.0  # For JavaScript-heavy pages
+# scrapy>=2.5.0    # For advanced web scraping 

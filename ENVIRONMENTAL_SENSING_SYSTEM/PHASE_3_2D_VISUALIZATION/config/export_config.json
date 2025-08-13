@@ -1,0 +1,18 @@
+{
+  "export_methods": {
+    "primary": "html",
+    "secondary": "svg",
+    "fallback": "json"
+  },
+  "kaleido_requirements": {
+    "chrome_install": "sudo apt-get install chromium-browser",
+    "plotly_chrome": "pip install plotly-kaleido",
+    "alternative": "Use SVG export instead"
+  },
+  "svg_advantages": [
+    "Vector format - infinitely scalable",
+    "No external dependencies",
+    "Perfect for web and print",
+    "Maintains wave transform precision"
+  ]
+}

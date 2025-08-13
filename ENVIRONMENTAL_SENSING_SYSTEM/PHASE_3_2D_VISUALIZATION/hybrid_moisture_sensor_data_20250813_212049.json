@@ -1,0 +1,227 @@
+{
+  "sensor_status": {
+    "sensor_type": "hybrid_acoustic_electrical",
+    "analysis_method": "data_driven_correlation",
+    "patterns_learned": 1,
+    "data_points_collected": 1,
+    "electrical_analyzer_set": false,
+    "correlation_threshold": 0.1,
+    "last_analysis": "2025-08-13T21:20:49.625223",
+    "scientific_validation": {
+      "no_forced_parameters": true,
+      "data_driven_analysis": true,
+      "correlation_discovery": true,
+      "pattern_recognition": true,
+      "uncertainty_quantification": true
+    }
+  },
+  "learned_patterns": [
+    {
+      "acoustic_signature": {
+        "spectral_centroid": 2423.901673115637,
+        "spectral_bandwidth": 1535.9641681507728,
+        "rms_energy": 0.7141072165944227,
+        "zero_crossings": 61318,
+        "signal_mean": -0.0001305191834408307,
+        "signal_std": 0.7141072046667618,
+        "signal_skewness": 0.00021704468059506263,
+        "signal_kurtosis": -1.4411051189209572,
+        "envelope_mean": 1.0049688976531395,
+        "envelope_std": 0.09967813852115616,
+        "frequency_range": [
+          43.06640625,
+          22006.93359375
+        ],
+        "power_range": [
+          0.0021240891508387885,
+          221788.18192944053
+        ],
+        "analysis_method": "data_driven_no_assumptions",
+        "timestamp": "2025-08-13T21:20:49.504385"
+      },
+      "electrical_signature": {
+        "shannon_entropy": 2.3025850929647573,
+        "variance": 29875429584.0,
+        "skewness": 0.0,
+        "kurtosis": -1.2000000000066942,
+        "zero_crossings": 0,
+        "spectral_centroid": 0.0,
+        "spectral_bandwidth": 0.0
+      },
+      "correlation_signature": {
+        "correlation_matrix": [
+          [
+            1.0,
+            -0.1496895884242541
+          ],
+          [
+            -0.1496895884242541,
+            1.0
+          ]
+        ],
+        "cross_correlations": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "significant_correlations": [],
+        "correlation_summary": {
+          "total_correlations": 0,
+          "strong_correlations": 0,
+          "moderate_correlations": 0,
+          "weak_correlations": 0
+        },
+        "pattern_stored": true,
+        "analysis_method": "data_driven_correlation_discovery"
+      },
+      "moisture_level": null,
+      "timestamp": "2025-08-13T21:20:49.741049",
+      "pattern_id": 0
+    }
+  ],
+  "pattern_confidence": {
+    "0": 0.0
+  },
+  "sensor_history": [
+    {
+      "timestamp": "2025-08-13T21:20:49.625223",
+      "acoustic_features": {
+        "spectral_centroid": 2423.901673115637,
+        "spectral_bandwidth": 1535.9641681507728,
+        "rms_energy": 0.7141072165944227,
+        "zero_crossings": 61318,
+        "signal_mean": -0.0001305191834408307,
+        "signal_std": 0.7141072046667618,
+        "signal_skewness": 0.00021704468059506263,
+        "signal_kurtosis": -1.4411051189209572,
+        "envelope_mean": 1.0049688976531395,
+        "envelope_std": 0.09967813852115616,
+        "frequency_range": [
+          43.06640625,
+          22006.93359375
+        ],
+        "power_range": [
+          0.0021240891508387885,
+          221788.18192944053
+        ],
+        "analysis_method": "data_driven_no_assumptions",
+        "timestamp": "2025-08-13T21:20:49.504385"
+      },
+      "electrical_features": {
+        "shannon_entropy": 2.3025850929647573,
+        "variance": 29875429584.0,
+        "skewness": 0.0,
+        "kurtosis": -1.2000000000066942,
+        "zero_crossings": 0,
+        "spectral_centroid": 0.0,
+        "spectral_bandwidth": 0.0
+      },
+      "signal_lengths": {
+        "audio": 598753,
+        "electrical": 598753
+      }
+    }
+  ],
+  "correlation_engine_data": {
+    "pattern_memory": [
+      {
+        "acoustic_features": {
+          "spectral_centroid": 2423.901673115637,
+          "spectral_bandwidth": 1535.9641681507728,
+          "rms_energy": 0.7141072165944227,
+          "zero_crossings": 61318,
+          "signal_mean": -0.0001305191834408307,
+          "signal_std": 0.7141072046667618,
+          "signal_skewness": 0.00021704468059506263,
+          "signal_kurtosis": -1.4411051189209572,
+          "envelope_mean": 1.0049688976531395,
+          "envelope_std": 0.09967813852115616,
+          "frequency_range": [
+            43.06640625,
+            22006.93359375
+          ],
+          "power_range": [
+            0.0021240891508387885,
+            221788.18192944053
+          ],
+          "analysis_method": "data_driven_no_assumptions",
+          "timestamp": "2025-08-13T21:20:49.504385"
+        },
+        "electrical_features": {
+          "shannon_entropy": 2.3025850929647573,
+          "variance": 29875429584.0,
+          "skewness": 0.0,
+          "kurtosis": -1.2000000000066942,
+          "zero_crossings": 0,
+          "spectral_centroid": 0.0,
+          "spectral_bandwidth": 0.0
+        },
+        "correlations": [],
+        "timestamp": "2025-08-13T21:20:49.740919"
+      }
+    ],
+    "correlation_threshold": 0.1
+  },
+  "export_timestamp": "2025-08-13T21:20:49.741490",
+  "export_method": "hybrid_moisture_sensor_export"
+}

@@ -1,0 +1,20 @@
+{
+  "environmental_conditions": {
+    "temperature": 22.0,
+    "humidity": 65.0,
+    "pH": 6.8,
+    "pollution": 0.0
+  },
+  "audio_params": {
+    "frequency_modulation": 1.02,
+    "amplitude_modulation": 0.825,
+    "harmonic_content": 1.02,
+    "noise_level": 1.0,
+    "base_frequency": 220.0,
+    "duration": 10.0
+  },
+  "wave_transform_features": 1024,
+  "synthesis_method": "environmental_correlation",
+  "timestamp": "20250812_223044",
+  "quality_score": 66.19288277423145
+}

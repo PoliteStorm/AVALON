@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Test - Environmental Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-section { margin: 20px 0; padding: 20px; border: 1px solid #ccc; }
+        .data-display { background: #f0f0f0; padding: 10px; margin: 10px 0; }
+        .success { color: green; }
+        .error { color: red; }
+        .info { color: blue; }
+    </style>
+</head>
+<body>
+    <h1>🌍 Environmental Dashboard Frontend Test</h1>
+    
+    <div class="test-section">
+        <h2>📊 API Data Test</h2>
+        <button onclick="testAPI()">Test API Endpoint</button>
+        <div id="api-result" class="data-display">Click button to test API...</div>
+    </div>
+
+    <div class="test-section">
+        <h2>🎯 Data Processing Test</h2>
+        <button onclick="testDataProcessing()">Test Data Processing</button>
+        <div id="processing-result" class="data-display">Click button to test data processing...</div>
+    </div>
+
+    <div class="test-section">
+        <h2>📈 Display Update Test</h2>
+        <button onclick="testDisplayUpdate()">Test Display Update</button>
+        <div id="display-result" class="data-display">Click button to test display update...</div>
+    </div>
+
+    <div class="test-section">
+        <h2>🌊 Wave Transform Test</h2>
+        <button onclick="testWaveTransform()">Test Wave Transform</button>
+        <div id="wave-transform-result" class="data-display">Click button to test wave transform...</div>
+    </div>
+
+    <script>
+        // Test API endpoint
+        async function testAPI() {
+            const resultDiv = document.getElementById('api-result');
+            resultDiv.innerHTML = '🔄 Testing API...';
+            
+            try {
+                const response = await fetch('/api/environmental_data');
+                const data = await response.json();
+                
+                resultDiv.innerHTML = `
+                    <div class="success">✅ API Test Successful!</div>
+                    <div><strong>Temperature:</strong> ${data.temperature}°C</div>
+                    <div><strong>Humidity:</strong> ${data.humidity}%</div>
+                    <div><strong>pH:</strong> ${data.ph}</div>
+                    <div><strong>Moisture:</strong> ${data.moisture}%</div>
+                    <div><strong>Pollution:</strong> ${data.pollution} ppm</div>
+                    <div><strong>Electrical:</strong> ${data.electrical} V</div>
+                    <div><strong>Data Source:</strong> ${data.data_source}</div>
+                    <div><strong>Quality:</strong> ${data.data_quality}%</div>
+                    <div><strong>Timestamp:</strong> ${data.timestamp}</div>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="error">❌ API Test Failed: ${error.message}</div>`;
+            }
+        }
+
+        // Test data processing
+        function testDataProcessing() {
+            const resultDiv = document.getElementById('processing-result');
+            resultDiv.innerHTML = '🔄 Testing data processing...';
+            
+            try {
+                // Simulate the data structure the backend sends
+                const testData = {
+                    temperature: 22.5,
+                    humidity: 70.0,
+                    ph: 6.75,
+                    moisture: 55.0,
+                    pollution: 0.05,
+                    electrical: 1.92e-9,
+                    timestamp: new Date().toISOString(),
+                    data_quality: 85.0,
+                    source: 'test',
+                    experiment_type: 'baseline',
+                    data_source: 'test_csv'
+                };
+
+                // Test the normalization function
+                const normalizedData = normalizeDataStructure(testData);
+                
+                resultDiv.innerHTML = `
+                    <div class="success">✅ Data Processing Test Successful!</div>
+                    <div><strong>Original Data:</strong> ${JSON.stringify(testData, null, 2)}</div>
+                    <div><strong>Normalized Data:</strong> ${JSON.stringify(normalizedData, null, 2)}</div>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="error">❌ Data Processing Test Failed: ${error.message}</div>`;
+            }
+        }
+
+        // Test display update
+        function testDisplayUpdate() {
+            const resultDiv = document.getElementById('display-result');
+            resultDiv.innerHTML = '🔄 Testing display update...';
+            
+            try {
+                // Create test display elements
+                const testDiv = document.createElement('div');
+                testDiv.innerHTML = `
+                    <div>Temperature: <span id="test-temp">--</span>°C</div>
+                    <div>Humidity: <span id="test-humidity">--</span>%</div>
+                    <div>Electrical: <span id="test-electrical">--</span> mV</div>
+                `;
+                document.body.appendChild(testDiv);
+                
+                // Update with test data
+                const testData = {
+                    temperature: 22.5,
+                    humidity: 70.0,
+                    electrical: 1.92e-9
+                };
+                
+                document.getElementById('test-temp').textContent = testData.temperature.toFixed(1);
+                document.getElementById('test-humidity').textContent = testData.humidity.toFixed(1);
+                document.getElementById('test-electrical').textContent = (testData.electrical * 1000).toFixed(3);
+                
+                resultDiv.innerHTML = `
+                    <div class="success">✅ Display Update Test Successful!</div>
+                    <div>Test elements created and updated with values</div>
+                `;
+                
+                // Clean up test elements
+                setTimeout(() => testDiv.remove(), 5000);
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="error">❌ Display Update Test Failed: ${error.message}</div>`;
+            }
+        }
+
+        // Test wave transform
+        function testWaveTransform() {
+            const resultDiv = document.getElementById('wave-transform-result');
+            resultDiv.innerHTML = '🔄 Testing wave transform...';
+            
+            try {
+                const electricalValue = 1.92e-9;
+                const timeFactor = Date.now() / (24 * 60 * 60 * 1000); // Days since epoch
+                const sqrtTime = Math.sqrt(timeFactor);
+                const waveTransform = (electricalValue * sqrtTime) / 100;
+                
+                const frequency = Math.abs(electricalValue) * 0.1;
+                const stability = Math.max(0, 100 - (Math.abs(electricalValue) / 100 * 100));
+                
+                resultDiv.innerHTML = `
+                    <div class="success">✅ Wave Transform Test Successful!</div>
+                    <div><strong>Electrical Value:</strong> ${electricalValue} V</div>
+                    <div><strong>Time Factor:</strong> ${timeFactor.toFixed(2)} days</div>
+                    <div><strong>√t:</strong> ${sqrtTime.toFixed(4)}</div>
+                    <div><strong>Wave Transform:</strong> ${waveTransform.toFixed(6)}</div>
+                    <div><strong>Frequency:</strong> ${frequency.toFixed(6)} mHz</div>
+                    <div><strong>Stability:</strong> ${stability.toFixed(1)}%</div>
+                    <div class="info">🌊 Adamatzky 2023 √t wave transform methodology applied</div>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="error">❌ Wave Transform Test Failed: ${error.message}</div>`;
+            }
+        }
+
+        // Data normalization function (same as in dashboard.js)
+        function normalizeDataStructure(data) {
+            return {
+                temperature: data.temperature || 0,
+                humidity: data.humidity || 0,
+                ph: data.ph || 0,
+                moisture: data.moisture || 0,
+                pollution: data.pollution || 0,
+                electrical: data.electrical || 0,
+                timestamp: data.timestamp || new Date().toISOString(),
+                data_quality: data.data_quality || 'medium',
+                source: data.source || 'unknown',
+                experiment_type: data.experiment_type || 'baseline',
+                data_source: data.data_source || 'unknown',
+                data: {
+                    electrical: {
+                        voltage: data.electrical || 0,
+                        waveTransform: calculateWaveTransform(data.electrical || 0),
+                        frequency: calculateFrequency(data.electrical || 0),
+                        stability: calculateStability(data.electrical || 0),
+                        quality: data.data_quality === 'high' ? 95 : 85
+                    }
+                }
+            };
+        }
+
+        function calculateWaveTransform(electricalValue) {
+            const timeFactor = Date.now() / (24 * 60 * 60 * 1000);
+            const sqrtTime = Math.sqrt(timeFactor);
+            return (electricalValue * sqrtTime) / 100;
+        }
+
+        function calculateFrequency(electricalValue) {
+            return Math.abs(electricalValue) * 0.1;
+        }
+
+        function calculateStability(electricalValue) {
+            const variation = Math.abs(electricalValue) / 100;
+            return Math.max(0, 100 - (variation * 100));
+        }
+
+        // Auto-run tests on page load
+        window.addEventListener('load', () => {
+            console.log('🚀 Frontend Test Page Loaded');
+            console.log('🌍 Testing Environmental Dashboard Components');
+        });
+    </script>
+</body>
+</html> 

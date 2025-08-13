@@ -1,0 +1,25 @@
+{
+  "data_sources": {
+    "phase1_baseline": "../../DATA/raw/15061491/",
+    "phase2_audio": "../PHASE_2_AUDIO_SYNTHESIS/",
+    "main_data": "../../DATA/",
+    "results": "../../RESULTS/",
+    "available_csv_files": [
+      "../../DATA/raw/15061491/Activity_pause_spray.csv",
+      "../../DATA/raw/15061491/Activity_time_part1.csv",
+      "../../DATA/raw/15061491/Activity_time_part2.csv",
+      "../../DATA/raw/15061491/Activity_time_part3.csv",
+      "../../DATA/raw/15061491/Analysis_recording.csv",
+      "../../DATA/raw/15061491/Ch1-2.csv",
+      "../../DATA/raw/15061491/GL1.csv",
+      "../../DATA/raw/15061491/GL2_dry.csv",
+      "../../DATA/raw/15061491/GL3.csv"
+    ]
+  },
+  "data_parameters": {
+    "electrical_activity": ["ch1", "ch2", "voltage", "current", "mv"],
+    "environmental": ["temperature", "humidity", "moisture", "ph"],
+    "temporal": ["timestamp", "time", "seconds", "minutes"]
+  },
+  "default_source": "../../DATA/raw/15061491/Activity_time_part1.csv"
+} 

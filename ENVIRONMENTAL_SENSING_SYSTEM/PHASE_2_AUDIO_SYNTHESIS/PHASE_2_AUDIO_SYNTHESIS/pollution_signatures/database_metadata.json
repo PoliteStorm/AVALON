@@ -1,0 +1,195 @@
+{
+  "database_info": {
+    "name": "Pollution Audio Signature Database",
+    "version": "1.0.0",
+    "created": "20250812_222705",
+    "last_updated": "20250812_222705"
+  },
+  "pollution_categories": {
+    "heavy_metals": {
+      "description": "Heavy metal contamination detection",
+      "detection_range": [
+        0.05,
+        1000
+      ],
+      "audio_characteristics": {
+        "frequency_shift": "low_to_medium",
+        "amplitude_modulation": "high",
+        "noise_increase": "significant",
+        "pattern_disruption": "severe"
+      },
+      "environmental_impact": "high",
+      "detection_confidence": 0.95
+    },
+    "organic_compounds": {
+      "description": "Organic compound and pesticide detection",
+      "detection_range": [
+        0.1,
+        500
+      ],
+      "audio_characteristics": {
+        "frequency_shift": "medium",
+        "amplitude_modulation": "medium",
+        "noise_increase": "moderate",
+        "pattern_disruption": "moderate"
+      },
+      "environmental_impact": "medium",
+      "detection_confidence": 0.9
+    },
+    "pH_changes": {
+      "description": "Acidity and alkalinity changes",
+      "detection_range": [
+        4.0,
+        9.0
+      ],
+      "audio_characteristics": {
+        "frequency_shift": "low",
+        "amplitude_modulation": "low",
+        "noise_increase": "minimal",
+        "pattern_disruption": "subtle"
+      },
+      "environmental_impact": "medium",
+      "detection_confidence": 0.85
+    },
+    "temperature_stress": {
+      "description": "Temperature-induced environmental stress",
+      "detection_range": [
+        -10,
+        40
+      ],
+      "audio_characteristics": {
+        "frequency_shift": "medium_to_high",
+        "amplitude_modulation": "medium",
+        "noise_increase": "low",
+        "pattern_disruption": "moderate"
+      },
+      "environmental_impact": "medium",
+      "detection_confidence": 0.88
+    },
+    "moisture_stress": {
+      "description": "Moisture and humidity stress",
+      "detection_range": [
+        0,
+        100
+      ],
+      "audio_characteristics": {
+        "frequency_shift": "low",
+        "amplitude_modulation": "high",
+        "noise_increase": "low",
+        "pattern_disruption": "low"
+      },
+      "environmental_impact": "low",
+      "detection_confidence": 0.92
+    }
+  },
+  "environmental_ranges": {
+    "temperature": {
+      "cold": [
+        -10,
+        10
+      ],
+      "normal": [
+        10,
+        25
+      ],
+      "hot": [
+        25,
+        40
+      ]
+    },
+    "humidity": {
+      "dry": [
+        0,
+        30
+      ],
+      "normal": [
+        30,
+        70
+      ],
+      "wet": [
+        70,
+        100
+      ]
+    },
+    "soil_moisture": {
+      "dry": [
+        0,
+        20
+      ],
+      "normal": [
+        20,
+        60
+      ],
+      "wet": [
+        60,
+        100
+      ]
+    },
+    "light_intensity": {
+      "dark": [
+        0,
+        100
+      ],
+      "normal": [
+        100,
+        1000
+      ],
+      "bright": [
+        1000,
+        10000
+      ]
+    }
+  },
+  "audio_signature_params": {
+    "frequency_bands": {
+      "ultra_low": [
+        20,
+        100
+      ],
+      "low": [
+        100,
+        500
+      ],
+      "medium": [
+        500,
+        2000
+      ],
+      "high": [
+        2000,
+        8000
+      ],
+      "ultra_high": [
+        8000,
+        20000
+      ]
+    },
+    "amplitude_scaling": {
+      "min_db": -60,
+      "max_db": 0,
+      "reference_level": -20
+    },
+    "duration_ranges": {
+      "short": [
+        1,
+        5
+      ],
+      "medium": [
+        5,
+        15
+      ],
+      "long": [
+        15,
+        60
+      ]
+    }
+  },
+  "quality_metrics": {
+    "min_confidence": 0.85,
+    "min_quality_score": 80.0,
+    "validation_methods": [
+      "statistical",
+      "biological",
+      "cross_validation"
+    ]
+  }
+}

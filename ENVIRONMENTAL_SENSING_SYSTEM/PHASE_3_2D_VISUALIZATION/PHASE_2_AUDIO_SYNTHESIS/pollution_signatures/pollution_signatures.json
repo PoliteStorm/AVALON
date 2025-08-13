@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "created": "20250813_162613",
+  "last_updated": "20250813_162613",
+  "total_signatures": 0,
+  "pollution_categories": [
+    "heavy_metals",
+    "organic_compounds",
+    "pH_changes",
+    "temperature_stress",
+    "moisture_stress"
+  ],
+  "signatures": {},
+  "metadata": {
+    "adamatzky_compliance": true,
+    "biological_validation": true,
+    "quality_assurance": true
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "timestamp": "2025-08-12T22:47:55.066104",
+  "results": {
+    "temperature": {
+      "value": 25.0,
+      "confidence": 76.0,
+      "source": "REAL_DATA_OUT_OF_RANGE",
+      "data_file": "DATA/raw/15061491/Fridge_substrate_21_1_22.csv",
+      "description": "Value 25.0 outside real data range (4.0-22.0)",
+      "flag": "VALUE_OUTSIDE_REAL_DATA_RANGE",
+      "priority": "MEDIUM"
+    },
+    "moisture": {
+      "value": 45.0,
+      "confidence": 92,
+      "source": "REAL_DATA",
+      "data_file": "DATA/raw/15061491/Ch1-2_moisture_added.csv",
+      "description": "Moisture treatment effects",
+      "flag": null,
+      "priority": null
+    },
+    "heavy_metals": {
+      "value": 0.5,
+      "confidence": 85,
+      "source": "SIMULATED",
+      "research_basis": "Adamatzky 2023 PMC paper",
+      "description": "Simulation based on Adamatzky 2023 PMC paper",
+      "flag": "REQUIRES_REAL_DATA_VALIDATION",
+      "priority": "HIGH",
+      "detection_range": [
+        0.05,
+        1000
+      ]
+    },
+    "pesticides": {
+      "value": 0.2,
+      "confidence": 80,
+      "source": "SIMULATED",
+      "research_basis": "Adamatzky 2022 findings",
+      "description": "Simulation based on Adamatzky 2022 findings",
+      "flag": "REQUIRES_REAL_DATA_VALIDATION",
+      "priority": "HIGH",
+      "detection_range": [
+        0.1,
+        500
+      ]
+    },
+    "ph": {
+      "value": 7.5,
+      "confidence": 30,
+      "source": "SIMULATED",
+      "research_basis": "No research basis available",
+      "description": "No simulation available for parameter: ph",
+      "flag": "REQUIRES_RESEARCH_BASIS",
+      "priority": "HIGH",
+      "detection_range": null
+    },
+    "air_pollution": {
+      "value": 0.05,
+      "confidence": 70,
+      "source": "SIMULATED",
+      "research_basis": "Extrapolation from soil data",
+      "description": "Simulation based on Extrapolation from soil data",
+      "flag": "PARAMETER_RANGE_EXTENSION_NEEDED",
+      "priority": "MEDIUM",
+      "detection_range": [
+        0.01,
+        100
+      ]
+    },
+    "species": {
+      "value": "oyster",
+      "confidence": 90,
+      "source": "REAL_DATA",
+      "data_file": [
+        "DATA/raw/15061491/Hericium_20_4_22.csv",
+        "DATA/raw/15061491/Blue_oyster_31_5_22.csv",
+        "DATA/raw/15061491/New_Oyster_with spray.csv"
+      ],
+      "description": "Species-specific electrical patterns",
+      "flag": null,
+      "priority": null
+    },
+    "electrodes": {
+      "value": "deep_tip",
+      "confidence": 87,
+      "source": "REAL_DATA",
+      "data_file": [
+        "DATA/raw/15061491/Full_vs_tip_electrodes.csv",
+        "DATA/raw/15061491/Norm_vs_deep_tip.csv"
+      ],
+      "description": "Electrode type and depth effects",
+      "flag": null,
+      "priority": null
+    }
+  },
+  "validation_flags": [
+    {
+      "parameter": "heavy_metals",
+      "value": 0.5,
+      "confidence": 85,
+      "priority": "HIGH",
+      "research_basis": "Adamatzky 2023 PMC paper",
+      "flag": "REQUIRES_REAL_DATA_VALIDATION",
+      "timestamp": "2025-08-12T22:47:55.061854"
+    },
+    {
+      "parameter": "pesticides",
+      "value": 0.2,
+      "confidence": 80,
+      "priority": "HIGH",
+      "research_basis": "Adamatzky 2022 findings",
+      "flag": "REQUIRES_REAL_DATA_VALIDATION",
+      "timestamp": "2025-08-12T22:47:55.062607"
+    },
+    {
+      "parameter": "ph",
+      "value": 7.5,
+      "confidence": 30,
+      "priority": "HIGH",
+      "research_basis": "No research basis available",
+      "flag": "REQUIRES_RESEARCH_BASIS",
+      "timestamp": "2025-08-12T22:47:55.063228"
+    },
+    {
+      "parameter": "air_pollution",
+      "value": 0.05,
+      "confidence": 70,
+      "priority": "MEDIUM",
+      "research_basis": "Extrapolation from soil data",
+      "flag": "PARAMETER_RANGE_EXTENSION_NEEDED",
+      "timestamp": "2025-08-12T22:47:55.063565"
+    }
+  ],
+  "priorities": {
+    "HIGH": [
+      {
+        "parameter": "heavy_metals",
+        "value": 0.5,
+        "confidence": 85,
+        "priority": "HIGH",
+        "research_basis": "Adamatzky 2023 PMC paper",
+        "flag": "REQUIRES_REAL_DATA_VALIDATION",
+        "timestamp": "2025-08-12T22:47:55.061854"
+      },
+      {
+        "parameter": "pesticides",
+        "value": 0.2,
+        "confidence": 80,
+        "priority": "HIGH",
+        "research_basis": "Adamatzky 2022 findings",
+        "flag": "REQUIRES_REAL_DATA_VALIDATION",
+        "timestamp": "2025-08-12T22:47:55.062607"
+      },
+      {
+        "parameter": "ph",
+        "value": 7.5,
+        "confidence": 30,
+        "priority": "HIGH",
+        "research_basis": "No research basis available",
+        "flag": "REQUIRES_RESEARCH_BASIS",
+        "timestamp": "2025-08-12T22:47:55.063228"
+      }
+    ],
+    "MEDIUM": [
+      {
+        "parameter": "air_pollution",
+        "value": 0.05,
+        "confidence": 70,
+        "priority": "MEDIUM",
+        "research_basis": "Extrapolation from soil data",
+        "flag": "PARAMETER_RANGE_EXTENSION_NEEDED",
+        "timestamp": "2025-08-12T22:47:55.063565"
+      }
+    ],
+    "LOW": []
+  }
+}

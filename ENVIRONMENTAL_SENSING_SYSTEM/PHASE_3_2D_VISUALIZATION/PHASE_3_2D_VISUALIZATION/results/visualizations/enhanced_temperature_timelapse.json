@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "line": {
+        "width": 2
+      },
+      "marker": {
+        "size": 4
+      },
+      "mode": "lines+markers",
+      "name": "Temperature",
+      "x": 

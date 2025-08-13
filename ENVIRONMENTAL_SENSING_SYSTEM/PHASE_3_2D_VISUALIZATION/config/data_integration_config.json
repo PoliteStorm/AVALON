@@ -1,0 +1,23 @@
+{
+  "real_data_sources": {
+    "primary_electrical": "../../DATA/raw/15061491/Ch1-2.csv",
+    "activity_data": "../../DATA/raw/15061491/Activity_time_part1.csv",
+    "moisture_data": "../../DATA/raw/15061491/GL1.csv",
+    "treatment_data": "../../DATA/raw/15061491/Activity_pause_spray.csv",
+    "species_data": "../../DATA/raw/15061491/Hericium_20_4_22.csv"
+  },
+  "wave_transform_parameters": {
+    "temporal_scaling": "\u221at wave transform for biological time scaling",
+    "frequency_ranges": "0.0001 to 1.0 Hz (fungal electrical activity)",
+    "sampling_rate": "36,000 Hz (high resolution)",
+    "compression_factor": "86400x (1 second = 1 day simulation)",
+    "biological_validation": "Adamatzky 2023 compliance"
+  },
+  "data_processing": {
+    "chunk_size": 10000,
+    "max_chunks": 5,
+    "sample_size": 1000,
+    "memory_efficient": true,
+    "wave_transform_ready": true
+  }
+}
