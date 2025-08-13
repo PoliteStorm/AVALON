@@ -1,0 +1,9 @@
+{
+  "validation_metadata": {
+    "timestamp": "2025-08-13T23:09:42.415414",
+    "validation_method": "wave_transform_vs_known_moisture",
+    "system_version": "2.0.0_FAST",
+    "author": "Joe Knowles"
+  },
+  "moisture_data_analysis": {
+    "raw_data": 

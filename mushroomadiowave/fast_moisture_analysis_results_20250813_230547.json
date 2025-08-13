@@ -1,0 +1,65 @@
+{
+  "moisture_analysis": {
+    "moisture_level": "LOW",
+    "moisture_percentage": 25.22023955857954,
+    "confidence": 0.9,
+    "method": "fast_audio_frequency_analysis"
+  },
+  "audio_analysis": {
+    "spectral_centroid": 140.410394125881,
+    "spectral_bandwidth": 235.6961193821251,
+    "frequency_bands": {
+      "low_freq_power": 75303435.68004908,
+      "mid_freq_power": 15201791.61165429,
+      "high_freq_power": 2217117.9037028374,
+      "total_power": 92722345.19540621
+    },
+    "moisture_estimate": {
+      "percentage": 25.22023955857954,
+      "classification": "LOW",
+      "confidence": 0.9,
+      "method": "fast_audio_frequency_analysis"
+    },
+    "analysis_time": 0.01997065544128418,
+    "analysis_method": "fast_wave_transform_audio_analysis"
+  },
+  "wave_transform": {
+    "matrix_shape": [
+      10,
+      8
+    ],
+    "dominant_pattern": {
+      "k": 0.1,
+      "tau": 1.2589254117941673,
+      "magnitude": 3084678.8125943784
+    },
+    "computation_time": 10.085508346557617,
+    "computation_speed": 7.9321732976707695
+  },
+  "electrical_data": {
+    "samples": 598754,
+    "voltage_range": [
+      -0.901845,
+      5.87675
+    ],
+    "voltage_std": 0.3689600089396596,
+    "voltage_mean": 0.12839287199083427
+  },
+  "performance": {
+    "total_pipeline_time": 10.706650733947754,
+    "samples_per_second": 55923.557691250804,
+    "optimization_level": "FAST_OPTIMIZED"
+  },
+  "biological_validation": {
+    "real_fungal_data": true,
+    "adamatzky_2023_compliant": true,
+    "voltage_range_valid": true,
+    "mushroom_response_detected": true
+  },
+  "analysis_metadata": {
+    "timestamp": "2025-08-13T23:05:47.099908",
+    "method": "fast_wave_transform_audio_moisture_analysis",
+    "version": "2.0.0_FAST",
+    "author": "Joe Knowles"
+  }
+}
