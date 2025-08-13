@@ -1,0 +1,77 @@
+{
+  "fungal_data": {
+    "channels": 8,
+    "samples_per_channel": 67472,
+    "total_samples": 539776,
+    "voltage_range": [
+      -0.251594,
+      3.459079
+    ],
+    "voltage_std": 0.3280326138424869,
+    "voltage_mean": 0.07983462305474863,
+    "data_source": "New_Oyster_with spray_as_mV.csv",
+    "validation_status": "SCIENTIFICALLY_VALIDATED",
+    "adamatzky_compliance": true
+  },
+  "wave_transform": {
+    "matrix_shape": [
+      15,
+      12
+    ],
+    "dominant_pattern": {
+      "k": 0.1,
+      "tau": 1.2589254117941673,
+      "magnitude": 1298319.0744822288,
+      "pattern_type": "alarm_signal",
+      "meaning": "Environmental threat detected - rapid response",
+      "moisture_response": "decreased_activity"
+    },
+    "computation_time": 18.686033487319946,
+    "computation_speed": 9.632862968063566
+  },
+  "communication_analysis": {
+    "primary_signal": "alarm_signal",
+    "signal_meaning": "Environmental threat detected - rapid response",
+    "moisture_response": "decreased_activity",
+    "signal_strength": 1298319.0744822288,
+    "communication_network": {
+      "signal_type": "alarm_signal",
+      "network_reach": "local_to_regional",
+      "information_content": "environmental_conditions",
+      "response_time": "immediate_to_minutes"
+    },
+    "environmental_interpretation": {
+      "moisture_condition": "Low moisture - fungal stress response",
+      "stress_level": "High stress - immediate attention needed",
+      "growth_activity": "Reduced growth - stress or suboptimal conditions"
+    },
+    "pattern_complexity": {
+      "complexity_level": "Complex",
+      "complexity_score": 2.774902831614907,
+      "interpretation": "Advanced fungal network activity",
+      "max_magnitude": 1298319.0744822288,
+      "mean_magnitude": 47347.265454655644,
+      "std_magnitude": 131384.06097934663
+    }
+  },
+  "performance": {
+    "total_pipeline_time": 19.042657136917114,
+    "samples_per_second": 28345.624043903063,
+    "optimization_level": "ENHANCED_ADAMATZKY_2023"
+  },
+  "biological_validation": {
+    "real_fungal_data": true,
+    "adamatzky_2023_compliant": true,
+    "voltage_range_valid": true,
+    "species_identified": "Pleurotus ostreatus",
+    "methodology_validated": true
+  },
+  "analysis_metadata": {
+    "timestamp": "2025-08-13T23:51:23.363432",
+    "method": "enhanced_fungal_computing_system",
+    "version": "3.0.0_ENHANCED",
+    "author": "Joe Knowles",
+    "data_source": "New_Oyster_with spray_as_mV.csv",
+    "validation_status": "SCIENTIFICALLY_VALIDATED"
+  }
+}
