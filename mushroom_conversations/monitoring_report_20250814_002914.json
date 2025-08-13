@@ -1,0 +1,2227 @@
+{
+  "monitoring_summary": {
+    "total_recordings": 158,
+    "total_alerts": 158,
+    "monitoring_duration": "continuous",
+    "output_directory": "mushroom_conversations"
+  },
+  "moisture_analysis": {
+    "history": [
+      {
+        "timestamp": "2025-08-13T23:59:10.413433",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-13T23:59:23.768750",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-13T23:59:34.633639",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-13T23:59:45.600382",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-13T23:59:57.040242",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:00:08.040546",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:00:19.358238",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:00:30.754817",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:00:41.710865",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:00:53.187876",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:01:04.038494",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:01:14.796354",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:01:25.640351",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:01:36.413062",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:01:47.304037",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:01:58.251655",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:02:09.267060",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:02:20.078934",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:02:31.004124",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:02:42.043470",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:02:53.022804",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:03:03.892241",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:03:14.795139",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:03:25.633756",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:03:36.472101",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:03:47.704201",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:04:03.229670",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:04:14.202388",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:04:25.044650",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:04:35.778653",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:04:46.686612",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:04:57.681943",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:05:08.856736",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:05:19.931051",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:05:30.813509",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:05:41.728807",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:05:52.853220",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:06:03.786655",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:06:14.843870",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:06:25.774131",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:06:36.786201",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:06:48.430888",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:06:59.585097",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:07:10.582617",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:07:21.544335",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:07:32.647052",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:07:43.703129",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:07:54.546587",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:08:05.727625",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:08:16.678322",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:08:27.755070",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:08:39.057707",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:08:50.128245",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:09:01.452021",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:09:12.927385",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:09:23.903764",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:09:34.925039",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:09:46.232583",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:09:57.655638",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:10:08.700879",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:10:20.866561",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:10:31.994519",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:10:42.954607",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:10:54.681200",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:11:05.651876",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:11:16.895755",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:11:28.202548",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:11:39.266727",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:11:50.548203",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:12:01.787326",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:12:13.145181",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:12:24.377552",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:12:35.652749",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:12:46.673582",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:12:57.926843",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:13:09.039543",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:13:20.182149",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:13:31.350492",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:13:42.603151",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:13:54.009421",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:14:05.680395",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:14:17.309294",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:14:28.347708",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:14:39.721395",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:14:51.972406",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:15:04.321981",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:15:15.954636",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:15:27.127984",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:15:38.782827",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:15:49.755047",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:16:00.846944",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:16:12.301818",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:16:23.662912",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:16:35.009309",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:16:46.202082",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:16:58.272557",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:17:10.893407",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:17:22.057022",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:17:33.807602",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:17:45.308957",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:17:56.570540",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:18:07.911178",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:18:19.207142",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:18:30.580073",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:18:41.949450",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:18:53.054245",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:19:04.527689",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:19:15.974530",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:19:27.188871",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:19:38.873211",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:19:50.189004",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:20:01.356326",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:20:13.001318",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:20:25.797174",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:20:37.253247",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:20:48.694332",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:20:59.875747",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:21:12.211491",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:21:23.542939",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:21:34.724081",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:21:46.271381",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:21:58.512220",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:22:10.060562",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:22:21.904700",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:22:33.115506",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:22:44.552657",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:22:56.414935",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:23:08.674930",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:23:20.297673",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:23:31.551352",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:23:43.130681",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:23:54.940846",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:24:06.456684",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:24:18.325738",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:24:29.874276",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:24:41.281443",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:24:52.675969",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:25:04.548533",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:25:16.597837",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:25:28.039460",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:25:40.072521",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:25:52.478772",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:26:04.277135",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:26:16.015822",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:26:28.309297",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:26:39.428616",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:26:50.696411",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:27:02.188487",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:27:13.504941",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:27:25.225716",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:27:36.697714",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:27:48.332287",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:28:00.355735",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:28:12.634270",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:28:24.773951",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:28:38.118501",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:28:54.275860",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      },
+      {
+        "timestamp": "2025-08-14T00:29:08.778085",
+        "pattern_type": "alarm_signal",
+        "moisture_percentage": 15,
+        "confidence": 0.9,
+        "status": "LOW",
+        "magnitude": 10658.085164663637
+      }
+    ],
+    "alerts": [
+      {
+        "timestamp": "2025-08-13T23:59:10.413433",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-13T23:59:23.768750",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-13T23:59:34.633639",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-13T23:59:45.600382",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-13T23:59:57.040242",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:00:08.040546",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:00:19.358238",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:00:30.754817",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:00:41.710865",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:00:53.187876",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:01:04.038494",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:01:14.796354",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:01:25.640351",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:01:36.413062",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:01:47.304037",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:01:58.251655",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:02:09.267060",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:02:20.078934",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:02:31.004124",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:02:42.043470",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:02:53.022804",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:03:03.892241",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:03:14.795139",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:03:25.633756",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:03:36.472101",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:03:47.704201",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:04:03.229670",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:04:14.202388",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:04:25.044650",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:04:35.778653",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:04:46.686612",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:04:57.681943",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:05:08.856736",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:05:19.931051",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:05:30.813509",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:05:41.728807",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:05:52.853220",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:06:03.786655",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:06:14.843870",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:06:25.774131",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:06:36.786201",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:06:48.430888",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:06:59.585097",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:07:10.582617",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:07:21.544335",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:07:32.647052",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:07:43.703129",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:07:54.546587",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:08:05.727625",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:08:16.678322",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:08:27.755070",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:08:39.057707",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:08:50.128245",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:09:01.452021",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:09:12.927385",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:09:23.903764",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:09:34.925039",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:09:46.232583",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:09:57.655638",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:10:08.700879",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:10:20.866561",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:10:31.994519",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:10:42.954607",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:10:54.681200",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:11:05.651876",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:11:16.895755",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:11:28.202548",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:11:39.266727",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:11:50.548203",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:12:01.787326",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:12:13.145181",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:12:24.377552",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:12:35.652749",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:12:46.673582",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:12:57.926843",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:13:09.039543",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:13:20.182149",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:13:31.350492",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:13:42.603151",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:13:54.009421",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:14:05.680395",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:14:17.309294",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:14:28.347708",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:14:39.721395",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:14:51.972406",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:15:04.321981",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:15:15.954636",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:15:27.127984",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:15:38.782827",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:15:49.755047",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:16:00.846944",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:16:12.301818",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:16:23.662912",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:16:35.009309",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:16:46.202082",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:16:58.272557",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:17:10.893407",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:17:22.057022",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:17:33.807602",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:17:45.308957",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:17:56.570540",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:18:07.911178",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:18:19.207142",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:18:30.580073",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:18:41.949450",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:18:53.054245",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:19:04.527689",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:19:15.974530",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:19:27.188871",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:19:38.873211",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:19:50.189004",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:20:01.356326",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:20:13.001318",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:20:25.797174",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:20:37.253247",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:20:48.694332",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:20:59.875747",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:21:12.211491",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:21:23.542939",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:21:34.724081",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:21:46.271381",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:21:58.512220",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:22:10.060562",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:22:21.904700",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:22:33.115506",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:22:44.552657",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:22:56.414935",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:23:08.674930",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:23:20.297673",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:23:31.551352",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:23:43.130681",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:23:54.940846",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:24:06.456684",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:24:18.325738",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:24:29.874276",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:24:41.281443",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:24:52.675969",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:25:04.548533",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:25:16.597837",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:25:28.039460",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:25:40.072521",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:25:52.478772",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:26:04.277135",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:26:16.015822",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:26:28.309297",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:26:39.428616",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:26:50.696411",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:27:02.188487",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:27:13.504941",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:27:25.225716",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:27:36.697714",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:27:48.332287",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:28:00.355735",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:28:12.634270",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:28:24.773951",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:28:38.118501",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:28:54.275860",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      },
+      {
+        "timestamp": "2025-08-14T00:29:08.778085",
+        "type": "LOW_MOISTURE_ALERT",
+        "message": "\u26a0\ufe0f  LOW MOISTURE DETECTED! Mushrooms are stressed. Pattern: alarm_signal",
+        "moisture_percentage": 15
+      }
+    ]
+  },
+  "generated_at": "2025-08-14T00:29:14.638143"
+}
